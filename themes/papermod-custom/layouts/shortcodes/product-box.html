@@ -11,7 +11,7 @@
 <div class="product-box">
     {{ with .Get "image" }}
     <a href="{{ $.Get "link" }}" target="_blank" rel="nofollow sponsored noopener" class="product-image-link">
-        <img src="{{ . | absURL }}" alt="{{ $.Get "name" }}" loading="lazy" onerror="this.parentElement.style.display='none'">
+        <img src="{{ . | relURL }}" alt="{{ $.Get "name" }}" loading="lazy" onerror="this.parentElement.style.display='none'">
     </a>
     {{ end }}
     <h3>{{ .Get "name" }}</h3>
