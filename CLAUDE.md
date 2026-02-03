@@ -1,9 +1,10 @@
-# Claude Instructions for Amazon Affiliate Blog
+# Claude Instructions for Researched Picks
 
 ## Project Overview
-This is an Amazon affiliate blog built with Hugo, deployed on GitHub Pages at:
-**https://benlee2144.github.io/affiliate-blog/**
+This is an Amazon affiliate blog built with Hugo, deployed on GitHub Pages with custom domain:
+**https://researchedpicks.com/**
 
+Site Name: **Researched Picks**
 Owner: Benjamin Arp
 
 ## Quick Start: Creating a New Blog Post
@@ -24,10 +25,7 @@ When the user provides an Amazon affiliate link:
 
 ## Critical Path Rules
 
-- **Image paths MUST include `/affiliate-blog/` prefix** (site is in subdirectory)
-  - Correct: `/affiliate-blog/images/products/product-1.jpg`
-  - Wrong: `/images/products/product-1.jpg`
-
+- **Image paths**: Use `/images/products/product-1.jpg` (NO prefix needed - custom domain)
 - **Affiliate tag**: `amazonfi08e0c-20`
   - Link format: `https://www.amazon.com/dp/[ASIN]?tag=amazonfi08e0c-20`
 
@@ -49,7 +47,7 @@ Always assign posts to the correct category:
 | Fitness | Exercise equipment, fitness trackers | 💪 |
 | Beauty | Skincare, haircare, beauty tools | ✨ |
 | Office | Desks, chairs, productivity tools | 💼 |
-| Outdoor | Camping, hiking, recreation | 🏕️ |
+| Outdoor | Camping, hiking, recreation | ⛰️ |
 
 **Professional Icons to Use** (avoid childish emojis):
 - Trust/Quality: ✓ ★ ◆
@@ -102,7 +100,7 @@ tags: ["[Brand]", "[category]", "product review", "buying guide"]
 
 review: true
 product_name: "[Full Product Name]"
-product_image: "/affiliate-blog/images/products/[slug]-1.jpg"
+product_image: "/images/products/[slug]-1.jpg"
 brand: "[Brand]"
 rating: [4.X]
 price: "$XX.XX"
@@ -120,7 +118,7 @@ faq:
     answer: "[Direct answer]"
 
 cover:
-    image: "/affiliate-blog/images/products/[slug]-1.jpg"
+    image: "/images/products/[slug]-1.jpg"
     alt: "[Product name]"
     caption: "Our top pick for [use case]"
     relative: false
@@ -140,7 +138,7 @@ cover:
 Before pushing any changes:
 
 - [ ] Hugo build succeeds: `hugo --gc --minify`
-- [ ] Images display correctly (check paths have `/affiliate-blog/` prefix)
+- [ ] Images display correctly (paths start with `/images/`)
 - [ ] Tables have proper spacing (not "ran together")
 - [ ] Summary is unique (not repetitive pattern)
 - [ ] Category is correct for product type
@@ -161,6 +159,7 @@ After pushing a new blog post, verify on the live site:
 ```
 /content/posts/          - Blog posts
 /static/images/products/ - Product images
+/static/CNAME           - Custom domain config
 /themes/papermod-custom/ - Theme files
 /config.toml            - Site configuration
 ```
@@ -180,22 +179,36 @@ Site rebuilds automatically via GitHub Actions after push.
 ## SEO Setup Status
 
 Done:
+- Custom domain: researchedpicks.com
 - Schema.org (Product, Review, FAQ, BreadcrumbList, Organization, WebSite)
 - Open Graph & Twitter Cards
 - Canonical URLs
-- Sitemap generation
+- Sitemap generation (https://researchedpicks.com/sitemap.xml)
 - robots.txt
 - About page with E-E-A-T content
 
 User needs to set up:
-- Google Search Console (submit sitemap)
+- Google Search Console (submit sitemap: https://researchedpicks.com/sitemap.xml)
 - Google Analytics (add GA4 ID to config.toml)
+- Connect domain DNS to GitHub Pages (see instructions below)
+
+## Domain Setup (GitHub Pages)
+
+1. Go to your domain registrar (where you bought researchedpicks.com)
+2. Add these DNS records:
+   - Type: A, Host: @, Value: 185.199.108.153
+   - Type: A, Host: @, Value: 185.199.109.153
+   - Type: A, Host: @, Value: 185.199.110.153
+   - Type: A, Host: @, Value: 185.199.111.153
+   - Type: CNAME, Host: www, Value: benlee2144.github.io
+3. In GitHub repo Settings → Pages → Custom domain: enter "researchedpicks.com"
+4. Check "Enforce HTTPS" once DNS propagates (can take up to 24 hours)
 
 ## Common Issues & Fixes
 
-**Images not showing**: Check path has `/affiliate-blog/` prefix
+**Images not showing**: Check path starts with `/images/` (no affiliate-blog prefix)
 
-**Homepage card image too zoomed/cropped**: Image uses `object-fit: cover` with 16:10 aspect ratio. Use product images that work well cropped to landscape.
+**Homepage card image too zoomed/cropped**: Image uses `object-fit: contain`. Should show full product now.
 
 **Build fails on "shortcode not found"**: Create the shortcode in `/themes/papermod-custom/layouts/shortcodes/`
 
@@ -203,8 +216,12 @@ User needs to set up:
 
 **GitHub Action fails**: Check the error in the Actions tab on GitHub
 
+**Domain not working**: DNS propagation takes up to 24 hours. Verify A records point to GitHub IPs.
+
 ## Design Guidelines
 
+- Site name: "Researched Picks"
+- Tagline: "Honest Reviews. Real Research."
 - Keep white/clean aesthetic
 - Professional icons only (no childish emojis)
 - Trust signals: Deep Research, Honest Takes, Clear Guidance

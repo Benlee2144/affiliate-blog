@@ -1,6 +1,6 @@
-baseURL = "https://benlee2144.github.io/affiliate-blog/"
+baseURL = "https://researchedpicks.com/"
 languageCode = "en-us"
-title = "Product Reviews & Buying Guides"
+title = "Researched Picks"
 theme = "papermod-custom"
 
 # Build settings
@@ -51,9 +51,9 @@ enableEmoji = false
 # Site parameters
 [params]
   env = "production"
-  title = "Product Reviews & Buying Guides"
-  description = "Honest product reviews and buying guides to help you make smarter purchasing decisions."
-  keywords = ["product reviews", "buying guides", "best products"]
+  title = "Researched Picks"
+  description = "In-depth product reviews backed by real owner research. We analyze hundreds of reviews so you don't have to."
+  keywords = ["product reviews", "buying guides", "best products 2026", "honest reviews", "research-backed recommendations"]
   author = "Benjamin Arp"
 
   # Images
@@ -74,8 +74,8 @@ enableEmoji = false
 
   # Home page
   [params.homeInfoParams]
-    Title = "Honest Reviews. Real Advice."
-    Content = "No fluff, no sponsored nonsense. Just straightforward product reviews from someone who's done the research."
+    Title = "Honest Reviews. Real Research."
+    Content = "We analyze hundreds of verified reviews, Reddit discussions, and forum posts—so you get the truth, not marketing fluff."
 
   # Social icons (optional)
   [[params.socialIcons]]

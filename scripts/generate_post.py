@@ -644,7 +644,7 @@ class AmazonProductFetcher:
                         f.write(image_data)
 
                     downloaded.append({
-                        "local_path": f"/affiliate-blog/images/products/{filename}",
+                        "local_path": f"/images/products/{filename}",
                         "filename": filename,
                         "alt": f"{self.product_data.get('title', 'Product')} - Image {valid_image_num}",
                         "original_url": img_url,
@@ -693,7 +693,7 @@ class AmazonProductFetcher:
                         with open(filepath, "wb") as f:
                             f.write(response.content)
                         downloaded.append({
-                            "local_path": f"/affiliate-blog/images/products/{filename}",
+                            "local_path": f"/images/products/{filename}",
                             "filename": filename,
                             "alt": f"{self.product_data.get('title', 'Product')} - Main Image",
                             "original_url": pattern_url,
