@@ -84,7 +84,7 @@ enableEmoji = false
 
   # Analytics placeholder (add your tracking ID)
   [params.analytics]
-    google = ""  # Add your GA4 ID here: G-XXXXXXXXXX
+    google = "G-K87ZM95G65"
 
   # Search
   [params.fuseOpts]
