@@ -1,0 +1,10 @@
+{{/* CTA Button Shortcode - Wirecutter-style prominent call-to-action
+    Usage: {{< cta-button url="https://amazon.com/..." text="Check Price on Amazon" >}}
+*/}}
+
+{{ $url := .Get "url" }}
+{{ $text := .Get "text" | default "Check Price on Amazon" }}
+
+<div class="cta-button-wrapper">
+    <a href="{{ $url }}" class="cta-button" target="_blank" rel="nofollow sponsored noopener">{{ $text }}</a>
+</div>
