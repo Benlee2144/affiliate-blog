@@ -59,9 +59,9 @@ enableEmoji = false
   # Images
   images = ["/images/site-cover.jpg"]
 
-  # Default theme (light/dark/auto)
-  defaultTheme = "auto"
-  disableThemeToggle = false
+  # Light theme only
+  defaultTheme = "light"
+  disableThemeToggle = true
 
   # Show reading time
   ShowReadingTime = true

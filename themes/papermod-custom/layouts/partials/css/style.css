@@ -41,19 +41,6 @@
     --max-width-wide: 1100px;
 }
 
-/* Dark Mode */
-[data-theme="dark"] {
-    --color-bg: #1a1a1a;
-    --color-bg-alt: #242424;
-    --color-text: #f0f0f0;
-    --color-text-light: #cccccc;
-    --color-text-muted: #999999;
-    --color-border: #333333;
-    --color-accent: #ffffff;
-    --color-link: #6db3f2;
-    --color-link-hover: #9acbf7;
-}
-
 /* ============================================
    Reset & Base
    ============================================ */
@@ -246,15 +233,6 @@ pre code {
 .nav a:hover {
     color: var(--color-text);
     text-decoration: none;
-}
-
-.theme-toggle {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: var(--spacing-xs);
-    color: var(--color-text-muted);
-    font-size: 1.25rem;
 }
 
 /* ============================================
