@@ -1007,22 +1007,153 @@ pre code {
 }
 
 /* ============================================
-   Category/Taxonomy Pages
+   Category/Taxonomy Pages - Professional Design
    ============================================ */
-.category-header {
+
+/* Hero section with gradient background */
+.categories-page {
+    margin-top: calc(var(--spacing-xl) * -1);
+}
+
+.categories-hero {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    padding: var(--spacing-xl) 0;
     margin-bottom: var(--spacing-xl);
+    text-align: center;
 }
 
-.category-header h1 {
-    margin-bottom: var(--spacing-sm);
+.categories-hero h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin: 0 0 var(--spacing-sm) 0;
+    letter-spacing: -0.02em;
 }
 
-.category-description {
-    color: var(--color-text-muted);
+.categories-subtitle {
+    color: rgba(255, 255, 255, 0.8);
     font-size: 1.125rem;
-    max-width: 600px;
+    margin: 0;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+/* Category grid */
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: var(--spacing-lg);
+    padding-bottom: var(--spacing-xl);
+}
+
+/* Individual category card */
+.category-card {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    padding: var(--spacing-lg);
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.category-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: var(--card-gradient);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+    border-color: transparent;
+    text-decoration: none;
+}
+
+.category-card:hover::before {
+    opacity: 1;
+}
+
+/* Category icon */
+.category-icon {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--card-gradient);
+    border-radius: 12px;
+    font-size: 1.75rem;
+    flex-shrink: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Category content */
+.category-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.category-card h2 {
+    font-size: 1.25rem;
+    margin: 0 0 var(--spacing-xs) 0;
+    border: none;
+    padding: 0;
+    color: var(--color-text);
+    line-height: 1.3;
+}
+
+.category-card .category-description {
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+    margin: 0 0 var(--spacing-xs) 0;
+    line-height: 1.4;
+    max-width: none;
+}
+
+.category-count {
+    display: inline-block;
+    background: var(--color-bg-alt);
+    color: var(--color-text-muted);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+/* Arrow indicator */
+.category-arrow {
+    color: var(--color-text-muted);
+    font-size: 1.25rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+    flex-shrink: 0;
+}
+
+.category-card:hover .category-arrow {
+    transform: translateX(4px);
+    color: var(--color-text);
+}
+
+/* No categories state */
+.no-categories {
+    text-align: center;
+    padding: var(--spacing-xl);
+    color: var(--color-text-muted);
+}
+
+/* Legacy support for term cards */
 .terms-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -1055,6 +1186,27 @@ pre code {
 .term-count {
     color: var(--color-text-muted);
     font-size: 0.875rem;
+}
+
+/* Responsive adjustments for categories */
+@media (max-width: 768px) {
+    .categories-hero h1 {
+        font-size: 2rem;
+    }
+
+    .categories-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .category-card {
+        padding: var(--spacing-md);
+    }
+
+    .category-icon {
+        width: 52px;
+        height: 52px;
+        font-size: 1.5rem;
+    }
 }
 
 /* ============================================

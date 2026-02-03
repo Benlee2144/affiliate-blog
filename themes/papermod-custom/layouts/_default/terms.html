@@ -1,16 +1,71 @@
 {{ define "main" }}
-<div class="container">
-    <header class="home-header">
-        <h1>{{ .Title }}</h1>
-        <p>Browse our reviews by {{ .Title | lower }}</p>
-    </header>
+<div class="categories-page">
+    <div class="categories-hero">
+        <div class="container">
+            <h1>{{ .Title }}</h1>
+            <p class="categories-subtitle">Expert reviews and buying guides to help you make smarter purchases</p>
+        </div>
+    </div>
 
-    <div class="terms-list">
-        {{ range .Pages }}
-        <a href="{{ .Permalink }}" class="term-card">
-            <h2>{{ .Title }}</h2>
-            <span class="term-count">{{ len .Pages }} {{ if eq (len .Pages) 1 }}review{{ else }}reviews{{ end }}</span>
-        </a>
+    <div class="container">
+        <div class="categories-grid">
+            {{ range .Pages }}
+            {{ $categoryName := .Title }}
+            {{ $icon := "📦" }}
+            {{ $gradient := "linear-gradient(135deg, #667eea 0%, #764ba2 100%)" }}
+            {{ $description := "Browse our expert reviews" }}
+
+            {{/* Category-specific styling */}}
+            {{ if eq (lower $categoryName) "tablets" }}
+                {{ $icon = "📱" }}
+                {{ $gradient = "linear-gradient(135deg, #11998e 0%, #38ef7d 100%)" }}
+                {{ $description = "iPads, Android tablets, and e-readers" }}
+            {{ else if eq (lower $categoryName) "kitchen appliances" }}
+                {{ $icon = "🍳" }}
+                {{ $gradient = "linear-gradient(135deg, #ee0979 0%, #ff6a00 100%)" }}
+                {{ $description = "Blenders, air fryers, coffee makers & more" }}
+            {{ else if eq (lower $categoryName) "electronics" }}
+                {{ $icon = "🔌" }}
+                {{ $gradient = "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)" }}
+                {{ $description = "Gadgets, audio gear, and smart devices" }}
+            {{ else if eq (lower $categoryName) "home & garden" }}
+                {{ $icon = "🏠" }}
+                {{ $gradient = "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)" }}
+                {{ $description = "Tools, furniture, and outdoor gear" }}
+            {{ else if eq (lower $categoryName) "fitness" }}
+                {{ $icon = "💪" }}
+                {{ $gradient = "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)" }}
+                {{ $description = "Exercise equipment and fitness trackers" }}
+            {{ else if eq (lower $categoryName) "beauty" }}
+                {{ $icon = "✨" }}
+                {{ $gradient = "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)" }}
+                {{ $description = "Skincare, haircare, and beauty tools" }}
+            {{ else if eq (lower $categoryName) "office" }}
+                {{ $icon = "💼" }}
+                {{ $gradient = "linear-gradient(135deg, #667eea 0%, #764ba2 100%)" }}
+                {{ $description = "Desks, chairs, and productivity tools" }}
+            {{ else if eq (lower $categoryName) "outdoor" }}
+                {{ $icon = "🏕️" }}
+                {{ $gradient = "linear-gradient(135deg, #56ab2f 0%, #a8e063 100%)" }}
+                {{ $description = "Camping, hiking, and outdoor recreation" }}
+            {{ end }}
+
+            <a href="{{ .Permalink }}" class="category-card" style="--card-gradient: {{ $gradient }}">
+                <div class="category-icon">{{ $icon }}</div>
+                <div class="category-content">
+                    <h2>{{ .Title }}</h2>
+                    <p class="category-description">{{ $description }}</p>
+                    <span class="category-count">{{ len .Pages }} {{ if eq (len .Pages) 1 }}review{{ else }}reviews{{ end }}</span>
+                </div>
+                <div class="category-arrow">→</div>
+            </a>
+            {{ end }}
+        </div>
+
+        {{ if eq (len .Pages) 0 }}
+        <div class="no-categories">
+            <p>No categories yet. Check back soon for expert reviews!</p>
+        </div>
         {{ end }}
     </div>
 </div>
