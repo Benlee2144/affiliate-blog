@@ -1,0 +1,47 @@
+{{/* Pros and Cons Shortcode
+    Usage:
+    {{< pros-cons >}}
+    PROS:
+    - Pro item 1
+    - Pro item 2
+
+    CONS:
+    - Con item 1
+    - Con item 2
+    {{< /pros-cons >}}
+*/}}
+
+{{ $content := .Inner }}
+{{ $parts := split $content "CONS:" }}
+{{ $prosSection := index $parts 0 }}
+{{ $consSection := "" }}
+{{ if gt (len $parts) 1 }}
+    {{ $consSection = index $parts 1 }}
+{{ end }}
+
+{{ $prosSection = replace $prosSection "PROS:" "" }}
+
+<div class="pros-cons">
+    <div class="pros">
+        <h4>What We Like</h4>
+        <ul>
+            {{ range split $prosSection "\n" }}
+                {{ $item := trim . " -" }}
+                {{ if $item }}
+                <li>{{ $item }}</li>
+                {{ end }}
+            {{ end }}
+        </ul>
+    </div>
+    <div class="cons">
+        <h4>What Could Be Better</h4>
+        <ul>
+            {{ range split $consSection "\n" }}
+                {{ $item := trim . " -" }}
+                {{ if $item }}
+                <li>{{ $item }}</li>
+                {{ end }}
+            {{ end }}
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,132 @@
+baseURL = "https://benjaminarp.github.io/affiliate-blog/"
+languageCode = "en-us"
+title = "Product Reviews & Buying Guides"
+theme = "papermod-custom"
+
+# Build settings
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = false
+
+# Pagination
+[pagination]
+  pagerSize = 10
+  path = "page"
+
+# URLs
+[permalinks]
+  posts = "/:slug/"
+  pages = "/:slug/"
+
+# Taxonomies
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+# Minify output
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+# Menu
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+# Site parameters
+[params]
+  env = "production"
+  title = "Product Reviews & Buying Guides"
+  description = "Honest product reviews and buying guides to help you make smarter purchasing decisions."
+  keywords = ["product reviews", "buying guides", "best products"]
+  author = "Benjamin Arp"
+
+  # Images
+  images = ["/images/site-cover.jpg"]
+
+  # Default theme (light/dark/auto)
+  defaultTheme = "auto"
+  disableThemeToggle = false
+
+  # Show reading time
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = true
+
+  # Home page
+  [params.homeInfoParams]
+    Title = "Honest Reviews. Real Advice."
+    Content = "No fluff, no sponsored nonsense. Just straightforward product reviews from someone who's done the research."
+
+  # Social icons (optional)
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
+
+  # Analytics placeholder (add your tracking ID)
+  [params.analytics]
+    google = ""  # Add your GA4 ID here: G-XXXXXXXXXX
+
+  # Search
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+
+# SEO & Social
+[params.cover]
+  hidden = false
+  hiddenInList = false
+  hiddenInSingle = false
+
+# Schema.org
+[params.schema]
+  publisherType = "Organization"
+
+# Output formats
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+
+# Sitemap
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+# Security headers
+[security]
+  [security.funcs]
+    getenv = ["^HUGO_"]
+
+# Markup
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false

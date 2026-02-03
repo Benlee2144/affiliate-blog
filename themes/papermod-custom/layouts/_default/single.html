@@ -1,0 +1,182 @@
+{{ define "head" }}
+<!-- Article Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "{{ if .Params.review }}Review{{ else }}Article{{ end }}",
+    "headline": "{{ .Title }}",
+    "description": "{{ .Description }}",
+    "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+    "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+    "author": {
+        "@type": "Person",
+        "name": "{{ .Site.Params.author }}"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "{{ .Site.Title }}",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "{{ .Site.BaseURL }}images/logo.png"
+        }
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ .Permalink }}"
+    }
+    {{ if .Params.review }}
+    ,"itemReviewed": {
+        "@type": "Product",
+        "name": "{{ .Params.product_name }}",
+        "image": "{{ .Params.product_image | absURL }}"
+        {{ with .Params.brand }},"brand": { "@type": "Brand", "name": "{{ . }}" }{{ end }}
+    },
+    "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "{{ .Params.rating | default 4 }}",
+        "bestRating": "5"
+    }
+    {{ end }}
+}
+</script>
+
+{{ if .Params.product_name }}
+<!-- Product Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "{{ .Params.product_name }}",
+    "description": "{{ .Description }}",
+    "image": "{{ .Params.product_image | absURL }}",
+    {{ with .Params.brand }}"brand": { "@type": "Brand", "name": "{{ . }}" },{{ end }}
+    "review": {
+        "@type": "Review",
+        "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "{{ .Params.rating | default 4 }}",
+            "bestRating": "5"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "{{ .Site.Params.author }}"
+        }
+    }
+    {{ with .Params.price }}
+    ,"offers": {
+        "@type": "Offer",
+        "url": "{{ $.Params.affiliate_link }}",
+        "priceCurrency": "USD",
+        "price": "{{ . }}",
+        "availability": "https://schema.org/InStock"
+    }
+    {{ end }}
+}
+</script>
+{{ end }}
+
+{{ if .Params.faq }}
+<!-- FAQ Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {{ range $i, $faq := .Params.faq }}
+        {{ if $i }},{{ end }}
+        {
+            "@type": "Question",
+            "name": "{{ $faq.question }}",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "{{ $faq.answer }}"
+            }
+        }
+        {{ end }}
+    ]
+}
+</script>
+{{ end }}
+{{ end }}
+
+{{ define "main" }}
+<article class="container">
+    <!-- Breadcrumbs -->
+    <nav class="breadcrumbs">
+        <a href="/">Home</a>
+        <span>›</span>
+        {{ with .Params.categories }}
+        <a href="/categories/{{ index . 0 | urlize }}/">{{ index . 0 }}</a>
+        <span>›</span>
+        {{ end }}
+        <span>{{ .Title | truncate 50 }}</span>
+    </nav>
+
+    <header class="post-header">
+        <h1>{{ .Title }}</h1>
+        <div class="post-meta">
+            <span>{{ .Date.Format "January 2, 2006" }}</span>
+            {{ if .Params.lastmod }}
+            <span>Updated: {{ .Params.lastmod.Format "January 2, 2006" }}</span>
+            {{ end }}
+            {{ if .ReadingTime }}<span>{{ .ReadingTime }} min read</span>{{ end }}
+        </div>
+    </header>
+
+    <!-- Affiliate Disclosure -->
+    <div class="affiliate-disclosure">
+        <strong>Disclosure:</strong> This post contains affiliate links. If you click through and make a purchase, we may earn a commission at no additional cost to you. We only recommend products we believe will add value to our readers. <a href="/affiliate-disclosure/">Learn more</a>.
+    </div>
+
+    <!-- AdSense Placeholder - Before content -->
+    <!-- <div class="ad-container">
+        <ins class="adsbygoogle"></ins>
+    </div> -->
+
+    <div class="post-content">
+        {{ .Content }}
+    </div>
+
+    <!-- Tags -->
+    {{ with .Params.tags }}
+    <div class="tags">
+        {{ range . }}
+        <a href="/tags/{{ . | urlize }}/" class="tag">#{{ . }}</a>
+        {{ end }}
+    </div>
+    {{ end }}
+
+    <!-- Post footer info -->
+    <div class="post-info">
+        <div class="reading-time">
+            {{ if .ReadingTime }}{{ .ReadingTime }} min read{{ end }}
+        </div>
+        <div class="share-buttons">
+            <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" target="_blank" rel="noopener" aria-label="Share on Twitter">𝕏</a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" rel="noopener" aria-label="Share on Facebook">f</a>
+            <a href="https://pinterest.com/pin/create/button/?url={{ .Permalink }}&description={{ .Title }}" target="_blank" rel="noopener" aria-label="Share on Pinterest">P</a>
+        </div>
+    </div>
+
+    <!-- AdSense Placeholder - After content -->
+    <!-- <div class="ad-container">
+        <ins class="adsbygoogle"></ins>
+    </div> -->
+
+    <!-- Related Posts -->
+    {{ $related := .Site.RegularPages.Related . | first 3 }}
+    {{ with $related }}
+    <div class="related-posts">
+        <h3>You Might Also Like</h3>
+        <div class="related-grid">
+            {{ range . }}
+            <div class="related-card">
+                <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                <p>{{ .Summary | truncate 100 }}</p>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+</article>
+{{ end }}

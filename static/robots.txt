@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://benjaminarp.github.io/affiliate-blog/sitemap.xml

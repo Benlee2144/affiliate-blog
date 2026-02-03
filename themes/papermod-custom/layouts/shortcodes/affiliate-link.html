@@ -1,0 +1,9 @@
+{{/* Affiliate Link Shortcode
+    Usage: {{< affiliate-link url="https://amazon.com/..." text="Check Price on Amazon" >}}
+*/}}
+
+{{ $url := .Get "url" }}
+{{ $text := .Get "text" | default "Check Price on Amazon" }}
+{{ $class := .Get "class" | default "btn btn-amazon" }}
+
+<a href="{{ $url }}" class="{{ $class }}" target="_blank" rel="nofollow sponsored noopener">{{ $text }}</a>

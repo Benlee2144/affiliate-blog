@@ -1,0 +1,12 @@
+name = "PaperMod Custom"
+license = "MIT"
+licenselink = "https://github.com/adityatelange/hugo-PaperMod/blob/master/LICENSE"
+description = "Custom affiliate blog theme based on PaperMod"
+homepage = "https://github.com/adityatelange/hugo-PaperMod/"
+
+[author]
+  name = "Affiliate Blog"
+  homepage = ""
+
+[params]
+  mainSections = ["posts"]

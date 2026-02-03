@@ -1,0 +1,46 @@
+{{/* Comparison Table Shortcode
+    Usage:
+    {{< comparison-table >}}
+    | Feature | Product A | Product B |
+    |---------|-----------|-----------|
+    | Price | $50 | $75 |
+    | Power | 500W | 700W |
+    {{< /comparison-table >}}
+*/}}
+
+{{ $content := .Inner }}
+{{ $lines := split $content "\n" }}
+
+<div class="table-wrapper" style="overflow-x: auto;">
+<table class="comparison-table">
+{{ range $i, $line := $lines }}
+    {{ $line = trim $line " " }}
+    {{ if and $line (ne $line "") (hasPrefix $line "|") }}
+        {{ $cells := split $line "|" }}
+        {{ if eq $i 0 }}
+        <thead>
+            <tr>
+            {{ range $j, $cell := $cells }}
+                {{ $cell = trim $cell " " }}
+                {{ if and $cell (ne $cell "") }}
+                <th>{{ $cell }}</th>
+                {{ end }}
+            {{ end }}
+            </tr>
+        </thead>
+        <tbody>
+        {{ else if not (hasPrefix (trim $line " ") "|--") }}
+            <tr>
+            {{ range $j, $cell := $cells }}
+                {{ $cell = trim $cell " " }}
+                {{ if and $cell (ne $cell "") }}
+                <td>{{ $cell | markdownify }}</td>
+                {{ end }}
+            {{ end }}
+            </tr>
+        {{ end }}
+    {{ end }}
+{{ end }}
+        </tbody>
+</table>
+</div>
