@@ -1,7 +1,4 @@
-# Note: baseURL is overridden by GitHub Actions workflow during deployment
 baseURL = "https://researchedpicks.com/"
-relativeURLs = true
-uglyURLs = false
 languageCode = "en-us"
 title = "Researched Picks"
 theme = "papermod-custom"
