@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://benjaminarp.github.io/affiliate-blog/sitemap.xml
+Sitemap: https://benlee2144.github.io/affiliate-blog/sitemap.xml
