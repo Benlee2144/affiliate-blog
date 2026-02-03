@@ -84,11 +84,13 @@ Always assign posts to the correct category:
 
 ### Front Matter Template:
 
+**IMPORTANT DATE RULE**: Always use a **past time** for the date field! Hugo's `buildFuture = false` means posts with future dates won't build. Use today's date with a time that has already passed (e.g., if it's 3pm, use `T10:00:00`).
+
 ```yaml
 ---
 title: "[Product] Review (2026): [Compelling Hook]"
-date: 2026-XX-XXT10:30:00+00:00
-lastmod: 2026-XX-XXT10:30:00+00:00
+date: 2026-XX-XXT00:00:00+00:00  # USE PAST TIME - midnight UTC is safe
+lastmod: 2026-XX-XXT00:00:00+00:00
 draft: false
 description: "After analyzing X+ owner reviews and Reddit discussions, here's whether the [Product] is worth buying—and [unique angle]."
 summary: "[Unique, clickable summary - different for every post]"
@@ -138,6 +140,7 @@ cover:
 Before pushing any changes:
 
 - [ ] Hugo build succeeds: `hugo --gc --minify`
+- [ ] **Page count increased** (new post should add pages - if not, check date!)
 - [ ] Images display correctly (paths start with `/images/`)
 - [ ] Tables have proper spacing (not "ran together")
 - [ ] Summary is unique (not repetitive pattern)
@@ -205,6 +208,8 @@ User needs to set up:
 4. Check "Enforce HTTPS" once DNS propagates (can take up to 24 hours)
 
 ## Common Issues & Fixes
+
+**Post not appearing / 404 error**: The date in front matter is set to a FUTURE time. Hugo won't build posts with `buildFuture = false`. Fix: use `T00:00:00+00:00` (midnight UTC) which is always in the past.
 
 **Images not showing**: Check path starts with `/images/` (no affiliate-blog prefix)
 
