@@ -29,10 +29,61 @@ try:
     import requests
     from bs4 import BeautifulSoup
     from slugify import slugify
+    from PIL import Image
+    import io
 except ImportError as e:
     print(f"Missing required package: {e}")
-    print("Install with: pip install requests beautifulsoup4 python-slugify")
+    print("Install with: pip install requests beautifulsoup4 python-slugify pillow")
     sys.exit(1)
+
+
+# ============================================================================
+# IMAGE VALIDATION
+# ============================================================================
+
+MIN_IMAGE_WIDTH = 200  # Minimum width to consider image valid
+MIN_IMAGE_HEIGHT = 200  # Minimum height to consider image valid
+MIN_IMAGE_SIZE_KB = 2  # Minimum file size in KB (very small threshold to catch obvious errors)
+
+
+def validate_image(image_data: bytes) -> tuple[bool, str, tuple[int, int]]:
+    """
+    Validate that image data is a valid, usable product image.
+
+    Returns:
+        (is_valid, reason, dimensions)
+    """
+    # Check minimum file size
+    size_kb = len(image_data) / 1024
+    if size_kb < MIN_IMAGE_SIZE_KB:
+        return False, f"Image too small ({size_kb:.1f}KB)", (0, 0)
+
+    try:
+        # Try to open as image
+        img = Image.open(io.BytesIO(image_data))
+        width, height = img.size
+
+        # Check dimensions
+        if width < MIN_IMAGE_WIDTH or height < MIN_IMAGE_HEIGHT:
+            return False, f"Dimensions too small ({width}x{height})", (width, height)
+
+        # Check if it's actually an image format we want
+        if img.format not in ['JPEG', 'PNG', 'WEBP']:
+            return False, f"Unsupported format: {img.format}", (width, height)
+
+        # Check if mostly transparent (placeholder image)
+        if img.mode == 'RGBA':
+            # Count non-transparent pixels
+            alpha = img.split()[-1]
+            non_transparent = sum(1 for p in alpha.getdata() if p > 128)
+            total = width * height
+            if non_transparent / total < 0.1:  # Less than 10% visible
+                return False, "Image appears to be mostly transparent", (width, height)
+
+        return True, "Valid", (width, height)
+
+    except Exception as e:
+        return False, f"Cannot parse image: {str(e)}", (0, 0)
 
 
 # ============================================================================
@@ -453,38 +504,116 @@ class AmazonProductFetcher:
         return result
 
     def download_images(self, product_slug: str) -> List[Dict[str, str]]:
-        """Download product images to local storage."""
+        """Download product images to local storage with validation."""
         downloaded = []
         IMAGES_DIR.mkdir(parents=True, exist_ok=True)
+        valid_image_num = 0
 
         for i, img_url in enumerate(self.product_data.get("images", [])):
             try:
                 print(f"Downloading image {i + 1}: {img_url[:80]}...")
                 response = self.session.get(img_url, timeout=15)
                 if response.status_code == 200:
-                    # Determine file extension
-                    content_type = response.headers.get("content-type", "image/jpeg")
-                    ext = ".jpg" if "jpeg" in content_type else ".png" if "png" in content_type else ".jpg"
+                    image_data = response.content
+
+                    # Validate the image before saving
+                    is_valid, reason, dimensions = validate_image(image_data)
+                    if not is_valid:
+                        print(f"  Skipped (invalid): {reason}")
+                        continue
+
+                    valid_image_num += 1
+                    width, height = dimensions
+                    print(f"  Valid image: {width}x{height}")
+
+                    # Determine actual format from image data
+                    try:
+                        img = Image.open(io.BytesIO(image_data))
+                        actual_format = img.format.lower() if img.format else 'jpeg'
+                        # Convert WebP to JPEG for better compatibility
+                        if actual_format == 'webp':
+                            # Convert to RGB (remove alpha if present)
+                            if img.mode in ('RGBA', 'LA', 'P'):
+                                img = img.convert('RGB')
+                            # Save as JPEG
+                            output = io.BytesIO()
+                            img.save(output, format='JPEG', quality=90)
+                            image_data = output.getvalue()
+                            actual_format = 'jpeg'
+                            print(f"  Converted WebP to JPEG")
+                    except:
+                        actual_format = 'jpeg'
+
+                    ext = ".jpg" if actual_format == 'jpeg' else f".{actual_format}"
 
                     # Generate filename
-                    filename = f"{product_slug}-{i + 1}{ext}"
+                    filename = f"{product_slug}-{valid_image_num}{ext}"
                     filepath = IMAGES_DIR / filename
 
                     # Save image
                     with open(filepath, "wb") as f:
-                        f.write(response.content)
+                        f.write(image_data)
 
                     downloaded.append({
                         "local_path": f"/images/products/{filename}",
                         "filename": filename,
-                        "alt": f"{self.product_data.get('title', 'Product')} - Image {i + 1}",
+                        "alt": f"{self.product_data.get('title', 'Product')} - Image {valid_image_num}",
                         "original_url": img_url,
+                        "dimensions": f"{width}x{height}",
                     })
-                    print(f"  Saved: {filename}")
+                    print(f"  Saved: {filename} ({width}x{height})")
                     time.sleep(0.5)  # Rate limiting
+
+                    # Stop after 5 valid images
+                    if valid_image_num >= 5:
+                        break
 
             except Exception as e:
                 print(f"  Failed to download image: {e}")
+
+        # If no valid images found, try fallback methods
+        if not downloaded:
+            print("  No valid images found, trying fallback...")
+            downloaded = self._download_fallback_images(product_slug)
+
+        return downloaded
+
+    def _download_fallback_images(self, product_slug: str) -> List[Dict[str, str]]:
+        """Try alternative methods to get product images."""
+        downloaded = []
+
+        if not self.asin:
+            return downloaded
+
+        # Try different Amazon image URL patterns
+        fallback_patterns = [
+            f"https://m.media-amazon.com/images/I/{self.asin}._AC_SL1500_.jpg",
+            f"https://m.media-amazon.com/images/I/{self.asin}._SL1500_.jpg",
+            f"https://images-na.ssl-images-amazon.com/images/I/{self.asin}._AC_SL1500_.jpg",
+        ]
+
+        for pattern_url in fallback_patterns:
+            try:
+                print(f"  Trying fallback: {pattern_url[:60]}...")
+                response = self.session.get(pattern_url, timeout=10)
+                if response.status_code == 200:
+                    is_valid, reason, dimensions = validate_image(response.content)
+                    if is_valid:
+                        filename = f"{product_slug}-1.jpg"
+                        filepath = IMAGES_DIR / filename
+                        with open(filepath, "wb") as f:
+                            f.write(response.content)
+                        downloaded.append({
+                            "local_path": f"/images/products/{filename}",
+                            "filename": filename,
+                            "alt": f"{self.product_data.get('title', 'Product')} - Main Image",
+                            "original_url": pattern_url,
+                            "dimensions": f"{dimensions[0]}x{dimensions[1]}",
+                        })
+                        print(f"  Fallback successful: {filename}")
+                        break
+            except Exception as e:
+                continue
 
         return downloaded
 
