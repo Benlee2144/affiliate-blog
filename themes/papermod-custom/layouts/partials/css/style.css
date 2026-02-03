@@ -1267,6 +1267,17 @@ pre code {
         grid-template-columns: 1fr;
     }
 
+    /* Smaller homepage card images on mobile */
+    .review-card-image {
+        aspect-ratio: 16/9;
+        max-height: 200px;
+        padding: var(--spacing-sm);
+    }
+
+    .review-card-image img {
+        max-height: 160px;
+    }
+
     .trust-grid {
         grid-template-columns: 1fr;
         gap: var(--spacing-lg);
