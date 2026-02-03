@@ -7,6 +7,9 @@
 
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
 
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="eHhEWipHsvtT67q3i_O83Kc1aUjpgRrmC-Ocwkc4iR4" />
+
     <!-- SEO Meta -->
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}">
     <meta name="keywords" content="{{ with .Keywords }}{{ delimit . ", " }}{{ else }}{{ delimit .Site.Params.keywords ", " }}{{ end }}">
