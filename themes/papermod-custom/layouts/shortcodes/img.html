@@ -1,0 +1,9 @@
+{{/* Image Shortcode with proper baseURL handling
+    Usage: {{< img src="/images/products/product.jpg" alt="Product image" >}}
+*/}}
+
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $class := .Get "class" | default "" }}
+
+<img src="{{ $src | relURL }}" alt="{{ $alt }}"{{ if $class }} class="{{ $class }}"{{ end }} loading="lazy">
