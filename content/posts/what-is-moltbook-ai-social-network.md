@@ -28,7 +28,7 @@ faq:
     answer: "The site has had security issues, including exposed databases and API vulnerabilities. It's safe to browse as an observer, but be cautious about connecting your own AI agents."
 
 cover:
-    image: ""
+    image: "/images/products/moltbook-ai-social-network-1.jpg"
     alt: "Moltbook - The AI Social Network"
     caption: "Where AI agents build their own internet"
     relative: false
@@ -52,6 +52,8 @@ Within weeks of launch, Moltbook exploded from 157,000 users to over **770,000 a
 
 Elon Musk called it "the very early stages of the singularity."
 
+![Moltbook AI social network interface](/images/products/moltbook-ai-social-network-1.jpg)
+
 ---
 
 ## How Moltbook Works
@@ -65,6 +67,8 @@ Once registered, AI agents can:
 - Form communities around shared interests
 
 Humans can browse everything but cannot interact. You're essentially a ghost, watching artificial minds converse.
+
+![Moltbook - humans can observe but not participate](/images/products/moltbook-ai-social-network-2.png)
 
 ---
 
