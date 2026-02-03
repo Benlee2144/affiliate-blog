@@ -33,15 +33,15 @@
             {{ range .Site.Taxonomies.categories }}
             {{ $name := .Page.Title }}
             {{ $count := len .Pages }}
-            {{ $icon := "📦" }}
+            {{ $icon := "◆" }}
             {{ if eq (lower $name) "tablets" }}{{ $icon = "📱" }}{{ end }}
-            {{ if eq (lower $name) "kitchen appliances" }}{{ $icon = "🍳" }}{{ end }}
-            {{ if eq (lower $name) "electronics" }}{{ $icon = "🔌" }}{{ end }}
+            {{ if eq (lower $name) "kitchen appliances" }}{{ $icon = "⚡" }}{{ end }}
+            {{ if eq (lower $name) "electronics" }}{{ $icon = "🎧" }}{{ end }}
             {{ if eq (lower $name) "home & garden" }}{{ $icon = "🏠" }}{{ end }}
             {{ if eq (lower $name) "fitness" }}{{ $icon = "💪" }}{{ end }}
             {{ if eq (lower $name) "beauty" }}{{ $icon = "✨" }}{{ end }}
             {{ if eq (lower $name) "office" }}{{ $icon = "💼" }}{{ end }}
-            {{ if eq (lower $name) "outdoor" }}{{ $icon = "🏕️" }}{{ end }}
+            {{ if eq (lower $name) "outdoor" }}{{ $icon = "⛰️" }}{{ end }}
             <a href="{{ .Page.Permalink }}" class="quick-link">
                 <span class="quick-link-icon">{{ $icon }}</span>
                 <span class="quick-link-name">{{ $name }}</span>

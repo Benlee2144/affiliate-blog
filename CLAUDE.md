@@ -19,7 +19,8 @@ When the user provides an Amazon affiliate link:
 4. **Write the blog post** following Wirecutter style (see below)
 5. **Save to** `/content/posts/[product-slug].md`
 6. **Build and verify**: `hugo --gc --minify`
-7. **Commit and push** to GitHub
+7. **ALWAYS verify the live site** after pushing - check homepage card images display correctly
+8. **Commit and push** to GitHub
 
 ## Critical Path Rules
 
@@ -30,20 +31,30 @@ When the user provides an Amazon affiliate link:
 - **Affiliate tag**: `amazonfi08e0c-20`
   - Link format: `https://www.amazon.com/dp/[ASIN]?tag=amazonfi08e0c-20`
 
-## Categories (Pre-Styled)
+- **ALWAYS CHECK THE LIVE SITE** after every new blog post to verify:
+  - Homepage card shows product image correctly
+  - Review page images all load
+  - Category page displays the new post
+
+## Categories (Pre-Styled with Professional Icons)
 
 Always assign posts to the correct category:
 
-| Category | Products |
-|----------|----------|
-| Tablets | iPads, Android tablets, e-readers |
-| Kitchen Appliances | Blenders, air fryers, coffee makers, instant pots |
-| Electronics | Gadgets, audio gear, smart devices |
-| Home & Garden | Tools, furniture, outdoor gear |
-| Fitness | Exercise equipment, fitness trackers |
-| Beauty | Skincare, haircare, beauty tools |
-| Office | Desks, chairs, productivity tools |
-| Outdoor | Camping, hiking, recreation |
+| Category | Products | Icon |
+|----------|----------|------|
+| Tablets | iPads, Android tablets, e-readers | 📱 |
+| Kitchen Appliances | Blenders, air fryers, coffee makers, instant pots | ⚡ |
+| Electronics | Gadgets, audio gear, smart devices | 🎧 |
+| Home & Garden | Tools, furniture, outdoor gear | 🏠 |
+| Fitness | Exercise equipment, fitness trackers | 💪 |
+| Beauty | Skincare, haircare, beauty tools | ✨ |
+| Office | Desks, chairs, productivity tools | 💼 |
+| Outdoor | Camping, hiking, recreation | 🏕️ |
+
+**Professional Icons to Use** (avoid childish emojis):
+- Trust/Quality: ✓ ★ ◆
+- Categories: Use icons above
+- Avoid: 🎉 🤪 😍 💕 or overly casual emojis
 
 ## Wirecutter-Style Writing Guide
 
@@ -135,6 +146,16 @@ Before pushing any changes:
 - [ ] Category is correct for product type
 - [ ] All affiliate links have correct tag
 
+## Post-Push Checklist (ALWAYS DO THIS)
+
+After pushing a new blog post, verify on the live site:
+
+- [ ] Homepage shows new post card with image
+- [ ] Product image displays correctly on homepage card (not too zoomed)
+- [ ] Category page lists the new post
+- [ ] Individual review page loads all images
+- [ ] FAQ section appears at bottom of post
+
 ## File Locations
 
 ```
@@ -158,7 +179,7 @@ Site rebuilds automatically via GitHub Actions after push.
 
 ## SEO Setup Status
 
-✅ Done:
+Done:
 - Schema.org (Product, Review, FAQ, BreadcrumbList, Organization, WebSite)
 - Open Graph & Twitter Cards
 - Canonical URLs
@@ -166,7 +187,7 @@ Site rebuilds automatically via GitHub Actions after push.
 - robots.txt
 - About page with E-E-A-T content
 
-⚠️ User needs to set up:
+User needs to set up:
 - Google Search Console (submit sitemap)
 - Google Analytics (add GA4 ID to config.toml)
 
@@ -174,8 +195,17 @@ Site rebuilds automatically via GitHub Actions after push.
 
 **Images not showing**: Check path has `/affiliate-blog/` prefix
 
+**Homepage card image too zoomed/cropped**: Image uses `object-fit: cover` with 16:10 aspect ratio. Use product images that work well cropped to landscape.
+
 **Build fails on "shortcode not found"**: Create the shortcode in `/themes/papermod-custom/layouts/shortcodes/`
 
 **Tables look cramped**: CSS is in `/themes/papermod-custom/layouts/partials/css/style.css`
 
 **GitHub Action fails**: Check the error in the Actions tab on GitHub
+
+## Design Guidelines
+
+- Keep white/clean aesthetic
+- Professional icons only (no childish emojis)
+- Trust signals: Deep Research, Honest Takes, Clear Guidance
+- Category colors are pre-defined in terms.html

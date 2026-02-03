@@ -11,7 +11,7 @@
         <div class="categories-grid">
             {{ range .Pages }}
             {{ $categoryName := .Title }}
-            {{ $icon := "📦" }}
+            {{ $icon := "◆" }}
             {{ $gradient := "linear-gradient(135deg, #667eea 0%, #764ba2 100%)" }}
             {{ $description := "Browse our expert reviews" }}
 
@@ -21,11 +21,11 @@
                 {{ $gradient = "linear-gradient(135deg, #11998e 0%, #38ef7d 100%)" }}
                 {{ $description = "iPads, Android tablets, and e-readers" }}
             {{ else if eq (lower $categoryName) "kitchen appliances" }}
-                {{ $icon = "🍳" }}
+                {{ $icon = "⚡" }}
                 {{ $gradient = "linear-gradient(135deg, #ee0979 0%, #ff6a00 100%)" }}
                 {{ $description = "Blenders, air fryers, coffee makers & more" }}
             {{ else if eq (lower $categoryName) "electronics" }}
-                {{ $icon = "🔌" }}
+                {{ $icon = "🎧" }}
                 {{ $gradient = "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)" }}
                 {{ $description = "Gadgets, audio gear, and smart devices" }}
             {{ else if eq (lower $categoryName) "home & garden" }}
@@ -45,7 +45,7 @@
                 {{ $gradient = "linear-gradient(135deg, #667eea 0%, #764ba2 100%)" }}
                 {{ $description = "Desks, chairs, and productivity tools" }}
             {{ else if eq (lower $categoryName) "outdoor" }}
-                {{ $icon = "🏕️" }}
+                {{ $icon = "⛰️" }}
                 {{ $gradient = "linear-gradient(135deg, #56ab2f 0%, #a8e063 100%)" }}
                 {{ $description = "Camping, hiking, and outdoor recreation" }}
             {{ end }}
