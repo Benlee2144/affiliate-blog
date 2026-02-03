@@ -45,21 +45,33 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 CONTENT_DIR = PROJECT_ROOT / "content" / "posts"
 IMAGES_DIR = PROJECT_ROOT / "static" / "images" / "products"
 
-# User agent for web requests
-USER_AGENT = (
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-)
+# Multiple user agents for rotation (helps avoid bot detection)
+USER_AGENTS = [
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0",
+]
 
-# Request headers
-HEADERS = {
-    "User-Agent": USER_AGENT,
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-    "Accept-Language": "en-US,en;q=0.5",
-    "Accept-Encoding": "gzip, deflate",
-    "Connection": "keep-alive",
-    "Upgrade-Insecure-Requests": "1",
-}
+import random
+
+def get_headers():
+    """Get request headers with a random user agent."""
+    ua = random.choice(USER_AGENTS)
+    return {
+        "User-Agent": ua,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1",
+        "Cache-Control": "max-age=0",
+    }
 
 
 # ============================================================================
@@ -142,7 +154,7 @@ class AmazonProductFetcher:
     def __init__(self, url: str):
         self.url = url
         self.session = requests.Session()
-        self.session.headers.update(HEADERS)
+        self.session.headers.update(get_headers())
         self.asin = self._extract_asin(url)
         self.affiliate_tag = self._extract_affiliate_tag(url)
         self.product_data: Dict[str, Any] = {}
@@ -181,15 +193,33 @@ class AmazonProductFetcher:
         ]
 
         for url in urls_to_try:
-            try:
-                print(f"Fetching: {url}")
-                response = self.session.get(url, timeout=15)
-                if response.status_code == 200:
-                    return BeautifulSoup(response.text, 'html.parser')
-                time.sleep(2)  # Rate limiting
-            except requests.RequestException as e:
-                print(f"Request failed: {e}")
-                continue
+            # Try up to 3 times with different user agents
+            for attempt in range(3):
+                try:
+                    # Rotate user agent on each attempt
+                    self.session.headers.update(get_headers())
+                    print(f"Fetching: {url} (attempt {attempt + 1})")
+                    response = self.session.get(url, timeout=15)
+
+                    if response.status_code == 200:
+                        # Check if we got a valid product page
+                        soup = BeautifulSoup(response.text, 'html.parser')
+                        if soup.select_one("#productTitle, #title, #dp"):
+                            return soup
+                        print("  Got response but no product content, retrying...")
+
+                    elif response.status_code == 503:
+                        print(f"  Rate limited (503), waiting...")
+                        time.sleep(5 + attempt * 2)
+                    else:
+                        print(f"  Status code: {response.status_code}")
+
+                    time.sleep(2 + attempt)  # Increasing delay
+
+                except requests.RequestException as e:
+                    print(f"  Request failed: {e}")
+                    time.sleep(2)
+                    continue
 
         return None
 
@@ -299,60 +329,112 @@ class AmazonProductFetcher:
         return data
 
     def _extract_images(self, soup: BeautifulSoup) -> List[str]:
-        """Extract all product images from the page."""
+        """Extract all product images from the page using multiple methods."""
         images = []
         seen_urls = set()
 
-        # Method 1: Main product image
-        main_image = soup.select_one("#landingImage, #imgBlkFront, #main-image")
-        if main_image:
-            # Try data-old-hires first (highest res), then src
-            img_url = main_image.get("data-old-hires") or main_image.get("data-a-dynamic-image")
-            if img_url:
-                if img_url.startswith("{"):
-                    # Parse JSON format
-                    try:
-                        img_data = json.loads(img_url)
-                        # Get the largest image
-                        img_url = max(img_data.keys(), key=lambda x: img_data[x][0] * img_data[x][1])
-                    except:
-                        pass
-                if img_url and img_url not in seen_urls:
-                    images.append(img_url)
-                    seen_urls.add(img_url)
-
-            # Fallback to src
-            src = main_image.get("src")
-            if src and src not in seen_urls and "sprite" not in src.lower():
-                # Convert to high-res version
-                high_res = self._convert_to_high_res(src)
+        def add_image(url: str) -> bool:
+            """Add image if valid and not seen."""
+            if not url or url in seen_urls:
+                return False
+            if "sprite" in url.lower() or "icon" in url.lower() or "transparent" in url.lower():
+                return False
+            if not url.startswith("http"):
+                return False
+            # Convert to high-res
+            high_res = self._convert_to_high_res(url)
+            if high_res not in seen_urls:
                 images.append(high_res)
                 seen_urls.add(high_res)
+                seen_urls.add(url)  # Also mark original
+                return True
+            return False
 
-        # Method 2: Thumbnail strip
-        thumbnails = soup.select("#altImages img, .imageThumbnail img")
-        for thumb in thumbnails:
-            src = thumb.get("src", "")
-            if src and "sprite" not in src.lower() and "icon" not in src.lower():
-                high_res = self._convert_to_high_res(src)
-                if high_res not in seen_urls:
-                    images.append(high_res)
-                    seen_urls.add(high_res)
-                if len(images) >= 5:  # Limit to 5 images
-                    break
-
-        # Method 3: Look for image data in scripts
-        scripts = soup.find_all("script", string=re.compile(r"colorImages|ImageBlockATF"))
+        # Method 1: Parse JavaScript data for high-res images (most reliable)
+        scripts = soup.find_all("script")
         for script in scripts:
             script_text = script.string or ""
-            # Find high-res image URLs
-            url_matches = re.findall(r'"hiRes"\s*:\s*"([^"]+)"', script_text)
-            for url in url_matches:
-                if url and url not in seen_urls:
-                    images.append(url)
-                    seen_urls.add(url)
-                if len(images) >= 5:
+
+            # Look for colorImages data structure
+            if "colorImages" in script_text or "ImageBlockATF" in script_text:
+                # Extract hiRes URLs
+                hires_matches = re.findall(r'"hiRes"\s*:\s*"([^"]+)"', script_text)
+                for url in hires_matches:
+                    if add_image(url) and len(images) >= 5:
+                        break
+
+                # Extract large URLs as fallback
+                large_matches = re.findall(r'"large"\s*:\s*"([^"]+)"', script_text)
+                for url in large_matches:
+                    if add_image(url) and len(images) >= 5:
+                        break
+
+            # Look for imageGalleryData
+            if "imageGalleryData" in script_text:
+                url_matches = re.findall(r'"mainUrl"\s*:\s*"([^"]+)"', script_text)
+                for url in url_matches:
+                    if add_image(url) and len(images) >= 5:
+                        break
+
+            if len(images) >= 5:
+                break
+
+        # Method 2: Main product image element
+        main_selectors = [
+            "#landingImage",
+            "#imgBlkFront",
+            "#main-image",
+            "#ebooksImgBlkFront",
+            "img.a-dynamic-image",
+            "#imageBlock img",
+        ]
+        for selector in main_selectors:
+            main_image = soup.select_one(selector)
+            if main_image:
+                # Try data attributes first (highest res)
+                for attr in ["data-old-hires", "data-a-dynamic-image", "data-zoom-hires"]:
+                    img_url = main_image.get(attr)
+                    if img_url:
+                        if img_url.startswith("{"):
+                            try:
+                                img_data = json.loads(img_url)
+                                # Get the largest image from JSON
+                                img_url = max(img_data.keys(), key=lambda x: img_data[x][0] * img_data[x][1])
+                            except:
+                                continue
+                        add_image(img_url)
+
+                # Fallback to src
+                src = main_image.get("src")
+                if src:
+                    add_image(src)
+
+            if len(images) >= 5:
+                break
+
+        # Method 3: Thumbnail strip images
+        thumb_selectors = [
+            "#altImages img",
+            ".imageThumbnail img",
+            "#imageBlock_feature_div img",
+            ".image-thumbnail img",
+            "li.image img",
+        ]
+        for selector in thumb_selectors:
+            thumbnails = soup.select(selector)
+            for thumb in thumbnails:
+                src = thumb.get("src", "")
+                if add_image(src) and len(images) >= 5:
                     break
+            if len(images) >= 5:
+                break
+
+        # Method 4: Construct image URL from ASIN (fallback)
+        if not images and self.asin:
+            # Amazon image URL pattern
+            base_url = f"https://m.media-amazon.com/images/I/{self.asin}._SL1500_.jpg"
+            images.append(base_url)
+            print(f"  Using constructed image URL: {base_url}")
 
         return images[:5]  # Return max 5 images
 

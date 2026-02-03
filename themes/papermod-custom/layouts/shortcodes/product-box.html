@@ -10,16 +10,20 @@
 
 <div class="product-box">
     {{ with .Get "image" }}
-    <img src="{{ . }}" alt="{{ $.Get "name" }}" loading="lazy">
+    <a href="{{ $.Get "link" }}" target="_blank" rel="nofollow sponsored noopener" class="product-image-link">
+        <img src="{{ . }}" alt="{{ $.Get "name" }}" loading="lazy" onerror="this.parentElement.style.display='none'">
+    </a>
     {{ end }}
     <h3>{{ .Get "name" }}</h3>
     {{ with .Get "rating" }}
     <div class="rating" aria-label="Rating: {{ . }} out of 5">
+        <span class="stars">
         {{ $rating := float . }}
         {{ range seq 5 }}
             {{ if le . (int $rating) }}★{{ else if and (gt $rating (sub . 1)) (lt $rating .) }}★{{ else }}☆{{ end }}
         {{ end }}
-        <span>({{ . }}/5)</span>
+        </span>
+        <span class="rating-text">({{ . }}/5)</span>
     </div>
     {{ end }}
     {{ with .Get "price" }}
