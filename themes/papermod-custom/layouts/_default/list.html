@@ -62,16 +62,18 @@
             {{ $posts := where .Site.RegularPages "Section" "posts" }}
             {{ range first 6 $posts }}
             <article class="review-card">
+                {{ $postLink := .Permalink }}
+                {{ $postTitle := .Title }}
                 {{ with .Params.cover.image }}
-                <a href="{{ $.Permalink }}" class="review-card-image">
-                    <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+                <a href="{{ $postLink }}" class="review-card-image">
+                    <img src="{{ . }}" alt="{{ $postTitle }}" loading="lazy">
                 </a>
                 {{ end }}
                 <div class="review-card-content">
                     {{ with .Params.categories }}
                     <a href="/categories/{{ index . 0 | urlize }}/" class="review-card-category">{{ index . 0 }}</a>
                     {{ end }}
-                    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                    <h3><a href="{{ $postLink }}">{{ $postTitle }}</a></h3>
                     <p class="review-card-summary">{{ .Summary | truncate 120 }}</p>
                     <div class="review-card-meta">
                         {{ with .Params.rating }}
