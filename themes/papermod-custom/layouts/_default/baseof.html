@@ -32,8 +32,8 @@
     {{ end }}
 
     <!-- Favicon -->
-    <link rel="icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" href="{{ "favicon.ico" | relURL }}">
+    <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
 
     <!-- RSS -->
     {{ range .AlternativeOutputFormats }}
@@ -66,7 +66,20 @@
 
     {{ block "head" . }}{{ end }}
 
-    <!-- WebSite Schema for Sitelinks -->
+    <!-- Organization Schema (all pages) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "{{ .Site.Title }}",
+        "url": "{{ .Site.BaseURL }}",
+        "logo": "{{ .Site.BaseURL }}apple-touch-icon.png",
+        "description": "{{ .Site.Params.description }}",
+        "sameAs": []
+    }
+    </script>
+
+    <!-- WebSite Schema with SearchAction for Sitelinks -->
     {{ if .IsHome }}
     <script type="application/ld+json">
     {
@@ -78,6 +91,14 @@
         "publisher": {
             "@type": "Organization",
             "name": "{{ .Site.Title }}"
+        },
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "{{ .Site.BaseURL }}?s={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
         }
     }
     </script>

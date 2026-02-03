@@ -1,0 +1,14 @@
+{{/* Related Post Link Shortcode
+    Usage: {{< related-post slug="ninja-bl480-blender-review" text="our Ninja BL480 review" >}}
+    Creates an internal link that helps with SEO and user navigation
+*/}}
+
+{{ $slug := .Get "slug" }}
+{{ $text := .Get "text" }}
+{{ $page := .Site.GetPage (printf "/posts/%s" $slug) }}
+
+{{ if $page }}
+<a href="{{ $page.Permalink }}" class="internal-link">{{ $text }}</a>
+{{ else }}
+{{ $text }}
+{{ end }}
