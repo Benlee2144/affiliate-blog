@@ -46,6 +46,7 @@ MIN_IMAGE_HEIGHT = 200  # Minimum height to consider image valid
 MIN_IMAGE_SIZE_KB = 2  # Minimum file size in KB (very small threshold to catch obvious errors)
 MAX_IMAGE_WIDTH = 1200  # Max width for web optimization
 JPEG_QUALITY = 85  # Quality for JPEG compression (85 is good balance)
+MIN_IMAGES_REQUIRED = 3  # Minimum images per blog post (Wirecutter standard)
 
 
 def validate_image(image_data: bytes) -> tuple[bool, str, tuple[int, int]]:
@@ -711,7 +712,19 @@ class AmazonProductFetcher:
 # ============================================================================
 
 class BlogPostGenerator:
-    """Generates anti-AI-slop blog post content."""
+    """
+    Generates Wirecutter-style blog post content.
+
+    Key principles (from WIRECUTTER_STYLE_GUIDE.md):
+    - Reader service first
+    - "Good enough" recommendations (value + price intersection)
+    - Research depth like recommending to friends/family
+    - Balanced honesty (always disclose weaknesses)
+    - Quick pick box immediately after intro
+    - Specific over vague ("1400-watt motor" not "powerful")
+    - Real user feedback cited (Reddit, forums, verified reviews)
+    - Clear "who should buy" and "who should skip"
+    """
 
     def __init__(self, product_data: Dict[str, Any], images: List[Dict[str, str]]):
         self.product = product_data
@@ -742,12 +755,18 @@ class BlogPostGenerator:
         return found
 
     def generate_front_matter(self) -> str:
-        """Generate Hugo front matter YAML."""
+        """
+        Generate Hugo front matter with Wirecutter-style metadata:
+        - Title format: "Best [Category] for [Use Case]" or "[Product] Review (Tested)"
+        - Strong meta description for CTR
+        - Schema-ready structured data
+        """
         title = self.product.get("title", "Product Review")
         brand = self.product.get("brand", "")
         price = self.product.get("price", "")
         rating = self.product.get("rating", "4")
         category = self.product.get("category", "Reviews")
+        year = datetime.now().year
 
         # Build affiliate link
         asin = self.product.get("asin", "")
@@ -760,18 +779,24 @@ class BlogPostGenerator:
         # Generate keywords
         keywords = self._generate_keywords()
 
+        # Wirecutter-style title (keyword-first with context)
+        seo_title = f"{title} Review ({year}): Tested & Researched"
+
+        # Wirecutter-style meta description (compelling, specific)
+        meta_desc = f"After analyzing {self.product.get('review_count', 'thousands of')} owner reviews and Reddit discussions, here's whether the {title} is worth buying—plus who should skip it."
+
         front_matter = f'''---
-title: "{title} Review: Is It Worth It in {datetime.now().year}?"
+title: "{seo_title}"
 date: {datetime.now().strftime("%Y-%m-%dT%H:%M:%S")}+00:00
 lastmod: {datetime.now().strftime("%Y-%m-%dT%H:%M:%S")}+00:00
 draft: false
-description: "Honest {title} review with real user feedback. Find out if this {category.lower()} is worth your money, who it's best for, and what the downsides are."
-summary: "A no-BS review of the {title} based on real owner experiences and hands-on research."
+description: "{meta_desc}"
+summary: "Our research-backed verdict on the {title}: who it's perfect for, honest downsides, and how it compares to alternatives."
 
 keywords: [{', '.join(f'"{k}"' for k in keywords)}]
 
 categories: ["{category}"]
-tags: ["{brand} review", "{category.lower()}", "product review", "amazon"]
+tags: ["{brand}", "{category.lower()}", "product review", "buying guide"]
 
 review: true
 product_name: "{title}"
@@ -780,13 +805,21 @@ brand: "{brand}"
 rating: {rating if rating else 4}
 price: "{price}"
 affiliate_link: "{affiliate_link}"
+asin: "{asin}"
+
+author: "Benjamin Arp"
+showToc: true
+TocOpen: true
 
 cover:
     image: "{main_image}"
     alt: "{title}"
-    caption: ""
+    caption: "Our top pick after extensive research"
     relative: false
 ---
+
+**Affiliate Disclosure:** We earn a commission if you make a purchase, at no extra cost to you. We only recommend products we've thoroughly researched. [Learn more](/affiliate-disclosure/)
+
 '''
         return front_matter
 
@@ -872,17 +905,22 @@ cover:
         return "\n\n".join(content_parts)
 
     def _generate_intro(self) -> str:
-        """Generate hook intro that addresses buyer pain point."""
+        """
+        Generate Wirecutter-style intro that:
+        - Opens with reader's pain point
+        - Establishes credibility through research depth
+        - Uses bold to emphasize main focus
+        - Leads directly into the top pick
+        """
         title = self.product.get("title", "this product")
         category = self.product.get("category", "product")
         brand = self.product.get("brand", "")
         review_count = self.product.get("review_count", "")
 
-        intro = f"""Trying to figure out if the **{title}** is actually any good? You're probably seeing it all over Amazon{f" with {review_count}+ reviews" if review_count else ""}, and wondering if it lives up to the hype.
+        # Wirecutter-style opening: pain point + credibility + bold focus
+        intro = f"""Finding the right {category.lower() if category else "product"} shouldn't require hours of research through fake reviews and sponsored content. After analyzing {f"{review_count}+ verified owner reviews" if review_count else "hundreds of verified reviews"}, Reddit discussions in r/{category.replace(' ', '').lower() if category else "BuyItForLife"}, and long-term ownership reports, we've identified what actually works—and what leaves buyers frustrated.
 
-I dug through dozens of actual owner reviews, Reddit discussions, and YouTube videos to find out what real people think after months of using this thing—not just the honeymoon-period takes.
-
-Here's what I found."""
+**Our top pick is the {title}**, which consistently earns praise from owners who've used it for months, not just days. But depending on your specific needs and budget, we have alternatives worth considering too."""
 
         return intro
 
@@ -906,35 +944,45 @@ Here's what I found."""
         return box
 
     def _generate_quick_verdict(self) -> str:
-        """Generate quick verdict summary."""
+        """
+        Generate Wirecutter-style quick verdict:
+        - Appears immediately after intro
+        - Single sentence summary of primary selling point
+        - Who it's best for
+        - Direct, confident recommendation
+        """
         title = self.product.get("title", "this product")
         brand = self.product.get("brand", "")
         rating = self.product.get("rating", "4")
         price = self.product.get("price", "")
+        category = self.product.get("category", "")
 
-        # Adjust verdict based on rating
         try:
             rating_val = float(rating)
         except:
             rating_val = 4.0
 
         if rating_val >= 4.5:
-            verdict_tone = "genuinely impressed"
-            recommend = "solid yes for most people"
+            confidence = "confidently recommend"
+            verdict = "the best option for most people"
         elif rating_val >= 4.0:
-            verdict_tone = "pleasantly surprised"
-            recommend = "worth considering"
+            confidence = "recommend"
+            verdict = "a solid choice that delivers on its promises"
         else:
-            verdict_tone = "mixed"
-            recommend = "depends on your specific needs"
+            confidence = "cautiously recommend"
+            verdict = "good for specific use cases"
 
-        verdict = f"""## The Quick Verdict
+        verdict_section = f"""## Our Pick: {title}
 
-After going through everything, I'm {verdict_tone} by the {title}. It's a {recommend}.
+**The quick take:** [RESEARCH: One specific, compelling benefit that real owners highlight—e.g., "The 1400-watt motor pulverizes ice in under 10 seconds" or "Runs so quietly it doesn't wake sleeping babies"]
 
-The {f"{price} price point" if price else "price"} puts it in competition with some solid alternatives, but it holds its own. More on that below."""
+We {confidence} the **{title}** as {verdict}. At {price if price else "[check current price]"}, it hits the sweet spot between performance and value that most buyers are looking for.
 
-        return verdict
+**Best for:** [RESEARCH: Specific user type based on review analysis]
+
+**Skip if:** [RESEARCH: Specific limitation that makes this wrong for some buyers]"""
+
+        return verdict_section
 
     def _generate_features_section(self) -> str:
         """Generate features section with benefits."""
@@ -956,131 +1004,177 @@ Here's what you're getting:
         return section
 
     def _generate_pros_cons(self) -> str:
-        """Generate pros and cons section."""
+        """
+        Generate Wirecutter-style pros/cons:
+        - Cite specific sources (Reddit, Amazon, YouTube)
+        - Use concrete details, not vague praise
+        - Include cons honestly—builds trust
+        """
         title = self.product.get("title", "this product")
         features = self.product.get("features", [])
         rating = self.product.get("rating", "4")
+        brand = self.product.get("brand", "")
 
-        # TODO: In production, these would come from web research
-        # For now, generate placeholder structure
+        section = f"""## Why the {title} Stands Out
 
-        section = """## What Real Owners Say: The Good and Bad
+Based on our analysis of long-term owner feedback:
 
-I went through hundreds of reviews and Reddit threads. Here's what keeps coming up:
+**What owners love after months of use:**
 
-{{< pros-cons >}}
-PROS:
-- [RESEARCH: Add specific pro from Reddit/reviews]
-- [RESEARCH: Add specific pro from YouTube comments]
-- [RESEARCH: Add specific pro from Amazon reviews]
+- [RESEARCH: Specific pro with source - e.g., "Multiple Reddit users in r/Blenders praise the quiet operation, with one noting 'I can make smoothies at 6am without waking anyone'"]
+- [RESEARCH: Specific pro - quote actual review language when possible]
+- [RESEARCH: Specific pro - look for unexpected benefits owners discover]
 
-CONS:
-- [RESEARCH: Add specific con from Reddit/reviews]
-- [RESEARCH: Add specific con - common complaint]
-- [RESEARCH: Add limitation or gotcha]
-{{< /pros-cons >}}
+**The honest downsides:**
 
-**Note to editor:** Replace the bracketed items with actual findings from research. Look for specific, repeated feedback—not vague generalizations."""
+Every product has weaknesses. Here's what real owners report:
+
+- [RESEARCH: Specific con - e.g., "Several 3-star Amazon reviews mention the lid is hard to clean if smoothie dries on it"]
+- [RESEARCH: Specific con - common complaint pattern]
+- [RESEARCH: Limitation or "gotcha" - things the marketing doesn't mention]
+
+**The verdict on durability:** [RESEARCH: What do 6-month and 1-year owners say about how it holds up?]"""
 
         return section
 
     def _generate_who_should_buy(self) -> str:
-        """Generate who should/shouldn't buy section."""
+        """
+        Generate Wirecutter-style buyer guidance:
+        - Super specific about ideal users
+        - Equally specific about who should NOT buy
+        - Based on actual review patterns
+        """
         title = self.product.get("title", "this product")
         category = self.product.get("category", "product")
         price = self.product.get("price", "")
+        brand = self.product.get("brand", "")
 
         section = f"""## Who Should Buy the {title}
 
-This is a good fit if you:
+**Get this if you:**
 
-- [RESEARCH: Ideal use case #1 from reviews]
-- [RESEARCH: Ideal use case #2]
-- [RESEARCH: Specific user type who benefits most]
+- [RESEARCH: Specific use case #1 - e.g., "You make smoothies 3+ times per week and want something that handles frozen fruit without struggling"]
+- [RESEARCH: Specific use case #2 - e.g., "You have a small kitchen and need a compact option that still performs"]
+- [RESEARCH: Specific user type - e.g., "You value quiet operation over raw power"]
+- Want a {category.lower() if category else "product"} that [RESEARCH: key benefit pattern from reviews]
 
-## Who Should Skip It
+**Skip this if you:**
 
-Don't buy this if:
-
-- [RESEARCH: Specific scenario where this fails]
-- [RESEARCH: User type who would be disappointed]
-- [RESEARCH: If you need X feature, look elsewhere]
-
-**Note to editor:** Fill in based on actual review research. Be specific—vague advice helps no one."""
+- [RESEARCH: Specific deal-breaker #1 - e.g., "You need to blend hot liquids—the plastic jar isn't designed for it"]
+- [RESEARCH: Specific deal-breaker #2 - e.g., "You want a glass container—this only comes with plastic"]
+- [RESEARCH: Alternative recommendation - e.g., "You're on a tight budget—the [Competitor] does 80% of the job for half the price"]
+- Need [RESEARCH: specific feature this lacks]"""
 
         return section
 
     def _generate_comparison(self) -> str:
-        """Generate competitor comparison section."""
+        """
+        Generate Wirecutter-style comparison:
+        - Name specific competitors by model
+        - Compare on specs that actually matter
+        - Give clear, opinionated guidance
+        """
         title = self.product.get("title", "this product")
         brand = self.product.get("brand", "")
         price = self.product.get("price", "")
         category = self.product.get("category", "")
+        rating = self.product.get("rating", "N/A")
 
-        section = f"""## How It Compares to Alternatives
+        section = f"""## The Competition: How It Stacks Up
 
-{{{{< comparison-table >}}}}
-| Feature | {title[:30]} | [Competitor A] | [Competitor B] |
-|---------|--------------|----------------|----------------|
-| Price | {price} | [Price] | [Price] |
-| [Key Spec] | [Value] | [Value] | [Value] |
-| [Key Spec] | [Value] | [Value] | [Value] |
-| Rating | {self.product.get('rating', 'N/A')}/5 | [Rating] | [Rating] |
-{{{{< /comparison-table >}}}}
+| | **{title[:25]}** | **[RESEARCH: Competitor A]** | **[RESEARCH: Competitor B]** |
+|---|---|---|---|
+| **Price** | {price if price else "[Check]"} | [RESEARCH] | [RESEARCH] |
+| **[Key Spec 1]** | [Value] | [Value] | [Value] |
+| **[Key Spec 2]** | [Value] | [Value] | [Value] |
+| **[Key Spec 3]** | [Value] | [Value] | [Value] |
+| **Amazon Rating** | {rating}/5 | [RESEARCH]/5 | [RESEARCH]/5 |
+| **Our Take** | Best overall | [RESEARCH: One-line verdict] | [RESEARCH: One-line verdict] |
 
-**{title}** is the better choice if you prioritize [X]. Go with **[Competitor A]** if you need [Y] instead.
+### {title} vs [Competitor A]
 
-**Note to editor:** Research 1-2 actual competitors and fill in real specs."""
+[RESEARCH: Direct head-to-head comparison. Be opinionated—which is better and why? When would you choose the competitor instead?]
+
+### {title} vs [Competitor B]
+
+[RESEARCH: Same approach. If the competitor is better for certain use cases, say so clearly.]
+
+**Bottom line:** The {title} is our pick for [RESEARCH: specific use case]. If you [RESEARCH: different priority], consider [Competitor] instead."""
 
         return section
 
     def _generate_image_gallery(self) -> str:
-        """Generate gallery of additional product images."""
+        """
+        Generate gallery of product images.
+        Wirecutter uses multiple images throughout articles for visual breaks.
+        Minimum 3 images per post.
+        """
         if len(self.images) <= 1:
-            return ""
+            return """## Product Gallery
 
-        gallery = """## Product Images
+[IMAGES NEEDED: Add at least 2 more product images. Download from Amazon listing or product manufacturer site. Save to /static/images/products/]
+
+"""
+
+        gallery = """## Product Gallery
 
 """
         for i, img in enumerate(self.images[1:], start=2):
             gallery += f"""![{img['alt']}]({img['local_path']})
 
 """
+
+        if len(self.images) < MIN_IMAGES_REQUIRED:
+            gallery += f"""
+[NOTE: Only {len(self.images)} images available. Consider adding more for better visual engagement.]
+
+"""
         return gallery
 
     def _generate_verdict(self) -> str:
-        """Generate final verdict and CTA."""
+        """
+        Generate Wirecutter-style final verdict:
+        - Restate the recommendation clearly
+        - One compelling reason based on research
+        - Strong CTA with affiliate link
+        """
         title = self.product.get("title", "this product")
         price = self.product.get("price", "")
         asin = self.product.get("asin", "")
         tag = self.product.get("affiliate_tag", "amazonfi08e0c-20")
         affiliate_link = f"https://www.amazon.com/dp/{asin}?tag={tag}"
         rating = self.product.get("rating", "4")
+        brand = self.product.get("brand", "")
+        category = self.product.get("category", "")
 
         try:
             rating_val = float(rating)
         except:
             rating_val = 4.0
 
-        if rating_val >= 4.3:
-            confidence = "confident recommendation"
-            cta_text = "Check Current Price on Amazon"
-        elif rating_val >= 3.8:
-            confidence = "solid option for the right buyer"
-            cta_text = "See It on Amazon"
+        if rating_val >= 4.5:
+            confidence = "our top recommendation"
+            cta_text = "Check Price on Amazon"
+        elif rating_val >= 4.0:
+            confidence = "a solid choice we're confident recommending"
+            cta_text = "See Current Price"
         else:
-            confidence = "has its place, but do your homework"
+            confidence = "worth considering for the right buyer"
             cta_text = "View on Amazon"
 
-        section = f"""## Final Verdict: Should You Buy the {title}?
+        section = f"""## The Bottom Line
 
-The {title} is a {confidence}.
+The **{title}** is {confidence} for most people shopping in this category.
 
-If you've read this far and it checks your boxes, you'll probably be happy with it. The {f"${price.replace('$', '')} " if price and '$' in price else ""}price is reasonable for what you get, and the consistent positive feedback from long-term owners backs that up.
+[RESEARCH: One specific, memorable point that summarizes why—e.g., "When a product maintains a 4.6-star average across 15,000+ reviews with owners specifically praising it after 2+ years of use, that tells you something about real-world reliability."]
 
-[RESEARCH: Add one specific, compelling reason from your research]
+At {price if price else "[current price]"}, you're getting [RESEARCH: what the value proposition actually is]. For most buyers, that's the right balance of [RESEARCH: key tradeoffs].
 
-{{{{< affiliate-link url="{affiliate_link}" text="{cta_text}" >}}}}"""
+If it matches what you need, you won't be disappointed.
+
+{{{{< cta-button url="{affiliate_link}" text="{cta_text}" >}}}}
+
+*Prices and availability are accurate as of the publication date. We update our recommendations when better options emerge.*"""
 
         return section
 
@@ -1105,7 +1199,13 @@ If you're still deciding, check out these related reviews:
         return section
 
     def _generate_faq(self) -> str:
-        """Generate FAQ section for long-tail keywords."""
+        """
+        Generate Wirecutter-style FAQ:
+        - Use actual questions from Google "People Also Ask"
+        - Pull from Amazon Q&A section
+        - Answer directly, don't hedge
+        - Include schema-ready structure
+        """
         title = self.product.get("title", "this product")
         brand = self.product.get("brand", "")
         category = self.product.get("category", "product")
@@ -1115,31 +1215,31 @@ If you're still deciding, check out these related reviews:
 
         section = f"""## Frequently Asked Questions
 
-### Is the {title} worth the money?
+### Is the {title} worth {price if price else "the price"}?
 
-[RESEARCH: Answer based on value-for-money analysis from reviews. Be specific about what you get for the price.]
+[RESEARCH: Direct answer. Look at what 3-4 star reviewers say about value—they're usually the most balanced. Example: "At $X, most owners feel they got good value. The common sentiment is that it does 90% of what $200+ models do."]
 
 ### How long does the {title} last?
 
-[RESEARCH: Look for durability feedback from long-term owners on Reddit and Amazon. Quote specific timeframes if available.]
+[RESEARCH: Find specific durability reports. Example: "Based on reviews from owners who've had it 1-2 years, the motor holds up well but the [specific part] may need replacement after heavy use."]
 
-### What's the warranty on the {title}?
+### What's the warranty?
 
-[RESEARCH: Find actual warranty information. Most Amazon products have manufacturer warranty details in the listing.]
+[RESEARCH: Actual warranty details from the listing. Example: "{brand} offers a 2-year limited warranty covering manufacturing defects. Some owners report good experiences with customer service for issues within warranty."]
 
-### {title} vs [Top Competitor] — which is better?
+### {title} vs [RESEARCH: Top searched competitor]?
 
-[RESEARCH: Direct comparison based on your research. Be opinionated—don't fence-sit.]
+[RESEARCH: Clear, opinionated comparison. Don't say "it depends"—say which one is better for what use case.]
 
-### Where can I get the best price on the {title}?
+### Is it loud?
 
-Amazon typically has the best price, and Prime members get free shipping. Prices fluctuate, so check the current deal:
+[RESEARCH: Specific noise level info if relevant to this category. Example: "Multiple reviewers measured it around 65-70 decibels, comparable to normal conversation. Noticeably quieter than [competitor]."]
 
-{{{{< affiliate-link url="https://www.amazon.com/dp/{asin}?tag={tag}" text="Check Current Amazon Price" >}}}}
+### Where can I get the best deal?
 
----
+Amazon typically matches or beats other retailers, and Prime members get free shipping. Prices fluctuate based on demand and sales events:
 
-**Note to editor:** Replace [RESEARCH] placeholders with actual findings. Use Google's "People Also Ask" for this product to find real questions people are searching for."""
+{{{{< cta-button url="https://www.amazon.com/dp/{asin}?tag={tag}" text="Check Current Price" >}}}}"""
 
         return section
 
@@ -1216,13 +1316,17 @@ Examples:
     print(f"   Rating: {product_data.get('rating', 'N/A')}/5")
     print(f"   Images found: {len(product_data.get('images', []))}")
 
-    # Download images
+    # Download images (minimum 3 required per post)
     images = []
     if not args.no_images and product_data.get("images"):
-        print(f"\n📸 Downloading product images...")
+        print(f"\n📸 Downloading product images (minimum {MIN_IMAGES_REQUIRED} required)...")
         slug = slugify(product_data.get("title", "product"), max_length=40)
         images = fetcher.download_images(slug)
         print(f"   Downloaded {len(images)} images")
+
+        if len(images) < MIN_IMAGES_REQUIRED:
+            print(f"\n⚠️  WARNING: Only {len(images)} images found. Posts should have at least {MIN_IMAGES_REQUIRED} images.")
+            print(f"   Consider manually adding more product images to: {IMAGES_DIR}")
 
     # Generate blog post
     print(f"\n📝 Generating blog post...")
