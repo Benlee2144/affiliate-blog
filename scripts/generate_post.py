@@ -44,6 +44,8 @@ except ImportError as e:
 MIN_IMAGE_WIDTH = 200  # Minimum width to consider image valid
 MIN_IMAGE_HEIGHT = 200  # Minimum height to consider image valid
 MIN_IMAGE_SIZE_KB = 2  # Minimum file size in KB (very small threshold to catch obvious errors)
+MAX_IMAGE_WIDTH = 1200  # Max width for web optimization
+JPEG_QUALITY = 85  # Quality for JPEG compression (85 is good balance)
 
 
 def validate_image(image_data: bytes) -> tuple[bool, str, tuple[int, int]]:
@@ -84,6 +86,108 @@ def validate_image(image_data: bytes) -> tuple[bool, str, tuple[int, int]]:
 
     except Exception as e:
         return False, f"Cannot parse image: {str(e)}", (0, 0)
+
+
+def optimize_image(image_data: bytes) -> bytes:
+    """
+    Optimize image for web: resize if too large, compress JPEG.
+    Returns optimized image bytes.
+    """
+    try:
+        img = Image.open(io.BytesIO(image_data))
+
+        # Convert to RGB if needed (for JPEG)
+        if img.mode in ('RGBA', 'LA', 'P'):
+            # Create white background for transparency
+            background = Image.new('RGB', img.size, (255, 255, 255))
+            if img.mode == 'P':
+                img = img.convert('RGBA')
+            background.paste(img, mask=img.split()[-1] if img.mode == 'RGBA' else None)
+            img = background
+        elif img.mode != 'RGB':
+            img = img.convert('RGB')
+
+        # Resize if too large (maintain aspect ratio)
+        width, height = img.size
+        if width > MAX_IMAGE_WIDTH:
+            ratio = MAX_IMAGE_WIDTH / width
+            new_height = int(height * ratio)
+            img = img.resize((MAX_IMAGE_WIDTH, new_height), Image.LANCZOS)
+            print(f"  Resized: {width}x{height} -> {MAX_IMAGE_WIDTH}x{new_height}")
+
+        # Save as optimized JPEG
+        output = io.BytesIO()
+        img.save(output, format='JPEG', quality=JPEG_QUALITY, optimize=True)
+        optimized = output.getvalue()
+
+        # Report compression
+        original_kb = len(image_data) / 1024
+        optimized_kb = len(optimized) / 1024
+        if optimized_kb < original_kb:
+            print(f"  Compressed: {original_kb:.1f}KB -> {optimized_kb:.1f}KB ({100 - (optimized_kb/original_kb*100):.0f}% smaller)")
+
+        return optimized
+    except Exception as e:
+        print(f"  Optimization failed: {e}, using original")
+        return image_data
+
+
+# ============================================================================
+# INTERNAL LINKING HELPER
+# ============================================================================
+
+def find_related_posts(category: str, brand: str, exclude_slug: str = "") -> List[Dict[str, str]]:
+    """
+    Find existing posts that could be linked to from the new post.
+    Returns list of {title, url, category} for related posts.
+    """
+    related = []
+    posts_dir = Path(__file__).parent.parent / "content" / "posts"
+
+    if not posts_dir.exists():
+        return related
+
+    for post_file in posts_dir.glob("*.md"):
+        if post_file.stem == exclude_slug:
+            continue
+
+        try:
+            content = post_file.read_text(encoding='utf-8')
+            # Parse front matter
+            if content.startswith('---'):
+                end = content.find('---', 3)
+                if end > 0:
+                    front_matter = content[3:end]
+                    post_data = {}
+                    for line in front_matter.split('\n'):
+                        if ':' in line:
+                            key, val = line.split(':', 1)
+                            post_data[key.strip()] = val.strip().strip('"').strip("'")
+
+                    post_title = post_data.get('title', '')
+                    post_category = post_data.get('categories', '').strip('[]"')
+                    post_brand = post_data.get('brand', '')
+
+                    # Check if related (same category or brand)
+                    is_related = False
+                    if category and category.lower() in post_category.lower():
+                        is_related = True
+                    if brand and brand.lower() in post_brand.lower():
+                        is_related = True
+
+                    if is_related and post_title:
+                        # Generate URL from slug
+                        slug = post_file.stem
+                        related.append({
+                            'title': post_title,
+                            'url': f'/{slug}/',
+                            'category': post_category,
+                            'brand': post_brand,
+                        })
+        except Exception:
+            continue
+
+    return related[:5]  # Return max 5 related posts
 
 
 # ============================================================================
@@ -526,25 +630,9 @@ class AmazonProductFetcher:
                     width, height = dimensions
                     print(f"  Valid image: {width}x{height}")
 
-                    # Determine actual format from image data
-                    try:
-                        img = Image.open(io.BytesIO(image_data))
-                        actual_format = img.format.lower() if img.format else 'jpeg'
-                        # Convert WebP to JPEG for better compatibility
-                        if actual_format == 'webp':
-                            # Convert to RGB (remove alpha if present)
-                            if img.mode in ('RGBA', 'LA', 'P'):
-                                img = img.convert('RGB')
-                            # Save as JPEG
-                            output = io.BytesIO()
-                            img.save(output, format='JPEG', quality=90)
-                            image_data = output.getvalue()
-                            actual_format = 'jpeg'
-                            print(f"  Converted WebP to JPEG")
-                    except:
-                        actual_format = 'jpeg'
-
-                    ext = ".jpg" if actual_format == 'jpeg' else f".{actual_format}"
+                    # Optimize image for web (resize, compress, convert to JPEG)
+                    image_data = optimize_image(image_data)
+                    ext = ".jpg"  # Always save as JPEG after optimization
 
                     # Generate filename
                     filename = f"{product_slug}-{valid_image_num}{ext}"
@@ -773,6 +861,11 @@ cover:
         # Final verdict
         content_parts.append(self._generate_verdict())
 
+        # Internal links to related posts
+        related = self._generate_related_links()
+        if related:
+            content_parts.append(related)
+
         # FAQ section
         content_parts.append(self._generate_faq())
 
@@ -988,6 +1081,26 @@ If you've read this far and it checks your boxes, you'll probably be happy with 
 [RESEARCH: Add one specific, compelling reason from your research]
 
 {{{{< affiliate-link url="{affiliate_link}" text="{cta_text}" >}}}}"""
+
+        return section
+
+    def _generate_related_links(self) -> str:
+        """Generate internal links to related posts for SEO."""
+        category = self.product.get("category", "")
+        brand = self.product.get("brand", "")
+
+        related_posts = find_related_posts(category, brand, self.slug)
+
+        if not related_posts:
+            return ""
+
+        section = """## Related Reviews
+
+If you're still deciding, check out these related reviews:
+
+"""
+        for post in related_posts:
+            section += f"- [{post['title']}]({post['url']})\n"
 
         return section
 

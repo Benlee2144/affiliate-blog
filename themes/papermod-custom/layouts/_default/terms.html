@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="container">
+    <header class="home-header">
+        <h1>{{ .Title }}</h1>
+        <p>Browse our reviews by {{ .Title | lower }}</p>
+    </header>
+
+    <div class="terms-list">
+        {{ range .Pages }}
+        <a href="{{ .Permalink }}" class="term-card">
+            <h2>{{ .Title }}</h2>
+            <span class="term-count">{{ len .Pages }} {{ if eq (len .Pages) 1 }}review{{ else }}reviews{{ end }}</span>
+        </a>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

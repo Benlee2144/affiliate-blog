@@ -1,0 +1,62 @@
+{{ define "head" }}
+<!-- Category/Tag Schema -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "{{ .Title }}",
+    "description": "{{ .Title }} product reviews and buying guides",
+    "url": "{{ .Permalink }}",
+    "mainEntity": {
+        "@type": "ItemList",
+        "numberOfItems": {{ len .Pages }},
+        "itemListElement": [
+            {{ range $i, $page := .Pages }}
+            {{ if $i }},{{ end }}
+            {
+                "@type": "ListItem",
+                "position": {{ add $i 1 }},
+                "url": "{{ $page.Permalink }}",
+                "name": "{{ $page.Title }}"
+            }
+            {{ end }}
+        ]
+    }
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+<div class="container">
+    <header class="category-header">
+        <nav class="breadcrumbs">
+            <a href="/">Home</a>
+            <span>›</span>
+            <span>{{ .Title }}</span>
+        </nav>
+        <h1>{{ .Title }}</h1>
+        <p class="category-description">Honest reviews and buying guides for {{ .Title | lower }}. We research real owner feedback so you can make smarter buying decisions.</p>
+    </header>
+
+    <ul class="post-list">
+        {{ range .Pages }}
+        <li class="post-entry">
+            {{ with .Params.categories }}
+            <span class="post-meta">
+                <span class="category">{{ index . 0 }}</span>
+            </span>
+            {{ end }}
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <div class="post-meta">
+                <span>{{ .Date.Format "January 2, 2006" }}</span>
+                {{ if .ReadingTime }}<span>{{ .ReadingTime }} min read</span>{{ end }}
+                {{ with .Params.rating }}<span>★ {{ . }}/5</span>{{ end }}
+            </div>
+            <p class="post-summary">{{ .Summary | truncate 160 }}</p>
+        </li>
+        {{ end }}
+    </ul>
+
+    {{ template "_internal/pagination.html" . }}
+</div>
+{{ end }}
