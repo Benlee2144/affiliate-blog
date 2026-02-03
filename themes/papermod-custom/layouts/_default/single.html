@@ -137,6 +137,21 @@
         {{ .Content }}
     </div>
 
+    <!-- FAQ Section (from front matter) -->
+    {{ with .Params.faq }}
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        {{ range . }}
+        <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h4 itemprop="name">{{ .question }}</h4>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <p itemprop="text">{{ .answer }}</p>
+            </div>
+        </div>
+        {{ end }}
+    </section>
+    {{ end }}
+
     <!-- Tags -->
     {{ with .Params.tags }}
     <div class="tags">
