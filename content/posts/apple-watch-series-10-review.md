@@ -13,7 +13,7 @@ tags: ["Apple", "smartwatch", "product review", "fitness tracker", "buying guide
 
 review: true
 product_name: "Apple Watch Series 10"
-product_image: "/images/products/apple-watch-10-1.jpg"
+product_image: "https://www.apple.com/newsroom/images/2024/09/introducing-apple-watch-series-10/article/Apple-Watch-Series-10-hero-240909_big.jpg.large.jpg"
 brand: "Apple"
 rating: 4.6
 price: "$399.00"
@@ -35,7 +35,7 @@ faq:
     answer: "Yes—it's FDA-approved to detect signs of sleep apnea. A genuine health feature, not a gimmick."
 
 cover:
-    image: "/images/products/apple-watch-10-1.jpg"
+    image: "https://www.apple.com/newsroom/images/2024/09/introducing-apple-watch-series-10/article/Apple-Watch-Series-10-hero-240909_big.jpg.large.jpg"
     alt: "Apple Watch Series 10"
     caption: "Apple's thinnest smartwatch ever"
     relative: false

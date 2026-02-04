@@ -207,6 +207,42 @@ User needs to set up:
 3. In GitHub repo Settings → Pages → Custom domain: enter "researchedpicks.com"
 4. Check "Enforce HTTPS" once DNS propagates (can take up to 24 hours)
 
+## How to Download Amazon Product Images
+
+Amazon CDN images can be downloaded directly without blocking. Use this approach:
+
+**Step 1: Find Image IDs**
+- Search: `"[Product Name] amazon" site:m.media-amazon.com`
+- Or search: `[Product Name] ASIN [asin-code] amazon images`
+- Look for image IDs like `71LB1AbsorL` or `61Eu-FwDfZL`
+
+**Step 2: Construct CDN URLs**
+Format: `https://m.media-amazon.com/images/I/[IMAGE_ID]._AC_SL1500_.jpg`
+
+Example for image ID `71LB1AbsorL`:
+```
+https://m.media-amazon.com/images/I/71LB1AbsorL._AC_SL1500_.jpg
+```
+
+**Step 3: Download with curl**
+```bash
+curl -L -A "Mozilla/5.0" -o product-1.jpg "https://m.media-amazon.com/images/I/[ID]._AC_SL1500_.jpg"
+```
+
+**Image size variants:**
+- `_AC_SL1500_` = 1500px (high res, best for blogs)
+- `_AC_SL1000_` = 1000px
+- `_AC_SL500_` = 500px (smaller file)
+
+**Alternative sources if Amazon blocks:**
+1. Manufacturer website (check their CDN - Shopify stores use `cdn.shopify.com`)
+2. Best Buy: `pisces.bbystatic.com`
+3. Micro Center: `productimages.microcenter.com`
+
+**Naming convention:** `[product-slug]-1.jpg`, `[product-slug]-2.jpg`, etc.
+
+---
+
 ## Common Issues & Fixes
 
 **Post not appearing / 404 error**: The date in front matter is set to a FUTURE time. Hugo won't build posts with `buildFuture = false`. Fix: use `T00:00:00+00:00` (midnight UTC) which is always in the past.

@@ -13,7 +13,7 @@ tags: ["Apple", "tablets", "product review", "buying guide"]
 
 review: true
 product_name: "Apple iPad Air (5th Generation) M1"
-product_image: "/images/products/ipad-air-m1-1.jpg"
+product_image: "https://www.apple.com/newsroom/images/product/ipad/standard/Apple-iPad-Air-hero-color-lineup-220308_big.jpg.large.jpg"
 brand: "Apple"
 rating: 4.8
 price: "$599"
@@ -35,7 +35,7 @@ faq:
     answer: "Based on Apple's M1 track record, expect 5-6 years of software support and smooth performance. The M1 is the same chip in MacBooks Apple still sells."
 
 cover:
-    image: "/images/products/ipad-air-m1-1.jpg"
+    image: "https://www.apple.com/newsroom/images/product/ipad/standard/Apple-iPad-Air-hero-color-lineup-220308_big.jpg.large.jpg"
     alt: "Apple iPad Air 5th Generation with M1 chip"
     caption: "Our top pick for most iPad buyers"
     relative: false
