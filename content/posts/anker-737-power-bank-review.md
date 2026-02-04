@@ -76,11 +76,15 @@ What if one device could charge everything at full speed?
 
 ### 140W USB-C Output
 
+![Anker 737 fast charging capability](/images/products/anker-powerbank-2.jpg)
+
 Most power banks max out at 18-30W—enough for phones, useless for laptops. The 737 delivers 140W through USB-C, matching your MacBook's wall charger speed.
 
 One USB-C port charges your laptop. The other charges your phone. Simultaneously. At speed.
 
 ### Smart Digital Display
+
+![Anker 737 smart digital display](/images/products/anker-powerbank-3.jpg)
 
 The built-in display shows:
 - Exact wattage being delivered
@@ -90,6 +94,8 @@ The built-in display shows:
 No guessing. No wondering if it's actually charging.
 
 ### TSA-Approved Capacity
+
+![Anker 737 24,000mAh capacity](/images/products/anker-powerbank-4.jpg)
 
 At 87.68Wh, the 737 is just under the 100Wh TSA limit for carry-on lithium batteries. You get maximum legal capacity without the airport hassle.
 
@@ -116,6 +122,8 @@ The rectangular design doesn't slip into pockets. It's a bag item, not a pocket 
 ---
 
 ## Who Should Buy the Anker 737
+
+![Anker 737 charging multiple devices](/images/products/anker-powerbank-5.jpg)
 
 **Perfect for you if:**
 - You travel with a laptop
