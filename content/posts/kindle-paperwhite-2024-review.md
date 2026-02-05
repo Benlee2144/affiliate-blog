@@ -74,6 +74,8 @@ An e-reader solves all of this—and the 2024 Kindle Paperwhite is the best one 
 
 ## What's New in 2024
 
+![Kindle Paperwhite display](/images/products/kindle-paperwhite-2.jpg)
+
 ### Larger 7" Display
 
 The screen grew from 6.8" to 7"—doesn't sound like much, but it's noticeably more comfortable for extended reading. More words per page means fewer page turns.
@@ -89,6 +91,8 @@ The new processor delivers snappier performance. Page turns, menu navigation, an
 ---
 
 ## The Honest Downsides
+
+![Kindle Paperwhite e-reader](/images/products/kindle-paperwhite-3.jpg)
 
 ### Quality Control Concerns
 

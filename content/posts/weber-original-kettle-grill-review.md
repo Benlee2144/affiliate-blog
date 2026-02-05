@@ -74,6 +74,8 @@ Charcoal grilling isn't harder—it's different. And no charcoal grill does it b
 
 ## Why the Weber Kettle Has Lasted 70 Years
 
+![Weber Kettle Grill close-up](/images/products/weber-kettle-2.jpg)
+
 ### The Shape Is Engineering Genius
 
 The spherical kettle shape isn't just iconic—it creates perfect airflow. Hot air rises around food, reflects off the lid, and circulates evenly. No hot spots, no cold zones.
@@ -100,6 +102,8 @@ Place coals on one side, leave the other empty. Direct heat for searing, indirec
 ---
 
 ## The Honest Downsides
+
+![Weber Kettle cooking setup](/images/products/weber-kettle-3.jpg)
 
 ### Charcoal Requires Effort
 

@@ -74,6 +74,8 @@ Cold water throughout the day sounds basic—until you experience it. The Hydro 
 
 ## Why Hydro Flask Became a Phenomenon
 
+![Hydro Flask 32oz bottle detail](/images/products/hydro-flask-2.jpg)
+
 ### Insulation That Actually Works
 
 Double-wall vacuum insulation isn't marketing speak—it genuinely creates a thermal barrier. Ice added at 7am is still floating at 7pm. Hot coffee stays drinkable for half a day.
@@ -95,6 +97,8 @@ Hydro Flask's warranty covers manufacturing defects forever. If the insulation f
 ---
 
 ## The Honest Downsides
+
+![Hydro Flask wide mouth opening](/images/products/hydro-flask-3.jpg)
 
 ### It's Heavy
 
