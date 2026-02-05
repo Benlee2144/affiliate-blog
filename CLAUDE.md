@@ -12,16 +12,29 @@ Owner: Benjamin Arp
 When the user provides an Amazon affiliate link:
 
 1. **Extract the ASIN** from the URL (e.g., `B09V3KXJPB` from `amazon.com/dp/B09V3KXJPB`)
-2. **Research the product** using WebSearch:
-   - Search: "[Product name] review Reddit"
-   - Search: "[Product name] problems complaints"
-   - Search: "[Product name] vs [competitor]"
-3. **Download 5 product images** from Amazon to `/static/images/products/`
+2. **Research the product thoroughly** using WebSearch (ALL THREE REQUIRED):
+   - Search: "[Product name] review Reddit" - Find real user experiences
+   - Search: "[Product name] problems complaints issues" - Discover honest downsides
+   - Search: "[Product name] vs [competitor]" - Understand the competition
+3. **Download AT LEAST 3 product images** to `/static/images/products/`
+   - Sources: Apple Newsroom, manufacturer press kits, Best Buy, Newegg, Amazon CDN
+   - Name them: `[product-slug]-1.jpg`, `[product-slug]-2.jpg`, `[product-slug]-3.jpg`
 4. **Write the blog post** following Wirecutter style (see below)
 5. **Save to** `/content/posts/[product-slug].md`
 6. **Build and verify**: `hugo --gc --minify`
 7. **ALWAYS verify the live site** after pushing - check homepage card images display correctly
 8. **Commit and push** to GitHub
+
+## CRITICAL REQUIREMENTS (Never Skip These)
+
+1. **MINIMUM 3 IMAGES per blog post** - Every review MUST have at least 3 product images scattered throughout the content. This is non-negotiable.
+
+2. **THOROUGH RESEARCH** - Every review MUST include research from:
+   - Reddit discussions (real user feedback)
+   - Problems/complaints searches (honest downsides)
+   - Competitor comparisons (context for readers)
+
+3. **CITE YOUR SOURCES** - Include quotes from Reddit users, forum posts, or verified reviews in the article to build trust.
 
 ## Critical Path Rules
 
