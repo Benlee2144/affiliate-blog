@@ -1,4 +1,4 @@
-baseURL = "https://researchedpicks.com/"
+baseURL = "https://researchedpick.com/"
 languageCode = "en-us"
 title = "Researched Picks"
 theme = "papermod-custom"
