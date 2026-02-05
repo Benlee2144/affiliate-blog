@@ -2,7 +2,7 @@
 
 ## Project Overview
 This is an Amazon affiliate blog built with Hugo, deployed on GitHub Pages with custom domain:
-**https://researchedpicks.com/**
+**https://researchedpick.com/**
 
 Site Name: **Researched Picks**
 Owner: Benjamin Arp
@@ -182,29 +182,29 @@ Site rebuilds automatically via GitHub Actions after push.
 ## SEO Setup Status
 
 Done:
-- Custom domain: researchedpicks.com
+- Custom domain: researchedpick.com
 - Schema.org (Product, Review, FAQ, BreadcrumbList, Organization, WebSite)
 - Open Graph & Twitter Cards
 - Canonical URLs
-- Sitemap generation (https://researchedpicks.com/sitemap.xml)
+- Sitemap generation (https://researchedpick.com/sitemap.xml)
 - robots.txt
 - About page with E-E-A-T content
 
 User needs to set up:
-- Google Search Console (submit sitemap: https://researchedpicks.com/sitemap.xml)
+- Google Search Console (submit sitemap: https://researchedpick.com/sitemap.xml)
 - Google Analytics (add GA4 ID to config.toml)
 - Connect domain DNS to GitHub Pages (see instructions below)
 
 ## Domain Setup (GitHub Pages)
 
-1. Go to your domain registrar (where you bought researchedpicks.com)
+1. Go to your domain registrar (where you bought researchedpick.com)
 2. Add these DNS records:
    - Type: A, Host: @, Value: 185.199.108.153
    - Type: A, Host: @, Value: 185.199.109.153
    - Type: A, Host: @, Value: 185.199.110.153
    - Type: A, Host: @, Value: 185.199.111.153
    - Type: CNAME, Host: www, Value: benlee2144.github.io
-3. In GitHub repo Settings → Pages → Custom domain: enter "researchedpicks.com"
+3. In GitHub repo Settings → Pages → Custom domain: enter "researchedpick.com"
 4. Check "Enforce HTTPS" once DNS propagates (can take up to 24 hours)
 
 ## How to Download Amazon Product Images
