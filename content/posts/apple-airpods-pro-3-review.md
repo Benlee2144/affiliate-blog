@@ -13,7 +13,7 @@ tags: ["Apple", "AirPods", "wireless earbuds", "product review", "buying guide"]
 
 review: true
 product_name: "Apple AirPods Pro 3"
-product_image: "https://www.apple.com/newsroom/images/product/airpods/standard/Apple-AirPods-Pro-2nd-gen-hero-220907.jpg.large.jpg"
+product_image: "/images/products/airpods-pro-3-1.jpg"
 brand: "Apple"
 rating: 4.3
 price: "$249.00"
@@ -35,7 +35,7 @@ faq:
     answer: "Up to 10 hours per charge (6 with ANC), 36 hours total with case. This is notably better than Pro 2's 6-hour/30-hour specs."
 
 cover:
-    image: "https://www.apple.com/newsroom/images/product/airpods/standard/Apple-AirPods-Pro-2nd-gen-hero-220907.jpg.large.jpg"
+    image: "/images/products/airpods-pro-3-1.jpg"
     alt: "Apple AirPods Pro 3"
     caption: "Apple's most feature-packed earbuds yet"
     relative: false
