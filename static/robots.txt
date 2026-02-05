@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://benlee2144.github.io/affiliate-blog/sitemap.xml
+Sitemap: https://researchedpick.com/sitemap.xml

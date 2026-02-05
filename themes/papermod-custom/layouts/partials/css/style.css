@@ -218,15 +218,17 @@ pre code {
 }
 
 .logo {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: var(--color-text);
-    letter-spacing: -0.02em;
+    display: flex;
+    align-items: center;
 }
 
 .logo:hover {
-    color: var(--color-text);
     text-decoration: none;
+}
+
+.logo-img {
+    height: 32px;
+    width: auto;
 }
 
 .nav {
