@@ -74,6 +74,8 @@ What if you could convert your existing desk to sit-stand for under $300?
 
 ## Why the FlexiSpot Converter Stands Out
 
+![FlexiSpot Standing Desk Converter front view](/images/products/flexispot-desk-2.jpg)
+
 ### Rock-Solid Stability
 
 The vertical lift design eliminates wobble at all heights. Even fully extended with dual monitors, reviewers report zero shake during typing. This matches or beats $500+ alternatives.
@@ -89,6 +91,8 @@ Unlike competitors with fixed trays, FlexiSpot's tray pops out in seconds. Use i
 ---
 
 ## The Honest Downsides
+
+![FlexiSpot desk converter workspace setup](/images/products/flexispot-desk-3.jpg)
 
 ### Takes Up Desk Space
 
