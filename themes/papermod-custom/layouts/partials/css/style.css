@@ -1969,6 +1969,79 @@ body.dark-mode .newsletter-section {
     background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 100%);
 }
 
+/* Dark mode hero section */
+body.dark-mode .home-hero {
+    background: linear-gradient(180deg, #0f0f1a 0%, #1a1a2e 100%);
+    border-bottom-color: var(--color-border);
+}
+
+body.dark-mode .home-hero h1 {
+    color: #ffffff;
+}
+
+body.dark-mode .hero-description {
+    color: #b8b8b8;
+}
+
+body.dark-mode .hero-badge {
+    background: #ffffff;
+    color: #1a1a2e;
+}
+
+body.dark-mode .stat-number {
+    color: #ffffff;
+}
+
+body.dark-mode .stat-label {
+    color: #888888;
+}
+
+body.dark-mode .hero-stats {
+    border-top-color: var(--color-border);
+}
+
+/* Dark mode category quick links */
+body.dark-mode .quick-link {
+    background: var(--color-bg-alt);
+    border-color: var(--color-border);
+}
+
+body.dark-mode .quick-link:hover {
+    border-color: #ffffff;
+    background: #2d3748;
+}
+
+body.dark-mode .quick-link-name {
+    color: #e8e8e8;
+}
+
+/* Dark mode review cards */
+body.dark-mode .review-card {
+    background: var(--color-bg-alt);
+    border-color: var(--color-border);
+}
+
+body.dark-mode .review-card:hover {
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .review-card-image {
+    background: #2d3748;
+}
+
+body.dark-mode .review-card h3 a {
+    color: #e8e8e8;
+}
+
+/* Dark mode trust section */
+body.dark-mode .trust-section {
+    background: #0f0f1a;
+}
+
+body.dark-mode .trust-item h3 {
+    color: #ffffff;
+}
+
 /* ============================================
    Related Posts
    ============================================ */
