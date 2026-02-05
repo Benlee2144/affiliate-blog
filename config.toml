@@ -54,7 +54,7 @@ enableEmoji = false
   title = "Researched Picks"
   description = "In-depth product reviews backed by real owner research. We analyze hundreds of reviews so you don't have to."
   keywords = ["product reviews", "buying guides", "best products 2026", "honest reviews", "research-backed recommendations"]
-  author = "Benjamin Arp"
+  author = "Ben Arp"
 
   # Images
   images = ["/images/site-cover.jpg"]

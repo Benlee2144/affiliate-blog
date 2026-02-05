@@ -135,6 +135,9 @@
 {{ end }}
 
 {{ define "main" }}
+<!-- Reading Progress Bar -->
+<div class="reading-progress" id="reading-progress"></div>
+
 <article class="container">
     <!-- Breadcrumbs -->
     <nav class="breadcrumbs">
@@ -163,11 +166,6 @@
         <strong>Disclosure:</strong> This post contains affiliate links. If you click through and make a purchase, we may earn a commission at no additional cost to you. We only recommend products we believe will add value to our readers. <a href="/affiliate-disclosure/">Learn more</a>.
     </div>
 
-    <!-- AdSense Placeholder - Before content -->
-    <!-- <div class="ad-container">
-        <ins class="adsbygoogle"></ins>
-    </div> -->
-
     <div class="post-content">
         {{ .Content }}
     </div>
@@ -186,6 +184,16 @@
         {{ end }}
     </section>
     {{ end }}
+
+    <!-- Author Bio -->
+    <div class="author-bio">
+        <div class="author-avatar">BA</div>
+        <div class="author-info">
+            <h4>Ben Arp</h4>
+            <p class="author-title">Founder, Researched Picks</p>
+            <p class="author-description">Ben spends hours analyzing reviews, Reddit threads, and forum posts so you don't have to. When he's not researching products, he's probably testing them. Every recommendation is backed by real owner feedback—not marketing fluff.</p>
+        </div>
+    </div>
 
     <!-- Tags -->
     {{ with .Params.tags }}
@@ -208,25 +216,75 @@
         </div>
     </div>
 
-    <!-- AdSense Placeholder - After content -->
-    <!-- <div class="ad-container">
-        <ins class="adsbygoogle"></ins>
-    </div> -->
-
-    <!-- Related Posts -->
-    {{ $related := .Site.RegularPages.Related . | first 3 }}
+    <!-- Related Posts (Enhanced with images) -->
+    {{ $related := .Site.RegularPages.Related . | first 4 }}
     {{ with $related }}
-    <div class="related-posts">
-        <h3>You Might Also Like</h3>
-        <div class="related-grid">
+    <section class="related-posts-section">
+        <h2>You Might Also Like</h2>
+        <div class="related-posts-grid">
             {{ range . }}
-            <div class="related-card">
-                <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-                <p>{{ .Summary | truncate 100 }}</p>
-            </div>
+            <a href="{{ .Permalink }}" class="related-post-card">
+                {{ with .Params.cover.image }}
+                <img src="{{ . }}" alt="{{ $.Title }}" class="related-post-image" loading="lazy">
+                {{ else }}
+                <div class="related-post-image"></div>
+                {{ end }}
+                <div class="related-post-info">
+                    <h4>{{ .Title | truncate 60 }}</h4>
+                    <div class="related-post-meta">
+                        {{ with .Params.rating }}<span class="related-post-rating">★ {{ . }}</span> · {{ end }}
+                        {{ .Date.Format "Jan 2, 2006" }}
+                    </div>
+                </div>
+            </a>
             {{ end }}
         </div>
-    </div>
+    </section>
     {{ end }}
 </article>
+
+<!-- Sticky Mobile CTA (only for product reviews) -->
+{{ if and .Params.review .Params.affiliate_link }}
+<div class="sticky-cta" id="sticky-cta">
+    <div class="sticky-cta-content">
+        <div class="sticky-cta-info">
+            <div class="product-name">{{ .Params.product_name | truncate 30 }}</div>
+            {{ with .Params.price }}<div class="product-price">{{ . }}</div>{{ end }}
+        </div>
+        <a href="{{ .Params.affiliate_link }}" class="cta-button" target="_blank" rel="noopener sponsored">
+            Check Price
+        </a>
+    </div>
+</div>
+<script>
+    // Add body class for sticky CTA padding
+    document.body.classList.add('has-sticky-cta');
+</script>
+{{ end }}
+
+<!-- Reading Progress Script -->
+<script>
+(function() {
+    const progressBar = document.getElementById('reading-progress');
+    const article = document.querySelector('.post-content');
+
+    if (!article || !progressBar) return;
+
+    function updateProgress() {
+        const articleTop = article.offsetTop;
+        const articleHeight = article.offsetHeight;
+        const windowHeight = window.innerHeight;
+        const scrollTop = window.scrollY;
+
+        const start = articleTop - windowHeight;
+        const end = articleTop + articleHeight - windowHeight;
+        const progress = Math.min(Math.max((scrollTop - start) / (end - start) * 100, 0), 100);
+
+        progressBar.style.width = progress + '%';
+    }
+
+    window.addEventListener('scroll', updateProgress, { passive: true });
+    updateProgress();
+})();
+</script>
 {{ end }}
