@@ -5,7 +5,7 @@ This is an Amazon affiliate blog built with Hugo, deployed on GitHub Pages with 
 **https://researchedpick.com/**
 
 Site Name: **Researched Picks**
-Owner: Benjamin Arp
+Owner: Ben Arp
 
 ## Quick Start: Creating a New Blog Post
 
