@@ -19,22 +19,29 @@ When the user provides an Amazon affiliate link:
 3. **Download AT LEAST 3 product images** to `/static/images/products/`
    - Sources: Apple Newsroom, manufacturer press kits, Best Buy, Newegg, Amazon CDN
    - Name them: `[product-slug]-1.jpg`, `[product-slug]-2.jpg`, `[product-slug]-3.jpg`
-4. **Write the blog post** following Wirecutter style (see below)
-5. **Save to** `/content/posts/[product-slug].md`
-6. **Build and verify**: `hugo --gc --minify`
-7. **ALWAYS verify the live site** after pushing - check homepage card images display correctly
-8. **Commit and push** to GitHub
+4. **Find a YouTube video review** of the product (if one exists)
+   - Search: "[Product name] review" on YouTube
+   - ONLY use a video that reviews the EXACT same product (same model number)
+   - Do NOT use random or unrelated videos - skip this step if no matching video exists
+   - Extract the video ID from the URL (e.g., `dQw4w9WgXcQ` from `youtube.com/watch?v=dQw4w9WgXcQ`)
+5. **Write the blog post** following Wirecutter style (see below)
+6. **Save to** `/content/posts/[product-slug].md`
+7. **Build and verify**: `hugo --gc --minify`
+8. **ALWAYS verify the live site** after pushing - check homepage card images display correctly
+9. **Commit and push** to GitHub
 
 ## CRITICAL REQUIREMENTS (Never Skip These)
 
 1. **MINIMUM 3 IMAGES per blog post** - Every review MUST have at least 3 product images scattered throughout the content. This is non-negotiable.
 
-2. **THOROUGH RESEARCH** - Every review MUST include research from:
+2. **YOUTUBE VIDEO per blog post (if available)** - Search for "[Product name] review" on YouTube. ONLY embed a video if it's an actual review of the EXACT product (same model number). Do NOT embed random or unrelated videos. If no matching video exists, skip this section entirely. Use shortcode: `{{</* youtube VIDEO_ID */>}}`
+
+3. **THOROUGH RESEARCH** - Every review MUST include research from:
    - Reddit discussions (real user feedback)
    - Problems/complaints searches (honest downsides)
    - Competitor comparisons (context for readers)
 
-3. **CITE YOUR SOURCES** - Include quotes from Reddit users, forum posts, or verified reviews in the article to build trust.
+4. **CITE YOUR SOURCES** - Include quotes from Reddit users, forum posts, or verified reviews in the article to build trust.
 
 ## Critical Path Rules
 
@@ -80,12 +87,13 @@ Always assign posts to the correct category:
    - "Best for:" and "Skip if:" bullets
    - CTA button
 5. **Why It Stands Out** - Specific pros with sources (Reddit, Amazon reviews)
-6. **Honest Downsides** - Real cons from owner feedback
-7. **Who Should Buy** - Specific use cases
-8. **Competition Comparison** - Table with 2-3 alternatives
-9. **Product Gallery** - Multiple images throughout
-10. **Bottom Line** - Final recommendation with CTA
-11. **FAQ Section** - In front matter for schema
+6. **YouTube Video Review** - Embed a video review using `{{</* youtube VIDEO_ID */>}}` with intro text like "See it in action:"
+7. **Honest Downsides** - Real cons from owner feedback
+8. **Who Should Buy** - Specific use cases
+9. **Competition Comparison** - Table with 2-3 alternatives
+10. **Product Gallery** - Multiple images throughout
+11. **Bottom Line** - Final recommendation with CTA
+12. **FAQ Section** - In front matter for schema
 
 ### Writing Rules:
 
@@ -145,6 +153,8 @@ cover:
 ```hugo
 {{< cta-button url="https://amazon.com/dp/ASIN?tag=amazonfi08e0c-20" text="Check Price on Amazon" >}}
 
+{{< youtube VIDEO_ID >}}  <!-- Embeds a YouTube video - VIDEO_ID is from the URL after v= -->
+
 {{< related-post slug="other-post-slug" text="our review of X" >}}
 ```
 
@@ -155,6 +165,7 @@ Before pushing any changes:
 - [ ] Hugo build succeeds: `hugo --gc --minify`
 - [ ] **Page count increased** (new post should add pages - if not, check date!)
 - [ ] Images display correctly (paths start with `/images/`)
+- [ ] YouTube video embedded with valid video ID
 - [ ] Tables have proper spacing (not "ran together")
 - [ ] Summary is unique (not repetitive pattern)
 - [ ] Category is correct for product type
@@ -168,6 +179,7 @@ After pushing a new blog post, verify on the live site:
 - [ ] Product image displays correctly on homepage card (not too zoomed)
 - [ ] Category page lists the new post
 - [ ] Individual review page loads all images
+- [ ] YouTube video plays correctly
 - [ ] FAQ section appears at bottom of post
 
 ## File Locations
