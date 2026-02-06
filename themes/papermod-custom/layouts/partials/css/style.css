@@ -1267,17 +1267,49 @@ pre code {
 
     .reviews-grid {
         grid-template-columns: 1fr;
+        gap: var(--spacing-md);
     }
 
-    /* Smaller homepage card images on mobile */
+    /* Horizontal card layout on mobile */
+    .review-card {
+        display: flex;
+        flex-direction: row;
+        gap: var(--spacing-sm);
+    }
+
     .review-card-image {
-        aspect-ratio: 16/9;
-        max-height: 200px;
-        padding: var(--spacing-sm);
+        width: 100px;
+        min-width: 100px;
+        height: 100px;
+        aspect-ratio: 1/1;
+        padding: var(--spacing-xs);
+        border-radius: 8px;
+        flex-shrink: 0;
     }
 
     .review-card-image img {
-        max-height: 160px;
+        max-height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .review-card-content {
+        padding: var(--spacing-xs);
+        flex: 1;
+        min-width: 0;
+    }
+
+    .review-card h3 {
+        font-size: 1rem;
+        line-height: 1.3;
+    }
+
+    .review-card-summary {
+        display: none;
+    }
+
+    .review-card-meta {
+        font-size: 0.75rem;
     }
 
     .trust-grid {
