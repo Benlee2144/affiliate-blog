@@ -38,24 +38,32 @@
         <p class="category-description">Honest reviews and buying guides for {{ .Title | lower }}. We research real owner feedback so you can make smarter buying decisions.</p>
     </header>
 
-    <ul class="post-list">
+    <div class="reviews-grid">
         {{ range .Pages }}
-        <li class="post-entry">
-            {{ with .Params.categories }}
-            <span class="post-meta">
-                <span class="category">{{ index . 0 }}</span>
-            </span>
-            {{ end }}
-            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-            <div class="post-meta">
-                <span>{{ .Date.Format "January 2, 2006" }}</span>
-                {{ if .ReadingTime }}<span>{{ .ReadingTime }} min read</span>{{ end }}
-                {{ with .Params.rating }}<span>★ {{ . }}/5</span>{{ end }}
+        <article class="review-card">
+            <a href="{{ .Permalink }}" class="review-card-image">
+                {{ with .Params.cover.image }}
+                <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+                {{ else }}
+                <div style="width:100%;height:100%;background:var(--color-bg-alt);border-radius:8px;"></div>
+                {{ end }}
+            </a>
+            <div class="review-card-content">
+                {{ with .Params.categories }}
+                <a href="/categories/{{ index . 0 | urlize }}/" class="review-card-category">{{ index . 0 }}</a>
+                {{ end }}
+                <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                <p class="review-card-summary">{{ .Summary | truncate 120 }}</p>
+                <div class="review-card-meta">
+                    {{ with .Params.rating }}
+                    <span class="review-card-rating">★ {{ . }}</span>
+                    {{ end }}
+                    <span class="review-card-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+                </div>
             </div>
-            <p class="post-summary">{{ .Summary | truncate 160 }}</p>
-        </li>
+        </article>
         {{ end }}
-    </ul>
+    </div>
 
     {{ template "_internal/pagination.html" . }}
 </div>
