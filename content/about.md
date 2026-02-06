@@ -50,7 +50,7 @@ When I'm not researching products, I'm probably using them to figure out if they
 
 Have a question about a review? Found an error? Want to suggest a product for us to cover?
 
-Reach out at: **[email protected]** (replace with your actual email)
+Reach out at: **benarp2144@gmail.com**
 
 ---
 

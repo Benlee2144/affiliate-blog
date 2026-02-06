@@ -43,4 +43,4 @@ Our recommendations are based on one thing: which product actually solves your p
 
 Have a product you'd like us to review? Found an error in one of our articles?
 
-Reach out: [your-email@example.com](mailto:your-email@example.com)
+Reach out: [benarp2144@gmail.com](mailto:benarp2144@gmail.com)
