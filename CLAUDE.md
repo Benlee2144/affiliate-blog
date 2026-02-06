@@ -19,9 +19,10 @@ When the user provides an Amazon affiliate link:
 3. **Download AT LEAST 3 product images** to `/static/images/products/`
    - Sources: Apple Newsroom, manufacturer press kits, Best Buy, Newegg, Amazon CDN
    - Name them: `[product-slug]-1.jpg`, `[product-slug]-2.jpg`, `[product-slug]-3.jpg`
-4. **Find a YouTube video review** of the product
+4. **Find a YouTube video review** of the product (if one exists)
    - Search: "[Product name] review" on YouTube
-   - Pick a high-quality, informative review (good audio, thorough coverage)
+   - ONLY use a video that reviews the EXACT same product (same model number)
+   - Do NOT use random or unrelated videos - skip this step if no matching video exists
    - Extract the video ID from the URL (e.g., `dQw4w9WgXcQ` from `youtube.com/watch?v=dQw4w9WgXcQ`)
 5. **Write the blog post** following Wirecutter style (see below)
 6. **Save to** `/content/posts/[product-slug].md`
@@ -33,7 +34,7 @@ When the user provides an Amazon affiliate link:
 
 1. **MINIMUM 3 IMAGES per blog post** - Every review MUST have at least 3 product images scattered throughout the content. This is non-negotiable.
 
-2. **YOUTUBE VIDEO per blog post** - Every review MUST include an embedded YouTube video review of the product. Search for "[Product name] review" on YouTube and embed a high-quality review video using the shortcode: `{{</* youtube VIDEO_ID */>}}`
+2. **YOUTUBE VIDEO per blog post (if available)** - Search for "[Product name] review" on YouTube. ONLY embed a video if it's an actual review of the EXACT product (same model number). Do NOT embed random or unrelated videos. If no matching video exists, skip this section entirely. Use shortcode: `{{</* youtube VIDEO_ID */>}}`
 
 3. **THOROUGH RESEARCH** - Every review MUST include research from:
    - Reddit discussions (real user feedback)
