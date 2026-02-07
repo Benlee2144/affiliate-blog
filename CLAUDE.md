@@ -66,6 +66,11 @@ Example posts created:
 
 4. **CITE YOUR SOURCES** - Include quotes from Reddit users, forum posts, or verified reviews in the article to build trust.
 
+5. **INTERNAL LINKS MUST BE VERIFIED** - Before adding "You Might Also Like" or any internal links:
+   - Run `ls /home/user/affiliate-blog/content/posts/*.md | xargs -I {} basename {} .md` to see all existing post slugs
+   - Links use format `/{slug}/` (NO `/posts/` prefix - Hugo config uses `posts = "/:slug/"`)
+   - ONLY link to posts that actually exist - never guess or assume a post exists
+
 ## Critical Path Rules
 
 - **Image paths**: Use `/images/products/product-1.jpg` (NO prefix needed - custom domain)
