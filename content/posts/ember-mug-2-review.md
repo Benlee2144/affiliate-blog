@@ -13,7 +13,7 @@ tags: ["Ember", "coffee", "smart home", "product review"]
 
 review: true
 product_name: "Ember Mug 2 (14 oz)"
-product_image: "/images/products/ember-mug-2-1.jpg"
+product_image: "/images/products/ember-mug-2-1.png"
 brand: "Ember"
 rating: 3.5
 price: "$149.95"
@@ -33,7 +33,7 @@ faq:
     answer: "Yes, but it defaults to 135°F. You need the app to customize temperature, and the app requires an account."
 
 cover:
-    image: "/images/products/ember-mug-2-1.jpg"
+    image: "/images/products/ember-mug-2-1.png"
     alt: "Ember Mug 2 temperature control smart mug"
     caption: "The Ember Mug 2 — impressive tech with some caveats"
     relative: false
@@ -47,7 +47,7 @@ What started as a quick search for "is the Ember Mug worth it" turned into three
 
 The Ember Mug 2 is a $150 coffee mug with a built-in heater and battery. You set your preferred temperature between 120°F and 145°F using the app, and it holds your drink there until you finish it or the battery dies (about 80 minutes). Keep it on the included charging coaster and it'll stay warm literally all day.
 
-![Ember Mug 2 in white](/images/products/ember-mug-2-2.jpg)
+![Ember Mug 2 in white](/images/products/ember-mug-2-2.png)
 
 That's it. That's the product. And honestly, for slow coffee drinkers who hate reheating their cup three times a morning, it's kind of brilliant.
 
@@ -73,7 +73,7 @@ Here's where things get interesting. I spent a lot of time on the complaints bec
 
 This one showed up constantly. The interior has a ceramic-reinforced coating, and for some users, it starts flaking off.
 
-![Ember Mug 2 copper version](/images/products/ember-mug-2-3.jpg)
+![Ember Mug 2 copper version](/images/products/ember-mug-2-3.png)
 
 On Reddit, someone posted that their mug started flaking in one area after just 3 months, eventually becoming a 50-cent-sized patch. Another person said the bottom started coming apart within two weeks — and understandably didn't love the idea of drinking coffee with "flakes of ceramic coated with god-knows-what."
 
