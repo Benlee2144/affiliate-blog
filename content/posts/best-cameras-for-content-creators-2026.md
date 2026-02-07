@@ -279,6 +279,14 @@ The Panasonic GH7 is "a mature video camera disguised as a hybrid." While Sony f
 
 ---
 
+## See These Cameras in Action
+
+Watch a detailed comparison of these cameras to see real-world footage quality, autofocus performance, and how they handle different shooting scenarios:
+
+{{< youtube b2GPRGIkKPI >}}
+
+---
+
 ## How to Choose: The Real Decision
 
 **What type of content do you create?**
