@@ -3,7 +3,7 @@
 # Runs Claude Code to create comparison blog posts with natural timing
 
 # Configuration
-BLOG_DIR="/home/user/affiliate-blog"
+BLOG_DIR="/Users/benjaminarp/Desktop/amazon website/affiliate-blog"
 TOPICS_FILE="$BLOG_DIR/automation/topics.txt"
 LOG_FILE="$BLOG_DIR/automation/blog.log"
 POSTS_DIR="$BLOG_DIR/content/posts"
@@ -171,41 +171,65 @@ main() {
     # Change to blog directory
     cd "$BLOG_DIR"
 
-    # Create the prompt with multiple image source instructions
+    # Create the prompt with writing variety instructions
     PROMPT="Create a 'Best 3' comparison blog post for: $TOPIC
 
 IMPORTANT: First check if a similar post already exists in /content/posts/. If it does, pick a DIFFERENT topic.
 
-Follow the CLAUDE.md instructions exactly:
+Follow the CLAUDE.md instructions exactly, especially the Writing Guide section.
+
+## WRITING STYLE - SOUND HUMAN, NOT LIKE AI
+
+CRITICAL: Read the last 3 posts in /content/posts/ and make sure this post uses a DIFFERENT structure and opening style.
+
+Pick ONE of these approaches RANDOMLY (don't use the same one as recent posts):
+1. The Rant Start - Open annoyed about something in this category
+2. The Story - Start with a scenario (buddy asked what to buy, saw Reddit complaint)
+3. The Comparison Showdown - Jump straight into Product A vs B
+4. The 'I Was Wrong' - Admit you expected to recommend something else
+5. The Quick Answer Then Deep Dive - Answer in 2 sentences, then explain
+6. The Myth Buster - Call out bad advice you keep seeing online
+7. The Budget Breakdown - Frame around what you get at each price point
+8. The Reddit Rabbit Hole - 'I spent 4 hours on Reddit so you don't have to'
+9. The One Thing Nobody Mentions - Lead with a detail others skip
+10. The Brutally Honest Teardown - Lead with everything wrong, then why you'd still buy it
+
+Voice & Tone:
+- Write like a guy talking to his friend about weekend research
+- Be opinionated. Say 'I wouldn't buy this' or 'overpriced for what you get'
+- Use casual language. Contractions. Sentence fragments. Start with 'And' or 'But' or 'Look,'
+- Swear lightly if it fits (damn, hell)
+- Cite specific sources: 'u/CameraGuy2024 on r/videography said...'
+
+NEVER use these phrases: game-changer, straightforward, genuinely, let's dive in, it's worth noting, at the end of the day, comprehensive, seamless, cutting-edge, top-notch, no-brainer
+
+DON'T:
+- Start with empathy paragraph ('You've been searching for the perfect...')
+- Use 'honest' to describe your own review
+- Give every product 4.0-4.8 rating - be more extreme
+- Use same section headers as other posts
+- End with 'The Bottom Line' every time
+
+## TECHNICAL REQUIREMENTS
+
 1. Research the category and find the top 3 products
 2. Find Amazon ASINs for all 3 products
 3. Download product images - TRY THESE SOURCES IN ORDER:
    - Best Buy CDN (pisces.bbystatic.com) - works for electronics
    - Amazon CDN (m.media-amazon.com) - works for most products
    - Manufacturer websites - for kitchen appliances, tools, etc.
-   - Walmart, Target, Home Depot CDNs as backup
 4. Research problems/complaints for EACH product (Reddit, forums, Amazon reviews)
-5. Write a comprehensive comparison post with:
-   - Quick verdict table at top
-   - Individual product sections with honest pros/cons
-   - Head-to-head comparison table
-   - 'How to Choose' decision guide
-   - FAQ section
+5. Write post with varied formatting (NOT every post needs tables, FAQ, or 'Best for/Skip if' lists)
 6. Use affiliate tag: amazonfi08e0c-20 for ALL Amazon links
-7. Assign the correct category (Kitchen Appliances, Electronics, Home & Garden, etc.)
-8. Commit and push to main branch
+7. Vary CTA text - not always 'Check Price on Amazon'. Try: 'grab it here', 'current price', 'see if it's on sale'
+8. Assign correct category
+9. Commit and push to main branch
 
-CRITICAL:
-- All affiliate links MUST use tag=amazonfi08e0c-20
-- Download at least 1 image per product (3 minimum total)
-- Include real cons/downsides for each product - builds trust
-
-VERIFY IMAGES AFTER DOWNLOADING:
-- After downloading each image, verify it's a valid image (not HTML error page)
-- Check file size is > 10KB (small files are usually error pages)
-- Use 'file' command to verify it's actually JPEG/PNG
-- If an image fails, try a different source
-- Do NOT commit if any image is broken/invalid"
+VERIFY IMAGES:
+- Check file size > 10KB (small files are error pages)
+- Use 'file' command to verify it's JPEG/PNG
+- If image fails, try different source
+- Do NOT commit if any image is broken"
 
     log "Running Claude Code..."
 
