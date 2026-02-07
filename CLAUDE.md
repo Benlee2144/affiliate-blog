@@ -67,9 +67,12 @@ Example posts created:
 4. **CITE YOUR SOURCES** - Include quotes from Reddit users, forum posts, or verified reviews in the article to build trust.
 
 5. **INTERNAL LINKS MUST BE VERIFIED** - Before adding "You Might Also Like" or any internal links:
-   - Run `ls /home/user/affiliate-blog/content/posts/*.md | xargs -I {} basename {} .md` to see all existing post slugs
-   - Links use format `/{slug}/` (NO `/posts/` prefix - Hugo config uses `posts = "/:slug/"`)
-   - ONLY link to posts that actually exist - never guess or assume a post exists
+   - URLs are based on the **slugified TITLE**, NOT the filename
+   - Example: title "Oral-B iO Series 7 Review (2026): Premium Cleaning Without the Premium Price"
+     → URL: `/oral-b-io-series-7-review-2026-premium-cleaning-without-the-premium-price/`
+   - To find correct URLs: `grep "^title:" /home/user/affiliate-blog/content/posts/*.md` then slugify the title (lowercase, hyphens, remove special chars)
+   - Or check the live site at https://researchedpick.com/ to verify actual URLs
+   - NEVER guess URLs - always verify they work
 
 ## Critical Path Rules
 
