@@ -232,4 +232,4 @@ Your dentist cares about whether you brush for 2 minutes twice a day. They don't
 - [Oral-B iO Series 7 Review](/oral-b-io-series-7-review/)
 - [Levoit Core 300 Air Purifier Review](/levoit-core-300-air-purifier-review/)
 - [Apple Watch Series 10 Review](/apple-watch-series-10-review/)
-- [Best Hair Dryers for Thick Hair 2026](/best-hair-dryers-for-thick-hair-2026/)
+- [Ember Mug 2 Review](/ember-mug-2-review/)
