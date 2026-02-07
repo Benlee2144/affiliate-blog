@@ -6,9 +6,11 @@ This is an Amazon affiliate blog built with Hugo, deployed on GitHub Pages with 
 
 Site Name: **Researched Picks**
 Owner: Ben Arp
+Contact: benarp2144@gmail.com
 
 ## Quick Start: Creating a New Blog Post
 
+### Single Product Review
 When the user provides an Amazon affiliate link:
 
 1. **Extract the ASIN** from the URL (e.g., `B09V3KXJPB` from `amazon.com/dp/B09V3KXJPB`)
@@ -29,6 +31,27 @@ When the user provides an Amazon affiliate link:
 7. **Build and verify**: `hugo --gc --minify`
 8. **ALWAYS verify the live site** after pushing - check homepage card images display correctly
 9. **Commit and push** to GitHub
+
+### Comparison Blog Posts (Best X for Y 2026)
+When user asks for a "best of" comparison post:
+
+1. **Research the category** - Find top 3 products that fit different use cases/budgets
+2. **Find Amazon ASINs** for all 3 products
+3. **Download 1 image per product minimum** (3 total) from Best Buy CDN
+4. **Research problems/complaints** for EACH product individually
+5. **Write comparison post** with:
+   - Quick verdict table at top
+   - Individual sections for each product with pros/cons
+   - Head-to-head comparison table
+   - "How to Choose" decision guide
+   - YouTube video if available
+6. **All 3 products must have affiliate links** with tag `amazonfi08e0c-20`
+
+Example posts created:
+- Best Cameras for Content Creators 2026
+- Best Microphones for Content Creators 2026
+- Best Laptops for Coding 2026
+- Best iPads for College Students 2026
 
 ## CRITICAL REQUIREMENTS (Never Skip These)
 
@@ -192,10 +215,16 @@ After pushing a new blog post, verify on the live site:
 /config.toml            - Site configuration
 ```
 
+### Favicon Files (in /static/)
+- `favicon.ico` - Multi-size ICO (48, 32, 16px)
+- `favicon-192x192.png` - For Google search results & Android
+- `favicon-32x32.png` - Browser tabs
+- `favicon-16x16.png` - Small browser tabs
+- `apple-touch-icon.png` - iOS home screen (180x180)
+
 ## Git Workflow
 
 ```bash
-cd "/Users/benjaminarp/Desktop/amazon website/affiliate-blog"
 hugo --gc --minify
 git add .
 git commit -m "Add [product] review"
@@ -203,6 +232,15 @@ git push origin main
 ```
 
 Site rebuilds automatically via GitHub Actions after push.
+
+**IMPORTANT**: The live site deploys from the `main` branch only. If working on a feature branch, you MUST merge to main for changes to appear on the live site:
+
+```bash
+git checkout main
+git pull origin main
+git merge [feature-branch]
+git push origin main
+```
 
 ## SEO Setup Status
 
@@ -214,11 +252,10 @@ Done:
 - Sitemap generation (https://researchedpick.com/sitemap.xml)
 - robots.txt
 - About page with E-E-A-T content
-
-User needs to set up:
-- Google Search Console (submit sitemap: https://researchedpick.com/sitemap.xml)
-- Google Analytics (add GA4 ID to config.toml)
-- Connect domain DNS to GitHub Pages (see instructions below)
+- Google Search Console (verified)
+- Google Analytics (GA4 connected)
+- Professional favicon set (RP logo) for Google search results
+- DNS configured for GitHub Pages
 
 ## Domain Setup (GitHub Pages)
 
@@ -232,24 +269,37 @@ User needs to set up:
 3. In GitHub repo Settings → Pages → Custom domain: enter "researchedpick.com"
 4. Check "Enforce HTTPS" once DNS propagates (can take up to 24 hours)
 
-## How to Download Amazon Product Images
+## How to Download Product Images
 
-Amazon CDN images can be downloaded directly without blocking. Use this approach:
+### Best Buy CDN (PREFERRED - Most Reliable)
+Best Buy images download consistently without blocking.
+
+**Step 1: Find the SKU**
+- Search: `[Product Name] Best Buy SKU`
+- SKU is a 7-digit number (e.g., `6589380`)
+
+**Step 2: Construct URL and Download**
+```bash
+curl -L -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)" \
+  -o /home/user/affiliate-blog/static/images/products/[product-slug]-1.jpg \
+  "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/[first4]/[SKU]_sd.jpg"
+```
+
+Example for SKU `6589380`:
+```bash
+curl -L -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)" \
+  -o product-1.jpg \
+  "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6589/6589380_sd.jpg"
+```
+
+### Amazon CDN (Backup Option)
+Sometimes blocked, but worth trying:
 
 **Step 1: Find Image IDs**
 - Search: `"[Product Name] amazon" site:m.media-amazon.com`
-- Or search: `[Product Name] ASIN [asin-code] amazon images`
 - Look for image IDs like `71LB1AbsorL` or `61Eu-FwDfZL`
 
-**Step 2: Construct CDN URLs**
-Format: `https://m.media-amazon.com/images/I/[IMAGE_ID]._AC_SL1500_.jpg`
-
-Example for image ID `71LB1AbsorL`:
-```
-https://m.media-amazon.com/images/I/71LB1AbsorL._AC_SL1500_.jpg
-```
-
-**Step 3: Download with curl**
+**Step 2: Download**
 ```bash
 curl -L -A "Mozilla/5.0" -o product-1.jpg "https://m.media-amazon.com/images/I/[ID]._AC_SL1500_.jpg"
 ```
@@ -259,10 +309,9 @@ curl -L -A "Mozilla/5.0" -o product-1.jpg "https://m.media-amazon.com/images/I/[
 - `_AC_SL1000_` = 1000px
 - `_AC_SL500_` = 500px (smaller file)
 
-**Alternative sources if Amazon blocks:**
-1. Manufacturer website (check their CDN - Shopify stores use `cdn.shopify.com`)
-2. Best Buy: `pisces.bbystatic.com`
-3. Micro Center: `productimages.microcenter.com`
+### Other Sources
+- Manufacturer press kits/newsrooms
+- Newegg, Micro Center CDNs
 
 **Naming convention:** `[product-slug]-1.jpg`, `[product-slug]-2.jpg`, etc.
 
@@ -283,6 +332,11 @@ curl -L -A "Mozilla/5.0" -o product-1.jpg "https://m.media-amazon.com/images/I/[
 **GitHub Action fails**: Check the error in the Actions tab on GitHub
 
 **Domain not working**: DNS propagation takes up to 24 hours. Verify A records point to GitHub IPs.
+
+**GitHub storage filling up (1GB limit)**: Options:
+1. Compress images (resize to 1200px, 80% quality, use WebP)
+2. Move images to external CDN (Cloudflare R2, Cloudinary)
+3. Switch hosting to Cloudflare Pages (unlimited storage)
 
 ## Design Guidelines
 
