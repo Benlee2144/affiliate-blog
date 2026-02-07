@@ -1,0 +1,151 @@
+# Blog Topics Queue for Researched Picks
+# Lines starting with # are skipped (completed or comments)
+# Topics organized by category for better coverage
+
+# === KITCHEN APPLIANCES (High conversion) ===
+Best Air Fryers for Large Families 2026
+Best Instant Pots and Pressure Cookers 2026
+Best Espresso Machines for Home Baristas 2026
+Best Blenders for Smoothies and Soups 2026
+Best Stand Mixers for Home Bakers 2026
+Best Coffee Makers with Grinders 2026
+Best Toaster Ovens for Small Kitchens 2026
+Best Food Processors for Meal Prep 2026
+Best Electric Kettles for Tea Lovers 2026
+Best Cold Brew Coffee Makers 2026
+Best French Press Coffee Makers 2026
+Best Sous Vide Machines for Home Cooks 2026
+Best Rice Cookers for Perfect Rice 2026
+Best Slow Cookers for Busy Families 2026
+Best Juicers for Beginners 2026
+Best Bread Makers for Fresh Bread 2026
+Best Ice Makers for Home Use 2026
+Best Meat Thermometers for Grilling 2026
+Best Kitchen Scales for Baking 2026
+Best Knife Sets for Home Cooks 2026
+
+# === ELECTRONICS (Tech enthusiasts) ===
+Best Wireless Earbuds for Running 2026
+Best Noise Cancelling Headphones 2026
+Best Gaming Monitors Under $500 2026
+Best 4K TVs Under $1000 2026
+Best Portable Bluetooth Speakers 2026
+Best Wireless Gaming Mice 2026
+Best Mechanical Keyboards for Typing 2026
+Best Webcams for Remote Work 2026
+Best External SSDs for Video Editing 2026
+Best Budget Projectors for Home Theater 2026
+Best USB-C Hubs for MacBook 2026
+Best Wireless Chargers for iPhone 2026
+Best Dash Cams for Cars 2026
+Best E-Readers for Book Lovers 2026
+Best Streaming Devices for Cord Cutters 2026
+Best Computer Speakers for Desktop 2026
+Best Portable Monitors for Laptops 2026
+Best NAS Drives for Home Storage 2026
+
+# === HOME & GARDEN ===
+Best Robot Vacuums for Pet Hair 2026
+Best Cordless Vacuums for Apartments 2026
+Best Handheld Vacuums for Cars 2026
+Best Air Purifiers for Allergies 2026
+Best Dehumidifiers for Basements 2026
+Best Smart Thermostats for Energy Savings 2026
+Best Smart Doorbells with Cameras 2026
+Best Home Security Cameras Indoor 2026
+Best Smart Plugs for Home Automation 2026
+Best LED Strip Lights for Rooms 2026
+Best Smart Light Bulbs for Home 2026
+Best White Noise Machines for Sleep 2026
+Best Humidifiers for Bedrooms 2026
+Best Space Heaters for Home Office 2026
+Best Fans for Bedroom Cooling 2026
+Best Label Makers for Organization 2026
+Best Steam Mops for Hard Floors 2026
+Best Pressure Washers for Home Use 2026
+Best Lawn Mowers for Small Yards 2026
+Best Leaf Blowers for Fall Cleanup 2026
+
+# === OFFICE & PRODUCTIVITY ===
+Best Standing Desks for Home Office 2026
+Best Ergonomic Office Chairs 2026
+Best Desk Lamps for Eye Strain 2026
+Best Laptop Stands for Better Posture 2026
+Best Monitor Arms for Dual Screens 2026
+Best Keyboards for Carpal Tunnel 2026
+Best Desk Organizers for Clutter 2026
+Best Filing Cabinets for Home Office 2026
+Best Shredders for Home Use 2026
+Best Printers for Home Office 2026
+Best Surge Protectors for Electronics 2026
+Best Power Strips with USB Ports 2026
+Best Cable Management Solutions 2026
+
+# === FITNESS & HEALTH ===
+Best Massage Guns for Recovery 2026
+Best Resistance Bands for Home Workouts 2026
+Best Yoga Mats for Home Practice 2026
+Best Adjustable Dumbbells for Home Gym 2026
+Best Treadmills for Apartments 2026
+Best Exercise Bikes Under $500 2026
+Best Rowing Machines for Home 2026
+Best Pull Up Bars for Doorways 2026
+Best Foam Rollers for Muscle Recovery 2026
+Best Jump Ropes for Cardio 2026
+Best Fitness Trackers Under $100 2026
+Best Smart Scales for Weight Loss 2026
+Best Blood Pressure Monitors for Home 2026
+Best Pulse Oximeters for Home Use 2026
+
+# === BEAUTY & PERSONAL CARE ===
+Best Electric Toothbrushes 2026
+Best Electric Shavers for Men 2026
+Best Hair Clippers for Home Use 2026
+Best Hair Dryers for Thick Hair 2026
+Best Curling Irons for Beginners 2026
+Best Flat Irons for Frizzy Hair 2026
+Best Electric Razors for Women 2026
+Best Facial Cleansing Brushes 2026
+Best LED Face Masks for Skin 2026
+Best Teeth Whitening Kits at Home 2026
+Best Beard Trimmers for Men 2026
+Best Epilators for Smooth Skin 2026
+
+# === BABY & KIDS ===
+Best Baby Monitors with Video 2026
+Best White Noise Machines for Babies 2026
+Best Baby Swings for Newborns 2026
+Best High Chairs for Small Spaces 2026
+Best Diaper Bags for Parents 2026
+Best Car Seats for Infants 2026
+Best Strollers for City Living 2026
+Best Baby Carriers for Newborns 2026
+Best Bottle Warmers for Formula 2026
+Best Baby Food Makers 2026
+
+# === TRAVEL & OUTDOOR ===
+Best Portable Chargers for Travel 2026
+Best Travel Neck Pillows for Flights 2026
+Best Packing Cubes for Suitcases 2026
+Best Carry-On Luggage for Flying 2026
+Best Travel Adapters for International 2026
+Best Noise Cancelling Earbuds for Flights 2026
+Best Camping Tents for Families 2026
+Best Sleeping Bags for Cold Weather 2026
+Best Hiking Backpacks for Day Trips 2026
+Best Bike Locks for City Commuters 2026
+Best Action Cameras for Adventures 2026
+Best Coolers for Beach Days 2026
+Best Portable Grills for Camping 2026
+
+# === PETS ===
+Best Automatic Pet Feeders 2026
+Best Cat Litter Boxes Self Cleaning 2026
+Best Dog Crates for Large Dogs 2026
+Best Pet Cameras with Treat Dispenser 2026
+Best Dog Beds for Large Breeds 2026
+Best Cat Trees for Indoor Cats 2026
+Best Dog Grooming Clippers 2026
+Best Pet Water Fountains 2026
+Best GPS Dog Trackers 2026
+Best Dog Harnesses for Pulling 2026
