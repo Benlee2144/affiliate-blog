@@ -135,4 +135,4 @@ If you decide to go for it, buy from Amazon rather than direct so you have an ea
 
 ---
 
-*I spent way too long reading Ember Mug complaints so you don't have to. If you found this useful, check out my other deep dives on [robot vacuums](/roborock-q5-pro-robot-vacuum-review/) and [espresso machines](/breville-bambino-espresso-machine-review/).*
+*I spent way too long reading Ember Mug complaints so you don't have to. If you found this useful, check out my other deep dives on [robot vacuums](/roborock-q5-pro-review-2026-smart-navigation-without-the-premium-price/) and [espresso machines](/breville-bambino-review-2026-cafe-espresso-in-the-smallest-footprint/).*
