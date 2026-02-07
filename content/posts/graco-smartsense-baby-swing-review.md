@@ -176,7 +176,7 @@ Just... keep your receipt. And maybe don't vacuum while the baby's in it.
 
 ## You Might Also Like
 
-- [Ninja BL770 Mega Kitchen System Review](/posts/ninja-bl770-mega-kitchen-system-review/)
-- [Levoit Core 300 Air Purifier Review](/posts/levoit-core-300-air-purifier-review/)
-- [Roborock Q5 Pro Robot Vacuum Review](/posts/roborock-q5-pro-robot-vacuum-review/)
-- [Instant Pot Duo Plus Review](/posts/instant-pot-duo-plus-review/)
+- [Ninja BL770 Mega Kitchen System Review](/ninja-bl770-mega-kitchen-system-review/)
+- [Levoit Core 300 Air Purifier Review](/levoit-core-300-air-purifier-review/)
+- [Roborock Q5 Pro Robot Vacuum Review](/roborock-q5-pro-robot-vacuum-review/)
+- [Instant Pot Duo Plus Review](/instant-pot-duo-plus-review/)

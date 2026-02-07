@@ -164,7 +164,7 @@ Just... maybe buy a spare gasket while you're at it.
 
 ## You Might Also Like
 
-- [Ninja Creami Ice Cream Maker Review](/posts/ninja-creami-ice-cream-maker-review/)
-- [Cosori Air Fryer Pro 5Qt Review](/posts/cosori-air-fryer-pro-5qt-review/)
-- [Instant Pot Duo Plus Review](/posts/instant-pot-duo-plus-review/)
-- [Breville Bambino Espresso Machine Review](/posts/breville-bambino-espresso-machine-review/)
+- [Ninja Creami Ice Cream Maker Review](/ninja-creami-ice-cream-maker-review/)
+- [Cosori Air Fryer Pro 5Qt Review](/cosori-air-fryer-pro-5qt-review/)
+- [Instant Pot Duo Plus Review](/instant-pot-duo-plus-review/)
+- [Breville Bambino Espresso Machine Review](/breville-bambino-espresso-machine-review/)
