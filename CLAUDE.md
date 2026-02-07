@@ -72,6 +72,18 @@ Example posts created:
 - **Affiliate tag**: `amazonfi08e0c-20`
   - Link format: `https://www.amazon.com/dp/[ASIN]?tag=amazonfi08e0c-20`
 
+### Affiliate Links — VARY PLACEMENT AND CTAs
+
+- Don't cluster all links at the same spots in every post
+- Sometimes put a link early, sometimes make people read to find it
+- Vary CTA text — NOT always "Check Price on Amazon". Try:
+  - "grab it here"
+  - "current price"
+  - "see if it's on sale"
+  - just a hyperlinked product name
+  - "View on Amazon"
+  - "Check today's price"
+
 - **ALWAYS CHECK THE LIVE SITE** after every new blog post to verify:
   - Homepage card shows product image correctly
   - Review page images all load
@@ -97,42 +109,93 @@ Always assign posts to the correct category:
 - Categories: Use icons above
 - Avoid: 🎉 🤪 😍 💕 or overly casual emojis
 
-## Wirecutter-Style Writing Guide
+## Writing Guide: Sound Human, Not Like AI
 
-### Structure Every Post Must Have:
+Your #1 goal is to sound like a real person who actually researched this product — NOT like an AI writing a review.
 
-1. **Affiliate Disclosure** (first line after front matter)
-2. **Pain Point Opening** - Start with the reader's frustration
-3. **Bold Verdict** - "Our verdict: [Product] is the best [category] for [use case]"
-4. **Our Pick Section** with:
-   - Product image
-   - Quick take (one compelling benefit)
-   - "Best for:" and "Skip if:" bullets
-   - CTA button
-5. **Why It Stands Out** - Specific pros with sources (Reddit, Amazon reviews)
-6. **YouTube Video Review** - Embed a video review using `{{</* youtube VIDEO_ID */>}}` with intro text like "See it in action:"
-7. **Honest Downsides** - Real cons from owner feedback
-8. **Who Should Buy** - Specific use cases
-9. **Competition Comparison** - Table with 2-3 alternatives
-10. **Product Gallery** - Multiple images throughout
-11. **Bottom Line** - Final recommendation with CTA
-12. **FAQ Section** - In front matter for schema
+### Voice & Tone
 
-### Writing Rules:
-
+- Write like a guy talking to his friend about a product he spent the weekend researching
+- Be opinionated. Take real stances. Say "I wouldn't buy this" or "this is overpriced for what you get"
+- Use casual language. Contractions. Sentence fragments. Start sentences with "And" or "But" or "Look,"
+- Occasionally be a little messy — not every paragraph needs to be perfectly constructed
+- Drop in first-person opinions: "Personally, I think..." or "I almost recommended X until I saw..."
+- Swear lightly if it fits (damn, hell) — real reviewers do
 - **Specific over vague**: "1000W motor" not "powerful motor"
-- **Cite sources**: "Multiple r/Blenders users report..."
-- **Include cons**: Every product has weaknesses - builds trust
-- **Unique summaries**: Never use the same opening pattern twice
-- **No fluff**: Cut "In this article" and "Let's dive in"
+- **Cite sources**: "u/CameraGuy2024 on r/videography said..." or "there's a thread on AVSForum from last month where..."
+
+### Structure — VARY IT EVERY TIME
+
+**This is the most important rule. Never use the same blog structure twice in a row.**
+
+Pick RANDOMLY from approaches like these (and invent new ones):
+
+1. **The Rant Start** — Open with something you're annoyed about in this product category, then pivot to the review
+2. **The Story** — Start with a specific scenario (your buddy asked you what blender to buy, you saw someone complaining on Reddit, etc.)
+3. **The Comparison Showdown** — Jump straight into Product A vs B with no preamble
+4. **The "I Was Wrong"** — Start by admitting you expected to recommend a different product
+5. **The Quick Answer Then Deep Dive** — Give the answer in 2 sentences, then spend the rest explaining why
+6. **The Myth Buster** — Open by calling out bad advice you keep seeing online about this product category
+7. **The Budget Breakdown** — Frame the whole post around what you get at each price point
+8. **The Reddit Rabbit Hole** — Frame it as "I spent 4 hours reading Reddit threads about X so you don't have to"
+9. **The One Thing Nobody Mentions** — Lead with a detail that other reviews skip
+10. **The Brutally Honest Teardown** — Lead with everything wrong, then explain why you'd still buy it
+
+### Formatting — MIX IT UP
+
+- NOT every post needs a comparison table. Some posts should have zero tables.
+- NOT every post needs a specs section. Sometimes just weave specs into the prose.
+- NOT every post needs a "Best for / Skip if" list. Sometimes just say it in a paragraph.
+- NOT every post needs an FAQ. Maybe 1 in 3 posts gets one.
+- Use headers inconsistently — some posts should have lots, some should have very few and read more like an article
+- Vary post length. Some can be 800 words. Some can be 2000+. Not everything needs to be the same length.
+- Sometimes use numbered lists. Sometimes bullets. Sometimes neither.
+- Bold important stuff but don't bold the same patterns every time
+
+### Anti-AI Language — NEVER Use These Words/Phrases
+
+- game-changer, straightforward, genuinely, here's the thing
+- let's dive in, without further ado, in today's article, we'll explore
+- it's worth noting, at the end of the day, comprehensive
+- seamless, seamlessly, robust, cutting-edge, state-of-the-art
+- top-notch, world-class, best-in-class, unparalleled
+- revolutionize, elevate your, unlock, unleash
+- navigate the world of, bang for your buck, no-brainer, a must-have
+
+### What NOT To Do
+
+- Don't start with an empathy paragraph ("You've been searching for the perfect...")
+- Don't use the word "honest" to describe your own review — it's what every AI review says
+- Don't give every product a rating between 4.0-4.8 — be more extreme when warranted
+- Don't use the exact same section headers across posts
+- Don't end every post with "The Bottom Line" — find different ways to close
+- Don't put affiliate disclosure in the same spot formatted the same way every time
+- Don't use "we analyzed hundreds of reviews" — show the research, don't announce it
+- Don't make every opening paragraph the same length
+- Don't use the ✓ and ✗ checkmark format for every single post
+
+### Content Must-Haves
+
+- Include at least one genuine surprise or counterintuitive finding per post
+- Mention at least one specific, concrete detail that shows real research (exact battery test numbers, specific firmware issues, weight with vs without accessories)
+- Don't hedge everything. If a product sucks at something, just say it sucks at it
+- Include specific prices and where they fluctuate (Camelcamelcamel data, holiday sales, refurb options)
+- Mention competing products that AREN'T in the review — shows you actually know the space
 
 ### Front Matter Template:
 
 **IMPORTANT DATE RULE**: Always use a **past time** for the date field! Hugo's `buildFuture = false` means posts with future dates won't build. Use today's date with a time that has already passed (e.g., if it's 3pm, use `T10:00:00`).
 
+**VARY YOUR TITLES** — Don't use the same format every time. Mix it up:
+- "I Tested 5 Air Fryers — Here's the Only One Worth Buying"
+- "Best Air Fryers 2026 (After 40 Hours of Research)"
+- "[Product] vs [Product]: Which One Actually Wins?"
+- "The [Product] Is Overrated — Buy This Instead"
+- "[Product] Review: Worth It or Waste of Money?"
+
 ```yaml
 ---
-title: "[Product] Review (2026): [Compelling Hook]"
+title: "[Varies - see examples above]"
 date: 2026-XX-XXT00:00:00+00:00  # USE PAST TIME - midnight UTC is safe
 lastmod: 2026-XX-XXT00:00:00+00:00
 draft: false
@@ -257,6 +320,50 @@ Done:
 - Professional favicon set (RP logo) for Google search results
 - DNS configured for GitHub Pages
 
+## SEO Writing Guidelines
+
+### Keyword Placement (Natural, Not Stuffed)
+
+- Primary keyword in the first 100 words — but worked into a natural sentence, not forced
+- Primary keyword in at least one H2 header
+- Primary keyword (or close variation) 3-5 times total in the post — no more
+- Use semantic variations throughout (Google understands synonyms)
+  - Example: If targeting "best robot vacuum," also use "robotic vacuum," "robot vac," "automated vacuum cleaner"
+
+### Search Intent — MATCH IT OR DON'T RANK
+
+Before writing, think: what does someone Googling this keyword actually want?
+
+- **"Best [product] 2026"** = they want a comparison with a clear winner. Give them a quick answer FAST then go deep
+- **"[Product] review"** = they're considering buying it and want an honest take. Lead with your verdict
+- **"[Product A] vs [Product B]"** = they've narrowed it to two and need help deciding. Focus on differences, not similarities
+- **"Is [product] worth it"** = they're skeptical. Address the skepticism head-on
+
+**ALWAYS answer the core question within the first 2-3 paragraphs. Google rewards this.**
+
+### Featured Snippet Optimization
+
+- For "best X" posts: Include a summary table or clear "Our Pick: [Product]" near the top
+- For "vs" posts: Include a comparison table with clear winner indicators
+- For "review" posts: Include a verdict box or bold one-liner verdict early
+- Answer "People Also Ask" questions as H2/H3 headers with concise 2-3 sentence answers directly below
+
+### Meta Description
+
+- 150-160 characters
+- Include primary keyword naturally
+- Write it like a hook, not a summary — make people want to click
+- Include a specific detail or number that stands out
+  - **Good**: "After reading 200+ owner reviews, the winner surprised me. One $89 air fryer beat models 3x its price."
+  - **Bad**: "We review the best air fryers of 2026. Read our comprehensive guide to find the perfect air fryer for your kitchen."
+
+### Internal Linking
+
+- Every new post should link to 2-3 existing posts on the site
+- Use descriptive anchor text with keywords — not "click here" or "this post"
+  - **Good**: "I covered the best budget blenders last week and the Ninja came out on top there too"
+  - **Bad**: "For more info, click here"
+
 ## Domain Setup (GitHub Pages)
 
 1. Go to your domain registrar (where you bought researchedpick.com)
@@ -346,3 +453,25 @@ curl -L -A "Mozilla/5.0" -o product-1.jpg "https://m.media-amazon.com/images/I/[
 - Professional icons only (no childish emojis)
 - Trust signals: Deep Research, Honest Takes, Clear Guidance
 - Category colors are pre-defined in terms.html
+
+---
+
+## Good vs Bad Examples
+
+**The goal is that if someone reads 10 of your posts back to back, they should feel like they were written by the same *person* but NOT generated by the same *template*. Every post should feel like its own thing.**
+
+### Bad (AI-sounding) opening:
+> "Looking for the perfect air fryer in 2026? We've analyzed hundreds of reviews, Reddit discussions, and forum posts to find the best options for every budget. Here's what we found."
+
+### Good (human-sounding) opening:
+> "I need to rant about air fryer marketing for a second. Every brand claims theirs is 'revolutionary' and cooks food '80% faster with 90% less oil.' None of that means anything. So I spent last weekend reading through about 200 Amazon reviews and three massive Reddit threads to figure out which ones people actually keep on their counter after the novelty wears off."
+
+---
+
+### Bad (AI-sounding) section:
+> "### The Honest Downsides
+> The Ninja Foodi has some limitations worth considering. Battery life could be better, and the build quality feels slightly plasticky compared to premium options."
+
+### Good (human-sounding) section:
+> "## What Pissed People Off
+> The basket coating. There's a whole thread on r/airfryer about the nonstick peeling after 6-8 months. Not everyone has this problem — looks like it's maybe 15% of owners based on what I counted — but when you're spending $180, that's not great. Ninja's warranty covers it but apparently getting a replacement is a pain."
