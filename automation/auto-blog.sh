@@ -72,6 +72,71 @@ mark_completed() {
     sed -i "s/^${ESCAPED}$/# [DONE] ${ESCAPED}/" "$TOPICS_FILE"
 }
 
+# Verify an image file is valid (not empty, not HTML error page)
+verify_image() {
+    local IMG_PATH="$1"
+
+    if [ ! -f "$IMG_PATH" ]; then
+        return 1
+    fi
+
+    # Check file size (should be > 10KB for a real image)
+    SIZE=$(stat -f%z "$IMG_PATH" 2>/dev/null || stat -c%s "$IMG_PATH" 2>/dev/null)
+    if [ "$SIZE" -lt 10000 ]; then
+        log "WARNING: Image too small (possibly placeholder): $IMG_PATH ($SIZE bytes)"
+        return 1
+    fi
+
+    # Check if it's actually an image (not HTML error page)
+    FILE_TYPE=$(file "$IMG_PATH" | grep -i "image\|jpeg\|png\|gif")
+    if [ -z "$FILE_TYPE" ]; then
+        log "WARNING: File is not a valid image: $IMG_PATH"
+        return 1
+    fi
+
+    return 0
+}
+
+# Verify all images referenced in a blog post exist and are valid
+verify_post_images() {
+    local POST_FILE="$1"
+    local IMAGES_DIR="$BLOG_DIR/static/images/products"
+    local ALL_VALID=true
+
+    log "Verifying images for: $POST_FILE"
+
+    # Extract image paths from the post
+    IMAGES=$(grep -oE '/images/products/[^"'\'')\s]+' "$POST_FILE" | sort -u)
+
+    if [ -z "$IMAGES" ]; then
+        log "WARNING: No images found in post!"
+        return 1
+    fi
+
+    for IMG in $IMAGES; do
+        # Convert URL path to file path
+        FILE_PATH="$BLOG_DIR/static$IMG"
+
+        if verify_image "$FILE_PATH"; then
+            log "✓ Image OK: $IMG"
+        else
+            log "✗ Image FAILED: $IMG"
+            ALL_VALID=false
+        fi
+    done
+
+    if [ "$ALL_VALID" = true ]; then
+        return 0
+    else
+        return 1
+    fi
+}
+
+# Get the most recently created post
+get_latest_post() {
+    ls -t "$POSTS_DIR"/*.md 2>/dev/null | head -1
+}
+
 # Main execution
 main() {
     log "========================================="
@@ -133,7 +198,14 @@ Follow the CLAUDE.md instructions exactly:
 CRITICAL:
 - All affiliate links MUST use tag=amazonfi08e0c-20
 - Download at least 1 image per product (3 minimum total)
-- Include real cons/downsides for each product - builds trust"
+- Include real cons/downsides for each product - builds trust
+
+VERIFY IMAGES AFTER DOWNLOADING:
+- After downloading each image, verify it's a valid image (not HTML error page)
+- Check file size is > 10KB (small files are usually error pages)
+- Use 'file' command to verify it's actually JPEG/PNG
+- If an image fails, try a different source
+- Do NOT commit if any image is broken/invalid"
 
     log "Running Claude Code..."
 
@@ -145,8 +217,36 @@ CRITICAL:
     EXIT_CODE=$?
 
     if [ $EXIT_CODE -eq 0 ]; then
-        log "SUCCESS: Blog post created for '$TOPIC'"
-        mark_completed "$TOPIC"
+        log "Claude finished. Verifying post..."
+
+        # Find the newly created post
+        LATEST_POST=$(get_latest_post)
+
+        if [ -n "$LATEST_POST" ]; then
+            log "Checking latest post: $LATEST_POST"
+
+            # Verify images are valid
+            if verify_post_images "$LATEST_POST"; then
+                log "SUCCESS: Blog post created and verified for '$TOPIC'"
+                log "All images validated successfully!"
+                mark_completed "$TOPIC"
+            else
+                log "WARNING: Post created but some images may be broken"
+                log "Manual review recommended: $LATEST_POST"
+                # Still mark as completed but log the warning
+                mark_completed "$TOPIC"
+            fi
+
+            # Verify affiliate links
+            AFFILIATE_COUNT=$(grep -c "tag=amazonfi08e0c-20" "$LATEST_POST" 2>/dev/null || echo "0")
+            log "Affiliate links found: $AFFILIATE_COUNT"
+
+            if [ "$AFFILIATE_COUNT" -lt 3 ]; then
+                log "WARNING: Less than 3 affiliate links found - review post"
+            fi
+        else
+            log "WARNING: Could not find newly created post"
+        fi
     else
         log "ERROR: Failed to create blog post (exit code: $EXIT_CODE)"
     fi
