@@ -3,7 +3,7 @@
 # Runs Claude Code to create comparison blog posts with natural timing
 
 # Configuration
-BLOG_DIR="/home/user/affiliate-blog"
+BLOG_DIR="/Users/benjaminarp/Desktop/amazon website/affiliate-blog"
 TOPICS_FILE="$BLOG_DIR/automation/topics.txt"
 LOG_FILE="$BLOG_DIR/automation/blog.log"
 POSTS_DIR="$BLOG_DIR/content/posts"
