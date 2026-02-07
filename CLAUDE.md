@@ -216,7 +216,7 @@ price: "$XX.XX"
 affiliate_link: "https://www.amazon.com/dp/[ASIN]?tag=amazonfi08e0c-20"
 asin: "[ASIN]"
 
-author: "Benjamin Arp"
+author: "Ben Arp"
 showToc: true
 TocOpen: true
 
