@@ -182,7 +182,7 @@ Sometimes the flashiest specs don't translate to the best real-world performance
 
 ## You Might Also Like
 
-- [Roborock Q5 Pro Review: The Budget Robot Vacuum That Actually Works](/posts/roborock-q5-pro-robot-vacuum-review/)
-- [Dyson V15 Detect Review: Is the Laser Gimmick Worth $750?](/posts/dyson-v15-detect-vacuum-review/)
-- [Levoit Core 300 Air Purifier Review](/posts/levoit-core-300-air-purifier-review/)
-- [Best Laptops for Coding 2026](/posts/best-laptops-for-coding-2026/)
+- [Roborock Q5 Pro Review: The Budget Robot Vacuum That Actually Works](/roborock-q5-pro-robot-vacuum-review/)
+- [Dyson V15 Detect Review: Is the Laser Gimmick Worth $750?](/dyson-v15-detect-vacuum-review/)
+- [Levoit Core 300 Air Purifier Review](/levoit-core-300-air-purifier-review/)
+- [Best Laptops for Coding 2026](/best-laptops-for-coding-2026/)
