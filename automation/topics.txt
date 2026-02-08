@@ -45,7 +45,7 @@ Best Portable Monitors for Laptops 2026
 Best NAS Drives for Home Storage 2026
 
 # === HOME & GARDEN ===
-Best Robot Vacuums for Pet Hair 2026
+# [DONE] Best Robot Vacuums for Pet Hair 2026
 Best Cordless Vacuums for Apartments 2026
 Best Handheld Vacuums for Cars 2026
 Best Air Purifiers for Allergies 2026
