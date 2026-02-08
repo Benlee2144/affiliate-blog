@@ -55,6 +55,35 @@ Example posts created:
 
 ## CRITICAL REQUIREMENTS (Never Skip These)
 
+### 0. **VALIDATE ASINs BEFORE USING** (NEW - PREVENTS BROKEN LINKS)
+
+Before using ANY Amazon ASIN in a post, you MUST validate it exists:
+
+```bash
+python3 /Users/benjaminarp/Desktop/amazon\ website/affiliate-blog/automation/validate-product.py check [ASIN]
+```
+
+- ✅ If it returns "VALID" — proceed with that ASIN
+- ❌ If it returns "INVALID" — find a different product/ASIN
+- ⚠️ If it returns "UNCERTAIN" — try again or find alternative
+
+**NEVER use an ASIN without validation.** Dead ASINs = broken affiliate links = lost revenue.
+
+To download verified images for a validated ASIN:
+```bash
+python3 /Users/benjaminarp/Desktop/amazon\ website/affiliate-blog/automation/validate-product.py images [ASIN] [product-slug] /Users/benjaminarp/Desktop/amazon\ website/affiliate-blog/static/images/products/
+```
+
+This will:
+1. Validate the ASIN exists
+2. Download up to 3 product images
+3. Verify images are real JPEGs (not error pages)
+
+**Known Working ASINs** (pre-validated, safe to use):
+- B089TQWJKK — Ninja DZ201 Foodi 8 Quart DualZone Air Fryer
+- B0936FGLQS — COSORI Air Fryer Pro 5QT
+- B07VHFMZHJ — Instant Pot 6QT Vortex Plus Air Fryer
+
 1. **MINIMUM 3 IMAGES per blog post** - Every review MUST have at least 3 product images scattered throughout the content. This is non-negotiable.
 
 2. **YOUTUBE VIDEO per blog post (if available)** - Search for "[Product name] review" on YouTube. ONLY embed a video if it's an actual review of the EXACT product (same model number). Do NOT embed random or unrelated videos. If no matching video exists, skip this section entirely. Use shortcode: `{{</* youtube VIDEO_ID */>}}`
