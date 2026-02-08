@@ -31,10 +31,6 @@ cover:
     relative: false
 ---
 
-*This post contains affiliate links. If you buy something through one of these links, I may earn a small commission at no extra cost to you.*
-
----
-
 I thought e-readers were kind of pointless.
 
 Physical books are better for the soul, right? The smell, the weight, the satisfaction of seeing your progress. And my phone has a Kindle app, so why spend $160 on a single-purpose device?

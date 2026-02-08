@@ -4,6 +4,12 @@
 
 ---
 
+## 0. IMPORTANT — DO NOT DUPLICATE
+
+**DO NOT add an affiliate disclosure in your post content.** The Hugo theme automatically adds one. If you add another one manually, it shows up twice. Just start your post with the actual content.
+
+---
+
 ## 1. THE GOLDEN RULES (Never Break These)
 
 ### First-Person Ownership Voice
