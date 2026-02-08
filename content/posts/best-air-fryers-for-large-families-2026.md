@@ -12,13 +12,13 @@ categories: ["Kitchen Appliances"]
 tags: ["air fryer", "Cosori", "Ninja", "Instant", "kitchen", "cooking"]
 
 review: true
-product_name: "Cosori TwinFry Dual Basket Air Fryer 9QT"
-product_image: "/images/products/cosori-twinfry-9qt-1.png"
-brand: "Cosori"
-rating: 4.5
-price: "$169.99"
-affiliate_link: "https://www.amazon.com/dp/B0CG9XGHBD?tag=amazonfi08e0c-20"
-asin: "B0CG9XGHBD"
+product_name: "Ninja DZ201 Foodi 8 Quart DualZone Air Fryer"
+product_image: "/images/products/ninja-dualzone-8qt-1.jpg"
+brand: "Ninja"
+rating: 4.7
+price: "$199.99"
+affiliate_link: "https://www.amazon.com/dp/B089TQWJKK?tag=amazonfi08e0c-20"
+asin: "B089TQWJKK"
 
 author: "Ben Arp"
 showToc: false
@@ -35,9 +35,9 @@ faq:
     answer: "Every 5-7 minutes for best results. When you're cooking larger batches, items in the middle get less airflow. Shaking redistributes everything for even crisping."
 
 cover:
-    image: "/images/products/cosori-twinfry-9qt-1.png"
-    alt: "Cosori TwinFry 9 quart dual basket air fryer"
-    caption: "The Cosori TwinFry - finally an air fryer that fits enough food"
+    image: "/images/products/ninja-dualzone-8qt-1.jpg"
+    alt: "Ninja DZ201 Foodi 8 quart dual basket air fryer"
+    caption: "The Ninja DualZone - finally an air fryer that fits enough food"
     relative: false
 ---
 
@@ -61,51 +61,49 @@ The guy who runs the TechGuyReviews YouTube channel actually measured a bunch of
 
 This is why I ended up recommending dual-basket models for families. You get what's advertised, and you can cook two things simultaneously. Game changer.
 
-## My Top Pick: Cosori TwinFry 9QT
-
-![Cosori TwinFry 9QT air fryer with dual baskets](/images/products/cosori-twinfry-9qt-1.png)
-
-**Price:** Around $170 | [Check current price on Amazon](https://www.amazon.com/dp/B0CG9XGHBD?tag=amazonfi08e0c-20)
-
-This is the one I kept. And honestly, I wasn't expecting to like a Cosori this much — I'd always assumed Ninja was the default choice.
-
-What sold me is the basket design. Most dual-basket air fryers have deep, narrow baskets. The Cosori's are wide and relatively shallow. Food & Wine's testing team noted this specifically — the wider bottom means more surface area touching the air flow, which means crispier results with less shaking.
-
-I tested it with a full 2 pounds of frozen fries split between both baskets. Came out perfect in 18 minutes. No hot spots, no soggy middle layer. Tried the same test with my old 5-quart single basket and got half the fries done unevenly while the other half sat on the counter waiting.
-
-The sync cooking feature is clutch. Set different temps for each basket, hit sync, and everything finishes at the same time. I use this constantly — chicken thighs at 380° on one side, Brussels sprouts at 400° on the other. Done simultaneously. No juggling.
-
-**The downsides:** This thing is heavy. Like, 19 pounds heavy. You're not moving it in and out of cabinets. Pick a spot on your counter and that's where it lives. Also no window to see inside, so you're pulling baskets out to check doneness.
-
-But for a family of 5-6 where everyone eats at once? This is the move.
-
-![Cosori TwinFry air fryer cooking French fries](/images/products/cosori-twinfry-9qt-2.png)
-
-{{< cta-button url="https://www.amazon.com/dp/B0CG9XGHBD?tag=amazonfi08e0c-20" text="See Price on Amazon" >}}
-
----
-
-## Runner Up: Ninja DualZone 8QT
+## My Top Pick: Ninja DualZone 8QT
 
 ![Ninja DualZone 8QT air fryer](/images/products/ninja-dualzone-8qt-1.jpg)
 
-**Price:** Around $200 | [Check availability](https://www.amazon.com/dp/B09QFMWWGD?tag=amazonfi08e0c-20)
+**Price:** Around $200 | [Check current price on Amazon](https://www.amazon.com/dp/B089TQWJKK?tag=amazonfi08e0c-20)
 
-Ninja's the name most people think of when they think air fryers, and the DualZone deserves that reputation.
+This is the one I kept. Ninja's the name most people think of when they think air fryers, and the DualZone deserves that reputation.
 
-The Smart Finish feature here is similiar to Cosori's sync cooking — both baskets finish at the same time even with different cook times. But Ninja's execution feels slightly more polished. The Match Cook mode copies settings instantly between baskets when you want identical cooking, which I use for double batches of the same thing.
+What sold me is the Smart Finish feature — both baskets finish at the same time even with different cook times. Set different temps for each basket, and everything comes out ready together. I use this constantly — chicken thighs at 380° on one side, Brussels sprouts at 400° on the other. Done simultaneously. No juggling.
 
-Temperature range goes up to 450°F compared to Cosori's 400°F limit. Probably doesn't matter for 90% of recipes, but if you're doing steaks or want maximum crispiness on wings, the extra heat helps.
+I tested it with a full 2 pounds of frozen fries split between both baskets. Came out perfect in 18 minutes. No hot spots, no soggy middle layer. Tried the same test with my old 5-quart single basket and got half the fries done unevenly while the other half sat on the counter waiting.
 
-The baskets are deeper than the Cosori's though, and that matters. With deep baskets, food stacks more and you need to shake more frequently. I found myself opening the DualZone every 5 minutes to toss things around, versus every 7-8 minutes with the wider Cosori baskets.
+The Match Cook mode copies settings instantly between baskets when you want identical cooking, which I use for double batches of the same thing. Temperature range goes up to 450°F which helps if you're doing steaks or want maximum crispiness on wings.
 
-**Who should get this instead of the Cosori?** If you're a Ninja household already (have their blenders, Instant Pot, etc.) and want everything to match aesthetically. Or if you specifically need that 450° capability for searing.
+**The downsides:** The baskets are deep rather than wide, so food stacks more and you need to shake every 5 minutes or so. Also this thing is heavy — not moving it in and out of cabinets. Pick a counter spot and that's where it lives.
 
-Also worth noting: Ninja's customer service is excellent. Had an issue with a different Ninja appliance last year and they replaced it no questions asked. That peace of mind has value.
+But for a family of 5-6 where everyone eats at once? This is the move.
 
 ![Ninja DualZone interior baskets](/images/products/ninja-dualzone-8qt-2.jpg)
 
-{{< cta-button url="https://www.amazon.com/dp/B09QFMWWGD?tag=amazonfi08e0c-20" text="View on Amazon" >}}
+{{< cta-button url="https://www.amazon.com/dp/B089TQWJKK?tag=amazonfi08e0c-20" text="See Price on Amazon" >}}
+
+---
+
+## Runner Up: Cosori Pro 5.8QT
+
+![Cosori Pro air fryer](/images/products/cosori-pro-5qt-1.jpg)
+
+**Price:** Around $120 | [Check availability](https://www.amazon.com/dp/B0936FGLQS?tag=amazonfi08e0c-20)
+
+If dual-basket feels like overkill, the Cosori Pro is the best large single-basket option I tested. At 5.8 quarts, it's genuinely large enough for 4-5 people in one batch — unlike those fake "5 quart" models that can barely fit 3 servings.
+
+What makes the Cosori stand out is the basket design. It's wider and shallower than most competitors. Food & Wine's testing team noted this specifically — the wider bottom means more surface area touching the air flow, which means crispier results with less shaking.
+
+The 9 preset cooking functions cover basically everything, and the shake reminder beeps are actually helpful instead of annoying. One-touch operation once you learn the presets.
+
+**The trade-off:** It's a single basket, so you're doing mains first, then sides. For casual dinners where people grab food as it's ready, that's fine. For sit-down family dinners, you'll want the Ninja's dual baskets.
+
+Also worth noting: Cosori's build quality is surprisingly good for the price. Feels premium, cooks premium, but costs $80 less than the Ninja.
+
+![Cosori Pro air fryer interior](/images/products/cosori-pro-5qt-2.jpg)
+
+{{< cta-button url="https://www.amazon.com/dp/B0936FGLQS?tag=amazonfi08e0c-20" text="View on Amazon" >}}
 
 ---
 
@@ -151,12 +149,12 @@ A few things worth noting from all this testing:
 
 ## Quick Answer: Which One Should You Buy?
 
-**Family of 5-6 with counter space:** [Cosori TwinFry 9QT](https://www.amazon.com/dp/B0CG9XGHBD?tag=amazonfi08e0c-20) — best bang for buck, widest baskets for optimal crisping.
+**Family of 5-6 with counter space:** [Ninja DualZone 8QT](https://www.amazon.com/dp/B089TQWJKK?tag=amazonfi08e0c-20) — best dual-basket option, Smart Finish feature is a game changer.
 
-**Already have Ninja stuff / want max temp:** [Ninja DualZone 8QT](https://www.amazon.com/dp/B09QFMWWGD?tag=amazonfi08e0c-20) — slightly more polished interface, better brand support.
+**Want quality without dual baskets:** [Cosori Pro 5.8QT](https://www.amazon.com/dp/B0936FGLQS?tag=amazonfi08e0c-20) — best large single basket, wide shallow design for optimal crisping.
 
-**Tight budget, okay with batches:** [Instant Vortex Plus 6QT](https://www.amazon.com/dp/B07VHFMZHJ?tag=amazonfi08e0c-20) — best single-basket option, great build quality for the price.
+**Tight budget, okay with batches:** [Instant Vortex Plus 6QT](https://www.amazon.com/dp/B07VHFMZHJ?tag=amazonfi08e0c-20) — solid single-basket option, great build quality for the price.
 
 My kids now fight over who gets the crispy edges. That's a problem I'm happy to have.
 
-{{< cta-button url="https://www.amazon.com/dp/B0CG9XGHBD?tag=amazonfi08e0c-20" text="Get the Cosori TwinFry on Amazon" >}}
+{{< cta-button url="https://www.amazon.com/dp/B089TQWJKK?tag=amazonfi08e0c-20" text="Get the Ninja DualZone on Amazon" >}}
