@@ -51,9 +51,9 @@ enableEmoji = false
 # Site parameters
 [params]
   env = "production"
-  title = "Researched Picks"
-  description = "In-depth product reviews backed by real owner research. We analyze hundreds of reviews so you don't have to."
-  keywords = ["product reviews", "buying guides", "best products 2026", "honest reviews", "research-backed recommendations"]
+  title = "Researched Picks — Honest Product Reviews"
+  description = "I read hundreds of Amazon reviews, Reddit threads, and forum posts so you don't have to. Real research, real opinions, no BS."
+  keywords = ["product reviews 2026", "best products reddit", "honest reviews", "buying guide", "amazon reviews analysis", "what to buy 2026", "unbiased product reviews"]
   author = "Ben Arp"
 
   # Images
@@ -74,8 +74,8 @@ enableEmoji = false
 
   # Home page
   [params.homeInfoParams]
-    Title = "Honest Reviews. Real Research."
-    Content = "We analyze hundreds of verified reviews, Reddit discussions, and forum posts—so you get the truth, not marketing fluff."
+    Title = "I Read Hundreds of Reviews So You Don't Have To"
+    Content = "Real research from Reddit, Amazon, and forums. No sponsored content. No fake 5-star ratings. Just honest answers about what's worth buying in 2026."
 
   # Social icons (optional)
   [[params.socialIcons]]

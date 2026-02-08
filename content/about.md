@@ -1,57 +1,84 @@
 ---
-title: "About Us"
+title: "About Researched Picks"
 date: 2026-01-01T00:00:00+00:00
 draft: false
-description: "Learn about our mission to provide honest, research-backed product reviews that help you make smarter purchasing decisions."
+description: "Meet Ben Arp, the researcher behind Researched Picks. I spend hours reading real owner reviews so you don't waste money on products that suck."
 layout: "single"
 ---
 
-## Who We Are
+<div style="display: flex; gap: 2rem; align-items: flex-start; margin-bottom: 2rem; flex-wrap: wrap;">
+<div style="flex: 1; min-width: 280px;">
 
-We're a small team of product researchers and writers who believe you deserve better than sponsored content and fake reviews. Our mission is simple: help you find the right products without wading through marketing fluff.
+## Hey, I'm Ben.
 
-### Our Approach
+I'm the guy behind Researched Picks. That's me on the right with my wife — yes, we go on ice cream runs at midnight. No, I won't apologize for it.
 
-Every review we publish follows a rigorous research process:
+I started this site after spending 4 hours researching a damn air fryer. Four hours. And you know what I found? The same recycled marketing copy on every "review" site. The same 10 products recommended everywhere. Zero actual insight into what happens after you've owned the thing for 6 months.
 
-1. **Analyze real owner feedback** - We dig through hundreds of verified Amazon reviews, Reddit discussions, and forum posts to understand what real owners experience after months of use—not just unboxing impressions.
+So I built something different.
 
-2. **Identify patterns, not outliers** - A single 1-star review could be a defective unit. But when dozens of owners report the same issue? That's information you need to know.
-
-3. **Test claims against reality** - Marketing says "whisper quiet." Reddit says "woke up my entire family." We tell you what actual owners report.
-
-4. **Recommend with conviction** - We don't hedge with "it depends on your needs" copouts. We tell you what to buy and why—or when to skip it entirely.
-
-### Why Trust Us?
-
-**We buy what we recommend.** Our recommendations aren't based on which brand sends the nicest PR packages. We analyze products the same way we would if spending our own money—because often, we are.
-
-**We disclose everything.** Yes, we earn affiliate commissions when you purchase through our links. This doesn't cost you extra, and it doesn't influence our recommendations. We recommend products we'd tell our friends and family to buy.
-
-**We update our picks.** Products change. Prices change. Better options emerge. We revisit our recommendations and update them when something better comes along.
-
-### About Benjamin Arp
-
-I started this site because I was tired of spending hours researching products only to find the same recycled marketing copy everywhere. I wanted reviews that answered the questions real buyers have—the questions you can't find answered on product pages.
-
-When I'm not researching products, I'm probably using them to figure out if they're actually worth recommending.
+</div>
+<div style="flex-shrink: 0;">
+<img src="/images/ben-about.jpg" alt="Ben Arp and wife enjoying ice cream" style="width: 280px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);">
+</div>
+</div>
 
 ---
 
-## Our Editorial Standards
+## What Makes This Site Different
 
-- We never accept payment for reviews
-- We disclose all affiliate relationships
-- We update recommendations when better options emerge
-- We highlight weaknesses alongside strengths
-- We cite specific sources for our claims
+**I actually read the 1-star reviews.** Not just skim them — I read through hundreds of them. Because that's where the truth is. That's where you find out the motor burns out after 8 months, or the app stopped working after an update, or the company has terrible customer service.
 
-## Contact
+**I spend 4-6 hours on every post.** Reddit threads. Amazon reviews sorted by "most recent." Forum deep dives. YouTube comments (yes, really). I piece together what real owners experience after the honeymoon period ends.
 
-Have a question about a review? Found an error? Want to suggest a product for us to cover?
-
-Reach out at: **benarp2144@gmail.com**
+**I tell you what to skip.** Half of being helpful is telling you what NOT to buy. I'm not gonna recommend 10 products when 7 of them are garbage.
 
 ---
 
-*This site participates in the Amazon Associates Program and other affiliate programs. When you click our links and make a purchase, we may earn a commission at no additional cost to you. This helps us continue producing honest, independent reviews.*
+## My Research Process
+
+I don't have a lab. I don't have a team of testers with clipboards. Here's what I actually do:
+
+1. **Find the popular picks** — What's selling? What's recommended? What's hyped?
+
+2. **Dig into real owner feedback** — Reddit, Amazon reviews (sorted by recent, filtered by verified purchase), specialized forums, Facebook groups. I look for patterns, not outliers.
+
+3. **Look for the problems nobody talks about** — Every product has issues. I find them. The coating that peels after 3 months. The firmware update that broke everything. The accessories that cost extra but should've been included.
+
+4. **Compare against the competition** — Is this actually the best, or just the most marketed?
+
+5. **Give you a straight answer** — Here's what to buy. Here's why. Here's who should skip it.
+
+---
+
+## The Affiliate Thing
+
+Yeah, I make money when you click my links and buy stuff. That's how this site exists.
+
+But here's the thing: I recommend the same products whether there's an affiliate link or not. I've recommended products that DON'T have affiliate programs because they were genuinely better. I've told people to buy from Costco when the price was better, even though I don't get a cut.
+
+The affiliate income lets me keep doing this instead of getting a real job. The honesty is what makes people actually trust the recommendations. One doesn't work without the other.
+
+---
+
+## My Gear Philosophy
+
+I'm not a minimalist, but I hate clutter. I like things that work well enough that I forget they exist. I'd rather spend $200 once on something that lasts than $50 three times on garbage that breaks.
+
+I'm also cheap about stuff that doesn't matter. $15 HDMI cables are a scam. Generic batteries are fine. Not everything needs to be premium.
+
+---
+
+## Get In Touch
+
+Found something wrong in a review? Have a product you want me to look into? Just want to tell me I'm wrong about something?
+
+**Email:** benarp2144@gmail.com
+
+I read everything. I respond to most things. Don't be a stranger.
+
+---
+
+<p style="font-size: 0.875rem; color: #666; margin-top: 2rem;">
+<em>Researched Picks is a participant in the Amazon Associates Program. When you buy through my links, I earn a small commission at no extra cost to you. This keeps the site running and lets me keep doing this work. I only recommend products I'd actually tell my friends to buy.</em>
+</p>
