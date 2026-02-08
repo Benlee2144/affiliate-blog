@@ -25,7 +25,7 @@ Best Kitchen Scales for Baking 2026
 Best Knife Sets for Home Cooks 2026
 
 # === ELECTRONICS (Tech enthusiasts) ===
-Best Wireless Earbuds for Running 2026
+# [DONE] Best Wireless Earbuds for Running 2026
 Best Noise Cancelling Headphones 2026
 Best Gaming Monitors Under $500 2026
 Best 4K TVs Under $1000 2026
@@ -101,7 +101,7 @@ Best Pulse Oximeters for Home Use 2026
 Best Electric Toothbrushes 2026
 Best Electric Shavers for Men 2026
 Best Hair Clippers for Home Use 2026
-Best Hair Dryers for Thick Hair 2026
+# [DONE] Best Hair Dryers for Thick Hair 2026
 Best Curling Irons for Beginners 2026
 Best Flat Irons for Frizzy Hair 2026
 Best Electric Razors for Women 2026
