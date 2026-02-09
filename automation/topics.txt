@@ -67,7 +67,7 @@ Best Lawn Mowers for Small Yards 2026
 Best Leaf Blowers for Fall Cleanup 2026
 
 # === OFFICE & PRODUCTIVITY ===
-Best Standing Desks for Home Office 2026
+# [DONE] Best Standing Desks for Home Office 2026
 Best Ergonomic Office Chairs 2026
 Best Desk Lamps for Eye Strain 2026
 Best Laptop Stands for Better Posture 2026
