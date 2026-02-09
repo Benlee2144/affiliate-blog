@@ -329,6 +329,39 @@ Seriously.
 
 ---
 
+## 11. IMAGE VERIFICATION (CRITICAL!)
+
+**NEVER download images blindly from CDNs.** Verify EVERY image is the correct product.
+
+### Download Sources (Try in order):
+1. **Amazon Product Page** - Scrape image IDs from product page, then download from m.media-amazon.com
+2. **Best Buy** - Use correct SKU number (found on product page URL)
+3. **Manufacturer website** - Most reliable for appliances
+
+### Verification Steps:
+1. **File size check**: Must be >10KB (error pages are tiny)
+2. **File type check**: `file image.jpg` must show JPEG/PNG
+3. **VISUAL INSPECTION**: Open the image and confirm it shows the expected product
+
+### Common Problems:
+- **Best Buy SKU mismatch**: SKU 5715727 might return a different product than expected
+- **Amazon blocking**: May return error pages instead of images
+- **CDN caching**: Old/wrong images cached at wrong URLs
+
+### Automation Script:
+Use `automation/verify-image-content.py` to validate image content:
+```bash
+python3 automation/verify-image-content.py image.jpg "Cuisinart stand mixer"
+```
+
+### If Image Is Wrong:
+1. Delete the wrong image
+2. Try a different source (Best Buy → Amazon → Manufacturer)
+3. Search for the exact product SKU/ASIN before downloading
+4. Verify the new image before committing
+
+---
+
 ## 11. POST TRACKER
 
 **Log every post to ensure variety:**
