@@ -50,7 +50,7 @@ Best Cordless Vacuums for Apartments 2026
 Best Handheld Vacuums for Cars 2026
 Best Air Purifiers for Allergies 2026
 Best Dehumidifiers for Basements 2026
-Best Smart Thermostats for Energy Savings 2026
+# [DONE] Best Smart Thermostats for Energy Savings 2026
 Best Smart Doorbells with Cameras 2026
 Best Home Security Cameras Indoor 2026
 Best Smart Plugs for Home Automation 2026
