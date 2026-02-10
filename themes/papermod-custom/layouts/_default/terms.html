@@ -11,47 +11,51 @@
         <div class="categories-grid">
             {{ range .Pages }}
             {{ $categoryName := .Title }}
-            {{ $icon := "◆" }}
             {{ $gradient := "linear-gradient(135deg, #667eea 0%, #764ba2 100%)" }}
             {{ $description := "Browse our expert reviews" }}
+            {{ $iconSvg := `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>` }}
 
             {{/* Category-specific styling */}}
             {{ if eq (lower $categoryName) "tablets" }}
-                {{ $icon = "◆" }}
+                {{ $iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2" ry="2"/><line x1="12" x2="12.01" y1="18" y2="18"/></svg>` }}
                 {{ $gradient = "linear-gradient(135deg, #11998e 0%, #38ef7d 100%)" }}
                 {{ $description = "iPads, Android tablets, and e-readers" }}
             {{ else if eq (lower $categoryName) "kitchen appliances" }}
-                {{ $icon = "◆" }}
+                {{ $iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 11h.01"/><path d="M11 15h.01"/><path d="M16 16h.01"/><path d="m2 16 20 6-6-20A20 20 0 0 0 2 16"/><path d="M5.71 17.11a17.04 17.04 0 0 1 11.4-11.4"/></svg>` }}
                 {{ $gradient = "linear-gradient(135deg, #ee0979 0%, #ff6a00 100%)" }}
                 {{ $description = "Blenders, air fryers, coffee makers & more" }}
             {{ else if eq (lower $categoryName) "electronics" }}
-                {{ $icon = "◆" }}
+                {{ $iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>` }}
                 {{ $gradient = "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)" }}
                 {{ $description = "Gadgets, audio gear, and smart devices" }}
             {{ else if eq (lower $categoryName) "home & garden" }}
-                {{ $icon = "◆" }}
-                {{ $gradient = "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)" }}
+                {{ $iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>` }}
+                {{ $gradient = "linear-gradient(135deg, #667eea 0%, #764ba2 100%)" }}
                 {{ $description = "Tools, furniture, and outdoor gear" }}
             {{ else if eq (lower $categoryName) "fitness" }}
-                {{ $icon = "◆" }}
+                {{ $iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.4 14.4 9.6 9.6"/><path d="M18.657 21.485a2 2 0 1 1-2.829-2.828l-1.767 1.768a2 2 0 1 1-2.829-2.829l6.364-6.364a2 2 0 1 1 2.829 2.829l-1.768 1.767a2 2 0 1 1 2.828 2.829z"/><path d="m21.5 21.5-1.4-1.4"/><path d="M3.9 3.9 2.5 2.5"/><path d="M6.404 12.768a2 2 0 1 1-2.829-2.829l1.768-1.767a2 2 0 1 1-2.828-2.829l2.828-2.828a2 2 0 1 1 2.829 2.828l1.767-1.768a2 2 0 1 1 2.829 2.829z"/></svg>` }}
                 {{ $gradient = "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)" }}
                 {{ $description = "Exercise equipment and fitness trackers" }}
+            {{ else if eq (lower $categoryName) "fitness & health" }}
+                {{ $iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>` }}
+                {{ $gradient = "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)" }}
+                {{ $description = "Health and wellness products" }}
             {{ else if eq (lower $categoryName) "beauty" }}
-                {{ $icon = "◆" }}
+                {{ $iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>` }}
                 {{ $gradient = "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)" }}
                 {{ $description = "Skincare, haircare, and beauty tools" }}
-            {{ else if eq (lower $categoryName) "office" }}
-                {{ $icon = "◆" }}
+            {{ else if or (eq (lower $categoryName) "office") (eq (lower $categoryName) "office & productivity") }}
+                {{ $iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></svg>` }}
                 {{ $gradient = "linear-gradient(135deg, #667eea 0%, #764ba2 100%)" }}
                 {{ $description = "Desks, chairs, and productivity tools" }}
             {{ else if eq (lower $categoryName) "outdoor" }}
-                {{ $icon = "◆" }}
+                {{ $iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>` }}
                 {{ $gradient = "linear-gradient(135deg, #56ab2f 0%, #a8e063 100%)" }}
                 {{ $description = "Camping, hiking, and outdoor recreation" }}
             {{ end }}
 
             <a href="{{ .Permalink }}" class="category-card" style="--card-gradient: {{ $gradient }}">
-                <div class="category-icon">{{ $icon }}</div>
+                <div class="category-icon">{{ $iconSvg | safeHTML }}</div>
                 <div class="category-content">
                     <h2>{{ .Title }}</h2>
                     <p class="category-description">{{ $description }}</p>
