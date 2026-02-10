@@ -34,14 +34,6 @@
             {{ $name := .Page.Title }}
             {{ $count := len .Pages }}
             {{ $icon := "◆" }}
-            {{ if eq (lower $name) "tablets" }}{{ $icon = "📱" }}{{ end }}
-            {{ if eq (lower $name) "kitchen appliances" }}{{ $icon = "⚡" }}{{ end }}
-            {{ if eq (lower $name) "electronics" }}{{ $icon = "🎧" }}{{ end }}
-            {{ if eq (lower $name) "home & garden" }}{{ $icon = "🏠" }}{{ end }}
-            {{ if eq (lower $name) "fitness" }}{{ $icon = "💪" }}{{ end }}
-            {{ if eq (lower $name) "beauty" }}{{ $icon = "✨" }}{{ end }}
-            {{ if eq (lower $name) "office" }}{{ $icon = "💼" }}{{ end }}
-            {{ if eq (lower $name) "outdoor" }}{{ $icon = "⛰️" }}{{ end }}
             <a href="{{ .Page.Permalink }}" class="quick-link">
                 <span class="quick-link-icon">{{ $icon }}</span>
                 <span class="quick-link-name">{{ $name }}</span>
@@ -110,17 +102,17 @@
     <section class="trust-section">
         <div class="trust-grid">
             <div class="trust-item">
-                <div class="trust-icon">🔍</div>
+                <div class="trust-icon">◆</div>
                 <h3>Deep Research</h3>
                 <p>We analyze hundreds of verified reviews, Reddit discussions, and forum posts for every product.</p>
             </div>
             <div class="trust-item">
-                <div class="trust-icon">⚖️</div>
+                <div class="trust-icon">◆</div>
                 <h3>Honest Takes</h3>
                 <p>Every product has downsides. We tell you what they are so you can decide if they matter to you.</p>
             </div>
             <div class="trust-item">
-                <div class="trust-icon">🎯</div>
+                <div class="trust-icon">◆</div>
                 <h3>Clear Guidance</h3>
                 <p>No wishy-washy "it depends." We tell you exactly who should buy—and who should skip.</p>
             </div>
