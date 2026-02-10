@@ -54,8 +54,8 @@
                 {{ $description = "Camping, hiking, and outdoor recreation" }}
             {{ end }}
 
-            <a href="{{ .Permalink }}" class="category-card" style="--card-gradient: {{ $gradient }}">
-                <div class="category-icon">{{ $iconSvg | safeHTML }}</div>
+            <a href="{{ .Permalink }}" class="category-card">
+                <div class="category-icon" style="background: {{ $gradient }}">{{ $iconSvg | safeHTML }}</div>
                 <div class="category-content">
                     <h2>{{ .Title }}</h2>
                     <p class="category-description">{{ $description }}</p>
