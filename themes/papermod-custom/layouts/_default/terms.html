@@ -55,7 +55,7 @@
             {{ end }}
 
             <a href="{{ .Permalink }}" class="category-card">
-                <div class="category-icon" style="background: {{ $gradient }}">{{ $iconSvg | safeHTML }}</div>
+                <div class="category-icon" style="background: {{ $gradient | safeCSS }}">{{ $iconSvg | safeHTML }}</div>
                 <div class="category-content">
                     <h2>{{ .Title }}</h2>
                     <p class="category-description">{{ $description }}</p>
