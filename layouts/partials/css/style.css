@@ -143,6 +143,7 @@ th { font-weight: 600; background: var(--color-bg-alt); }
     font-size: 1.375rem;
     font-weight: 700;
     color: var(--color-text);
+    letter-spacing: -0.02em;
 }
 
 /* Pill-shaped search bar in header center */
@@ -1159,7 +1160,7 @@ article.container {
 
     .mobile-search .search-bar-button {
         border: 2px solid var(--color-text);
-        border-radius: 8px;
+        border-radius: 4px;
         background: var(--color-bg);
         height: 42px;
     }
