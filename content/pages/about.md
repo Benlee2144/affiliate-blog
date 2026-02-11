@@ -1,7 +1,7 @@
 ---
 title: "About Us"
 date: 2024-01-01
-draft: false
+draft: true
 description: "Learn about Benjamin Arp and why we create honest, research-backed product reviews to help you make smarter buying decisions."
 layout: "single"
 url: "/about/"

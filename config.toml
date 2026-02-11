@@ -43,10 +43,20 @@ enableEmoji = false
     url = "/categories/"
     weight = 2
   [[menu.main]]
+    identifier = "deals"
+    name = "Deals"
+    url = "/deals/"
+    weight = 3
+  [[menu.main]]
+    identifier = "how-i-research"
+    name = "How I Research"
+    url = "/how-i-research/"
+    weight = 4
+  [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 3
+    weight = 5
 
 # Site parameters
 [params]

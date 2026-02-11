@@ -29,7 +29,7 @@ So I built something different.
 
 **I actually read the 1-star reviews.** Not just skim them — I read through hundreds of them. Because that's where the truth is. That's where you find out the motor burns out after 8 months, or the app stopped working after an update, or the company has terrible customer service.
 
-**I spend 4-6 hours on every post.** Reddit threads. Amazon reviews sorted by "most recent." Forum deep dives. YouTube comments (yes, really). I piece together what real owners experience after the honeymoon period ends.
+**I spend 4-6 hours on every post.** Reddit threads on r/BuyItForLife, r/HomeImprovement, r/Cooking, r/headphones — wherever real owners hang out. Amazon reviews sorted by "most recent." Forum deep dives. YouTube comments (yes, really). I piece together what real owners experience after the honeymoon period ends.
 
 **I tell you what to skip.** Half of being helpful is telling you what NOT to buy. I'm not gonna recommend 10 products when 7 of them are garbage.
 
@@ -49,15 +49,21 @@ I don't have a lab. I don't have a team of testers with clipboards. Here's what 
 
 5. **Give you a straight answer** — Here's what to buy. Here's why. Here's who should skip it.
 
+Want the full breakdown? Check out my [How I Research](/how-i-research/) page.
+
 ---
 
-## The Affiliate Thing
+## Why You Should Trust Me
 
-Yeah, I make money when you click my links and buy stuff. That's how this site exists.
+Look, I'll be straight with you. I make money through Amazon affiliate links. When you click a link on my site and buy something, I get a small commission. That's how this site pays for itself.
 
-But here's the thing: I recommend the same products whether there's an affiliate link or not. I've recommended products that DON'T have affiliate programs because they were genuinely better. I've told people to buy from Costco when the price was better, even though I don't get a cut.
+But here's the thing — I make the same commission regardless of *which* product you buy. So there's zero incentive for me to push expensive options or ignore better alternatives. I've recommended products that DON'T have affiliate programs because they were genuinely better. I've told people to buy from Costco when the price was better there, even though I don't get a cut.
 
-The affiliate income lets me keep doing this instead of getting a real job. The honesty is what makes people actually trust the recommendations. One doesn't work without the other.
+**No brand has ever paid me to write a review.** No one sends me free stuff. I buy the products I personally test with my own money, just like you would.
+
+The affiliate income lets me keep doing this instead of getting a real job. The honesty is what makes people actually come back. One doesn't work without the other.
+
+Read my full [editorial standards](/editorial-standards/) if you want the details.
 
 ---
 
