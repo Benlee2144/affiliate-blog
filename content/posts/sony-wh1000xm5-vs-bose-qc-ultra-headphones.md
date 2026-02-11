@@ -68,7 +68,7 @@ Here's where things get subjective and forums get angry.
 
 I listen to a lot of everything. Rock on weekends, podcasts during work, some hip-hop at the gym. For my taste the Sony edges it out because that bass presence just makes music more fun. But I completely understand people who prefer the Bose's more refined sound.
 
-![Sony WH-1000XM5](https://m.media-amazon.com/images/I/51aXvjzcukL._AC_SL1500_.jpg)
+![Sony WH-1000XM5](/images/products/sony-wh1000xm5-vs-1.jpg)
 
 ## Comfort: 8-Hour Workday Test
 

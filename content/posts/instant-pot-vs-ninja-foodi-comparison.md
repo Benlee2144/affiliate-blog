@@ -66,7 +66,7 @@ The Ninja Foodi is a BEAST. It's taller because of the crisping lid mechanism an
 
 In a small kitchen this matters a lot. The Foodi demands premium counter real estate. The Instant Pot can tuck into a corner.
 
-![Ninja Foodi multi-cooker](https://m.media-amazon.com/images/I/81DjBFMRJsL._AC_SL1500_.jpg)
+![Ninja Foodi multi-cooker](/images/products/instant-pot-vs-1.jpg)
 
 ## Cleaning
 

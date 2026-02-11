@@ -110,7 +110,7 @@ The Ninja requires more manual disassembly. Those stacked blades are annoying to
 
 **Winner: KitchenAid.**
 
-![KitchenAid K400 blender](https://m.media-amazon.com/images/I/61BKKh6MjxL._AC_SL1500_.jpg)
+![KitchenAid K400 blender](/images/products/kitchenaid-artisan-1.jpg)
 
 ## So Who Should Buy What?
 
