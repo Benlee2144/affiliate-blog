@@ -213,6 +213,25 @@
             });
         }
 
+        // Mobile accordion for category sections
+        function initAccordion() {
+            if (window.innerWidth > 640) return;
+            document.querySelectorAll('.category-section-header').forEach(function(header) {
+                header.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    this.parentElement.classList.toggle('open');
+                });
+            });
+        }
+        initAccordion();
+        window.addEventListener('resize', function() {
+            document.querySelectorAll('.category-section').forEach(function(s) {
+                if (window.innerWidth > 640) {
+                    s.classList.remove('open');
+                }
+            });
+        });
+
         function loadSearchIndex() {
             if (searchIndex) return;
 

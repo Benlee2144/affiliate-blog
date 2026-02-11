@@ -850,6 +850,11 @@ article.container {
         grid-template-columns: 1fr;
     }
 
+    .featured-image {
+        aspect-ratio: 16/9;
+        max-height: 280px;
+    }
+
     .reviews-grid { grid-template-columns: repeat(2, 1fr); }
     .pick-box-product { flex-direction: column; }
     .pick-box-image { width: 100%; max-width: 300px; }
@@ -861,8 +866,74 @@ article.container {
     html { font-size: 15px; }
 
     .header .container { height: 52px; }
-    .header-search { margin: 0 1rem; }
+    .header-search { margin: 0 0.75rem; }
     .header-right { display: none; }
+
+    /* Hide horizontal category nav on mobile */
+    .category-nav { display: none; }
+
+    /* Wirecutter mobile: accordion category sections */
+    .category-section {
+        padding: 0;
+        border-bottom: none;
+    }
+
+    .category-section-header {
+        border-top: 3px solid var(--color-text);
+        padding: 1.125rem 0;
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .category-label {
+        font-family: var(--font-heading);
+        font-size: 1.25rem;
+        font-weight: 700;
+        text-transform: none;
+        letter-spacing: 0;
+        color: var(--color-text);
+    }
+
+    .category-label:hover {
+        color: var(--color-text);
+        text-decoration: none;
+    }
+
+    /* Chevron indicator */
+    .category-section-header::after {
+        content: '';
+        display: block;
+        width: 12px;
+        height: 12px;
+        border-right: 2.5px solid var(--color-text);
+        border-bottom: 2.5px solid var(--color-text);
+        transform: rotate(45deg);
+        transition: transform 0.2s ease;
+        flex-shrink: 0;
+        margin-left: 1rem;
+    }
+
+    .category-section.open .category-section-header::after {
+        transform: rotate(-135deg);
+    }
+
+    /* Collapsed by default on mobile */
+    .category-section-content {
+        display: none;
+        padding-bottom: 1.5rem;
+    }
+
+    .category-section.open .category-section-content {
+        display: block;
+    }
+
+    .featured-image {
+        aspect-ratio: 3/2;
+        max-height: 220px;
+    }
 
     .featured-title { font-size: 1.375rem; }
     .reviews-grid { grid-template-columns: 1fr; }
