@@ -1,5 +1,6 @@
 ---
-title: "Stop Buying Cheap Dash Cams — These 4 Actually Work"
+title: "Stop Buying Cheap Dash Cams - These 4 Actually Work"
+slug: "best-dash-cams-for-cars-2026"
 date: 2026-02-11T11:00:00-05:00
 lastmod: 2026-02-11T11:00:00-05:00
 draft: false
