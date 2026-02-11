@@ -146,6 +146,17 @@ th { font-weight: 600; background: var(--color-bg-alt); }
     letter-spacing: -0.02em;
 }
 
+.logo-tagline {
+    font-family: var(--font-ui);
+    font-size: 0.625rem;
+    color: var(--color-text-secondary);
+    margin-left: 0.75rem;
+    padding-left: 0.75rem;
+    border-left: 1px solid var(--color-border);
+    letter-spacing: 0.02em;
+    font-weight: 500;
+}
+
 /* Pill-shaped search bar in header center */
 .header-search {
     flex: 1;
@@ -376,6 +387,14 @@ th { font-weight: 600; background: var(--color-bg-alt); }
     margin: 0 0 1rem;
     padding-top: 0.75rem;
     border-top: 3px solid var(--color-text);
+}
+
+.section-subheading {
+    font-family: var(--font-ui);
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    margin: -0.5rem 0 1rem;
+    line-height: 1.4;
 }
 
 /* Left: The latest */
@@ -1137,6 +1156,7 @@ article.container {
     .header-search { display: none; }
     .header-right { display: none; }
     .hamburger-menu { display: block; position: absolute; left: 1rem; }
+    .logo-tagline { display: none; }
 
     .disclosure-bar {
         font-size: 0.75rem;
