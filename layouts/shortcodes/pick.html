@@ -1,0 +1,50 @@
+{{/* 
+  Pick Box Shortcode - Wirecutter-style product recommendation box
+  Usage: {{< pick type="our-pick" name="Product Name" image="/images/product.jpg" price="$199" url="https://amazon.com/..." subtitle="The best for most people" >}}
+  Optional: type can be "our-pick", "budget", "upgrade", "also-great"
+*/}}
+{{ $type := .Get "type" | default "our-pick" }}
+{{ $name := .Get "name" }}
+{{ $image := .Get "image" }}
+{{ $price := .Get "price" }}
+{{ $url := .Get "url" }}
+{{ $subtitle := .Get "subtitle" }}
+
+{{ $headerClass := "" }}
+{{ $headerText := "Our pick" }}
+{{ if eq $type "budget" }}
+    {{ $headerClass = "budget" }}
+    {{ $headerText = "Budget pick" }}
+{{ else if eq $type "upgrade" }}
+    {{ $headerClass = "upgrade" }}
+    {{ $headerText = "Upgrade pick" }}
+{{ else if eq $type "also-great" }}
+    {{ $headerClass = "also-great" }}
+    {{ $headerText = "Also great" }}
+{{ end }}
+
+<div class="pick-box">
+    <div class="pick-box-header {{ $headerClass }}">
+        {{ $headerText }}
+    </div>
+    <div class="pick-box-body">
+        <div class="pick-box-product">
+            {{ with $image }}
+            <div class="pick-box-image">
+                <img src="{{ . }}" alt="{{ $name }}" loading="lazy">
+            </div>
+            {{ end }}
+            <div class="pick-box-info">
+                <h3>{{ $name }}</h3>
+                {{ with $subtitle }}<p class="pick-box-subtitle">{{ . }}</p>{{ end }}
+                {{ with $price }}<div class="pick-box-price">{{ . }}</div>{{ end }}
+                {{ with $url }}<a href="{{ . }}" class="pick-box-cta" target="_blank" rel="noopener sponsored">Check Price on Amazon</a>{{ end }}
+            </div>
+        </div>
+        {{ with .Inner }}
+        <div class="pick-box-details">
+            {{ . | markdownify }}
+        </div>
+        {{ end }}
+    </div>
+</div>
