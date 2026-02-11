@@ -1068,9 +1068,19 @@ article.container {
     .header-right { display: none; }
     .hamburger-menu { display: block; position: absolute; left: 1rem; }
 
-    .disclosure-bar { display: none; }
+    .disclosure-bar {
+        font-size: 0.75rem;
+        padding: 0.5rem 0;
+    }
 
-    .hero-section { display: none; }
+    .hero-section {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .hero-latest { display: none; }
+    .hero-deals { display: none; }
+    .hero-featured { order: 1; }
 
     /* Mobile search bar below header */
     .mobile-search {
