@@ -402,9 +402,9 @@ th { font-weight: 600; background: var(--color-bg-alt); }
 /* Center: Hero featured */
 .hero-featured-image {
     display: block;
-    aspect-ratio: 4/3;
+    aspect-ratio: 3/2;
     overflow: hidden;
-    border-radius: 2px;
+    border-radius: 4px;
     margin-bottom: 1rem;
 }
 
@@ -412,6 +412,11 @@ th { font-weight: 600; background: var(--color-bg-alt); }
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.hero-featured-image:hover img {
+    transform: scale(1.02);
 }
 
 .hero-featured-title {
@@ -460,11 +465,12 @@ th { font-weight: 600; background: var(--color-bg-alt); }
 .deal-item a:hover { color: var(--color-accent); }
 
 .deal-item img {
-    width: 56px;
-    height: 56px;
+    width: 64px;
+    height: 64px;
     object-fit: cover;
     border-radius: 4px;
     flex-shrink: 0;
+    background: var(--color-bg-alt);
 }
 
 .deal-item span {
