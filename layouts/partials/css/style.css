@@ -170,15 +170,15 @@ th { font-weight: 600; background: var(--color-bg-alt); }
     gap: 0.5rem;
     width: 100%;
     padding: 0.625rem 1.25rem;
-    border: 1px solid #bbb;
-    border-radius: 100px;
+    border: 1px solid #ccc;
+    border-radius: 24px;
     background: var(--color-bg);
     cursor: pointer;
     font-family: var(--font-body);
     font-size: 1rem;
     color: var(--color-text-muted);
     transition: border-color 0.15s;
-    height: 44px;
+    height: 48px;
 }
 
 .search-bar-button:hover {
@@ -233,8 +233,8 @@ th { font-weight: 600; background: var(--color-bg-alt); }
 
 .category-nav a {
     font-family: var(--font-ui);
-    font-size: 0.8125rem;
-    font-weight: 500;
+    font-size: 0.875rem;
+    font-weight: 600;
     color: var(--color-text);
     text-decoration: none;
     padding: 0.75rem 1rem;
@@ -372,7 +372,7 @@ th { font-weight: 600; background: var(--color-bg-alt); }
 
 .hero-section {
     display: grid;
-    grid-template-columns: 1fr 2.5fr 1fr;
+    grid-template-columns: 22% 1fr 28%;
     gap: 2.5rem;
     padding-bottom: var(--spacing-xl);
     border-bottom: 1px solid var(--color-border);
@@ -381,7 +381,7 @@ th { font-weight: 600; background: var(--color-bg-alt); }
 
 .section-heading {
     font-family: var(--font-heading);
-    font-size: 1.5rem;
+    font-size: 1.625rem;
     font-weight: 400;
     color: var(--color-text);
     margin: 0 0 1rem;
@@ -423,8 +423,8 @@ th { font-weight: 600; background: var(--color-bg-alt); }
 .latest-date {
     display: block;
     font-family: var(--font-ui);
-    font-size: 0.75rem;
-    color: var(--color-text-secondary);
+    font-size: 0.8125rem;
+    color: #666;
     margin-top: 0.125rem;
 }
 
