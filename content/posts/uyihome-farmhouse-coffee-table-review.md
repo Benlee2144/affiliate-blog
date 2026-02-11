@@ -1,8 +1,8 @@
 ---
 title: "UYIHOME Farmhouse Coffee Table Review (2026): Rustic Style on a Budget"
 slug: "uyihome-farmhouse-coffee-table-review"
-date: 2026-02-05T00:00:00+00:00
-lastmod: 2026-02-05T00:00:00+00:00
+date: 2026-01-16T16:38:12+00:00
+lastmod: 2026-01-16T16:38:12+00:00
 draft: false
 description: "After analyzing owner reviews and comparing farmhouse coffee tables, here's whether the UYIHOME 2-tier coffee table delivers real value—or just looks good in photos."
 summary: "A budget-friendly farmhouse table that nails the rustic aesthetic, but assembly quality varies."

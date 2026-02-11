@@ -1,13 +1,13 @@
 ---
 title: "Theragun Mini Review (2026): Premium Percussion Therapy in Your Pocket"
 slug: "theragun-mini-massage-gun-review"
-date: 2026-01-26T00:00:00+00:00
-lastmod: 2026-01-26T00:00:00+00:00
+date: 2026-01-13T16:29:33+00:00
+lastmod: 2026-01-13T16:29:33+00:00
 draft: false
 description: "After analyzing 400+ owner reviews and comparing to cheaper alternatives, here's whether the Theragun Mini justifies its premium price—and who should buy the cheaper Relief instead."
 summary: "1.5 lbs of portable percussion therapy. We break down whether Therabody's smallest massage gun is worth the premium."
 
-keywords: ["Theragun Mini review", "best massage gun 2026", "Theragun vs cheap massage gun", "portable massage gun"]
+keywords: ["Theragun Mini review", "Theragun vs cheap massage gun", "portable massage gun"]
 
 categories: ["Fitness"]
 tags: ["Theragun", "massage gun", "product review", "fitness recovery", "buying guide"]

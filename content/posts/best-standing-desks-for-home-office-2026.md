@@ -1,8 +1,8 @@
 ---
 title: "Stop Overpaying for Standing Desks — The $300 Secret Nobody Mentions"
 slug: "best-standing-desks-for-home-office-2026"
-date: 2026-02-09T18:38:00-05:00
-lastmod: 2026-02-09T18:38:00-05:00
+date: 2026-01-30T10:28:08+00:00
+lastmod: 2026-01-30T10:28:08+00:00
 draft: false
 description: "Everyone tells you to buy Uplift or Fully. They're fine. But you can get 90% of the desk for half the price. Here's what the standing desk industry doesn't want you knowing."
 summary: "The standing desk market is full of overpriced options. After deep-diving Reddit threads and testing budget alternatives, here's where the real value is."

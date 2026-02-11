@@ -1,8 +1,8 @@
 ---
 title: "I Thought Smart Thermostats Were Overhyped — Then I Saw My Energy Bill"
 slug: "best-smart-thermostats-for-energy-savings-2026"
-date: 2026-02-08T22:52:00-05:00
-lastmod: 2026-02-08T22:52:00-05:00
+date: 2026-02-04T14:59:50+00:00
+lastmod: 2026-02-04T14:59:50+00:00
 draft: false
 description: "Smart thermostats promising 8-26% energy savings sounded like marketing garbage to me. Turns out I was wrong. Here's what actually delivers and what's just expensive wallpaper."
 summary: "Skeptic turned believer after 3 months of testing. Most smart thermostat claims are overhyped, but the energy savings are real — if you pick the right one."

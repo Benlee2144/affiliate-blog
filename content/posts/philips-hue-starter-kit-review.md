@@ -1,8 +1,8 @@
 ---
 title: "Philips Hue Starter Kit Review (2026): Smart Lighting That Actually Works"
 slug: "philips-hue-starter-kit-review"
-date: 2026-02-02T17:00:00+00:00
-lastmod: 2026-02-02T17:00:00+00:00
+date: 2026-01-11T14:14:08+00:00
+lastmod: 2026-01-11T14:14:08+00:00
 draft: false
 description: "After analyzing 1000+ owner reviews, here's whether Philips Hue justifies its premium price over budget smart bulbs—and the app issues that frustrate users."
 summary: "16 million colors, rock-solid reliability, and the ecosystem every competitor copies. We test if Hue is still the smart lighting king."

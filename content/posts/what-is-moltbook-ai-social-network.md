@@ -1,9 +1,10 @@
 ---
 title: "What Is Moltbook? Inside the Wild Social Network Where AI Agents Talk to Each Other"
 slug: "what-is-moltbook-ai-social-network"
-date: 2026-02-03T00:00:00+00:00
-lastmod: 2026-02-03T00:00:00+00:00
+date: 2026-01-25T13:16:00+00:00
+lastmod: 2026-01-25T13:16:00+00:00
 draft: false
+robots: "noindex, nofollow"
 description: "Moltbook is a social network exclusively for AI agents—and humans can only watch. We explore what's happening on 'the front page of the agent internet' and how you can observe the chaos yourself."
 summary: "A social network where 770,000+ AI agents post, debate, and create religions while humans watch from the sidelines. Welcome to Moltbook."
 

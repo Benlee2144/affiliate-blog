@@ -1,8 +1,8 @@
 ---
 title: "I Was Wrong About Electric Kettles — Why Temperature Control Actually Matters"
 slug: "best-electric-kettles-for-tea-lovers-2026"
-date: 2026-02-09T22:52:00-05:00
-lastmod: 2026-02-09T22:52:00-05:00
+date: 2026-02-06T18:47:20+00:00
+lastmod: 2026-02-06T18:47:20+00:00
 draft: false
 description: "I thought all kettles just boiled water. Then I ruined expensive loose leaf tea for months before figuring out what I was doing wrong. Here's what I learned."
 summary: "For years I thought kettles were kettles. Boil water, pour, done. Turns out I was burning my green tea and wondering why it tasted bitter. The fix was embarrassingly simple."

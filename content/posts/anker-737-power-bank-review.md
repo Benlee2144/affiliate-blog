@@ -1,8 +1,8 @@
 ---
 title: "Anker 737 Power Bank Review (2026): 24,000mAh That Charges Laptops"
 slug: "anker-737-power-bank-review"
-date: 2026-02-02T11:00:00+00:00
-lastmod: 2026-02-02T11:00:00+00:00
+date: 2026-01-19T18:05:46+00:00
+lastmod: 2026-01-19T18:05:46+00:00
 draft: false
 description: "After analyzing 2000+ owner reviews, here's whether the Anker 737 delivers on its laptop-charging promises—and the TSA rules you need to know."
 summary: "140W output charges MacBooks and phones simultaneously. We test the power bank that replaced carrying multiple chargers."

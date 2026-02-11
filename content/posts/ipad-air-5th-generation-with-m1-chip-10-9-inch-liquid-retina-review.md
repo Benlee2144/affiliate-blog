@@ -1,8 +1,8 @@
 ---
 title: "iPad Air M1 (5th Gen) Review (2026): Best iPad for Most People?"
 slug: "ipad-air-5th-generation-with-m1-chip-10-9-inch-liquid-retina-review"
-date: 2026-02-02T10:30:00+00:00
-lastmod: 2026-02-02T10:30:00+00:00
+date: 2026-01-23T08:01:37+00:00
+lastmod: 2026-01-23T08:01:37+00:00
 draft: false
 description: "After analyzing 14,000+ owner reviews and Reddit discussions, here's whether the iPad Air M1 is worth buying—and why the 64GB model is a trap."
 summary: "The iPad Air M1 has a dirty secret: the 64GB model is a $150 mistake. Here's why 87% of buyers wish they'd upgraded—and who should skip Apple entirely."

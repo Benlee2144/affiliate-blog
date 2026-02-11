@@ -1,8 +1,8 @@
 ---
 title: "Roborock Q5 Pro Review (2026): Smart Navigation Without the Premium Price"
 slug: "roborock-q5-pro-robot-vacuum-review"
-date: 2026-02-02T00:00:00+00:00
-lastmod: 2026-02-02T00:00:00+00:00
+date: 2026-01-16T16:48:11+00:00
+lastmod: 2026-01-16T16:48:11+00:00
 draft: false
 description: "After analyzing 400+ owner reviews and Reddit discussions, here's whether the Roborock Q5 Pro delivers on its promises—and where it falls short."
 summary: "LiDAR navigation and 5500Pa suction at mid-range pricing. We dig into what owners actually say after months of use."

@@ -1,8 +1,8 @@
 ---
 title: "Weber Original Kettle 22\" Grill Review (2026): The Backyard Classic That Still Wins"
 slug: "weber-original-kettle-grill-review"
-date: 2026-02-01T16:00:00+00:00
-lastmod: 2026-02-01T16:00:00+00:00
+date: 2026-01-18T06:59:23+00:00
+lastmod: 2026-01-18T06:59:23+00:00
 draft: false
 description: "After analyzing 15,000+ reviews and years of backyard testing, here's why the Weber Kettle remains the best charcoal grill for most people—decades after its invention."
 summary: "The grill that defined backyard cooking for 70 years. We test if the classic design still beats modern competitors."

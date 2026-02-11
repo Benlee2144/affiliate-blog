@@ -1,8 +1,8 @@
 ---
 title: "Home Office Setup Guide 2026: Everything You Need (And What's a Waste of Money)"
 slug: "home-office-setup-guide-2026"
-date: 2026-02-11T14:00:00-05:00
-lastmod: 2026-02-11T14:00:00-05:00
+date: 2026-02-10T14:15:00+00:00
+lastmod: 2026-02-10T14:15:00+00:00
 draft: false
 description: "The complete home office buying guide for 2026. Standing desks, monitors, laptops, microphones, lighting, and more — with honest picks at every budget level."
 summary: "After setting up 3 home offices (mine, my wife's, and my brother's), here's everything you actually need and everything that's a waste of money."

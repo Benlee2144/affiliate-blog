@@ -1,8 +1,8 @@
 ---
 title: "Levoit Core 300 Air Purifier Review (2026): Budget HEPA That Actually Works"
 slug: "levoit-core-300-air-purifier-review"
-date: 2026-01-29T00:00:00+00:00
-lastmod: 2026-01-29T00:00:00+00:00
+date: 2026-01-14T20:49:41+00:00
+lastmod: 2026-01-14T20:49:41+00:00
 draft: false
 description: "After analyzing 500+ owner reviews and air quality tests, here's whether the Levoit Core 300 delivers clean air at its budget price—and the HEPA controversy you should know about."
 summary: "True HEPA filtration under $100 with whisper-quiet 24dB operation. We break down what owners say after months of daily use."

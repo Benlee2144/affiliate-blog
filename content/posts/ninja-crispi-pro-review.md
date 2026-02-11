@@ -1,8 +1,8 @@
 ---
 title: "Ninja Crispi Pro Review (2026): The Glass Air Fryer That Changes Everything"
 slug: "ninja-crispi-pro-review"
-date: 2026-02-05T00:00:00+00:00
-lastmod: 2026-02-05T00:00:00+00:00
+date: 2026-01-20T10:49:08+00:00
+lastmod: 2026-01-20T10:49:08+00:00
 draft: false
 description: "After analyzing hundreds of owner reviews and Reddit discussions, here's whether the Ninja Crispi Pro's glass design and 6-in-1 functionality justify the premium price."
 summary: "Glass containers, no toxic coatings, and cook-to-storage convenience. We test if this viral air fryer lives up to the hype."

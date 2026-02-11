@@ -1,8 +1,8 @@
 ---
 title: "My Basement Smelled Like a Wet Dog — Here's The Dehumidifier That Fixed It"
 slug: "best-dehumidifiers-for-basements-2026"
-date: 2026-02-10T14:14:00-05:00
-lastmod: 2026-02-10T14:14:00-05:00
+date: 2026-02-03T12:10:24+00:00
+lastmod: 2026-02-03T12:10:24+00:00
 draft: false
 description: "That musty basement smell drove me crazy for months. After researching way too long on Reddit and burning through one dud, I finally found what actually works."
 summary: "Spent 3 months ignoring that damp basement smell before finally doing something about it. Here's what I learned about dehumidifiers so you don't have to make my mistakes."

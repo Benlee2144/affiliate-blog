@@ -1,8 +1,8 @@
 ---
 title: "4 Months with 2 Dogs and 3 Robot Vacuums — Here's What Actually Works"
 slug: "best-robot-vacuums-for-pet-hair-2026"
-date: 2026-02-08T07:23:00-05:00
-lastmod: 2026-02-08T07:23:00-05:00
+date: 2026-02-11T15:30:00+00:00
+lastmod: 2026-02-11T15:30:00+00:00
 draft: false
 description: "After cycling through 3 robot vacuums while living with 2 shedding dogs, I finally found what actually survives the fur apocalypse. Spoiler: one of them gave up after 6 weeks."
 summary: "Most robot vacuums claim to handle pet hair. Most of them lie. Here's what 4 months of real-world testing with golden retrievers taught me about which ones can actually keep up."

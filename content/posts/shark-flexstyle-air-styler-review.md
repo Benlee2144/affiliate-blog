@@ -1,8 +1,8 @@
 ---
 title: "Shark FlexStyle Review (2026): The Dyson Airwrap Alternative That Actually Competes"
 slug: "shark-flexstyle-air-styler-review"
-date: 2026-02-02T15:00:00+00:00
-lastmod: 2026-02-02T15:00:00+00:00
+date: 2026-01-09T09:25:56+00:00
+lastmod: 2026-01-09T09:25:56+00:00
 draft: false
 description: "After analyzing 800+ owner reviews and testing against Dyson Airwrap, here's whether the Shark FlexStyle delivers salon results at half the price."
 summary: "Coanda technology curls, dries, and styles at $300 vs Dyson's $600. We test if the viral Airwrap dupe is worth it."

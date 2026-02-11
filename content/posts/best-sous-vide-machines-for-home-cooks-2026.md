@@ -1,8 +1,8 @@
 ---
 title: "Is Sous Vide Actually Worth It? My Honest Take After 6 Months"
 slug: "best-sous-vide-machines-for-home-cooks-2026"
-date: 2026-02-10T22:52:00-05:00
-lastmod: 2026-02-10T22:52:00-05:00
+date: 2026-02-02T09:31:30+00:00
+lastmod: 2026-02-02T09:31:30+00:00
 draft: false
 description: "I thought sous vide was pretentious nonsense for food snobs. Then I actually tried it and now I can't cook steak any other way. Here's what changed my mind."
 summary: "Thought sous vide was overhyped kitchen gadget territory. Six months and probably 50 steaks later, I get it now. Here's what you actually need to know before buying one."

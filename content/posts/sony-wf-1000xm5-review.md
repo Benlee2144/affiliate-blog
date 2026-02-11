@@ -1,13 +1,13 @@
 ---
 title: "Sony WF-1000XM5 Review (2026): The Noise-Canceling Benchmark"
 slug: "sony-wf-1000xm5-review"
-date: 2026-01-31T00:00:00+00:00
-lastmod: 2026-01-31T00:00:00+00:00
+date: 2026-01-13T16:04:24+00:00
+lastmod: 2026-01-13T16:04:24+00:00
 draft: false
 description: "After analyzing 500+ owner reviews and audiophile discussions, here's whether Sony's flagship earbuds justify the premium price—and who should skip them."
 summary: "87% noise reduction and audiophile-approved sound. We break down what owners say after a year of daily use."
 
-keywords: ["Sony WF-1000XM5 review", "best wireless earbuds 2026", "Sony earbuds vs AirPods Pro", "noise canceling earbuds"]
+keywords: ["Sony WF-1000XM5 review", "Sony earbuds vs AirPods Pro", "noise canceling earbuds"]
 
 categories: ["Electronics"]
 tags: ["Sony", "wireless earbuds", "product review", "audio", "buying guide"]

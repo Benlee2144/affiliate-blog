@@ -1,8 +1,8 @@
 ---
 title: "I Spent 3 Years Miserable Before Finding the Right Air Purifier for Allergies"
 slug: "best-air-purifiers-for-allergies-2026"
-date: 2026-02-09T07:23:00-05:00
-lastmod: 2026-02-09T07:23:00-05:00
+date: 2026-02-06T06:37:47+00:00
+lastmod: 2026-02-06T06:37:47+00:00
 draft: false
 description: "Every spring I dreaded pollen season. Every fall, dust got me. Tried 4 different air purifiers before finding what actually works for allergies. Here's what I learned the hard way."
 summary: "Most air purifiers marketed for allergies barely help. After years of trial and error, I finally understand what matters — and what's just marketing fluff."

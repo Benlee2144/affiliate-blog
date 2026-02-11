@@ -1,13 +1,13 @@
 ---
 title: "Dyson vs Shark Cordless Vacuum: Is Dyson Worth 2x the Price?"
 slug: "dyson-vs-shark-cordless-vacuum-comparison"
-date: 2026-02-11T11:00:00-05:00
-lastmod: 2026-02-11T11:00:00-05:00
+date: 2026-02-09T10:05:26+00:00
+lastmod: 2026-02-09T10:05:26+00:00
 draft: false
 description: "Dyson V15 at $750 vs Shark Stratos at $350. I've used both in the same house for 6 months. Here's whether the Dyson premium is justified or just marketing."
 summary: "The premium vacuum vs the value champ. After testing both on the same floors for months, the answer surprised me."
 
-keywords: ["Dyson vs Shark vacuum", "Dyson V15 vs Shark Stratos", "best cordless vacuum 2026", "is Dyson worth it", "Shark vs Dyson comparison"]
+keywords: ["Dyson vs Shark vacuum", "Dyson V15 vs Shark Stratos", "is Dyson worth it", "Shark vs Dyson comparison"]
 
 categories: ["Home & Garden"]
 tags: ["Dyson", "Shark", "cordless vacuum", "comparison", "cleaning"]

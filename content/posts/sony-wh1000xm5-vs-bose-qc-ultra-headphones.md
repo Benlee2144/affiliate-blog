@@ -1,13 +1,13 @@
 ---
 title: "Sony WH-1000XM5 vs Bose QC Ultra: Real Owner's Verdict After 8 Months"
 slug: "sony-wh1000xm5-vs-bose-qc-ultra-headphones"
-date: 2026-02-11T09:00:00-05:00
-lastmod: 2026-02-11T09:00:00-05:00
+date: 2026-02-08T06:32:05+00:00
+lastmod: 2026-02-08T06:32:05+00:00
 draft: false
 description: "I own both the Sony WH-1000XM5 and Bose QC Ultra headphones. After 8 months of daily switching, here's the definitive answer to which one you should buy."
 summary: "The internet's most debated headphone matchup, settled by someone who actually owns and uses both daily. Spoiler: the answer isn't what most reviewers say."
 
-keywords: ["Sony WH-1000XM5 vs Bose QC Ultra", "best noise cancelling headphones 2026", "Sony vs Bose headphones", "ANC headphones comparison"]
+keywords: ["Sony WH-1000XM5 vs Bose QC Ultra", "Sony vs Bose headphones", "ANC headphones comparison"]
 
 categories: ["Electronics"]
 tags: ["Sony", "Bose", "headphones", "noise cancelling", "comparison"]

@@ -1,8 +1,8 @@
 ---
 title: "3 Air Fryers That Can Actually Handle a Family of 5+ (I Tested Them All)"
 slug: "best-air-fryers-for-large-families-2026"
-date: 2026-02-08T10:47:00-05:00
-lastmod: 2026-02-08T10:47:00-05:00
+date: 2026-01-29T18:03:25+00:00
+lastmod: 2026-01-29T18:03:25+00:00
 draft: false
 description: "After 6 weeks testing large-capacity air fryers for my family of 6, here's what actually works — and what's just marketing hype. Spoiler: most 'large' air fryers aren't."
 summary: "Most air fryers claiming to feed a family can barely handle 4 servings. I tested the biggest ones on the market to find what actually works for households of 5 or more."

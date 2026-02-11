@@ -1,8 +1,8 @@
 ---
 title: "Lodge 10.25\" Cast Iron Skillet Review (2026): The Buy-It-For-Life Kitchen Essential"
 slug: "lodge-cast-iron-skillet-review"
-date: 2026-02-02T13:00:00+00:00
-lastmod: 2026-02-02T13:00:00+00:00
+date: 2026-01-11T21:05:48+00:00
+lastmod: 2026-01-11T21:05:48+00:00
 draft: false
 description: "After analyzing 50,000+ Amazon reviews and testing for 5+ years, here's whether the Lodge cast iron skillet lives up to its legendary reputation—and the rough surface controversy."
 summary: "Pre-seasoned and ready to use at under $25. We test if America's most popular cast iron delivers on its century-old reputation."

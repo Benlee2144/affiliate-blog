@@ -1,8 +1,8 @@
 ---
 title: "Apple Watch Series 10 Review (2026): The Thinnest Apple Watch Yet"
 slug: "apple-watch-series-10-review"
-date: 2026-02-03T08:00:00+00:00
-lastmod: 2026-02-03T08:00:00+00:00
+date: 2026-01-05T20:10:23+00:00
+lastmod: 2026-01-05T20:10:23+00:00
 draft: false
 description: "After analyzing 500+ owner reviews and wearing it daily for 3 months, here's whether the Apple Watch Series 10 justifies upgrading—and the battery truth Apple won't tell you."
 summary: "Thinner design, larger display, sleep apnea detection. We test if the 10th anniversary Apple Watch delivers meaningful upgrades."

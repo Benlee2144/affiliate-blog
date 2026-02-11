@@ -1,8 +1,8 @@
 ---
 title: "The $1,500 Robot Vacuum With a Class Action Lawsuit (ECOVACS X11 Deep Dive)"
 slug: "ecovacs-deebot-x11-omnicyclone-review"
-date: 2026-02-07T12:00:00+00:00
-lastmod: 2026-02-07T12:00:00+00:00
+date: 2026-01-06T09:24:17+00:00
+lastmod: 2026-01-06T09:24:17+00:00
 draft: false
 description: "ECOVACS is facing a class action lawsuit over motor defects. I dug into whether the DEEBOT X11 OmniCyclone is worth the premium price—or a $1,500 mistake."
 summary: "19,500Pa suction sounds incredible on paper. But independent tests tell a different story, and there's a lawsuit brewing."

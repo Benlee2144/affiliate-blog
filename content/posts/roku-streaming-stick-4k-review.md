@@ -1,8 +1,8 @@
 ---
 title: "Roku Streaming Stick 4K Review (2026): The Best $50 You'll Spend on Your TV"
 slug: "roku-streaming-stick-4k-review"
-date: 2026-02-02T09:00:00+00:00
-lastmod: 2026-02-02T09:00:00+00:00
+date: 2026-01-19T06:15:56+00:00
+lastmod: 2026-01-19T06:15:56+00:00
 draft: false
 description: "After analyzing 30,000+ reviews, here's why the Roku Streaming Stick 4K beats Fire Stick and Chromecast for most households—and the ads you'll have to tolerate."
 summary: "4K HDR streaming, every app that matters, and the simplest interface available. We test if Roku is still the streamer to beat."

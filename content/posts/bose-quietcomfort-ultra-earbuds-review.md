@@ -1,8 +1,8 @@
 ---
 title: "Bose QuietComfort Ultra Earbuds Review (2026): ANC Perfection With Caveats"
 slug: "bose-quietcomfort-ultra-earbuds-review"
-date: 2026-02-02T16:00:00+00:00
-lastmod: 2026-02-02T16:00:00+00:00
+date: 2026-01-21T12:42:00+00:00
+lastmod: 2026-01-21T12:42:00+00:00
 draft: false
 description: "After analyzing 600+ owner reviews and Reddit discussions, here's whether Bose's flagship earbuds justify the $299 price—and the firmware issues some users face."
 summary: "Best-in-class noise cancellation and immersive audio. We test if Bose beats Sony and Apple at their own game."

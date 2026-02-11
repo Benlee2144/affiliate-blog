@@ -1,8 +1,8 @@
 ---
 title: "I Bought 4 E-Readers in 6 Months — Here's What Nobody Tells You"
 slug: "best-e-readers-for-book-lovers-2026"
-date: 2026-02-07T22:00:00-05:00
-lastmod: 2026-02-07T22:00:00-05:00
+date: 2026-01-27T15:12:06+00:00
+lastmod: 2026-01-27T15:12:06+00:00
 draft: false
 description: "After cycling through Kindle, Kobo, and almost buying a Boox, I finally figured out which e-reader is actually worth your money. Spoiler: it depends on one question nobody asks."
 summary: "I thought e-readers were overhyped until I tried reading on my phone for a year. Then I went down the rabbit hole. Here's what 6 months of testing taught me."

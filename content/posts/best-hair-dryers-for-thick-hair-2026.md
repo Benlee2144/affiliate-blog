@@ -1,8 +1,8 @@
 ---
 title: "I Spent 6 Hours in Hair Dryer Reddit So You Don't Have To"
 slug: "best-hair-dryers-for-thick-hair-2026"
-date: 2026-02-06T10:00:00+00:00
-lastmod: 2026-02-06T10:00:00+00:00
+date: 2026-01-26T21:13:34+00:00
+lastmod: 2026-01-26T21:13:34+00:00
 draft: false
 description: "After reading 300+ Reddit threads and forum posts about hair dryers for thick hair, here's what actually works—and why the internet's favorite pick isn't what you'd expect."
 summary: "The real winners from r/curlyhair, r/HaircareScience, and r/BuyItForLife. Spoiler: the expensive option isn't always best."

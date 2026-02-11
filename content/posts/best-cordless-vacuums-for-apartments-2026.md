@@ -1,8 +1,8 @@
 ---
 title: "Best Cordless Vacuums for Apartments 2026: I Returned 4 Before Finding the Right One"
 slug: "best-cordless-vacuums-for-apartments-2026"
-date: 2026-02-10T10:47:00-05:00
-lastmod: 2026-02-10T10:47:00-05:00
+date: 2026-02-01T06:41:34+00:00
+lastmod: 2026-02-01T06:41:34+00:00
 draft: false
 description: "Cordless vacuums sound perfect for apartments until you realize half of them are garbage. After returning 4 duds, here's what actually works in small spaces."
 summary: "I returned a Shark, two budget Amazon options, and a Tineco before finally getting one that didn't die after 3 months or wake up my downstairs neighbors. Here's what I learned."

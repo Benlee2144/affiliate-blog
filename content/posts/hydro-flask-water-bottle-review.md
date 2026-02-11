@@ -1,8 +1,8 @@
 ---
 title: "Hydro Flask 32oz Review (2026): The Water Bottle Worth the Cult Following"
 slug: "hydro-flask-water-bottle-review"
-date: 2026-02-02T08:00:00+00:00
-lastmod: 2026-02-02T08:00:00+00:00
+date: 2026-01-22T21:07:15+00:00
+lastmod: 2026-01-22T21:07:15+00:00
 draft: false
 description: "After analyzing 10,000+ reviews and 3 years of daily use, here's whether Hydro Flask justifies its premium price—and why cheap alternatives fall short."
 summary: "24 hours cold, 12 hours hot, and a lifetime warranty. We test if the Instagram-famous water bottle delivers on its promises."

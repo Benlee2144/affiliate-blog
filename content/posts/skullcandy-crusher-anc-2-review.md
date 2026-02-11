@@ -1,8 +1,8 @@
 ---
 title: "Skullcandy Crusher ANC 2 Review (2026): The Bass King That Literally Shakes Your Head"
 slug: "skullcandy-crusher-anc-2-review"
-date: 2026-02-03T05:30:00+00:00
-lastmod: 2026-02-03T05:30:00+00:00
+date: 2026-01-18T10:20:31+00:00
+lastmod: 2026-01-18T10:20:31+00:00
 draft: false
 description: "After analyzing 3,500+ owner reviews and Reddit discussions, here's whether the Skullcandy Crusher ANC 2's skull-rattling bass is worth $150—and who should skip them entirely."
 summary: "These headphones don't just play bass—they physically vibrate it into your skull. We researched thousands of reviews to find out if that's genius or gimmick."

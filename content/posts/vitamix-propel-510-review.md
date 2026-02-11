@@ -1,8 +1,8 @@
 ---
 title: "Vitamix Propel 510 Review (2026): The Sweet Spot Between Budget and Premium"
 slug: "vitamix-propel-510-review"
-date: 2026-02-05T00:00:00+00:00
-lastmod: 2026-02-05T00:00:00+00:00
+date: 2026-01-25T12:32:15+00:00
+lastmod: 2026-01-25T12:32:15+00:00
 draft: false
 description: "After analyzing hundreds of owner reviews, here's whether the Vitamix Propel 510 justifies its price over the E310—and where it falls short of the A3500."
 summary: "3 preset programs, 2HP motor, and Vitamix build quality. We test if this mid-range blender hits the sweet spot."

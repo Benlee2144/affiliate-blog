@@ -1,8 +1,8 @@
 ---
 title: "My Wife Asked Me to Find Her a Stand Mixer — 3 Weeks Later I Know Too Much"
 slug: "best-stand-mixers-for-home-bakers-2026"
-date: 2026-02-09T10:47:00-05:00
-lastmod: 2026-02-09T10:47:00-05:00
+date: 2026-02-01T06:59:48+00:00
+lastmod: 2026-02-01T06:59:48+00:00
 draft: false
 description: "She wanted a mixer for her birthday. I fell into a rabbit hole of wattage debates, planetary mixing actions, and heated KitchenAid vs Cuisinart arguments. Here's what I actually learned."
 summary: "What started as a simple birthday gift turned into three weeks of research. Turns out most stand mixer advice online is outdated or just wrong."

@@ -1,8 +1,8 @@
 ---
 title: "I Read 300+ Reddit Comments About Electric Toothbrushes So You Don't Have To"
 slug: "best-electric-toothbrushes-2026"
-date: 2026-02-07T08:00:00+00:00
-lastmod: 2026-02-07T08:00:00+00:00
+date: 2026-01-31T09:51:55+00:00
+lastmod: 2026-01-31T09:51:55+00:00
 draft: false
 description: "After falling down a Reddit rabbit hole about Oral-B vs Sonicare, here are the 3 electric toothbrushes actually worth buying in 2026—and which one I'd grab with my own money."
 summary: "Three toothbrushes. 300+ Reddit comments. One clear winner for most people."

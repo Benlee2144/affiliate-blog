@@ -1,8 +1,8 @@
 ---
 title: "I Went Down a 6-Hour Reddit Rabbit Hole on Running Earbuds. Here's What Actually Survives Sweat."
 slug: "best-wireless-earbuds-for-running-2026"
-date: 2026-02-07T10:00:00+00:00
-lastmod: 2026-02-07T10:00:00+00:00
+date: 2026-02-07T10:30:32+00:00
+lastmod: 2026-02-07T10:30:32+00:00
 draft: false
 description: "After reading hundreds of Reddit threads and runner complaints, I found the 3 wireless earbuds that won't fall out, won't die from sweat, and won't make you want to throw them into traffic."
 summary: "Most 'running earbuds' fail within 6 months of heavy use. After digging through r/running, r/headphones, and way too many Amazon 1-star reviews, here are the 3 that actually hold up."

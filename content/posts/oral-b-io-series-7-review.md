@@ -1,13 +1,13 @@
 ---
 title: "Oral-B iO Series 7 Review (2026): Premium Cleaning Without the Premium Price"
 slug: "oral-b-io-series-7-review"
-date: 2026-01-30T00:00:00+00:00
-lastmod: 2026-01-30T00:00:00+00:00
+date: 2026-01-15T12:46:56+00:00
+lastmod: 2026-01-15T12:46:56+00:00
 draft: false
 description: "After analyzing 400+ owner reviews and dentist recommendations, here's whether the Oral-B iO Series 7 delivers on its promises—and the battery issue you need to know about."
 summary: "Magnetic oscillating technology and AI tracking at mid-range pricing. We dig into what owners say after months of daily use."
 
-keywords: ["Oral-B iO Series 7 review", "best electric toothbrush 2026", "Oral-B vs Sonicare", "electric toothbrush review"]
+keywords: ["Oral-B iO Series 7 review", "Oral-B vs Sonicare", "electric toothbrush review"]
 
 categories: ["Beauty"]
 tags: ["Oral-B", "electric toothbrush", "product review", "dental care", "buying guide"]

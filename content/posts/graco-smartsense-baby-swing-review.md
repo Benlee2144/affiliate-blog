@@ -1,8 +1,8 @@
 ---
 title: "My Sister Asked About Baby Swings and I Fell Down a 4-Hour Research Hole"
 slug: "graco-smartsense-baby-swing-review"
-date: 2026-02-07T10:00:00+00:00
-lastmod: 2026-02-07T10:00:00+00:00
+date: 2026-01-22T20:28:57+00:00
+lastmod: 2026-01-22T20:28:57+00:00
 draft: false
 description: "The Graco SmartSense swing promises 'cry detection technology' that soothes your baby automatically. I dug through parent forums and complaint threads to find out if it actually works."
 summary: "Cry detection sounds like magic. But after reading through hundreds of parent reviews, the reality is more complicated than the marketing suggests."

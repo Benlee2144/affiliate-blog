@@ -1,8 +1,8 @@
 ---
 title: "Best Rice Cookers 2026: What to Buy at Every Price Point"
 slug: "best-rice-cookers-for-perfect-rice-2026"
-date: 2026-02-11T07:23:00-05:00
-lastmod: 2026-02-11T07:23:00-05:00
+date: 2026-01-30T12:15:12+00:00
+lastmod: 2026-01-30T12:15:12+00:00
 draft: false
 description: "From $30 basics to $200 fuzzy logic machines — I break down what you actually get at each price tier and where Wirecutter gets it wrong."
 summary: "Rice cookers range from dirt cheap to weirdly expensive. After testing three at different price points, here's what actually matters and what's just marketing."

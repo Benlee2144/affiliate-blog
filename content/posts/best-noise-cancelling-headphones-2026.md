@@ -1,8 +1,8 @@
 ---
 title: "Sony WH-1000XM5 vs Bose QC Ultra: I Tested Both for 6 Months"
 slug: "best-noise-cancelling-headphones-2026"
-date: 2026-02-09T14:14:00-05:00
-lastmod: 2026-02-09T14:14:00-05:00
+date: 2026-02-11T09:00:00+00:00
+lastmod: 2026-02-11T09:00:00+00:00
 draft: false
 description: "The endless Sony vs Bose debate finally settled. I bought both, used them daily for half a year, and there's a clear answer depending on what you care about."
 summary: "After 6 months of daily use with both flagships, here's the verdict on Sony WH-1000XM5 vs Bose QuietComfort Ultra — plus when the AirPods Max actually makes sense."

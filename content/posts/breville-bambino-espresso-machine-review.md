@@ -1,8 +1,8 @@
 ---
 title: "Breville Bambino Review (2026): Cafe Espresso in the Smallest Footprint"
 slug: "breville-bambino-espresso-machine-review"
-date: 2026-01-27T00:00:00+00:00
-lastmod: 2026-01-27T00:00:00+00:00
+date: 2026-01-21T19:45:19+00:00
+lastmod: 2026-01-21T19:45:19+00:00
 draft: false
 description: "After analyzing 500+ owner reviews and barista opinions, here's whether the Breville Bambino delivers real espresso quality—and the grinder you'll need to buy with it."
 summary: "3-second heat-up, 9-bar extraction, and proper steam wand in a compact body. We break down what coffee lovers say after daily use."

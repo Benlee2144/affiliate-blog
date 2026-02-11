@@ -1,8 +1,8 @@
 ---
 title: "Fitbit Charge 6 Review (2026): The Fitness Tracker That Does It All"
 slug: "fitbit-charge-6-fitness-tracker-review"
-date: 2026-02-01T18:00:00+00:00
-lastmod: 2026-02-01T18:00:00+00:00
+date: 2026-01-11T21:57:37+00:00
+lastmod: 2026-01-11T21:57:37+00:00
 draft: false
 description: "After analyzing 800+ owner reviews and wearing it for 3 months, here's whether the Fitbit Charge 6 delivers the best balance of fitness tracking and smartwatch features."
 summary: "Google integration, built-in GPS, and 7-day battery. We test if Fitbit's flagship tracker beats full smartwatches at their own game."

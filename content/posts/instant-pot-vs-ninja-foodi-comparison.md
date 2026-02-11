@@ -1,8 +1,8 @@
 ---
 title: "Instant Pot vs Ninja Foodi: I Own Both, Here's the Truth"
 slug: "instant-pot-vs-ninja-foodi-comparison"
-date: 2026-02-11T10:00:00-05:00
-lastmod: 2026-02-11T10:00:00-05:00
+date: 2026-02-09T19:37:38+00:00
+lastmod: 2026-02-09T19:37:38+00:00
 draft: false
 description: "After 2 years with an Instant Pot Duo Plus and 18 months with a Ninja Foodi, here's the honest truth about which multi-cooker actually deserves your counter space."
 summary: "Two multi-cookers, one kitchen, zero counter space left. After years of daily use, the answer is more nuanced than any YouTube review tells you."

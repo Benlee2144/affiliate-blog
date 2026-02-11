@@ -1,8 +1,8 @@
 ---
 title: "Blue Yeti USB Microphone Review (2026): The Podcasting Standard"
 slug: "blue-yeti-usb-microphone-review"
-date: 2026-02-02T10:00:00+00:00
-lastmod: 2026-02-02T10:00:00+00:00
+date: 2026-01-08T10:56:45+00:00
+lastmod: 2026-01-08T10:56:45+00:00
 draft: false
 description: "After analyzing 50,000+ reviews and recording hundreds of hours, here's whether the Blue Yeti still deserves its legendary status—and the room noise problem nobody mentions."
 summary: "Four polar patterns, plug-and-play USB, and the microphone that launched a thousand podcasts. We test if it's still the one to buy."

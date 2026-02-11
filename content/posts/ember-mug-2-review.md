@@ -1,8 +1,8 @@
 ---
 title: "I Read Every Ember Mug Complaint on the Internet — Here's What Nobody Tells You"
 slug: "ember-mug-2-review"
-date: 2026-02-07T04:00:00+00:00
-lastmod: 2026-02-07T04:00:00+00:00
+date: 2026-01-10T10:34:16+00:00
+lastmod: 2026-01-10T10:34:16+00:00
 draft: false
 description: "After digging through Reddit threads, BBB complaints, and 200+ reviews, here's the real deal on the Ember Mug 2—including the coating issue that might make you reconsider."
 summary: "A $150 mug that keeps your coffee hot sounds great until you read about the coating flaking off. I spent way too long researching this thing."

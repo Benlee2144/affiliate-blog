@@ -1,8 +1,8 @@
 ---
 title: "Samsung Galaxy Tab S9 Review (2026): The iPad Alternative That Delivers"
 slug: "samsung-galaxy-tab-s9-review"
-date: 2026-02-01T17:00:00+00:00
-lastmod: 2026-02-01T17:00:00+00:00
+date: 2026-01-13T16:55:00+00:00
+lastmod: 2026-01-13T16:55:00+00:00
 draft: false
 description: "After analyzing 600+ owner reviews and daily use for 4 months, here's whether the Galaxy Tab S9 is the Android tablet that finally competes with iPad—and where it still falls short."
 summary: "S Pen included, DeX desktop mode, and AMOLED display. We test if Samsung's flagship tablet is worth the premium."

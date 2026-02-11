@@ -1,8 +1,8 @@
 ---
 title: "JBL Flip 6 Review (2026): The Perfect Portable Speaker Sweet Spot"
 slug: "jbl-flip-6-bluetooth-speaker-review"
-date: 2026-02-02T12:00:00+00:00
-lastmod: 2026-02-02T12:00:00+00:00
+date: 2026-01-07T08:25:17+00:00
+lastmod: 2026-01-07T08:25:17+00:00
 draft: false
 description: "After analyzing 800+ owner reviews and testing against competitors, here's whether the JBL Flip 6 delivers the best balance of portability, sound, and durability."
 summary: "IP67 waterproof, 12-hour battery, and room-filling sound in a one-pound package. We test JBL's best-selling portable speaker."
