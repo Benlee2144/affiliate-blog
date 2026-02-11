@@ -43,7 +43,7 @@
     --spacing-xl: 3rem;
     --spacing-xxl: 4rem;
 
-    --max-width-content: 680px;
+    --max-width-content: 740px;
     --max-width-wide: 1200px;
 }
 
@@ -205,8 +205,8 @@ th { font-weight: 600; background: var(--color-bg-alt); }
 .category-nav a {
     font-family: var(--font-ui);
     font-size: 0.8125rem;
-    font-weight: 600;
-    color: var(--color-text-light);
+    font-weight: 700;
+    color: var(--color-text);
     text-decoration: none;
     padding: 0.75rem 0.875rem;
     transition: color 0.15s ease;
@@ -656,10 +656,12 @@ th { font-weight: 600; background: var(--color-bg-alt); }
 
 .breadcrumbs {
     font-family: var(--font-ui);
-    font-size: 0.8125rem;
-    color: var(--color-text-secondary);
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
     margin-bottom: var(--spacing-md);
     padding: var(--spacing-md) 0 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 
 .breadcrumbs a { color: var(--color-text-muted); text-decoration: none; }
@@ -679,10 +681,11 @@ article.container {
 
 .post-header h1 {
     font-family: var(--font-heading);
-    font-size: 2.5rem;
-    line-height: 1.15;
+    font-size: 2.75rem;
+    line-height: 1.12;
     letter-spacing: -0.01em;
     margin-bottom: var(--spacing-md);
+    font-weight: 700;
 }
 
 .post-meta {
@@ -696,13 +699,15 @@ article.container {
 
 .affiliate-disclosure {
     background: var(--color-bg-alt);
-    border: 1px solid var(--color-border-light);
-    border-radius: 4px;
-    padding: 0.875rem 1.125rem;
+    border: none;
+    border-radius: 0;
+    padding: 0.75rem 0;
     font-size: 0.8125rem;
     line-height: 1.5;
-    color: var(--color-text-muted);
+    color: var(--color-text-light);
     margin-bottom: var(--spacing-xl);
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
 }
 
 .affiliate-disclosure strong { color: var(--color-text-light); }
