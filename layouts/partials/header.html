@@ -41,6 +41,22 @@
     </div>
 </nav>
 
+<!-- Mobile slide-out nav -->
+<div class="mobile-nav-overlay" id="mobile-nav-overlay"></div>
+<nav class="mobile-nav" id="mobile-nav">
+    <button class="mobile-nav-close" id="mobile-nav-close" aria-label="Close menu">&times;</button>
+    <div class="mobile-nav-header">Researched Picks</div>
+    <ul class="mobile-nav-links">
+        <li><a href="/">Home</a></li>
+        {{ $cats := slice "Electronics" "Home & Garden" "Kitchen Appliances" "Fitness" "Beauty" "Office" "Outdoor" }}
+        {{ range $cats }}
+        <li><a href="/categories/{{ . | urlize }}/">{{ . }}</a></li>
+        {{ end }}
+        <li><a href="/about/">About</a></li>
+        <li><a href="/contact/">Contact</a></li>
+    </ul>
+</nav>
+
 <!-- Search Overlay -->
 <div class="search-overlay" id="search-overlay">
     <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
