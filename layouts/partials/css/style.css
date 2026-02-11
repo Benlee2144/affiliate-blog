@@ -1142,8 +1142,17 @@ article.container {
 
 .cta-button:hover {
     background: var(--color-cta-amazon-hover);
-    color: white;
-    text-decoration: none;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+/* Override post-content link styles for CTA buttons */
+.post-content .cta-button,
+.post-content .cta-button:hover,
+.post-content a.cta-button,
+.post-content a.cta-button:hover {
+    color: white !important;
+    text-decoration: none !important;
 }
 
 .amazon-cart-icon { flex-shrink: 0; }
