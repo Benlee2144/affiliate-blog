@@ -399,6 +399,14 @@ th { font-weight: 600; background: var(--color-bg-alt); }
     color: var(--color-accent);
 }
 
+.latest-date {
+    display: block;
+    font-family: var(--font-ui);
+    font-size: 0.75rem;
+    color: var(--color-text-secondary);
+    margin-top: 0.125rem;
+}
+
 /* Center: Hero featured */
 .hero-featured-image {
     display: block;
