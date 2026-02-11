@@ -159,14 +159,14 @@ th { font-weight: 600; background: var(--color-bg-alt); }
     width: 100%;
     padding: 0.625rem 1.25rem;
     border: 1px solid #bbb;
-    border-radius: 6px;
+    border-radius: 100px;
     background: var(--color-bg);
     cursor: pointer;
     font-family: var(--font-body);
     font-size: 1rem;
     color: var(--color-text-muted);
     transition: border-color 0.15s;
-    height: 46px;
+    height: 44px;
 }
 
 .search-bar-button:hover {
@@ -205,17 +205,34 @@ th { font-weight: 600; background: var(--color-bg-alt); }
 .category-nav a {
     font-family: var(--font-ui);
     font-size: 0.8125rem;
-    font-weight: 500;
-    color: var(--color-text-muted);
+    font-weight: 600;
+    color: var(--color-text-light);
     text-decoration: none;
-    padding: 0.625rem 1rem;
+    padding: 0.75rem 0.875rem;
     transition: color 0.15s ease;
     flex-shrink: 0;
+    letter-spacing: 0.01em;
+    position: relative;
 }
 
 .category-nav a:hover {
     color: var(--color-text);
     text-decoration: none;
+}
+
+.category-nav a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0.875rem;
+    right: 0.875rem;
+    height: 1px;
+    background: transparent;
+    transition: background 0.15s;
+}
+
+.category-nav a:hover::after {
+    background: var(--color-text-muted);
 }
 
 /* ============================================
@@ -297,8 +314,8 @@ th { font-weight: 600; background: var(--color-bg-alt); }
 }
 
 .category-section {
-    padding: var(--spacing-lg) 0;
-    border-bottom: 1px solid var(--color-border);
+    padding: var(--spacing-xl) 0 var(--spacing-lg);
+    border-bottom: none;
 }
 
 .category-section:last-of-type {
