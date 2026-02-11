@@ -114,7 +114,7 @@ th { font-weight: 600; background: var(--color-bg-alt); }
    ============================================ */
 .header {
     background: var(--color-bg);
-    border-bottom: 1px solid var(--color-border);
+    border-bottom: none;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -221,10 +221,10 @@ th { font-weight: 600; background: var(--color-bg-alt); }
 .category-nav a {
     font-family: var(--font-ui);
     font-size: 0.8125rem;
-    font-weight: 700;
+    font-weight: 500;
     color: var(--color-text);
     text-decoration: none;
-    padding: 0.75rem 0.875rem;
+    padding: 0.75rem 1rem;
     transition: color 0.15s ease;
     flex-shrink: 0;
     letter-spacing: 0.01em;
@@ -336,9 +336,7 @@ th { font-weight: 600; background: var(--color-bg-alt); }
 }
 
 .disclosure-bar .container {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+    text-align: center;
 }
 
 .disclosure-bar a {
