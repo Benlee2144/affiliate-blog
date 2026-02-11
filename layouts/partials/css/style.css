@@ -1312,7 +1312,17 @@ article.container {
 
     .featured-image {
         aspect-ratio: 3/2;
-        max-height: 220px;
+        max-height: 180px;
+    }
+
+    .hero-featured-image {
+        aspect-ratio: 16/9;
+        max-height: 200px;
+    }
+
+    .hero-featured-image img {
+        object-fit: cover;
+        object-position: center;
     }
 
     .featured-title { font-size: 1.375rem; }
