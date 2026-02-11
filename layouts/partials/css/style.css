@@ -827,9 +827,10 @@ th { font-weight: 600; background: var(--color-bg-alt); }
     letter-spacing: 0.05em;
 }
 
-.breadcrumbs a { color: var(--color-text-muted); text-decoration: none; }
+.breadcrumbs a { color: var(--color-text-muted); text-decoration: none; font-weight: 500; }
 .breadcrumbs a:hover { color: var(--color-accent); text-decoration: underline; }
 .breadcrumbs span { margin: 0 0.375rem; color: var(--color-text-secondary); }
+.breadcrumbs span:last-child { display: none; } /* Hide current page in breadcrumbs */
 
 article.container {
     max-width: var(--max-width-content);
