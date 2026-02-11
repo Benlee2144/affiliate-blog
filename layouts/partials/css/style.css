@@ -435,7 +435,7 @@ th { font-weight: 600; background: var(--color-bg-alt); }
 
 .hero-featured-image {
     display: block;
-    aspect-ratio: 3/2;
+    aspect-ratio: 16/10;
     overflow: hidden;
     border-radius: 4px;
     margin-bottom: 1rem;
