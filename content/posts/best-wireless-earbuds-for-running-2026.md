@@ -196,3 +196,11 @@ And if you find a pair that works? Buy a backup. Seriously. Good running earbuds
 ---
 
 *Affiliate disclosure: I earn a small commission if you buy through my links. It doesn't cost you extra, and it helps keep this site running. I only recommend stuff I'd actually use.*
+
+---
+
+## You Might Also Like
+
+- [Sony WF-1000XM5 review](/sony-wf-1000xm5-review/)
+- [Bose QC Ultra Earbuds review](/bose-quietcomfort-ultra-earbuds-review/)
+- [Fitbit Charge 6 review](/fitbit-charge-6-fitness-tracker-review/)

@@ -162,3 +162,10 @@ My Prime has been running almost daily for two months now. Works on my back afte
 That's what you're paying for. Something that actually works, keeps working, and doesn't sound like a construction site.
 
 {{< cta-button url="https://www.amazon.com/dp/B0FKCJNHWB?tag=amazonfi08e0c-20" text="Get the Theragun Prime on Amazon" >}}
+
+---
+
+## You Might Also Like
+
+- [Theragun Mini review](/theragun-mini-massage-gun-review/)
+- [Fitbit Charge 6 review](/fitbit-charge-6-fitness-tracker-review/)

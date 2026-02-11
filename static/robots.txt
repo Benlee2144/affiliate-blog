@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
+Disallow: /tags/
+Disallow: /categories/
+
 Sitemap: https://researchedpick.com/sitemap.xml

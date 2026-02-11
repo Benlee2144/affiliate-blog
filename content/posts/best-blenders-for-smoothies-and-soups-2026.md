@@ -154,3 +154,11 @@ The [Vitamix 5200](https://www.amazon.com/dp/B008H4SLV6?tag=amazonfi08e0c-20) is
 Buy once, cry once. Or buy cheap three times and still end up buying the expensive one anyway.
 
 That's what I did.
+
+---
+
+## You Might Also Like
+
+- [Ninja BL770 review](/ninja-bl770-mega-kitchen-system-review/)
+- [Vitamix E310 review](/vitamix-e310-explorian-blender-review/)
+- [Ninja vs KitchenAid comparison](/ninja-vs-kitchenaid-blender-comparison/)

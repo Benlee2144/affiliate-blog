@@ -157,3 +157,10 @@ The Weber Original Kettle 22" is the grill that changed backyard cooking—and i
 Your grandfather grilled on one. Your grandchildren can too.
 
 {{< cta-button url="https://www.amazon.com/dp/B00MKB5TXA?tag=amazonfi08e0c-20" text="Check Price on Amazon" >}}
+
+---
+
+## You Might Also Like
+
+- [Weber vs Traeger comparison](/weber-vs-traeger-grill-comparison/)
+- [Lodge cast iron skillet review](/lodge-cast-iron-skillet-review/)

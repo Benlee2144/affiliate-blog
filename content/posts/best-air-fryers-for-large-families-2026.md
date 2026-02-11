@@ -158,3 +158,11 @@ A few things worth noting from all this testing:
 My kids now fight over who gets the crispy edges. That's a problem I'm happy to have.
 
 {{< cta-button url="https://www.amazon.com/dp/B089TQWJKK?tag=amazonfi08e0c-20" text="Get the Ninja DualZone on Amazon" >}}
+
+---
+
+## You Might Also Like
+
+- [Cosori Air Fryer Pro review](/cosori-air-fryer-pro-5qt-review/)
+- [Ninja Crispi Pro review](/ninja-crispi-pro-review/)
+- [Instant Pot vs Ninja Foodi](/instant-pot-vs-ninja-foodi-comparison/)

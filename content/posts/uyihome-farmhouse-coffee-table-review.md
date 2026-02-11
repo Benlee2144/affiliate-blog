@@ -166,3 +166,10 @@ If your priority is solid wood and heirloom quality, save up for something else.
 ---
 
 *Have questions about farmhouse furniture or need help choosing the right coffee table? Drop a comment below.*
+
+---
+
+## You Might Also Like
+
+- [Ember Mug review](/ember-mug-2-review/)
+- [Philips Hue review](/philips-hue-starter-kit-review/)

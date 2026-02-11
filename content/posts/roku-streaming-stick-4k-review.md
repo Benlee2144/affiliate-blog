@@ -153,3 +153,10 @@ The Roku Streaming Stick 4K is the streaming device for people who just want to 
 Accept the home screen ads as the trade-off for a $50 device that does everything well.
 
 {{< cta-button url="https://www.amazon.com/dp/B09BKCDXZC?tag=amazonfi08e0c-20" text="Check Price on Amazon" >}}
+
+---
+
+## You Might Also Like
+
+- [Philips Hue review](/philips-hue-starter-kit-review/)
+- [JBL Flip 6 review](/jbl-flip-6-bluetooth-speaker-review/)

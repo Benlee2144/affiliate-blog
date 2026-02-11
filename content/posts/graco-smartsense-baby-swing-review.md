@@ -180,3 +180,5 @@ Just... keep your receipt. And maybe don't vacuum while the baby's in it.
 - [Levoit Core 300 Air Purifier Review](/levoit-core-300-air-purifier-review/)
 - [Roborock Q5 Pro Robot Vacuum Review](/roborock-q5-pro-robot-vacuum-review/)
 - [Instant Pot Duo Plus Review](/instant-pot-duo-plus-review/)
+- [air purifiers for allergies](/best-air-purifiers-for-allergies-2026/)
+- [smart thermostats](/best-smart-thermostats-for-energy-savings-2026/)

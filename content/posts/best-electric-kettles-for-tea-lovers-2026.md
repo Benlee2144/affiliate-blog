@@ -139,3 +139,11 @@ For most people? The [Cuisinart](https://www.amazon.com/dp/B003KYSLNQ?tag=amazon
 That expensive sencha I ruined? Tried it again at 170°F. Completly different experience. Smooth, slightly sweet, no bitterness at all.
 
 Sometimes the fix really is that simple.
+
+---
+
+## You Might Also Like
+
+- [Breville Bambino espresso review](/breville-bambino-espresso-machine-review/)
+- [Nespresso Vertuo Next review](/nespresso-vertuo-next-review/)
+- [Ember Mug review](/ember-mug-2-review/)

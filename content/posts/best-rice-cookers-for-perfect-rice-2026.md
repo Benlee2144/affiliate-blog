@@ -134,3 +134,11 @@ Stop overthinking this. If you eat rice a couple times a week, grab the [Aroma](
 And if you're the kind of person who cares about the difference between good rice and perfect rice (or you just want something that'll outlive your marriage), get the [Zojirushi NS-TSC10](https://www.amazon.com/dp/B0074CDG6C?tag=amazonfi08e0c-20). You'll complain about the price once and then forget about it for the next decade.
 
 I use the Zojirushi daily now. No regrets. My wife still thinks I'm crazy for spending that much on a rice cooker but she also eats the rice every night so I consider that a win.
+
+---
+
+## You Might Also Like
+
+- [Instant Pot review](/instant-pot-duo-plus-review/)
+- [sous vide machines guide](/best-sous-vide-machines-for-home-cooks-2026/)
+- [kitchen appliance buying guide](/ultimate-kitchen-appliance-buying-guide-2026/)
