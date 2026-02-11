@@ -1,7 +1,65 @@
 {{ define "main" }}
 {{ if .IsHome }}
-<!-- HOMEPAGE - Wirecutter-style category sections -->
+<!-- Disclosure bar -->
+<div class="disclosure-bar">
+    <div class="container">
+        <span>We independently review everything we recommend. When you buy through our links, we may earn a commission.</span>
+        <a href="/affiliate-disclosure/">Learn more ›</a>
+    </div>
+</div>
+
+<!-- HOMEPAGE - Wirecutter-style three-column hero + category sections -->
 <div class="container home-content">
+    <!-- Hero three-column section -->
+    {{ $allPages := .Site.RegularPages.ByDate.Reverse }}
+    <section class="hero-section">
+        <!-- Left: The latest -->
+        <div class="hero-latest">
+            <h2 class="section-heading">The latest</h2>
+            <div class="latest-list">
+                {{ range first 6 $allPages }}
+                <div class="latest-item">
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+
+        <!-- Center: Featured article -->
+        {{ with index $allPages 0 }}
+        <div class="hero-featured">
+            <a href="{{ .Permalink }}" class="hero-featured-image">
+                {{ with .Params.cover.image }}
+                <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+                {{ else }}
+                <div class="placeholder-image"></div>
+                {{ end }}
+            </a>
+            <h2 class="hero-featured-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <p class="hero-featured-byline">by {{ .Params.author | default "Researched Picks" }}</p>
+            <p class="hero-featured-summary">{{ .Summary | plainify | truncate 200 }}</p>
+        </div>
+        {{ end }}
+
+        <!-- Right: Recent picks -->
+        <div class="hero-deals">
+            <h2 class="section-heading">Recent picks</h2>
+            <div class="deals-list">
+                {{ range after 6 (first 10 $allPages) }}
+                <div class="deal-item">
+                    <a href="{{ .Permalink }}">
+                        {{ with .Params.cover.image }}
+                        <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+                        {{ end }}
+                        <span>{{ .Title | truncate 60 }}</span>
+                    </a>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+
+    <!-- Category sections -->
     {{ range $catName, $catPages := .Site.Taxonomies.categories }}
     {{ $pages := $catPages.Pages.ByDate.Reverse }}
     {{ if ge (len $pages) 1 }}
