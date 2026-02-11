@@ -150,6 +150,8 @@
 
         let searchIndex = null;
 
+        const searchToggleMobile = document.getElementById('search-toggle-mobile');
+
         if (searchToggle && searchOverlay) {
             searchToggle.addEventListener('click', function() {
                 searchOverlay.classList.add('active');
@@ -170,6 +172,14 @@
                     searchResults.innerHTML = '';
                 }
             });
+
+            if (searchToggleMobile) {
+                searchToggleMobile.addEventListener('click', function() {
+                    searchOverlay.classList.add('active');
+                    searchInput.focus();
+                    loadSearchIndex();
+                });
+            }
 
             // Escape key closes search
             document.addEventListener('keydown', function(e) {
