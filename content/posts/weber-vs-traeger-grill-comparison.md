@@ -13,7 +13,7 @@ tags: ["Weber", "Traeger", "grill", "pellet grill", "charcoal grill", "compariso
 
 review: true
 product_name: "Weber Original Kettle vs Traeger Ironwood"
-product_image: "https://m.media-amazon.com/images/I/71VTvrqpCkL._AC_SL1500_.jpg"
+product_image: "/images/products/weber-vs-traeger-1.jpg"
 brand: "Weber / Traeger"
 rating: 4.6
 price: "$219-1,299"

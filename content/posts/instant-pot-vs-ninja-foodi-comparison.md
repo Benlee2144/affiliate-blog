@@ -13,7 +13,7 @@ tags: ["Instant Pot", "Ninja", "multi-cooker", "pressure cooker", "air fryer", "
 
 review: true
 product_name: "Instant Pot Duo Plus vs Ninja Foodi"
-product_image: "https://m.media-amazon.com/images/I/71V1LuqMz1L._AC_SL1500_.jpg"
+product_image: "/images/products/instant-pot-vs-1.jpg"
 brand: "Instant Pot / Ninja"
 rating: 4.6
 price: "$99-179"

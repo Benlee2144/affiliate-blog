@@ -13,7 +13,7 @@ tags: ["Dyson", "Shark", "cordless vacuum", "comparison", "cleaning"]
 
 review: true
 product_name: "Dyson V15 Detect vs Shark Stratos"
-product_image: "https://m.media-amazon.com/images/I/51qqLGReYNL._AC_SL1500_.jpg"
+product_image: "/images/products/dyson-vs-shark-1.jpg"
 brand: "Dyson / Shark"
 rating: 4.5
 price: "$350-750"

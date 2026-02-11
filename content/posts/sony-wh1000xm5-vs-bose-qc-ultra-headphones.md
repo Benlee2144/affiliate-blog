@@ -13,7 +13,7 @@ tags: ["Sony", "Bose", "headphones", "noise cancelling", "comparison"]
 
 review: true
 product_name: "Sony WH-1000XM5 vs Bose QC Ultra"
-product_image: "https://m.media-amazon.com/images/I/51aXvjzcukL._AC_SL1500_.jpg"
+product_image: "/images/products/sony-wh1000xm5-vs-1.jpg"
 brand: "Sony / Bose"
 rating: 4.7
 price: "$298-429"

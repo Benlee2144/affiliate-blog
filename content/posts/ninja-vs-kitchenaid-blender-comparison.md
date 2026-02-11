@@ -13,7 +13,7 @@ tags: ["Ninja", "KitchenAid", "blender", "comparison", "kitchen"]
 
 review: true
 product_name: "Ninja BL770 vs KitchenAid K400"
-product_image: "https://m.media-amazon.com/images/I/71Sw-Mk-yzL._AC_SL1500_.jpg"
+product_image: "/images/products/ninja-bl770-vs-1.jpg"
 brand: "Ninja / KitchenAid"
 rating: 4.5
 price: "$149-249"

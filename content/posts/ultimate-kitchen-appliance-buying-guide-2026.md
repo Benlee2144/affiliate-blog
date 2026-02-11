@@ -12,11 +12,15 @@ categories: ["Kitchen Appliances"]
 tags: ["buying guide", "kitchen", "appliances", "blender", "air fryer", "pressure cooker", "espresso", "stand mixer"]
 
 author: "Ben Arp"
+review: true
+product_image: "/images/products/kitchen-guide-1.jpg"
+rating: 4.9
+
 showToc: true
 TocOpen: true
 
 cover:
-    image: "https://m.media-amazon.com/images/I/71V1LuqMz1L._AC_SL1500_.jpg"
+    image: "/images/products/kitchen-guide-1.jpg"
     alt: "Kitchen appliance buying guide 2026"
     caption: "Everything you need to know before buying kitchen appliances"
     relative: false

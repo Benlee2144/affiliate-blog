@@ -12,11 +12,15 @@ categories: ["Office & Productivity"]
 tags: ["home office", "standing desk", "laptop", "microphone", "buying guide", "work from home"]
 
 author: "Ben Arp"
+review: true
+product_image: "/images/products/home-office-guide-1.jpg"
+rating: 4.9
+
 showToc: true
 TocOpen: true
 
 cover:
-    image: "https://m.media-amazon.com/images/I/71ztrpBJhFL._AC_SL1500_.jpg"
+    image: "/images/products/home-office-guide-1.jpg"
     alt: "Home office setup guide 2026"
     caption: "Your complete guide to the perfect home office"
     relative: false
