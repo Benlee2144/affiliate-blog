@@ -24,7 +24,7 @@ showToc: true
 TocOpen: true
 
 cover:
-    image: "https://m.media-amazon.com/images/I/71VTvrqpCkL._AC_SL1500_.jpg"
+    image: "/images/products/weber-vs-traeger-1.jpg"
     alt: "Weber charcoal grill vs Traeger pellet grill"
     caption: "The backyard showdown nobody can agree on"
     relative: false

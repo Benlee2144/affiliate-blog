@@ -24,7 +24,7 @@ showToc: true
 TocOpen: true
 
 cover:
-    image: "https://m.media-amazon.com/images/I/51qqLGReYNL._AC_SL1500_.jpg"
+    image: "/images/products/dyson-vs-shark-1.jpg"
     alt: "Dyson vs Shark cordless vacuum comparison"
     caption: "Is the premium worth it?"
     relative: false

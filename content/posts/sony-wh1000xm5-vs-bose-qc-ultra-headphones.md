@@ -24,7 +24,7 @@ showToc: true
 TocOpen: true
 
 cover:
-    image: "https://m.media-amazon.com/images/I/51aXvjzcukL._AC_SL1500_.jpg"
+    image: "/images/products/sony-wh1000xm5-vs-1.jpg"
     alt: "Sony WH-1000XM5 vs Bose QC Ultra headphones"
     caption: "Two flagships, eight months, one winner (kind of)"
     relative: false

@@ -24,7 +24,7 @@ showToc: true
 TocOpen: true
 
 cover:
-    image: "https://m.media-amazon.com/images/I/71Sw-Mk-yzL._AC_SL1500_.jpg"
+    image: "/images/products/ninja-bl770-vs-1.jpg"
     alt: "Ninja vs KitchenAid blender comparison"
     caption: "Two blenders enter, one leaves your counter"
     relative: false

@@ -24,7 +24,7 @@ showToc: true
 TocOpen: true
 
 cover:
-    image: "https://m.media-amazon.com/images/I/71V1LuqMz1L._AC_SL1500_.jpg"
+    image: "/images/products/instant-pot-vs-1.jpg"
     alt: "Instant Pot vs Ninja Foodi comparison"
     caption: "The battle for your counter space"
     relative: false
