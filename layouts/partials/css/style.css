@@ -359,7 +359,7 @@ th { font-weight: 600; background: var(--color-bg-alt); }
 
 .hero-section {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 2.5fr 1fr;
     gap: 2.5rem;
     padding-bottom: var(--spacing-xl);
     border-bottom: 1px solid var(--color-border);

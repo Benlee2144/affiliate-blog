@@ -33,8 +33,9 @@
 <!-- Category Navigation Bar -->
 <nav class="category-nav">
     <div class="container">
-        {{ range .Site.Taxonomies.categories }}
-        <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+        {{ $cats := slice "Electronics" "Home & Garden" "Kitchen Appliances" "Fitness" "Beauty" "Office" "Outdoor" }}
+        {{ range $cats }}
+        <a href="/categories/{{ . | urlize }}/">{{ . }}</a>
         {{ end }}
     </div>
 </nav>
