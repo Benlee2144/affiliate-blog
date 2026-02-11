@@ -262,7 +262,7 @@
             {{ with .Params.price }}<div class="product-price">{{ . }}</div>{{ end }}
         </div>
         <a href="{{ .Params.affiliate_link }}" class="cta-button" target="_blank" rel="noopener sponsored">
-            Check Price
+            {{ with .Params.price }}{{ . }} at {{ end }}Amazon
         </a>
     </div>
 </div>
