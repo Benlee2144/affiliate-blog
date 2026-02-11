@@ -408,6 +408,10 @@ th { font-weight: 600; background: var(--color-bg-alt); }
 }
 
 /* Center: Hero featured */
+.hero-featured {
+    background: var(--color-bg);
+}
+
 .hero-featured-image {
     display: block;
     aspect-ratio: 3/2;
@@ -460,6 +464,17 @@ th { font-weight: 600; background: var(--color-bg-alt); }
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
+}
+
+.deal-category {
+    display: block;
+    font-family: var(--font-ui);
+    font-size: 0.6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-accent);
+    margin-bottom: 0.25rem;
 }
 
 .deal-item a {

@@ -48,6 +48,9 @@
             <div class="deals-list">
                 {{ range after 6 (first 12 $allPages) }}
                 <div class="deal-item">
+                    {{ with .Params.categories }}
+                    <span class="deal-category">{{ index . 0 }}</span>
+                    {{ end }}
                     <a href="{{ .Permalink }}">
                         {{ with .Params.cover.image }}
                         <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
