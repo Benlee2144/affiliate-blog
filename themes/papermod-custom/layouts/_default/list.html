@@ -1,141 +1,58 @@
 {{ define "main" }}
 {{ if .IsHome }}
-<!-- HOMEPAGE -->
-<div class="home-hero">
-    <div class="container">
-        <div class="hero-content">
-            <span class="hero-badge">Research-Backed Reviews</span>
-            <h1>{{ .Site.Params.homeInfoParams.Title }}</h1>
-            <p class="hero-description">{{ .Site.Params.homeInfoParams.Content }}</p>
-            <div class="hero-stats">
-                <div class="stat">
-                    <span class="stat-number">{{ len (where .Site.RegularPages "Section" "posts") }}+</span>
-                    <span class="stat-label">Reviews</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-number">1000s</span>
-                    <span class="stat-label">Hours Researched</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-number">100%</span>
-                    <span class="stat-label">Independent</span>
-                </div>
-            </div>
+<!-- HOMEPAGE - Wirecutter-style category sections -->
+<div class="container home-content">
+    {{ range $catName, $catPages := .Site.Taxonomies.categories }}
+    {{ $pages := $catPages.Pages.ByDate.Reverse }}
+    {{ if ge (len $pages) 1 }}
+    <section class="category-section">
+        <div class="category-section-header">
+            <a href="/categories/{{ $catName | urlize }}/" class="category-label">{{ $catPages.Page.Title }}</a>
         </div>
-    </div>
-</div>
-
-<!-- Category Quick Links -->
-<div class="container">
-    <section class="category-quick-links">
-        <h2 class="section-title">Browse by Category</h2>
-        <div class="quick-links-grid">
-            {{ range .Site.Taxonomies.categories }}
-            {{ $name := .Page.Title }}
-            {{ $count := len .Pages }}
-            {{ $iconSvg := `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/></svg>` }}
-            {{ if eq (lower $name) "tablets" }}
-                {{ $iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="16" height="20" x="4" y="2" rx="2"/><line x1="12" x2="12.01" y1="18" y2="18"/></svg>` }}
-            {{ else if eq (lower $name) "kitchen appliances" }}
-                {{ $iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 11h.01"/><path d="M11 15h.01"/><path d="M16 16h.01"/><path d="m2 16 20 6-6-20A20 20 0 0 0 2 16"/></svg>` }}
-            {{ else if eq (lower $name) "electronics" }}
-                {{ $iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>` }}
-            {{ else if eq (lower $name) "home & garden" }}
-                {{ $iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>` }}
-            {{ else if eq (lower $name) "fitness" }}
-                {{ $iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.4 14.4 9.6 9.6"/><path d="M18.657 21.485a2 2 0 1 1-2.829-2.828l-1.767 1.768a2 2 0 1 1-2.829-2.829l6.364-6.364a2 2 0 1 1 2.829 2.829l-1.768 1.767a2 2 0 1 1 2.828 2.829z"/></svg>` }}
-            {{ else if eq (lower $name) "fitness & health" }}
-                {{ $iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>` }}
-            {{ else if eq (lower $name) "beauty" }}
-                {{ $iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>` }}
-            {{ else if or (eq (lower $name) "office") (eq (lower $name) "office & productivity") }}
-                {{ $iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></svg>` }}
-            {{ else if eq (lower $name) "outdoor" }}
-                {{ $iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>` }}
-            {{ end }}
-            <a href="{{ .Page.Permalink }}" class="quick-link">
-                <span class="quick-link-icon">{{ $iconSvg | safeHTML }}</span>
-                <span class="quick-link-name">{{ $name }}</span>
-                <span class="quick-link-count">{{ $count }}</span>
-            </a>
-            {{ end }}
-        </div>
-    </section>
-
-    <!-- Latest Reviews -->
-    <section class="latest-reviews">
-        <div class="section-header">
-            <h2 class="section-title">Latest Reviews</h2>
-            <p class="section-subtitle">In-depth analysis backed by real owner feedback</p>
-        </div>
-
-        <div class="reviews-grid">
-            {{ $posts := where .Site.RegularPages "Section" "posts" }}
-            {{ range first 6 $posts }}
-            <article class="review-card">
-                {{ $postLink := .Permalink }}
-                {{ $postTitle := .Title }}
-                <a href="{{ $postLink }}" class="review-card-image">
+        <div class="category-section-content">
+            <!-- Featured article (first/newest) -->
+            {{ with index $pages 0 }}
+            <div class="featured-article">
+                <a href="{{ .Permalink }}" class="featured-image">
                     {{ with .Params.cover.image }}
-                    <img src="{{ . }}" alt="{{ $postTitle }}" loading="lazy">
+                    <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
                     {{ else }}
-                    <div style="width:100%;height:100%;background:var(--color-bg-alt);border-radius:8px;"></div>
+                    <div class="placeholder-image"></div>
                     {{ end }}
                 </a>
-                <div class="review-card-content">
-                    {{ with .Params.categories }}
-                    <a href="/categories/{{ index . 0 | urlize }}/" class="review-card-category">{{ index . 0 }}</a>
-                    {{ end }}
-                    <h3><a href="{{ $postLink }}">{{ $postTitle }}</a></h3>
-                    <p class="review-card-summary">{{ .Summary | truncate 120 }}</p>
-                    <div class="review-card-meta">
-                        {{ with .Params.rating }}
-                        <span class="review-card-rating">★ {{ . }}</span>
-                        {{ end }}
-                        <span class="review-card-date">{{ .Date.Format "Jan 2, 2006" }}</span>
-                    </div>
+                <div class="featured-info">
+                    <h3 class="featured-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                    <p class="featured-byline">{{ with .Params.author }}By {{ . }} · {{ end }}Updated {{ .Date.Format "Jan. 2, 2006" }}</p>
+                    <p class="featured-summary">{{ .Summary | plainify | truncate 180 }}</p>
                 </div>
-            </article>
+            </div>
+            {{ end }}
+
+            <!-- Side article list (next 2-3 posts) -->
+            {{ if gt (len $pages) 1 }}
+            <div class="article-list">
+                {{ range after 1 (first 4 $pages) }}
+                <div class="article-list-item">
+                    <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                    <p class="article-list-byline">{{ with .Params.author }}By {{ . }} · {{ end }}Updated {{ .Date.Format "Jan. 2, 2006" }}</p>
+                </div>
+                {{ end }}
+            </div>
             {{ end }}
         </div>
-
-        {{ if gt (len $posts) 6 }}
-        <div class="view-all-wrapper">
-            <a href="/categories/" class="view-all-btn">View All Reviews →</a>
-        </div>
-        {{ end }}
     </section>
+    {{ end }}
+    {{ end }}
 
-    <!-- Newsletter Signup -->
+    <!-- Newsletter at very bottom -->
     <section class="newsletter-section">
         <h2>Get the Best Deals First</h2>
-        <p>Join 5,000+ smart shoppers. We'll send you our top picks and price drops—no spam, ever.</p>
+        <p>Join smart shoppers. We'll send you our top picks and price drops—no spam, ever.</p>
         <form class="newsletter-form" action="https://formspree.io/f/mykdgbyq" method="POST">
             <input type="email" name="email" placeholder="Enter your email" required>
             <button type="submit">Subscribe</button>
         </form>
         <p class="newsletter-note">Unsubscribe anytime. We respect your inbox.</p>
-    </section>
-
-    <!-- Trust Signals -->
-    <section class="trust-section">
-        <div class="trust-grid">
-            <div class="trust-item">
-                <div class="trust-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></div>
-                <h3>Deep Research</h3>
-                <p>We analyze hundreds of verified reviews, Reddit discussions, and forum posts for every product.</p>
-            </div>
-            <div class="trust-item">
-                <div class="trust-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 15 5.12-5.12A3 3 0 0 1 10.24 9H13a2 2 0 1 1 0 4h-2.5m4-.68 4.17-4.89a1.88 1.88 0 0 1 2.92 2.36l-4.2 5.94A3 3 0 0 1 14.96 17H9.83a2 2 0 0 0-1.42.59L7 19"/><path d="m2 14 6 6"/></svg></div>
-                <h3>Honest Takes</h3>
-                <p>Every product has downsides. We tell you what they are so you can decide if they matter to you.</p>
-            </div>
-            <div class="trust-item">
-                <div class="trust-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg></div>
-                <h3>Clear Guidance</h3>
-                <p>No wishy-washy "it depends." We tell you exactly who should buy—and who should skip.</p>
-            </div>
-        </div>
     </section>
 </div>
 
@@ -155,7 +72,7 @@
                 {{ with .Params.cover.image }}
                 <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
                 {{ else }}
-                <div style="width:100%;height:100%;background:var(--color-bg-alt);border-radius:8px;"></div>
+                <div style="width:100%;height:100%;background:var(--color-bg-alt);"></div>
                 {{ end }}
             </a>
             <div class="review-card-content">
@@ -165,9 +82,6 @@
                 <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
                 <p class="review-card-summary">{{ .Summary | truncate 120 }}</p>
                 <div class="review-card-meta">
-                    {{ with .Params.rating }}
-                    <span class="review-card-rating">★ {{ . }}</span>
-                    {{ end }}
                     <span class="review-card-date">{{ .Date.Format "Jan 2, 2006" }}</span>
                 </div>
             </div>
@@ -180,7 +94,6 @@
         {{ if $paginator.HasPrev }}
         <a href="{{ $paginator.Prev.URL }}">← Previous</a>
         {{ end }}
-
         {{ range $paginator.Pagers }}
         {{ if eq . $paginator }}
         <span class="active">{{ .PageNumber }}</span>
@@ -188,7 +101,6 @@
         <a href="{{ .URL }}">{{ .PageNumber }}</a>
         {{ end }}
         {{ end }}
-
         {{ if $paginator.HasNext }}
         <a href="{{ $paginator.Next.URL }}">Next →</a>
         {{ end }}
