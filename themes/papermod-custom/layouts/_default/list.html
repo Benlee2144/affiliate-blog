@@ -38,7 +38,7 @@
             </a>
             <h2 class="hero-featured-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
             <p class="hero-featured-byline">by {{ .Params.author | default "Researched Picks" }}</p>
-            <p class="hero-featured-summary">{{ .Summary | plainify | truncate 200 }}</p>
+            <p class="hero-featured-summary">{{ .Summary | plainify | htmlUnescape | truncate 200 }}</p>
         </div>
         {{ end }}
 
@@ -85,7 +85,7 @@
                 <div class="featured-info">
                     <h3 class="featured-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
                     <p class="featured-byline">{{ with .Params.author }}By {{ . }} · {{ end }}Updated {{ .Date.Format "Jan. 2, 2006" }}</p>
-                    <p class="featured-summary">{{ .Summary | plainify | truncate 180 }}</p>
+                    <p class="featured-summary">{{ .Summary | plainify | htmlUnescape | truncate 180 }}</p>
                 </div>
             </div>
             {{ end }}
