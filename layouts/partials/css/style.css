@@ -1295,22 +1295,19 @@ article.container {
     /* Hide horizontal category nav on mobile */
     .category-nav { display: none; }
 
-    /* Mobile: show category sections as normal content, not accordions */
+    /* Mobile: hide category sections — they're in the hamburger menu */
     .category-section {
-        padding: var(--spacing-md) 0;
-        border-bottom: none;
+        display: none;
     }
 
-    .category-section-header {
-        border-top: 3px solid var(--color-text);
-        padding-top: 0.75rem;
-        margin-bottom: var(--spacing-sm);
+    /* Hide hero sidebars on mobile, show only featured */
+    .hero-latest,
+    .hero-deals {
+        display: none;
     }
 
-    .category-section-header::after { display: none; }
-
-    .category-section-content {
-        display: block !important;
+    .hero-section {
+        display: block;
     }
 
     .featured-image {
