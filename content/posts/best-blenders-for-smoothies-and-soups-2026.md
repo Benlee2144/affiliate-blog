@@ -1,5 +1,6 @@
 ---
 title: "The Truth About Expensive Blenders (After Wrecking 3 Budget Ones)"
+slug: "best-blenders-for-smoothies-and-soups-2026"
 date: 2026-02-10T07:23:00-05:00
 lastmod: 2026-02-10T07:23:00-05:00
 draft: false

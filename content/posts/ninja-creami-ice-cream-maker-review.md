@@ -1,5 +1,6 @@
 ---
 title: "Ninja Creami Review (2026): Is the Viral Ice Cream Maker Worth the Hype?"
+slug: "ninja-creami-ice-cream-maker-review"
 date: 2026-02-03T10:00:00+00:00
 lastmod: 2026-02-03T10:00:00+00:00
 draft: false

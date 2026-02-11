@@ -1,5 +1,6 @@
 ---
 title: "Sony WF-1000XM5 Review (2026): The Noise-Canceling Benchmark"
+slug: "sony-wf-1000xm5-review"
 date: 2026-01-31T00:00:00+00:00
 lastmod: 2026-01-31T00:00:00+00:00
 draft: false

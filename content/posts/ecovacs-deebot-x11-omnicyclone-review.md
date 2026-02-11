@@ -1,5 +1,6 @@
 ---
 title: "The $1,500 Robot Vacuum With a Class Action Lawsuit (ECOVACS X11 Deep Dive)"
+slug: "ecovacs-deebot-x11-omnicyclone-review"
 date: 2026-02-07T12:00:00+00:00
 lastmod: 2026-02-07T12:00:00+00:00
 draft: false

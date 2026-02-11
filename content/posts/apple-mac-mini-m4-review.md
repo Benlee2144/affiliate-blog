@@ -1,5 +1,6 @@
 ---
 title: "Apple Mac Mini M4 Review (2026): The $599 Desktop That Changes Everything"
+slug: "apple-mac-mini-m4-review"
 date: 2026-02-05T00:00:00+00:00
 lastmod: 2026-02-05T00:00:00+00:00
 draft: false

@@ -1,5 +1,6 @@
 ---
 title: "Is Sous Vide Actually Worth It? My Honest Take After 6 Months"
+slug: "best-sous-vide-machines-for-home-cooks-2026"
 date: 2026-02-10T22:52:00-05:00
 lastmod: 2026-02-10T22:52:00-05:00
 draft: false

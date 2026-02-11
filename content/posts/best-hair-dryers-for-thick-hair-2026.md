@@ -1,5 +1,6 @@
 ---
 title: "I Spent 6 Hours in Hair Dryer Reddit So You Don't Have To"
+slug: "best-hair-dryers-for-thick-hair-2026"
 date: 2026-02-06T10:00:00+00:00
 lastmod: 2026-02-06T10:00:00+00:00
 draft: false

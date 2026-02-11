@@ -1,5 +1,6 @@
 ---
 title: "Dyson V15 Detect Review (2026): Is the Laser Vacuum Worth $750?"
+slug: "dyson-v15-detect-vacuum-review"
 date: 2026-02-03T09:00:00+00:00
 lastmod: 2026-02-03T09:00:00+00:00
 draft: false

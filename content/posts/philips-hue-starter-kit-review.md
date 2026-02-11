@@ -1,5 +1,6 @@
 ---
 title: "Philips Hue Starter Kit Review (2026): Smart Lighting That Actually Works"
+slug: "philips-hue-starter-kit-review"
 date: 2026-02-02T17:00:00+00:00
 lastmod: 2026-02-02T17:00:00+00:00
 draft: false

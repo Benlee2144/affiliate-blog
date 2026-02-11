@@ -1,5 +1,6 @@
 ---
 title: "I Went Down a 6-Hour Reddit Rabbit Hole on Running Earbuds. Here's What Actually Survives Sweat."
+slug: "best-wireless-earbuds-for-running-2026"
 date: 2026-02-07T10:00:00+00:00
 lastmod: 2026-02-07T10:00:00+00:00
 draft: false

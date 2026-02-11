@@ -1,5 +1,6 @@
 ---
 title: "4 Months with 2 Dogs and 3 Robot Vacuums — Here's What Actually Works"
+slug: "best-robot-vacuums-for-pet-hair-2026"
 date: 2026-02-08T07:23:00-05:00
 lastmod: 2026-02-08T07:23:00-05:00
 draft: false

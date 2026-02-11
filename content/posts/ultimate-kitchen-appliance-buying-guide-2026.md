@@ -1,5 +1,6 @@
 ---
 title: "The Ultimate Kitchen Appliance Buying Guide 2026: Every Category, Every Budget"
+slug: "ultimate-kitchen-appliance-buying-guide-2026"
 date: 2026-02-11T13:00:00-05:00
 lastmod: 2026-02-11T13:00:00-05:00
 draft: false

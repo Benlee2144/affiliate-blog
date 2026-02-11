@@ -1,5 +1,6 @@
 ---
 title: "Best Rice Cookers 2026: What to Buy at Every Price Point"
+slug: "best-rice-cookers-for-perfect-rice-2026"
 date: 2026-02-11T07:23:00-05:00
 lastmod: 2026-02-11T07:23:00-05:00
 draft: false

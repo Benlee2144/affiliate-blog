@@ -1,5 +1,6 @@
 ---
 title: "Best Cameras for Content Creators 2026: Sony ZV-E1 vs ZV-E10 II vs Panasonic GH7"
+slug: "best-cameras-for-content-creators-2026"
 date: 2026-02-06T00:00:00+00:00
 lastmod: 2026-02-06T00:00:00+00:00
 draft: false

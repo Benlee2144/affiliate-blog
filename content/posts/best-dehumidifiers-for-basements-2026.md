@@ -1,5 +1,6 @@
 ---
 title: "My Basement Smelled Like a Wet Dog — Here's The Dehumidifier That Fixed It"
+slug: "best-dehumidifiers-for-basements-2026"
 date: 2026-02-10T14:14:00-05:00
 lastmod: 2026-02-10T14:14:00-05:00
 draft: false

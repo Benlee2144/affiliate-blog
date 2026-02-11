@@ -1,5 +1,6 @@
 ---
 title: "Blue Yeti USB Microphone Review (2026): The Podcasting Standard"
+slug: "blue-yeti-usb-microphone-review"
 date: 2026-02-02T10:00:00+00:00
 lastmod: 2026-02-02T10:00:00+00:00
 draft: false

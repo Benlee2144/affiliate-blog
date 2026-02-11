@@ -1,5 +1,6 @@
 ---
 title: "Oral-B iO Series 7 Review (2026): Premium Cleaning Without the Premium Price"
+slug: "oral-b-io-series-7-review"
 date: 2026-01-30T00:00:00+00:00
 lastmod: 2026-01-30T00:00:00+00:00
 draft: false

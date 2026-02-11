@@ -1,5 +1,6 @@
 ---
 title: "Home Office Setup Guide 2026: Everything You Need (And What's a Waste of Money)"
+slug: "home-office-setup-guide-2026"
 date: 2026-02-11T14:00:00-05:00
 lastmod: 2026-02-11T14:00:00-05:00
 draft: false

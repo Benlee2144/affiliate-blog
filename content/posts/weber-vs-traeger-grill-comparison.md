@@ -1,5 +1,6 @@
 ---
 title: "Weber vs Traeger: The Grill Debate Settled (By Someone Who Owns Both)"
+slug: "weber-vs-traeger-grill-comparison"
 date: 2026-02-11T12:00:00-05:00
 lastmod: 2026-02-11T12:00:00-05:00
 draft: false

@@ -1,5 +1,6 @@
 ---
 title: "JBL Flip 6 Review (2026): The Perfect Portable Speaker Sweet Spot"
+slug: "jbl-flip-6-bluetooth-speaker-review"
 date: 2026-02-02T12:00:00+00:00
 lastmod: 2026-02-02T12:00:00+00:00
 draft: false

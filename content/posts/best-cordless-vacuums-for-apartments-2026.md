@@ -1,5 +1,6 @@
 ---
 title: "Best Cordless Vacuums for Apartments 2026: I Returned 4 Before Finding the Right One"
+slug: "best-cordless-vacuums-for-apartments-2026"
 date: 2026-02-10T10:47:00-05:00
 lastmod: 2026-02-10T10:47:00-05:00
 draft: false

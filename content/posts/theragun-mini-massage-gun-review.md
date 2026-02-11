@@ -1,5 +1,6 @@
 ---
 title: "Theragun Mini Review (2026): Premium Percussion Therapy in Your Pocket"
+slug: "theragun-mini-massage-gun-review"
 date: 2026-01-26T00:00:00+00:00
 lastmod: 2026-01-26T00:00:00+00:00
 draft: false

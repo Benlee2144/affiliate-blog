@@ -1,5 +1,6 @@
 ---
 title: "Ninja vs KitchenAid Blender: Which One Actually Wins?"
+slug: "ninja-vs-kitchenaid-blender-comparison"
 date: 2026-02-11T08:00:00-05:00
 lastmod: 2026-02-11T08:00:00-05:00
 draft: false

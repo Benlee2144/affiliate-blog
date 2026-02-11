@@ -1,5 +1,6 @@
 ---
 title: "Cosori Air Fryer Pro 5QT Review (2026): The Quiet Kitchen Workhorse"
+slug: "cosori-air-fryer-pro-5qt-review"
 date: 2026-02-03T00:00:00+00:00
 lastmod: 2026-02-03T00:00:00+00:00
 draft: false

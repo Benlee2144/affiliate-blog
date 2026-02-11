@@ -1,5 +1,6 @@
 ---
 title: "Apple Watch Series 10 Review (2026): The Thinnest Apple Watch Yet"
+slug: "apple-watch-series-10-review"
 date: 2026-02-03T08:00:00+00:00
 lastmod: 2026-02-03T08:00:00+00:00
 draft: false

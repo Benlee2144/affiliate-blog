@@ -1,5 +1,6 @@
 ---
 title: "I Read Every Ember Mug Complaint on the Internet — Here's What Nobody Tells You"
+slug: "ember-mug-2-review"
 date: 2026-02-07T04:00:00+00:00
 lastmod: 2026-02-07T04:00:00+00:00
 draft: false

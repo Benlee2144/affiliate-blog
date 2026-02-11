@@ -1,5 +1,6 @@
 ---
 title: "Fitbit Charge 6 Review (2026): The Fitness Tracker That Does It All"
+slug: "fitbit-charge-6-fitness-tracker-review"
 date: 2026-02-01T18:00:00+00:00
 lastmod: 2026-02-01T18:00:00+00:00
 draft: false

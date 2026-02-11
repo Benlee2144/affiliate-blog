@@ -1,5 +1,6 @@
 ---
 title: "Vitamix E310 Review (2026): Entry-Level Power, Professional Results"
+slug: "vitamix-e310-explorian-blender-review"
 date: 2026-02-02T18:00:00+00:00
 lastmod: 2026-02-02T18:00:00+00:00
 draft: false

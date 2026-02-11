@@ -1,5 +1,6 @@
 ---
 title: "Bose QuietComfort Ultra Earbuds Review (2026): ANC Perfection With Caveats"
+slug: "bose-quietcomfort-ultra-earbuds-review"
 date: 2026-02-02T16:00:00+00:00
 lastmod: 2026-02-02T16:00:00+00:00
 draft: false

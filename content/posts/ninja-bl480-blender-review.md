@@ -1,5 +1,6 @@
 ---
 title: "Ninja BL480 Review (2026): Best Personal Blender for Frozen Smoothies?"
+slug: "ninja-bl480-blender-review"
 date: 2026-02-02T10:30:00+00:00
 lastmod: 2026-02-02T10:30:00+00:00
 draft: false

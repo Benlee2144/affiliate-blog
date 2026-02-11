@@ -1,5 +1,6 @@
 ---
 title: "FlexiSpot Standing Desk Converter Review (2026): Sit-to-Stand Without Replacing Your Desk"
+slug: "flexispot-standing-desk-converter-review"
 date: 2026-01-28T00:00:00+00:00
 lastmod: 2026-01-28T00:00:00+00:00
 draft: false

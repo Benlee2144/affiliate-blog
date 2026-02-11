@@ -1,5 +1,6 @@
 ---
 title: "Instant Pot vs Ninja Foodi: I Own Both, Here's the Truth"
+slug: "instant-pot-vs-ninja-foodi-comparison"
 date: 2026-02-11T10:00:00-05:00
 lastmod: 2026-02-11T10:00:00-05:00
 draft: false

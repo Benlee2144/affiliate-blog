@@ -1,5 +1,6 @@
 ---
 title: "I Was Wrong About Electric Kettles — Why Temperature Control Actually Matters"
+slug: "best-electric-kettles-for-tea-lovers-2026"
 date: 2026-02-09T22:52:00-05:00
 lastmod: 2026-02-09T22:52:00-05:00
 draft: false

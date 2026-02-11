@@ -1,5 +1,6 @@
 ---
 title: "Weber Original Kettle 22\" Grill Review (2026): The Backyard Classic That Still Wins"
+slug: "weber-original-kettle-grill-review"
 date: 2026-02-01T16:00:00+00:00
 lastmod: 2026-02-01T16:00:00+00:00
 draft: false

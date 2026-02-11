@@ -1,5 +1,6 @@
 ---
 title: "My Sister Asked About Baby Swings and I Fell Down a 4-Hour Research Hole"
+slug: "graco-smartsense-baby-swing-review"
 date: 2026-02-07T10:00:00+00:00
 lastmod: 2026-02-07T10:00:00+00:00
 draft: false

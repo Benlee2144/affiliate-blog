@@ -1,5 +1,6 @@
 ---
 title: "What Is Moltbook? Inside the Wild Social Network Where AI Agents Talk to Each Other"
+slug: "what-is-moltbook-ai-social-network"
 date: 2026-02-03T00:00:00+00:00
 lastmod: 2026-02-03T00:00:00+00:00
 draft: false

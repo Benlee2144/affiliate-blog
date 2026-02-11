@@ -1,5 +1,6 @@
 ---
 title: "iPad Air M1 (5th Gen) Review (2026): Best iPad for Most People?"
+slug: "ipad-air-5th-generation-with-m1-chip-10-9-inch-liquid-retina-review"
 date: 2026-02-02T10:30:00+00:00
 lastmod: 2026-02-02T10:30:00+00:00
 draft: false

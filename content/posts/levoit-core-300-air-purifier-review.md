@@ -1,5 +1,6 @@
 ---
 title: "Levoit Core 300 Air Purifier Review (2026): Budget HEPA That Actually Works"
+slug: "levoit-core-300-air-purifier-review"
 date: 2026-01-29T00:00:00+00:00
 lastmod: 2026-01-29T00:00:00+00:00
 draft: false

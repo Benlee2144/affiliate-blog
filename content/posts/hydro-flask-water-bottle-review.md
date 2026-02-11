@@ -1,5 +1,6 @@
 ---
 title: "Hydro Flask 32oz Review (2026): The Water Bottle Worth the Cult Following"
+slug: "hydro-flask-water-bottle-review"
 date: 2026-02-02T08:00:00+00:00
 lastmod: 2026-02-02T08:00:00+00:00
 draft: false

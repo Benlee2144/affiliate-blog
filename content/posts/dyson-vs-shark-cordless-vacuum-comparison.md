@@ -1,5 +1,6 @@
 ---
 title: "Dyson vs Shark Cordless Vacuum: Is Dyson Worth 2x the Price?"
+slug: "dyson-vs-shark-cordless-vacuum-comparison"
 date: 2026-02-11T11:00:00-05:00
 lastmod: 2026-02-11T11:00:00-05:00
 draft: false

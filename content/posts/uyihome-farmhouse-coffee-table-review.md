@@ -1,5 +1,6 @@
 ---
 title: "UYIHOME Farmhouse Coffee Table Review (2026): Rustic Style on a Budget"
+slug: "uyihome-farmhouse-coffee-table-review"
 date: 2026-02-05T00:00:00+00:00
 lastmod: 2026-02-05T00:00:00+00:00
 draft: false

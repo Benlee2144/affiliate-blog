@@ -1,5 +1,6 @@
 ---
 title: "AirPods Pro 3 Review (2026): The Good, Bad & Controversial"
+slug: "apple-airpods-pro-3-review"
 date: 2026-02-03T12:00:00+00:00
 lastmod: 2026-02-03T12:00:00+00:00
 draft: false

@@ -1,5 +1,6 @@
 ---
 title: "Sony WH-1000XM5 vs Bose QC Ultra: I Tested Both for 6 Months"
+slug: "best-noise-cancelling-headphones-2026"
 date: 2026-02-09T14:14:00-05:00
 lastmod: 2026-02-09T14:14:00-05:00
 draft: false

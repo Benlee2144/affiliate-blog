@@ -1,5 +1,6 @@
 ---
 title: "Roku Streaming Stick 4K Review (2026): The Best $50 You'll Spend on Your TV"
+slug: "roku-streaming-stick-4k-review"
 date: 2026-02-02T09:00:00+00:00
 lastmod: 2026-02-02T09:00:00+00:00
 draft: false

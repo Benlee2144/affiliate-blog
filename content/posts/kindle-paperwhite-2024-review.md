@@ -1,5 +1,6 @@
 ---
 title: "Kindle Paperwhite (2024) Review: The Best E-Reader Gets Even Better"
+slug: "kindle-paperwhite-2024-review"
 date: 2026-02-03T11:00:00+00:00
 lastmod: 2026-02-03T11:00:00+00:00
 draft: false

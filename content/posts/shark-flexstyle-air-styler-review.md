@@ -1,5 +1,6 @@
 ---
 title: "Shark FlexStyle Review (2026): The Dyson Airwrap Alternative That Actually Competes"
+slug: "shark-flexstyle-air-styler-review"
 date: 2026-02-02T15:00:00+00:00
 lastmod: 2026-02-02T15:00:00+00:00
 draft: false

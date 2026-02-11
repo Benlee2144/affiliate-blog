@@ -1,5 +1,6 @@
 ---
 title: "Umite Chef Mixing Bowls Review (2026): The Budget-Friendly Set That Does More"
+slug: "umite-chef-mixing-bowls-review"
 date: 2026-02-06T00:00:00+00:00
 lastmod: 2026-02-06T00:00:00+00:00
 draft: false

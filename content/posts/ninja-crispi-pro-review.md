@@ -1,5 +1,6 @@
 ---
 title: "Ninja Crispi Pro Review (2026): The Glass Air Fryer That Changes Everything"
+slug: "ninja-crispi-pro-review"
 date: 2026-02-05T00:00:00+00:00
 lastmod: 2026-02-05T00:00:00+00:00
 draft: false

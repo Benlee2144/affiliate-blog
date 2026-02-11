@@ -1,5 +1,6 @@
 ---
 title: "Best Microphones for Content Creators 2026: DJI Mic 2 vs Rode vs Shure"
+slug: "best-microphones-for-content-creators-2026"
 date: 2026-02-06T00:00:00+00:00
 lastmod: 2026-02-06T00:00:00+00:00
 draft: false

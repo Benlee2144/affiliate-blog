@@ -1,5 +1,6 @@
 ---
 title: "Everyone Says Buy a Vitamix. Here's Why I Think the Ninja BL770 Makes More Sense."
+slug: "ninja-bl770-mega-kitchen-system-review"
 date: 2026-02-07T08:00:00+00:00
 lastmod: 2026-02-07T08:00:00+00:00
 draft: false

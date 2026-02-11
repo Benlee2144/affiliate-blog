@@ -1,5 +1,6 @@
 ---
 title: "Vitamix Propel 510 Review (2026): The Sweet Spot Between Budget and Premium"
+slug: "vitamix-propel-510-review"
 date: 2026-02-05T00:00:00+00:00
 lastmod: 2026-02-05T00:00:00+00:00
 draft: false

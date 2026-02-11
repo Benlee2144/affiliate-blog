@@ -1,5 +1,6 @@
 ---
 title: "Best iPads for College Students 2026: iPad Air vs Pro vs Base Model"
+slug: "best-ipads-for-college-students-2026"
 date: 2026-02-06T00:00:00+00:00
 lastmod: 2026-02-06T00:00:00+00:00
 draft: false

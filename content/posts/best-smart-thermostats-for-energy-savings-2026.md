@@ -1,5 +1,6 @@
 ---
 title: "I Thought Smart Thermostats Were Overhyped — Then I Saw My Energy Bill"
+slug: "best-smart-thermostats-for-energy-savings-2026"
 date: 2026-02-08T22:52:00-05:00
 lastmod: 2026-02-08T22:52:00-05:00
 draft: false

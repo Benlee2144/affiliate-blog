@@ -1,5 +1,6 @@
 ---
 title: "Best Laptops for Coding in 2026: MacBook Pro vs ThinkPad vs Dell XPS"
+slug: "best-laptops-for-coding-2026"
 date: 2026-02-06T00:00:00+00:00
 lastmod: 2026-02-06T00:00:00+00:00
 draft: false

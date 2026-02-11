@@ -1,5 +1,6 @@
 ---
 title: "3 Air Fryers That Can Actually Handle a Family of 5+ (I Tested Them All)"
+slug: "best-air-fryers-for-large-families-2026"
 date: 2026-02-08T10:47:00-05:00
 lastmod: 2026-02-08T10:47:00-05:00
 draft: false

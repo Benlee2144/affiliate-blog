@@ -1,5 +1,6 @@
 ---
 title: "I Spent 3 Years Miserable Before Finding the Right Air Purifier for Allergies"
+slug: "best-air-purifiers-for-allergies-2026"
 date: 2026-02-09T07:23:00-05:00
 lastmod: 2026-02-09T07:23:00-05:00
 draft: false

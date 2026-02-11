@@ -1,5 +1,6 @@
 ---
 title: "Samsung Galaxy Tab S9 Review (2026): The iPad Alternative That Delivers"
+slug: "samsung-galaxy-tab-s9-review"
 date: 2026-02-01T17:00:00+00:00
 lastmod: 2026-02-01T17:00:00+00:00
 draft: false

@@ -1,5 +1,6 @@
 ---
 title: "Lodge 10.25\" Cast Iron Skillet Review (2026): The Buy-It-For-Life Kitchen Essential"
+slug: "lodge-cast-iron-skillet-review"
 date: 2026-02-02T13:00:00+00:00
 lastmod: 2026-02-02T13:00:00+00:00
 draft: false

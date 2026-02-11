@@ -1,5 +1,6 @@
 ---
 title: "Stop Overpaying for Standing Desks — The $300 Secret Nobody Mentions"
+slug: "best-standing-desks-for-home-office-2026"
 date: 2026-02-09T18:38:00-05:00
 lastmod: 2026-02-09T18:38:00-05:00
 draft: false

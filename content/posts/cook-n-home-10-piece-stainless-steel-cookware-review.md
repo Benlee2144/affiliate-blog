@@ -1,5 +1,6 @@
 ---
 title: "Cook N Home 10-Piece Cookware Review (2026): Best Budget Stainless Steel Set?"
+slug: "cook-n-home-10-piece-stainless-steel-cookware-review"
 date: 2026-02-03T10:00:00+00:00
 lastmod: 2026-02-03T10:00:00+00:00
 draft: false

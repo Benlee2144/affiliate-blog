@@ -1,5 +1,6 @@
 ---
 title: "Instant Pot Duo Plus Review (2026): The Kitchen Workhorse That Replaced 9 Appliances"
+slug: "instant-pot-duo-plus-review"
 date: 2026-02-01T00:00:00+00:00
 lastmod: 2026-02-01T00:00:00+00:00
 draft: false

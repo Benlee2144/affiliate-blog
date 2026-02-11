@@ -1,5 +1,6 @@
 ---
 title: "I Read 300+ Reddit Comments About Electric Toothbrushes So You Don't Have To"
+slug: "best-electric-toothbrushes-2026"
 date: 2026-02-07T08:00:00+00:00
 lastmod: 2026-02-07T08:00:00+00:00
 draft: false

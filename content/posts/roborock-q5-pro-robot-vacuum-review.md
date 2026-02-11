@@ -1,5 +1,6 @@
 ---
 title: "Roborock Q5 Pro Review (2026): Smart Navigation Without the Premium Price"
+slug: "roborock-q5-pro-robot-vacuum-review"
 date: 2026-02-02T00:00:00+00:00
 lastmod: 2026-02-02T00:00:00+00:00
 draft: false

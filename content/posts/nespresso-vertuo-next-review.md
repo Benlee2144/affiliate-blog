@@ -1,5 +1,6 @@
 ---
 title: "Nespresso Vertuo Next Review (2026): One-Touch Espresso or Expensive Convenience?"
+slug: "nespresso-vertuo-next-review"
 date: 2026-02-02T14:00:00+00:00
 lastmod: 2026-02-02T14:00:00+00:00
 draft: false

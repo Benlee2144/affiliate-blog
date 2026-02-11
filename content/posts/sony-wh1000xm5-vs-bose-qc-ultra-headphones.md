@@ -1,5 +1,6 @@
 ---
 title: "Sony WH-1000XM5 vs Bose QC Ultra: Real Owner's Verdict After 8 Months"
+slug: "sony-wh1000xm5-vs-bose-qc-ultra-headphones"
 date: 2026-02-11T09:00:00-05:00
 lastmod: 2026-02-11T09:00:00-05:00
 draft: false

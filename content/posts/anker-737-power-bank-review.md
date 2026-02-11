@@ -1,5 +1,6 @@
 ---
 title: "Anker 737 Power Bank Review (2026): 24,000mAh That Charges Laptops"
+slug: "anker-737-power-bank-review"
 date: 2026-02-02T11:00:00+00:00
 lastmod: 2026-02-02T11:00:00+00:00
 draft: false

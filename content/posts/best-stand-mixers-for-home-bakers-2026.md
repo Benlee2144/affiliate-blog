@@ -1,5 +1,6 @@
 ---
 title: "My Wife Asked Me to Find Her a Stand Mixer — 3 Weeks Later I Know Too Much"
+slug: "best-stand-mixers-for-home-bakers-2026"
 date: 2026-02-09T10:47:00-05:00
 lastmod: 2026-02-09T10:47:00-05:00
 draft: false

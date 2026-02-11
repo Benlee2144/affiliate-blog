@@ -1,5 +1,6 @@
 ---
 title: "Breville Bambino Review (2026): Cafe Espresso in the Smallest Footprint"
+slug: "breville-bambino-espresso-machine-review"
 date: 2026-01-27T00:00:00+00:00
 lastmod: 2026-01-27T00:00:00+00:00
 draft: false

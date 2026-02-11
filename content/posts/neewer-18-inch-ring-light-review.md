@@ -1,5 +1,6 @@
 ---
 title: "Neewer 18\" Ring Light Review (2026): Pro-Level Lighting on a Budget"
+slug: "neewer-18-inch-ring-light-review"
 date: 2026-01-25T00:00:00+00:00
 lastmod: 2026-01-25T00:00:00+00:00
 draft: false

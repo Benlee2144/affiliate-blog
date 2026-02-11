@@ -1,5 +1,6 @@
 ---
 title: "Skullcandy Crusher ANC 2 Review (2026): The Bass King That Literally Shakes Your Head"
+slug: "skullcandy-crusher-anc-2-review"
 date: 2026-02-03T05:30:00+00:00
 lastmod: 2026-02-03T05:30:00+00:00
 draft: false
