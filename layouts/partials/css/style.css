@@ -489,6 +489,8 @@ th { font-weight: 600; background: var(--color-bg-alt); }
 
 .category-section-header {
     margin-bottom: var(--spacing-md);
+    border-top: 3px solid var(--color-text);
+    padding-top: 0.75rem;
 }
 
 .category-label {
@@ -500,11 +502,6 @@ th { font-weight: 600; background: var(--color-bg-alt); }
     color: var(--color-text);
     text-decoration: none;
     display: block;
-}
-
-.category-section-header {
-    border-top: 3px solid var(--color-text);
-    padding-top: 0.75rem;
 }
 
 .category-label:hover {
