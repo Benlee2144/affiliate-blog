@@ -1043,6 +1043,41 @@ article.container {
 .cons li::before { content: '−'; position: absolute; left: 0; color: var(--color-danger); font-weight: 700; }
 
 /* ============================================
+   CTA Buttons
+   ============================================ */
+.cta-button-wrapper {
+    margin: var(--spacing-lg) 0;
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background: var(--color-cta-amazon);
+    color: white;
+    font-family: var(--font-ui);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    padding: 0.875rem 1.75rem;
+    border-radius: 4px;
+    border: none;
+    text-decoration: none;
+    transition: all 0.15s ease;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background: var(--color-cta-amazon-hover);
+    color: white;
+    text-decoration: none;
+}
+
+.amazon-cart-icon { flex-shrink: 0; }
+.cta-button span { white-space: nowrap; }
+
+/* ============================================
    FAQ, Author Bio, Tags, Share, Related
    ============================================ */
 .faq-section { margin-top: var(--spacing-xxl); padding-top: var(--spacing-xl); border-top: 1px solid var(--color-border); }
