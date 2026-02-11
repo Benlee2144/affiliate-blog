@@ -2,49 +2,48 @@
 title: "Affiliate Disclosure"
 date: 2024-01-01
 draft: false
-description: "Full disclosure about our affiliate relationships and how we make money."
+description: "How I make money on this site — affiliate links explained honestly."
 layout: "single"
 url: "/affiliate-disclosure/"
 ---
 
-## How We Make Money
+## How I Make Money
 
-This website contains affiliate links. When you click these links and make a purchase, we may earn a commission at no additional cost to you.
+This site contains affiliate links, mostly to Amazon. When you click one of my links and buy something, I get a small commission. It doesn't cost you a penny more — the price is exactly the same whether you use my link or go to Amazon directly.
 
 ## Amazon Associates Disclosure
 
-**We are a participant in the Amazon Services LLC Associates Program**, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.
+**Researched Picks is a participant in the Amazon Services LLC Associates Program**, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.
 
-As an Amazon Associate, we earn from qualifying purchases. This means if you click an Amazon link on our site and buy something, we get a small percentage of the sale.
+As an Amazon Associate, I earn from qualifying purchases. If you click an Amazon link on my site and buy something — even if it's not the product I linked — I get a small percentage of the sale.
 
 ## What This Means For You
 
-- **No Extra Cost**: You pay the same price whether you use our link or go directly to Amazon
-- **Same Products**: We link to the exact products available on Amazon—nothing special or different
-- **Independent Reviews**: Our opinions are not influenced by affiliate relationships
+- **No extra cost.** You pay the same price regardless of whether you use my link.
+- **Same products.** I link to the exact same items available on Amazon. Nothing different, nothing special.
+- **Independent picks.** My affiliate relationship with Amazon doesn't influence what I recommend. I make the same commission rate no matter which product you buy.
 
-## Our Commitment to Honesty
+## My Promise
 
-We earn the same commission percentage regardless of which product you buy. Whether you purchase a $20 item or a $200 item through our link, our commission structure is the same.
+I earn the same commission percentage whether you buy a $20 item or a $200 item through my link. There's no financial incentive for me to push expensive products over cheaper ones that might actually be better for you.
 
-This means we have no financial incentive to recommend more expensive products over cheaper ones that might work better for you.
-
-**What we won't do:**
+**What I won't do:**
 
 - Recommend products just because they pay higher commissions
-- Hide negative aspects of products we link to
-- Create fake urgency or misleading claims to drive sales
-- Recommend products we haven't thoroughly researched
+- Hide the downsides of products I link to
+- Create fake urgency or misleading claims
+- Recommend stuff I haven't actually researched
+
+I've turned down products that would've earned me more because they weren't as good. I've recommended products without affiliate links because they were the right answer. The affiliate income is how this site exists, but it doesn't drive what I write.
 
 ## FTC Compliance
 
-In accordance with the Federal Trade Commission's guidelines concerning the use of endorsements and testimonials in advertising, we disclose our material connection to product manufacturers and retailers.
+Per the Federal Trade Commission's guidelines on endorsements and testimonials, I disclose my material connection to retailers. You'll see this disclosure:
 
-The disclosure appears:
 - At the top of every review article
-- In this dedicated disclosure page
-- In the footer of our website
+- On this page
+- In the site footer
 
 ## Questions?
 
-If you have questions about our affiliate relationships or disclosure practices, contact us at [your-email@example.com](mailto:your-email@example.com).
+If you have questions about any of this, email me at [benarp2144@gmail.com](mailto:benarp2144@gmail.com).
