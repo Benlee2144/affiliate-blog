@@ -153,13 +153,23 @@
     <header class="post-header">
         <h1>{{ .Title }}</h1>
         <div class="post-meta">
-            <span>{{ .Date.Format "January 2, 2006" }}</span>
-            {{ if .Params.lastmod }}
-            <span>Updated: {{ .Params.lastmod.Format "January 2, 2006" }}</span>
+            {{ with .Params.author }}
+            <span class="post-author">
+                <span class="author-avatar-small">{{ substr . 0 1 }}</span>
+                By {{ . }}
+            </span>
             {{ end }}
+            <span>Updated {{ .Date.Format "Jan. 2, 2006" }}</span>
             {{ if .ReadingTime }}<span>{{ .ReadingTime }} min read</span>{{ end }}
         </div>
     </header>
+
+    <!-- Hero Image -->
+    {{ with .Params.cover.image }}
+    <div class="post-hero-image">
+        <img src="{{ . }}" alt="{{ $.Title }}" loading="eager">
+    </div>
+    {{ end }}
 
     <!-- Affiliate Disclosure -->
     <div class="affiliate-disclosure">

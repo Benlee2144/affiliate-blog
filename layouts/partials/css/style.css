@@ -861,6 +861,42 @@ article.container {
     gap: 0.5rem 1.25rem;
 }
 
+/* Author avatar in byline */
+.author-avatar-small {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: var(--color-text);
+    color: white;
+    font-family: var(--font-ui);
+    font-size: 0.6875rem;
+    font-weight: 700;
+    margin-right: 0.25rem;
+    vertical-align: middle;
+}
+
+.post-author {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+/* Hero image */
+.post-hero-image {
+    margin-bottom: var(--spacing-lg);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.post-hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .affiliate-disclosure {
     background: var(--color-bg-alt);
     border: none;
