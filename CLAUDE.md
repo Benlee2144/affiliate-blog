@@ -809,3 +809,25 @@ These phrases/patterns scream "AI-generated" or "generic affiliate site":
 - Always including a table
 - Always including FAQs
 - Same affiliate link placement pattern
+
+### ⚠️ CRITICAL: Image Validation Rules
+
+**EVERY image must be verified before committing. This is non-negotiable.**
+
+After downloading each product image:
+1. Check file size > 10KB (`stat` or `wc -c`)
+2. Check it's a real image (`file` command must show JPEG/PNG)
+3. **VERIFY THE IMAGE CONTENT MATCHES THE PRODUCT** - This is the most important step
+   - Use vision/image analysis to confirm what the image actually shows
+   - Amazon frequently returns WRONG product images (monitors instead of blenders, laptops instead of vacuums)
+   - If the image doesn't match, DELETE it and try a different source
+
+**Image download priority:**
+1. Best Buy CDN (pisces.bbystatic.com) - most reliable
+2. Amazon product page scraping (find hiRes image IDs)
+3. Manufacturer websites
+4. Existing images already in /static/images/products/ (check what we have first!)
+
+**If you can't get a correct image:** Use an existing image of the same product type from our library rather than a wrong image.
+
+**NEVER commit a post with unverified images.**

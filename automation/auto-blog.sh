@@ -225,11 +225,15 @@ DON'T:
 8. Assign correct category
 9. Commit and push to main branch
 
-VERIFY IMAGES:
+VERIFY IMAGES (CRITICAL - DO NOT SKIP):
 - Check file size > 10KB (small files are error pages)
 - Use 'file' command to verify it's JPEG/PNG
 - If image fails, try different source
-- Do NOT commit if any image is broken"
+- Do NOT commit if any image is broken
+- AFTER downloading each image, use the image analysis tool or open the file and verify it actually shows the correct product
+- Common failure: Amazon returns wrong product images (monitors instead of blenders, laptops instead of vacuums)
+- If ANY image shows the wrong product, delete it and re-download from a different source
+- VERIFY EVERY SINGLE IMAGE MATCHES ITS PRODUCT BEFORE COMMITTING"
 
     log "Running Claude Code..."
 
@@ -249,17 +253,30 @@ VERIFY IMAGES:
         if [ -n "$LATEST_POST" ]; then
             log "Checking latest post: $LATEST_POST"
 
-            # Verify images are valid
+            # Verify images are valid (basic check)
             if verify_post_images "$LATEST_POST"; then
-                log "SUCCESS: Blog post created and verified for '$TOPIC'"
-                log "All images validated successfully!"
-                mark_completed "$TOPIC"
+                log "Basic image checks passed."
             else
-                log "WARNING: Post created but some images may be broken"
-                log "Manual review recommended: $LATEST_POST"
-                # Still mark as completed but log the warning
-                mark_completed "$TOPIC"
+                log "WARNING: Basic image checks found issues"
             fi
+
+            # AI Vision validation - verify images actually match products
+            log "Running AI vision validation..."
+            VALIDATE_RESULT=$(python3 "$BLOG_DIR/automation/validate-images.py" "$LATEST_POST" --fix 2>&1)
+            echo "$VALIDATE_RESULT" >> "$LOG_FILE"
+            
+            if echo "$VALIDATE_RESULT" | grep -q "WRONG PRODUCT"; then
+                log "WARNING: AI detected wrong product images - attempting fix"
+                # Re-run with fix mode
+                python3 "$BLOG_DIR/automation/validate-images.py" "$LATEST_POST" --fix 2>&1 | tee -a "$LOG_FILE"
+                
+                # Rebuild after fix
+                cd "$BLOG_DIR" && hugo --minify 2>&1 | tail -1 >> "$LOG_FILE"
+                git add -A && git commit -m "Auto-fix: corrected mismatched product images" && git push 2>&1 | tail -1 >> "$LOG_FILE"
+            fi
+
+            log "SUCCESS: Blog post created and verified for '$TOPIC'"
+            mark_completed "$TOPIC"
 
             # Verify affiliate links
             AFFILIATE_COUNT=$(grep -c "tag=amazonfi08e0c-20" "$LATEST_POST" 2>/dev/null || echo "0")
