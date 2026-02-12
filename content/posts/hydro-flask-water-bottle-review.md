@@ -18,8 +18,8 @@ product_image: "/images/products/hydro-flask-1.jpg"
 brand: "Hydro Flask"
 rating: 4.8
 price: "$44.95"
-affiliate_link: "https://www.amazon.com/dp/B083GB3JCB?tag=amazonfi08e0c-20"
-asin: "B083GB3JCB"
+affiliate_link: "https://www.amazon.com/dp/B083GBV7M5?tag=amazonfi08e0c-20"
+asin: "B083GBV7M5"
 
 author: "Benjamin Arp"
 showToc: true
@@ -69,7 +69,7 @@ Cold water throughout the day sounds basic—until you experience it. The Hydro 
 - You lose water bottles frequently
 - Light weight is critical (steel is heavier than plastic)
 
-{{< cta-button url="https://www.amazon.com/dp/B083GB3JCB?tag=amazonfi08e0c-20" text="Check Price on Amazon" >}}
+{{< cta-button url="https://www.amazon.com/dp/B083GBV7M5?tag=amazonfi08e0c-20" text="Check Price on Amazon" >}}
 
 ---
 
@@ -154,7 +154,7 @@ The Hydro Flask 32oz is the water bottle that delivers on every promise. Ice sta
 
 Yes, $45 is a lot for a water bottle. But you'll use it daily for years, and you'll actually drink more water because it's always cold.
 
-{{< cta-button url="https://www.amazon.com/dp/B083GB3JCB?tag=amazonfi08e0c-20" text="Check Price on Amazon" >}}
+{{< cta-button url="https://www.amazon.com/dp/B083GBV7M5?tag=amazonfi08e0c-20" text="Check Price on Amazon" >}}
 
 ---
 
