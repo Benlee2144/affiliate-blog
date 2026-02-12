@@ -275,6 +275,15 @@ VERIFY IMAGES (CRITICAL - DO NOT SKIP):
                 git add -A && git commit -m "Auto-fix: corrected mismatched product images" && git push 2>&1 | tail -1 >> "$LOG_FILE"
             fi
 
+            # Validate Amazon ASINs are live
+            log "Validating Amazon ASINs..."
+            ASIN_RESULT=$(python3 "$BLOG_DIR/automation/validate-asins.py" "$LATEST_POST" 2>&1)
+            echo "$ASIN_RESULT" >> "$LOG_FILE"
+            if echo "$ASIN_RESULT" | grep -q "^DEAD:"; then
+                log "WARNING: Dead Amazon ASINs detected! Post may have broken affiliate links."
+                log "Run: python3 automation/validate-asins.py to see details"
+            fi
+
             log "SUCCESS: Blog post created and verified for '$TOPIC'"
             mark_completed "$TOPIC"
 
