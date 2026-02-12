@@ -18,7 +18,7 @@ product_image: "/images/products/dyson-vs-shark-1.jpg"
 brand: "Dyson / Shark"
 rating: 4.5
 price: "$350-750"
-affiliate_link: "https://www.amazon.com/dp/B0978KKK3K?tag=amazonfi08e0c-20"
+affiliate_link: "https://www.amazon.com/dp/B0979R48CX?tag=amazonfi08e0c-20"
 
 author: "Ben Arp"
 showToc: true
@@ -35,7 +35,7 @@ cover:
 
 Here's the question that haunts every vacuum shopper: is Dyson actually twice as good as Shark, or are you just paying for the name?
 
-I've been running this experiment since last summer. The [Dyson V15 Detect](https://www.amazon.com/dp/B0978KKK3K?tag=amazonfi08e0c-20) on Mondays, Wednesdays, and Fridays. The [Shark Stratos Cordless](https://www.amazon.com/dp/B0C7CQPWK1?tag=amazonfi08e0c-20) on Tuesdays, Thursdays, and Saturdays. Same house, same floors, same two dogs who shed enough fur to knit a third dog every week.
+I've been running this experiment since last summer. The [Dyson V15 Detect](https://www.amazon.com/dp/B0979R48CX?tag=amazonfi08e0c-20) on Mondays, Wednesdays, and Fridays. The [Shark Stratos Cordless](https://www.amazon.com/dp/B0B5JMNGNQ?tag=amazonfi08e0c-20) on Tuesdays, Thursdays, and Saturdays. Same house, same floors, same two dogs who shed enough fur to knit a third dog every week.
 
 Six months of data. Let's talk about it.
 
@@ -112,14 +112,14 @@ Here's my honest take after six months:
 
 **The Shark Stratos gives you 85% of the Dyson's cleaning performance at 47% of the price.** That math is hard to argue with.
 
-The Dyson V15 IS better. The laser is useful, the suction is stronger on carpet, and the build quality feels more premium. If money isn't a major factor and you want the absolute best cordless vacuum, [get the Dyson](https://www.amazon.com/dp/B0978KKK3K?tag=amazonfi08e0c-20).
+The Dyson V15 IS better. The laser is useful, the suction is stronger on carpet, and the build quality feels more premium. If money isn't a major factor and you want the absolute best cordless vacuum, [get the Dyson](https://www.amazon.com/dp/B0979R48CX?tag=amazonfi08e0c-20).
 
-But for most people? The [Shark Stratos](https://www.amazon.com/dp/B0C7CQPWK1?tag=amazonfi08e0c-20) at $350 is the smarter buy. It cleans well, it's lighter, the trigger doesn't cramp your hand, and you have $400 left over.
+But for most people? The [Shark Stratos](https://www.amazon.com/dp/B0B5JMNGNQ?tag=amazonfi08e0c-20) at $350 is the smarter buy. It cleans well, it's lighter, the trigger doesn't cramp your hand, and you have $400 left over.
 
 If you're in an apartment, you probably don't even need these flagships — check out our [cordless vacuums for apartments guide](/best-cordless-vacuums-for-apartments-2026/) for more budget-friendly picks.
 
 My dogs don't care which vacuum chases them around the house. Neither should you, probably.
 
-{{< cta-button url="https://www.amazon.com/dp/B0978KKK3K?tag=amazonfi08e0c-20" text="Check Dyson V15 Price on Amazon" >}}
+{{< cta-button url="https://www.amazon.com/dp/B0979R48CX?tag=amazonfi08e0c-20" text="Check Dyson V15 Price on Amazon" >}}
 
-{{< cta-button url="https://www.amazon.com/dp/B0C7CQPWK1?tag=amazonfi08e0c-20" text="Check Shark Stratos Price on Amazon" >}}
+{{< cta-button url="https://www.amazon.com/dp/B0B5JMNGNQ?tag=amazonfi08e0c-20" text="Check Shark Stratos Price on Amazon" >}}
