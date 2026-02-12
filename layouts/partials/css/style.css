@@ -651,6 +651,7 @@ th { font-weight: 600; background: var(--color-bg-alt); }
     background: var(--color-bg-alt);
     margin-bottom: 1rem;
     border-radius: 2px;
+    max-height: 340px;
 }
 
 .featured-image img {
