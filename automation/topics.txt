@@ -20,7 +20,7 @@ Best Slow Cookers for Busy Families 2026
 Best Juicers for Beginners 2026 — DONE
 Best Bread Makers for Fresh Bread 2026
 Best Ice Makers for Home Use 2026
-Best Meat Thermometers for Grilling 2026
+Best Meat Thermometers for Grilling 2026 — DONE
 Best Kitchen Scales for Baking 2026
 Best Knife Sets for Home Cooks 2026
 
@@ -68,7 +68,7 @@ Best Leaf Blowers for Fall Cleanup 2026
 
 # === OFFICE & PRODUCTIVITY ===
 # [DONE] Best Standing Desks for Home Office 2026
-Best Ergonomic Office Chairs 2026
+Best Ergonomic Office Chairs 2026 — DONE
 Best Desk Lamps for Eye Strain 2026
 Best Laptop Stands for Better Posture 2026
 Best Monitor Arms for Dual Screens 2026
