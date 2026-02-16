@@ -18,8 +18,8 @@ product_image: "/images/products/nespresso-vertuo-1.jpg"
 brand: "Nespresso"
 rating: 4.4
 price: "$159.00"
-affiliate_link: "https://www.amazon.com/dp/B084GY5Y4Y?tag=amazonfi08e0c-20"
-asin: "B084GY5Y4Y"
+affiliate_link: "https://www.amazon.com/dp/B084GYKJ58?tag=amazonfi08e0c-20"
+asin: "B084GYKJ58"
 
 author: "Benjamin Arp"
 showToc: true
@@ -69,7 +69,7 @@ Nespresso Vertuo promises both convenience and quality. Does it deliver?
 - You're an espresso purist (it's not traditional)
 - Environmental impact matters (pods have waste)
 
-{{< cta-button url="https://www.amazon.com/dp/B084GY5Y4Y?tag=amazonfi08e0c-20" text="Check Price on Amazon" >}}
+{{< cta-button url="https://www.amazon.com/dp/B084GYKJ58?tag=amazonfi08e0c-20" text="Check Price on Amazon" >}}
 
 ---
 
@@ -148,7 +148,7 @@ Nespresso Vertuo delivers on its promise: quality coffee with zero skill require
 
 For busy people who value consistent, quick coffee more than craft or cost optimization, it's the right choice.
 
-{{< cta-button url="https://www.amazon.com/dp/B084GY5Y4Y?tag=amazonfi08e0c-20" text="Check Price on Amazon" >}}
+{{< cta-button url="https://www.amazon.com/dp/B084GYKJ58?tag=amazonfi08e0c-20" text="Check Price on Amazon" >}}
 
 ---
 
