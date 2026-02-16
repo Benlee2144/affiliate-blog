@@ -67,7 +67,7 @@ My wife saw me typing on the Q5 Max and wanted to know why it sounded so satisfy
 
 They're not wrong. At $94 its maybe 80% of the Q5 Max experience for half the price. The case is plastic instead of aluminum so it's lighter and a bit more hollow sounding. But the switches are the same Gateron Browns, the keycaps are decent PBT, and it has the same wireless options.
 
-If you've never owned a mechanical keyboard, start here. Its the perfect "oh THIS is what they were talking about" moment. My wife has officially told me I'm not allowed to take it back. [See it on Amazon](https://www.amazon.com/dp/B09N5JCL7B?tag=amazonfi08e0c-20)
+If you've never owned a mechanical keyboard, start here. Its the perfect "oh THIS is what they were talking about" moment. My wife has officially told me I'm not allowed to take it back. [See it on Amazon](https://www.amazon.com/dp/B0B97JZV99?tag=amazonfi08e0c-20)
 
 **The one for people who need a number pad on a budget: Keychron V5 Max ($84)**
 
