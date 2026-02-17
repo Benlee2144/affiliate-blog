@@ -4,4 +4,4 @@ Allow: /
 Disallow: /tags/
 Disallow: /categories/
 
-Sitemap: https://researchedpick.com/sitemap.xml
+Sitemap: {{ "sitemap.xml" | absURL }}
