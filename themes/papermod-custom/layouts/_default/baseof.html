@@ -14,7 +14,7 @@
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}">
     <meta name="keywords" content="{{ with .Keywords }}{{ delimit . ", " }}{{ else }}{{ delimit .Site.Params.keywords ", " }}{{ end }}">
     <meta name="author" content="{{ .Site.Params.author }}">
-    {{- if .Data.Singular }}
+    {{- if and .Data.Singular (eq .Data.Singular "tag") }}
     <meta name="robots" content="noindex, follow">
     {{- end }}
     <link rel="canonical" href="{{ .Permalink }}">
