@@ -9,7 +9,7 @@ summary: "After freezing through two winters in my basement office, I finally te
 
 keywords: ["best space heaters for home office 2026", "space heater for office", "Vornado AVH10 review", "Lasko 754200 review", "Dreo Atom 316 review", "quiet space heater for office", "best desk heater 2026", "space heater comparison"]
 
-categories: ["Home & Garden"]
+categories: ["Home and Garden"]
 tags: ["space heater", "home office", "Vornado", "Lasko", "Dreo", "De'Longhi", "work from home"]
 
 review: true

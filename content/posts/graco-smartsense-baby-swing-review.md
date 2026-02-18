@@ -9,7 +9,7 @@ summary: "Cry detection sounds like magic. But after reading through hundreds of
 
 keywords: ["Graco SmartSense swing review", "baby swing cry detection", "Graco SmartSense vs mamaRoo", "best baby swing 2026"]
 
-categories: ["Home & Garden"]
+categories: ["Home and Garden"]
 tags: ["Graco", "baby swing", "baby gear", "product review", "nursery"]
 
 review: true

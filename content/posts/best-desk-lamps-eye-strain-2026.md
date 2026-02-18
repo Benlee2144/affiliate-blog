@@ -9,7 +9,7 @@ summary: "After years of headaches and dry eyes from staring at screens all day,
 
 keywords: ["best desk lamps for eye strain 2026", "desk lamp eye strain", "BenQ ScreenBar Halo review", "monitor light bar review", "Quntis light bar review", "Lepro desk lamp review", "best monitor light bar 2026", "reduce eye strain desk lamp"]
 
-categories: ["Office & Productivity"]
+categories: ["Office and Productivity"]
 tags: ["desk lamp", "eye strain", "BenQ", "Quntis", "Lepro", "monitor light bar", "home office", "ergonomics"]
 
 review: true

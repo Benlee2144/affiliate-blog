@@ -9,7 +9,7 @@ summary: "After using three electric toothbrushes daily for over a month each â€
 
 keywords: ["best electric toothbrushes 2026", "electric toothbrush review", "Oral-B iO Series 4 review", "Philips Sonicare 4100 review", "Oral-B Pro 1000 review", "best electric toothbrush", "sonic vs oscillating toothbrush"]
 
-categories: ["Beauty & Personal Care"]
+categories: ["Beauty and Personal Care"]
 tags: ["electric toothbrush", "Oral-B", "Philips Sonicare", "dental care", "personal care", "oral hygiene"]
 
 review: true

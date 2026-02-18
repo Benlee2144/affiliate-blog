@@ -9,7 +9,7 @@ summary: "Spent 3 months ignoring that damp basement smell before finally doing 
 
 keywords: ["best dehumidifier for basement 2026", "basement dehumidifier with pump", "Midea Cube review", "50 pint dehumidifier", "damp basement solution"]
 
-categories: ["Home & Garden"]
+categories: ["Home and Garden"]
 tags: ["dehumidifier", "basement", "Midea", "Frigidaire", "hOmeLabs", "moisture control", "home improvement"]
 
 review: true

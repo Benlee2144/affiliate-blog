@@ -9,7 +9,7 @@ summary: "The standing desk market is full of overpriced options. After deep-div
 
 keywords: ["best standing desk 2026", "standing desk home office", "Flexispot E7 review", "cheap standing desk", "standing desk under $400"]
 
-categories: ["Office & Productivity"]
+categories: ["Office and Productivity"]
 tags: ["standing desk", "home office", "Flexispot", "FEZIBO", "ergonomics", "work from home"]
 
 review: true

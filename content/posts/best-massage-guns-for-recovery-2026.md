@@ -9,7 +9,7 @@ summary: "Massage gun marketing is out of control. After testing several models 
 
 keywords: ["best massage gun 2026", "Theragun Prime review", "massage gun for recovery", "percussion massager comparison", "Theragun vs Hypervolt"]
 
-categories: ["Fitness & Health"]
+categories: ["Fitness and Health"]
 tags: ["massage gun", "Theragun", "recovery", "fitness", "muscle recovery"]
 
 review: true

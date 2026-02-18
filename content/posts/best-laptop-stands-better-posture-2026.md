@@ -9,7 +9,7 @@ summary: "I spent $100 testing three laptop stands after my chiropractor told me
 
 keywords: ["best laptop stands for posture 2026", "laptop stand for neck pain", "Lamicall laptop stand review", "Rain Design mStand review", "Nulaxy C1 laptop stand", "ergonomic laptop stand", "best laptop riser for desk 2026", "laptop stand comparison"]
 
-categories: ["Office & Productivity"]
+categories: ["Office and Productivity"]
 tags: ["laptop stand", "ergonomics", "Lamicall", "Rain Design", "Nulaxy", "home office", "posture", "work from home"]
 
 review: true

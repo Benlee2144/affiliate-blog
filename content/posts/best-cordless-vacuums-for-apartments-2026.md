@@ -9,7 +9,7 @@ summary: "I returned a Shark, two budget Amazon options, and a Tineco before fin
 
 keywords: ["best cordless vacuum 2026", "cordless vacuum for apartments", "Dyson V12 review", "quiet cordless vacuum", "apartment vacuum small space"]
 
-categories: ["Home & Garden"]
+categories: ["Home and Garden"]
 tags: ["cordless vacuum", "apartment living", "Dyson", "Shark", "Tineco", "cleaning"]
 
 review: true

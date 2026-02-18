@@ -9,7 +9,7 @@ summary: "After a year of living with smart plugs in nearly every room, the TP-L
 
 keywords: ["best smart plugs 2026", "smart plug for home automation", "TP-Link Kasa EP25 review", "Kasa KP125M review", "Tapo P125M smart plug", "best wifi smart plug", "smart plug energy monitoring", "cheap smart plug that works"]
 
-categories: ["Home & Garden"]
+categories: ["Home and Garden"]
 tags: ["smart plug", "smart home", "TP-Link", "Kasa", "Amazon", "home automation", "Matter", "energy monitoring"]
 
 review: true
