@@ -1,7 +1,7 @@
 ---
 title: "Fitbit Charge 6 vs Apple Watch Series 10: Fitness Tracker vs Smartwatch"
 slug: "fitbit-charge-6-vs-apple-watch-series-10"
-categories: ["Fitness and Health"]
+categories: ["Fitness & Health"]
 review: false
 comparison: true
 showToc: true

@@ -1,7 +1,7 @@
 ---
 title: "Roborock Q5 Pro vs ECOVACS DEEBOT X11: Robot Vacuum Showdown"
 slug: "roborock-q5-pro-vs-ecovacs-deebot-x11"
-categories: ["Home and Garden"]
+categories: ["Home & Garden"]
 review: false
 comparison: true
 showToc: true
