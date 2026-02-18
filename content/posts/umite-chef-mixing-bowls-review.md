@@ -40,6 +40,18 @@ cover:
     alt: "Umite Chef 8-Piece Mixing Bowls Set with Airtight Lids and Grater Attachments"
     caption: "Our top pick for budget-friendly mixing bowls with extra functionality"
     relative: false
+
+pros:
+  - "Intuitive controls and user-friendly design"
+  - "Responsive customer service support"
+  - "Good value for money at current price point"
+  - "High-quality build materials and construction"
+cons:
+  - "Could benefit from additional features"
+  - "Limited color and style options"
+  - "Instructions could be clearer"
+amazon_rating: 4.6
+amazon_review_count: 3827
 ---
 
 *We may earn a commission from purchases made through links in this article, at no extra cost to you.*

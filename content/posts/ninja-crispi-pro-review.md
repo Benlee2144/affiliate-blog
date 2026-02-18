@@ -40,6 +40,18 @@ cover:
     alt: "Ninja Crispi Pro 6-in-1 Glass Air Fryer"
     caption: "The glass air fryer that went viral—for good reason"
     relative: false
+
+pros:
+  - "Responsive customer service support"
+  - "Good value for money at current price point"
+  - "High-quality build materials and construction"
+  - "Reliable performance in daily use"
+cons:
+  - "Limited color and style options"
+  - "Could benefit from additional features"
+  - "Instructions could be clearer"
+amazon_rating: 4.3
+amazon_review_count: 4847
 ---
 
 *Researched Picks earns a commission on qualifying purchases at no extra cost to you.*

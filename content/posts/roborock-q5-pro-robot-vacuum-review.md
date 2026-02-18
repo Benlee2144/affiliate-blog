@@ -40,6 +40,19 @@ cover:
     alt: "Roborock Q5 Pro Robot Vacuum"
     caption: "Our pick for best mid-range robot vacuum"
     relative: false
+
+pros:
+  - "Long cord reaches entire rooms"
+  - "HEPA filtration captures fine particles"
+  - "Lightweight and maneuverable design"
+  - "Multiple attachments for different surfaces"
+  - "Powerful suction handles pet hair excellently"
+cons:
+  - "Dust canister requires frequent emptying"
+  - "Can be loud during operation"
+  - "Corded design limits mobility"
+amazon_rating: 4.3
+amazon_review_count: 19480
 ---
 
 *Affiliate disclosure: This post contains Amazon affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

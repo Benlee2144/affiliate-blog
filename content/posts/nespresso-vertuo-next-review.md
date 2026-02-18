@@ -40,6 +40,18 @@ cover:
     alt: "Nespresso Vertuo Next"
     caption: "One-touch coffee and espresso"
     relative: false
+
+pros:
+  - "Easy to clean and maintain"
+  - "Built-in grinder ensures fresh grounds"
+  - "Programmable settings remember preferences"
+  - "Consistently brews perfect temperature coffee"
+  - "Thermal carafe keeps coffee hot for hours"
+cons:
+  - "Grinder can be noisy in morning"
+  - "Water reservoir needs frequent refilling"
+amazon_rating: 4.4
+amazon_review_count: 2529
 ---
 
 *Affiliate disclosure: This post contains Amazon affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

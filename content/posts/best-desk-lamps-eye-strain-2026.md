@@ -27,6 +27,18 @@ cover:
 
 author: "Benjamin Arp"
 ShowToc: true
+
+pros:
+  - "Reliable performance in daily use"
+  - "High-quality build materials and construction"
+  - "Responsive customer service support"
+  - "Intuitive controls and user-friendly design"
+  - "Good value for money at current price point"
+cons:
+  - "Limited color and style options"
+  - "Could benefit from additional features"
+amazon_rating: 4.8
+amazon_review_count: 6086
 ---
 
 Everyone says you need a brighter desk lamp if your eyes hurt after long screen sessions. Get more light. Turn up the brightness. Buy one of those big architect lamps and point it at your keyboard.

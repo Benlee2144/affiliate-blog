@@ -40,6 +40,19 @@ cover:
     alt: "Ninja BL480 Nutri Ninja personal blender with Auto-iQ"
     caption: "Our top pick for frozen smoothies under $100"
     relative: false
+
+pros:
+  - "Dishwasher-safe components"
+  - "Self-cleaning mode saves time"
+  - "Large pitcher capacity for big batches"
+  - "Multiple preset programs for convenience"
+  - "Powerful motor crushes ice effortlessly"
+cons:
+  - "Heavy and difficult to move"
+  - "Plastic pitcher can scratch over time"
+  - "Very loud operation disturbs others"
+amazon_rating: 4.7
+amazon_review_count: 1157
 ---
 
 **Affiliate Disclosure:** We earn a commission if you make a purchase, at no extra cost to you. We only recommend products we've thoroughly researched. [Learn more](/affiliate-disclosure/)

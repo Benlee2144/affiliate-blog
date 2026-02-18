@@ -40,6 +40,18 @@ cover:
     alt: "Philips Hue Starter Kit"
     caption: "The gold standard in smart lighting"
     relative: false
+
+pros:
+  - "Intuitive controls and user-friendly design"
+  - "Responsive customer service support"
+  - "Reliable performance in daily use"
+  - "High-quality build materials and construction"
+cons:
+  - "Instructions could be clearer"
+  - "Limited color and style options"
+  - "Could benefit from additional features"
+amazon_rating: 4.4
+amazon_review_count: 5015
 ---
 
 *Affiliate disclosure: This post contains Amazon affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

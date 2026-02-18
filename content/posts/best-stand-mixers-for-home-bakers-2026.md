@@ -30,6 +30,19 @@ cover:
     alt: "KitchenAid Artisan stand mixer in Empire Red"
     caption: "The KitchenAid Artisan - the one that ended up under our Christmas tree"
     relative: false
+
+pros:
+  - "Responsive customer service support"
+  - "Reliable performance in daily use"
+  - "Good value for money at current price point"
+  - "High-quality build materials and construction"
+  - "Intuitive controls and user-friendly design"
+cons:
+  - "Could benefit from additional features"
+  - "Instructions could be clearer"
+  - "Limited color and style options"
+amazon_rating: 4.6
+amazon_review_count: 5429
 ---
 
 My wife's birthday was coming up. "I want a stand mixer," she said. Simple enough, right?

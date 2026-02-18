@@ -30,6 +30,17 @@ cover:
     alt: "Vitamix 5200 blender with fruits and vegetables"
     caption: "The blender that finally stopped making me hate smoothies"
     relative: false
+
+pros:
+  - "Large pitcher capacity for big batches"
+  - "Multiple preset programs for convenience"
+  - "Dishwasher-safe components"
+  - "Powerful motor crushes ice effortlessly"
+cons:
+  - "Plastic pitcher can scratch over time"
+  - "Heavy and difficult to move"
+amazon_rating: 4.6
+amazon_review_count: 5636
 ---
 
 Everyone says you don't need a $400+ blender.

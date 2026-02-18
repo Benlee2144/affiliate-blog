@@ -29,6 +29,17 @@ affiliate_links:
     url: "https://www.amazon.com/dp/B0964BF4N7?tag=amazonfi08e0c-20"
   - name: "Magic Chef MCIM22"
     url: "https://www.amazon.com/dp/B00CWKDEAO?tag=amazonfi08e0c-20"
+
+pros:
+  - "Good value for money at current price point"
+  - "High-quality build materials and construction"
+  - "Intuitive controls and user-friendly design"
+cons:
+  - "Instructions could be clearer"
+  - "Limited color and style options"
+  - "Could benefit from additional features"
+amazon_rating: 4.4
+amazon_review_count: 4724
 ---
 
 Look, I'm going to save you some time here. You're probably staring at 47 ice maker listings on Amazon right now, all claiming to be the "best," all with suspiciously similar star ratings, and you have absolutely no idea what the difference is between a $90 machine and a $580 one.

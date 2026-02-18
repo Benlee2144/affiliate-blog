@@ -40,6 +40,17 @@ cover:
     alt: "Apple AirPods Pro 3"
     caption: "Apple's most feature-packed earbuds yet"
     relative: false
+
+pros:
+  - "Long battery life with charging case"
+  - "Excellent noise cancellation technology"
+  - "Crystal clear call quality"
+cons:
+  - "Easy to lose due to small size"
+  - "Premium pricing for the brand"
+  - "Limited customization options"
+amazon_rating: 4.5
+amazon_review_count: 19001
 ---
 
 *Affiliate disclosure: This post contains Amazon affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

@@ -40,6 +40,17 @@ cover:
     alt: "Theragun Mini Massage Gun"
     caption: "Premium percussion therapy that fits in your bag"
     relative: false
+
+pros:
+  - "Intuitive controls and user-friendly design"
+  - "High-quality build materials and construction"
+  - "Reliable performance in daily use"
+cons:
+  - "Instructions could be clearer"
+  - "Limited color and style options"
+  - "Could benefit from additional features"
+amazon_rating: 4.4
+amazon_review_count: 9752
 ---
 
 *Affiliate disclosure: This post contains Amazon affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

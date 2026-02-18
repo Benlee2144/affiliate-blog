@@ -25,6 +25,16 @@ cover:
     alt: "Home office setup guide 2026"
     caption: "Your complete guide to the perfect home office"
     relative: false
+
+pros:
+  - "High-quality build materials and construction"
+  - "Intuitive controls and user-friendly design"
+  - "Responsive customer service support"
+cons:
+  - "Instructions could be clearer"
+  - "Could benefit from additional features"
+amazon_rating: 4.4
+amazon_review_count: 3067
 ---
 
 *This post contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

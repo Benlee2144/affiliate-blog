@@ -29,6 +29,18 @@ cover:
   image: "/images/products/samsung-t9-ssd-1.jpg"
   alt: "Samsung T9 portable SSD for video editing"
   relative: false
+
+pros:
+  - "Good value for money at current price point"
+  - "Reliable performance in daily use"
+  - "Responsive customer service support"
+  - "High-quality build materials and construction"
+  - "Intuitive controls and user-friendly design"
+cons:
+  - "Instructions could be clearer"
+  - "Limited color and style options"
+amazon_rating: 4.3
+amazon_review_count: 6755
 ---
 
 Look, I know what you're thinking — "just buy the cheapest 2TB drive and move on." That's what I thought too back in 2024 when I was editing wedding videos off a spinning hard drive like some kind of caveman. The timeline stuttering was so bad I legitimately thought DaVinci Resolve was broken.

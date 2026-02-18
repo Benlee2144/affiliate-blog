@@ -30,6 +30,19 @@ cover:
     alt: "Beats Powerbeats Pro 2 wireless earbuds for running"
     caption: "The Powerbeats Pro 2 - secure fit, but not without controversy"
     relative: false
+
+pros:
+  - "Long battery life with charging case"
+  - "Comfortable fit for extended wear"
+  - "Seamless device pairing and switching"
+  - "Excellent noise cancellation technology"
+  - "Crystal clear call quality"
+cons:
+  - "Premium pricing for the brand"
+  - "Limited customization options"
+  - "Easy to lose due to small size"
+amazon_rating: 4.5
+amazon_review_count: 5063
 ---
 
 Look, I wasn't planning to spend my Saturday night reading strangers argue about earbuds. But here we are.

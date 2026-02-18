@@ -40,6 +40,17 @@ cover:
     alt: "Apple Mac Mini M4 desktop computer in silver"
     caption: "The smallest Mac ever—with performance that punches way above its size"
     relative: false
+
+pros:
+  - "Excellent value for Mac performance"
+  - "Energy efficient and runs cool"
+  - "Multiple Thunderbolt ports for connectivity"
+cons:
+  - "Apple ecosystem lock-in pricing"
+  - "Limited upgrade options after purchase"
+  - "No built-in display (Mac Mini)"
+amazon_rating: 4.4
+amazon_review_count: 22149
 ---
 
 *Researched Picks earns a commission on qualifying purchases at no extra cost to you.*

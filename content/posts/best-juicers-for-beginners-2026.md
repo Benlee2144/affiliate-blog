@@ -29,6 +29,17 @@ cover:
     alt: "Breville Juice Fountain Cold Plus juicer for beginners"
     caption: "The one that finally converted me"
     relative: false
+
+pros:
+  - "Good value for money at current price point"
+  - "Intuitive controls and user-friendly design"
+  - "Responsive customer service support"
+cons:
+  - "Instructions could be clearer"
+  - "Could benefit from additional features"
+  - "Limited color and style options"
+amazon_rating: 4.6
+amazon_review_count: 5807
 ---
 
 I'll be honest — I used to think juicers were one of those kitchen appliances people buy, use twice, and then shove in a cabinet forever. Like a bread maker. Or one of those waffle irons shaped like a character from Star Wars.

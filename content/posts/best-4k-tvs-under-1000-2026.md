@@ -27,6 +27,17 @@ cover:
 
 author: "Benjamin Arp"
 ShowToc: true
+
+pros:
+  - "Smart TV interface is fast and intuitive"
+  - "Built-in streaming apps work flawlessly"
+  - "Excellent gaming performance with low latency"
+cons:
+  - "Remote control feels cheap"
+  - "Smart TV ads can be intrusive"
+  - "Sound quality requires external speakers"
+amazon_rating: 4.5
+amazon_review_count: 6177
 ---
 
 My wife told me in November that she was "done" with our 55-inch Vizio from 2020. It had this weird green tint in the corners that had been getting worse for months, and honestly she was right — it looked terrible. So she handed me a budget of "under a thousand dollars, please" and told me to figure it out.

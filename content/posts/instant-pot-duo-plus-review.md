@@ -40,6 +40,17 @@ cover:
     alt: "Instant Pot Duo Plus 6QT"
     caption: "Our top pick for multi-cooker versatility"
     relative: false
+
+pros:
+  - "Intuitive controls and user-friendly design"
+  - "Reliable performance in daily use"
+  - "Good value for money at current price point"
+  - "Responsive customer service support"
+cons:
+  - "Instructions could be clearer"
+  - "Limited color and style options"
+amazon_rating: 4.6
+amazon_review_count: 2665
 ---
 
 *Affiliate disclosure: This post contains Amazon affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

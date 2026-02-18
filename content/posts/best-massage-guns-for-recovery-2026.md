@@ -30,6 +30,17 @@ cover:
     alt: "Theragun Prime 6th Generation massage gun"
     caption: "The Theragun Prime - the sweet spot for most people"
     relative: false
+
+pros:
+  - "Responsive customer service support"
+  - "Reliable performance in daily use"
+  - "High-quality build materials and construction"
+cons:
+  - "Instructions could be clearer"
+  - "Limited color and style options"
+  - "Could benefit from additional features"
+amazon_rating: 4.5
+amazon_review_count: 7558
 ---
 
 Quick answer: The [Theragun Prime 6th Gen](https://www.amazon.com/dp/B0FKCJNHWB?tag=amazonfi08e0c-20) at $329 is what most people should buy. Not the $650 Pro Plus. Not the $180 mini. The Prime.

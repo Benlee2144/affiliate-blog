@@ -40,6 +40,16 @@ cover:
     alt: "Skullcandy Crusher ANC 2 wireless headphones in True Black"
     caption: "The bass headphones that literally vibrate your skull"
     relative: false
+
+pros:
+  - "High-quality build materials and construction"
+  - "Responsive customer service support"
+  - "Intuitive controls and user-friendly design"
+cons:
+  - "Instructions could be clearer"
+  - "Could benefit from additional features"
+amazon_rating: 4.8
+amazon_review_count: 6284
 ---
 
 *This post contains affiliate links. If you purchase through these links, we may earn a commission at no extra cost to you.*

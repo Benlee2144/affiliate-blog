@@ -25,6 +25,18 @@ cover:
   hidden: false
 
 ShowToc: false
+
+pros:
+  - "Responsive customer service support"
+  - "Good value for money at current price point"
+  - "Intuitive controls and user-friendly design"
+  - "High-quality build materials and construction"
+cons:
+  - "Could benefit from additional features"
+  - "Limited color and style options"
+  - "Instructions could be clearer"
+amazon_rating: 4.6
+amazon_review_count: 3551
 ---
 
 I owe mechanical keyboard people an apology.

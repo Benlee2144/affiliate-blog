@@ -27,6 +27,19 @@ cover:
 
 author: "Benjamin Arp"
 ShowToc: true
+
+pros:
+  - "Intuitive controls and user-friendly design"
+  - "High-quality build materials and construction"
+  - "Good value for money at current price point"
+  - "Reliable performance in daily use"
+  - "Responsive customer service support"
+cons:
+  - "Instructions could be clearer"
+  - "Could benefit from additional features"
+  - "Limited color and style options"
+amazon_rating: 4.6
+amazon_review_count: 7853
 ---
 
 I'll be honest — I spent two full winters telling myself I didn't need a space heater. "Just put on a sweatshirt" I kept saying while my fingers went numb trying to type. My home office is in the basement and the central heat barely reaches down there. By January I was wearing fingerless gloves at my desk like some kind of Victorian novelist.

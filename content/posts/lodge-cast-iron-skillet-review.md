@@ -40,6 +40,17 @@ cover:
     alt: "Lodge 10.25 Inch Cast Iron Skillet"
     caption: "The kitchen essential that lasts generations"
     relative: false
+
+pros:
+  - "Good value for money at current price point"
+  - "Reliable performance in daily use"
+  - "Intuitive controls and user-friendly design"
+cons:
+  - "Could benefit from additional features"
+  - "Instructions could be clearer"
+  - "Limited color and style options"
+amazon_rating: 4.3
+amazon_review_count: 6532
 ---
 
 *Affiliate disclosure: This post contains Amazon affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

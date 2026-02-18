@@ -30,6 +30,17 @@ cover:
   alt: "XGIMI Halo Plus portable projector for home theater"
   relative: false
   hidden: false
+
+pros:
+  - "High-quality build materials and construction"
+  - "Good value for money at current price point"
+  - "Intuitive controls and user-friendly design"
+cons:
+  - "Limited color and style options"
+  - "Could benefit from additional features"
+  - "Instructions could be clearer"
+amazon_rating: 4.6
+amazon_review_count: 6633
 ---
 
 I thought projectors were overhyped. Like genuinely thought they were one of those things people buy, use twice, then shove in a closet next to their bread maker and that ab roller from 2019.

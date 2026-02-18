@@ -29,6 +29,18 @@ cover:
     alt: "Viofo A229 Pro dash cam for cars"
     caption: "The one that finally stuck to my windshield AND recorded usable footage"
     relative: false
+
+pros:
+  - "Reliable performance in daily use"
+  - "Intuitive controls and user-friendly design"
+  - "Responsive customer service support"
+  - "High-quality build materials and construction"
+  - "Good value for money at current price point"
+cons:
+  - "Could benefit from additional features"
+  - "Instructions could be clearer"
+amazon_rating: 4.3
+amazon_review_count: 3243
 ---
 
 I'm going to rant for a second because I've earned it. Over the past two years I've bought, installed, uninstalled, and returned FIVE different dash cams. Five. The first one — some random $25 thing off Amazon — literally melted the adhesive mount during a July heatwave in my driveway. The second one recorded footage so blurry you couldn't read a license plate from 10 feet away. The third one's app was so bad I gave up trying to download clips after a fender bender and just... didn't have evidence.

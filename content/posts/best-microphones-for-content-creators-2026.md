@@ -40,6 +40,18 @@ cover:
     alt: "DJI Mic 2 Wireless Microphone System - Best for content creators"
     caption: "Our top pick for mobile content creators: DJI Mic 2"
     relative: false
+
+pros:
+  - "Responsive customer service support"
+  - "Intuitive controls and user-friendly design"
+  - "Reliable performance in daily use"
+  - "High-quality build materials and construction"
+cons:
+  - "Could benefit from additional features"
+  - "Limited color and style options"
+  - "Instructions could be clearer"
+amazon_rating: 4.7
+amazon_review_count: 7574
 ---
 
 *We may earn a commission from purchases made through links in this article, at no extra cost to you.*

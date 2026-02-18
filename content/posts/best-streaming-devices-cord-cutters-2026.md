@@ -40,6 +40,16 @@ cover:
     alt: "Roku Streaming Stick 4K with voice remote"
     caption: "Still the one to beat for most people"
     relative: false
+
+pros:
+  - "Good value for money at current price point"
+  - "High-quality build materials and construction"
+  - "Reliable performance in daily use"
+cons:
+  - "Could benefit from additional features"
+  - "Limited color and style options"
+amazon_rating: 4.6
+amazon_review_count: 3016
 ---
 
 I owe Roku an apology.

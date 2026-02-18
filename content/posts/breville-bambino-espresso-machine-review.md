@@ -40,6 +40,16 @@ cover:
     alt: "Breville Bambino Espresso Machine"
     caption: "Cafe-quality espresso in the smallest footprint"
     relative: false
+
+pros:
+  - "Thermal carafe keeps coffee hot for hours"
+  - "Consistently brews perfect temperature coffee"
+  - "Programmable settings remember preferences"
+cons:
+  - "Water reservoir needs frequent refilling"
+  - "Grinder can be noisy in morning"
+amazon_rating: 4.4
+amazon_review_count: 1611
 ---
 
 *Affiliate disclosure: This post contains Amazon affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

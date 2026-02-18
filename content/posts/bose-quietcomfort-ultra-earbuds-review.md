@@ -40,6 +40,18 @@ cover:
     alt: "Bose QuietComfort Ultra Earbuds"
     caption: "The most comfortable ANC earbuds available"
     relative: false
+
+pros:
+  - "Seamless device pairing and switching"
+  - "Crystal clear call quality"
+  - "Long battery life with charging case"
+  - "Excellent noise cancellation technology"
+  - "Comfortable fit for extended wear"
+cons:
+  - "Limited customization options"
+  - "Easy to lose due to small size"
+amazon_rating: 4.2
+amazon_review_count: 6832
 ---
 
 *Affiliate disclosure: This post contains Amazon affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

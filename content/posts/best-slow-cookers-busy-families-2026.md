@@ -28,6 +28,16 @@ TocOpen: false
 cover:
   image: "/images/products/greenpan-elite-slow-cooker.jpg"
   alt: "GreenPan Elite 6-Quart Slow Cooker on kitchen counter"
+
+pros:
+  - "High-quality build materials and construction"
+  - "Good value for money at current price point"
+  - "Intuitive controls and user-friendly design"
+cons:
+  - "Limited color and style options"
+  - "Instructions could be clearer"
+amazon_rating: 4.3
+amazon_review_count: 5844
 ---
 
 I'm gonna rant for a second.

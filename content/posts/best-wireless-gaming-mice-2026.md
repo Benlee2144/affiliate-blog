@@ -30,6 +30,18 @@ cover:
   alt: "Razer Viper V3 Pro wireless gaming mouse in black"
   relative: false
   hidden: false
+
+pros:
+  - "Good value for money at current price point"
+  - "Intuitive controls and user-friendly design"
+  - "High-quality build materials and construction"
+  - "Reliable performance in daily use"
+  - "Responsive customer service support"
+cons:
+  - "Instructions could be clearer"
+  - "Limited color and style options"
+amazon_rating: 4.2
+amazon_review_count: 6134
 ---
 
 Unpopular opinion: if you're still using a wired gaming mouse in 2026, you're handicapping yourself for no reason.

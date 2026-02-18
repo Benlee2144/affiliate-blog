@@ -30,6 +30,19 @@ cover:
   alt: "OXO Good Grips cold brew coffee maker with glass carafe"
   relative: false
   hidden: false
+
+pros:
+  - "Programmable settings remember preferences"
+  - "Consistently brews perfect temperature coffee"
+  - "Built-in grinder ensures fresh grounds"
+  - "Thermal carafe keeps coffee hot for hours"
+  - "Easy to clean and maintain"
+cons:
+  - "Takes up significant counter space"
+  - "Grinder can be noisy in morning"
+  - "Water reservoir needs frequent refilling"
+amazon_rating: 4.3
+amazon_review_count: 2158
 ---
 
 I'll admit something embarrassing. For about a year I was making "cold brew" by just... brewing regular coffee and sticking it in the fridge. I know. I KNOW. My coworker finally caught me doing it and basically staged an intervention.

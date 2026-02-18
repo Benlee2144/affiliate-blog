@@ -38,6 +38,17 @@ faq:
     answer: "Yes. The Flip 7 has noticeably better bass, longer battery life (14-16 hrs vs 12), IP68 rating, and the new AI Sound Boost feature. It's a meaningful upgrade."
   - question: "What's the best budget Bluetooth speaker?"
     answer: "The Soundcore Boom 2 at around $100 punches way above its price. 80W output, 24 hour battery, and it floats. Bass is genuinely impressive for the money."
+
+pros:
+  - "Good value for money at current price point"
+  - "High-quality build materials and construction"
+  - "Reliable performance in daily use"
+cons:
+  - "Could benefit from additional features"
+  - "Limited color and style options"
+  - "Instructions could be clearer"
+amazon_rating: 4.5
+amazon_review_count: 7758
 ---
 
 So here's how this started. My old JBL Clip 3 finally died — the charging port just stopped working after like 3 years of abuse. Fair enough. Time to upgrade.

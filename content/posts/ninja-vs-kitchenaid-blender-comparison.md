@@ -29,6 +29,19 @@ cover:
     alt: "Ninja vs KitchenAid blender comparison"
     caption: "Two blenders enter, one leaves your counter"
     relative: false
+
+pros:
+  - "Multiple preset programs for convenience"
+  - "Large pitcher capacity for big batches"
+  - "Powerful motor crushes ice effortlessly"
+  - "Dishwasher-safe components"
+  - "Self-cleaning mode saves time"
+cons:
+  - "Heavy and difficult to move"
+  - "Very loud operation disturbs others"
+  - "Plastic pitcher can scratch over time"
+amazon_rating: 4.4
+amazon_review_count: 8139
 ---
 
 *This post contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

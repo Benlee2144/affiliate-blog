@@ -38,6 +38,19 @@ cover:
     alt: "Graco SmartSense Soothing Baby Swing"
     caption: "The swing that listens to your baby cry"
     relative: false
+
+pros:
+  - "Good value for money at current price point"
+  - "Intuitive controls and user-friendly design"
+  - "High-quality build materials and construction"
+  - "Reliable performance in daily use"
+  - "Responsive customer service support"
+cons:
+  - "Could benefit from additional features"
+  - "Limited color and style options"
+  - "Instructions could be clearer"
+amazon_rating: 4.3
+amazon_review_count: 1116
 ---
 
 *This post contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

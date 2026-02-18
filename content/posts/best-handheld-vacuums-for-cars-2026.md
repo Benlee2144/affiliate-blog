@@ -28,6 +28,18 @@ TocOpen: false
 cover:
     image: "/images/products/bd-dustbuster-advancedclean.jpg"
     alt: "BLACK+DECKER Dustbuster handheld vacuum for cars"
+
+pros:
+  - "Lightweight and maneuverable design"
+  - "Multiple attachments for different surfaces"
+  - "Powerful suction handles pet hair excellently"
+  - "Long cord reaches entire rooms"
+cons:
+  - "Corded design limits mobility"
+  - "Dust canister requires frequent emptying"
+  - "Can be loud during operation"
+amazon_rating: 4.3
+amazon_review_count: 8842
 ---
 
 I'll admit it — I was one of those people who thought car vacuums were all the same. Grab whatever's cheap on Amazon, plug it in, done. Right?

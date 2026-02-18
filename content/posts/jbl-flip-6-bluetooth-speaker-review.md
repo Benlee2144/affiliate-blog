@@ -40,6 +40,18 @@ cover:
     alt: "JBL Flip 6 Bluetooth Speaker"
     caption: "The portable speaker sweet spot"
     relative: false
+
+pros:
+  - "Intuitive controls and user-friendly design"
+  - "Responsive customer service support"
+  - "High-quality build materials and construction"
+  - "Reliable performance in daily use"
+cons:
+  - "Could benefit from additional features"
+  - "Limited color and style options"
+  - "Instructions could be clearer"
+amazon_rating: 4.7
+amazon_review_count: 4804
 ---
 
 *Affiliate disclosure: This post contains Amazon affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

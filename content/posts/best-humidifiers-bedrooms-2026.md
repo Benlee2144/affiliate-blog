@@ -31,6 +31,16 @@ affiliate_links:
     url: "https://www.amazon.com/dp/B0916J478T?tag=amazonfi08e0c-20"
   - name: "Dreo HM311S"
     url: "https://www.amazon.com/dp/B0CCVX6FSD?tag=amazonfi08e0c-20"
+
+pros:
+  - "High-quality build materials and construction"
+  - "Intuitive controls and user-friendly design"
+  - "Responsive customer service support"
+cons:
+  - "Could benefit from additional features"
+  - "Instructions could be clearer"
+amazon_rating: 4.5
+amazon_review_count: 6802
 ---
 
 So here's a fun story. Mid-December, I'm waking up every morning with a bloody nose. Not like a horror movie situation but enough to stain my pillowcase three days in a row. My wife is looking at me like I'm falling apart. I checked the humidity in our bedroom with a cheap hygrometer I had from an old cigar humidor — 19%. 

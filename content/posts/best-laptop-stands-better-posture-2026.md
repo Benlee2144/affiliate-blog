@@ -27,6 +27,19 @@ cover:
 
 author: "Benjamin Arp"
 ShowToc: false
+
+pros:
+  - "Good value for money at current price point"
+  - "Responsive customer service support"
+  - "High-quality build materials and construction"
+  - "Intuitive controls and user-friendly design"
+  - "Reliable performance in daily use"
+cons:
+  - "Could benefit from additional features"
+  - "Limited color and style options"
+  - "Instructions could be clearer"
+amazon_rating: 4.7
+amazon_review_count: 2774
 ---
 
 Last September my chiropractor looked at my X-ray and said something I didn't love hearing: "Your head is sitting about two inches in front of where it should be." Apparently this is called forward head posture and it's basically what happens when you stare down at a laptop screen for 8 hours a day, five days a week, for... I dunno, a decade?

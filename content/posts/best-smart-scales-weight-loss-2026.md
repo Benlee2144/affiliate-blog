@@ -30,6 +30,19 @@ affiliate_links:
     url: "https://www.amazon.com/dp/B01N1UX8RW?tag=amazonfi08e0c-20"
   - name: "Wyze Scale X"
     url: "https://www.amazon.com/dp/B0B8SB3HSD?tag=amazonfi08e0c-20"
+
+pros:
+  - "Good value for money at current price point"
+  - "Intuitive controls and user-friendly design"
+  - "Reliable performance in daily use"
+  - "High-quality build materials and construction"
+  - "Responsive customer service support"
+cons:
+  - "Instructions could be clearer"
+  - "Limited color and style options"
+  - "Could benefit from additional features"
+amazon_rating: 4.5
+amazon_review_count: 6410
 ---
 
 I owe smart scales an apology.

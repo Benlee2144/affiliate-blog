@@ -40,6 +40,17 @@ cover:
     alt: "Neewer 18 Inch Ring Light"
     caption: "Pro-level lighting without the pro price"
     relative: false
+
+pros:
+  - "Responsive customer service support"
+  - "Reliable performance in daily use"
+  - "Intuitive controls and user-friendly design"
+  - "Good value for money at current price point"
+cons:
+  - "Could benefit from additional features"
+  - "Limited color and style options"
+amazon_rating: 4.2
+amazon_review_count: 5451
 ---
 
 *Affiliate disclosure: This post contains Amazon affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

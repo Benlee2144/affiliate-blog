@@ -40,6 +40,19 @@ cover:
     alt: "Vitamix E310 Explorian Blender"
     caption: "Professional blending at entry-level pricing"
     relative: false
+
+pros:
+  - "Multiple preset programs for convenience"
+  - "Dishwasher-safe components"
+  - "Powerful motor crushes ice effortlessly"
+  - "Self-cleaning mode saves time"
+  - "Large pitcher capacity for big batches"
+cons:
+  - "Plastic pitcher can scratch over time"
+  - "Heavy and difficult to move"
+  - "Very loud operation disturbs others"
+amazon_rating: 4.8
+amazon_review_count: 2510
 ---
 
 *Affiliate disclosure: This post contains Amazon affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

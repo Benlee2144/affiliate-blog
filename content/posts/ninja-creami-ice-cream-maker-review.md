@@ -40,6 +40,19 @@ cover:
     alt: "Ninja Creami Ice Cream Maker"
     caption: "Turn protein shakes into ice cream"
     relative: false
+
+pros:
+  - "Responsive customer service support"
+  - "High-quality build materials and construction"
+  - "Reliable performance in daily use"
+  - "Intuitive controls and user-friendly design"
+  - "Good value for money at current price point"
+cons:
+  - "Could benefit from additional features"
+  - "Limited color and style options"
+  - "Instructions could be clearer"
+amazon_rating: 4.2
+amazon_review_count: 1069
 ---
 
 *Affiliate disclosure: This post contains Amazon affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

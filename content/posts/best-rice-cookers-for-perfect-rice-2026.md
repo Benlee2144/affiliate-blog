@@ -30,6 +30,17 @@ cover:
     alt: "Zojirushi NS-TSC10 Micom rice cooker and warmer"
     caption: "The one that actually lives up to the hype"
     relative: false
+
+pros:
+  - "Good value for money at current price point"
+  - "Reliable performance in daily use"
+  - "High-quality build materials and construction"
+cons:
+  - "Instructions could be clearer"
+  - "Limited color and style options"
+  - "Could benefit from additional features"
+amazon_rating: 4.7
+amazon_review_count: 3965
 ---
 
 Heres the thing about rice cookers — you can spend $25 or $250 and in both cases, you get cooked rice. The question is whether that extra money buys you anything real or if its just fancy marketing from Japanese companies who've been making these things since the 1950s.

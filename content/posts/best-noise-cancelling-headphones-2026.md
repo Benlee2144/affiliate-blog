@@ -30,6 +30,17 @@ cover:
     alt: "Sony WH-1000XM5 wireless noise cancelling headphones in black"
     caption: "The Sony XM5 - my daily driver for the past 6 months"
     relative: false
+
+pros:
+  - "Intuitive controls and user-friendly design"
+  - "Responsive customer service support"
+  - "High-quality build materials and construction"
+cons:
+  - "Limited color and style options"
+  - "Instructions could be clearer"
+  - "Could benefit from additional features"
+amazon_rating: 4.3
+amazon_review_count: 3502
 ---
 
 Sony or Bose. That's the question that launches a thousand forum arguments.

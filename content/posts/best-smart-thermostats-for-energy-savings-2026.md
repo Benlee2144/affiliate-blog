@@ -30,6 +30,17 @@ cover:
     alt: "Ecobee Smart Thermostat Premium on wall"
     caption: "The Ecobee Premium - finally a smart thermostat that earns its price tag"
     relative: false
+
+pros:
+  - "Reliable performance in daily use"
+  - "Intuitive controls and user-friendly design"
+  - "Responsive customer service support"
+cons:
+  - "Instructions could be clearer"
+  - "Limited color and style options"
+  - "Could benefit from additional features"
+amazon_rating: 4.5
+amazon_review_count: 5366
 ---
 
 I was one of those people who thought smart thermostats were a scam.

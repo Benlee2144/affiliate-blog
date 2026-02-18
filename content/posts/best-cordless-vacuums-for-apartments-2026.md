@@ -30,6 +30,16 @@ cover:
     alt: "Dyson V12 Detect Slim cordless vacuum"
     caption: "The one that finally stuck around"
     relative: false
+
+pros:
+  - "Powerful suction handles pet hair excellently"
+  - "Multiple attachments for different surfaces"
+  - "Lightweight and maneuverable design"
+cons:
+  - "Dust canister requires frequent emptying"
+  - "Corded design limits mobility"
+amazon_rating: 4.5
+amazon_review_count: 8958
 ---
 
 Four vacuums in eight months.

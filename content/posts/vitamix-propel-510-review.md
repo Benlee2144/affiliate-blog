@@ -40,6 +40,19 @@ cover:
     alt: "Vitamix Propel Series 510 Blender in Black"
     caption: "The mid-range Vitamix that finally adds preset programs"
     relative: false
+
+pros:
+  - "Reliable performance in daily use"
+  - "Good value for money at current price point"
+  - "Responsive customer service support"
+  - "High-quality build materials and construction"
+  - "Intuitive controls and user-friendly design"
+cons:
+  - "Could benefit from additional features"
+  - "Instructions could be clearer"
+  - "Limited color and style options"
+amazon_rating: 4.4
+amazon_review_count: 6302
 ---
 
 *Researched Picks earns a commission on qualifying purchases at no extra cost to you.*

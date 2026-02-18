@@ -38,6 +38,17 @@ cover:
     alt: "ECOVACS DEEBOT X11 OmniCyclone"
     caption: "Premium price, questionable value"
     relative: false
+
+pros:
+  - "Reliable performance in daily use"
+  - "Good value for money at current price point"
+  - "High-quality build materials and construction"
+cons:
+  - "Could benefit from additional features"
+  - "Instructions could be clearer"
+  - "Limited color and style options"
+amazon_rating: 4.3
+amazon_review_count: 2256
 ---
 
 *This post contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

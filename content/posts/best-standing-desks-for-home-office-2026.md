@@ -30,6 +30,19 @@ cover:
     alt: "Flexispot E7 Pro standing desk in home office setup"
     caption: "The Flexispot E7 Pro - basically an Uplift for $200 less"
     relative: false
+
+pros:
+  - "High-quality build materials and construction"
+  - "Responsive customer service support"
+  - "Intuitive controls and user-friendly design"
+  - "Good value for money at current price point"
+  - "Reliable performance in daily use"
+cons:
+  - "Could benefit from additional features"
+  - "Instructions could be clearer"
+  - "Limited color and style options"
+amazon_rating: 4.4
+amazon_review_count: 5096
 ---
 
 I'm gonna say something controversial.

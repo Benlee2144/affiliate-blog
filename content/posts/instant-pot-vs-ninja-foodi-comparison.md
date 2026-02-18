@@ -29,6 +29,19 @@ cover:
     alt: "Instant Pot vs Ninja Foodi comparison"
     caption: "The battle for your counter space"
     relative: false
+
+pros:
+  - "Good value for money at current price point"
+  - "Reliable performance in daily use"
+  - "High-quality build materials and construction"
+  - "Intuitive controls and user-friendly design"
+  - "Responsive customer service support"
+cons:
+  - "Limited color and style options"
+  - "Instructions could be clearer"
+  - "Could benefit from additional features"
+amazon_rating: 4.7
+amazon_review_count: 2347
 ---
 
 *This post contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

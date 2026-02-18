@@ -27,6 +27,17 @@ cover:
 
 author: "Benjamin Arp"
 ShowToc: false
+
+pros:
+  - "Easy to clean and maintain"
+  - "Programmable settings remember preferences"
+  - "Built-in grinder ensures fresh grounds"
+  - "Thermal carafe keeps coffee hot for hours"
+cons:
+  - "Grinder can be noisy in morning"
+  - "Water reservoir needs frequent refilling"
+amazon_rating: 4.8
+amazon_review_count: 6388
 ---
 
 Everyone says you need a grind-and-brew machine if you're serious about coffee. Fresh grounds, better flavor, one machine does it all. Sounds perfect right?

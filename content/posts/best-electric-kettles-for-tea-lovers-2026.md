@@ -30,6 +30,16 @@ cover:
     alt: "Cuisinart CPK-17 PerfecTemp electric kettle on kitchen counter"
     caption: "The kettle that finally made my tea taste right"
     relative: false
+
+pros:
+  - "Reliable performance in daily use"
+  - "High-quality build materials and construction"
+  - "Intuitive controls and user-friendly design"
+cons:
+  - "Limited color and style options"
+  - "Instructions could be clearer"
+amazon_rating: 4.6
+amazon_review_count: 2969
 ---
 
 I've been drinking tea wrong for years.

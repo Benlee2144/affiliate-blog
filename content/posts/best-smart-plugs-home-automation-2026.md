@@ -27,6 +27,16 @@ cover:
 
 author: "Benjamin Arp"
 ShowToc: false
+
+pros:
+  - "High-quality build materials and construction"
+  - "Intuitive controls and user-friendly design"
+  - "Good value for money at current price point"
+cons:
+  - "Instructions could be clearer"
+  - "Limited color and style options"
+amazon_rating: 4.4
+amazon_review_count: 6973
 ---
 
 The best smart plug is the TP-Link Kasa EP25. Four pack, about $28. That's $7 per plug. Done.

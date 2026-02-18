@@ -30,6 +30,18 @@ cover:
   alt: "LectroFan EVO white noise machine for sleep"
   relative: false
   hidden: false
+
+pros:
+  - "Reliable performance in daily use"
+  - "High-quality build materials and construction"
+  - "Good value for money at current price point"
+  - "Intuitive controls and user-friendly design"
+cons:
+  - "Limited color and style options"
+  - "Instructions could be clearer"
+  - "Could benefit from additional features"
+amazon_rating: 4.3
+amazon_review_count: 5079
 ---
 
 So my neighbor got a dog last September. A big one. Some kind of hound mix that discovered barking at 2am is apparently its life's purpose. I'm not exaggerating — this thing would go off at random intervals through the night like some kind of furry, unpredictable alarm system.

@@ -40,6 +40,19 @@ cover:
     alt: "Ninja DZ201 Foodi 8 quart dual basket air fryer"
     caption: "The Ninja DualZone - finally an air fryer that fits enough food"
     relative: false
+
+pros:
+  - "Consistent results with preset programs"
+  - "Cooks food faster than traditional ovens"
+  - "Compact countertop footprint"
+  - "Healthier cooking with minimal oil needed"
+  - "Easy cleanup with non-stick surfaces"
+cons:
+  - "Fan noise can be noticeable"
+  - "Limited cooking capacity for large families"
+  - "Learning curve for optimal cooking times"
+amazon_rating: 4.6
+amazon_review_count: 14255
 ---
 
 My old 5-quart air fryer was a joke for our family.

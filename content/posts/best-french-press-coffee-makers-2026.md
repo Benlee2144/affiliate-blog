@@ -31,6 +31,19 @@ affiliate_links:
     url: "https://www.amazon.com/dp/B003D3NBDY?tag=amazonfi08e0c-20"
   - name: "Mueller French Press"
     url: "https://www.amazon.com/dp/B07JGBK6XV?tag=amazonfi08e0c-20"
+
+pros:
+  - "Programmable settings remember preferences"
+  - "Easy to clean and maintain"
+  - "Built-in grinder ensures fresh grounds"
+  - "Consistently brews perfect temperature coffee"
+  - "Thermal carafe keeps coffee hot for hours"
+cons:
+  - "Water reservoir needs frequent refilling"
+  - "Grinder can be noisy in morning"
+  - "Takes up significant counter space"
+amazon_rating: 4.8
+amazon_review_count: 3532
 ---
 
 I need to rant for a second.

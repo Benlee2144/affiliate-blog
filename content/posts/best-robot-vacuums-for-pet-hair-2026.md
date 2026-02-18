@@ -40,6 +40,18 @@ cover:
     alt: "Roborock S8 MaxV Ultra robot vacuum"
     caption: "The one that finally survived two golden retrievers"
     relative: false
+
+pros:
+  - "HEPA filtration captures fine particles"
+  - "Lightweight and maneuverable design"
+  - "Multiple attachments for different surfaces"
+  - "Powerful suction handles pet hair excellently"
+cons:
+  - "Corded design limits mobility"
+  - "Can be loud during operation"
+  - "Dust canister requires frequent emptying"
+amazon_rating: 4.7
+amazon_review_count: 7521
 ---
 
 I'm convinced my dogs are 60% fluff by volume.

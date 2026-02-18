@@ -30,6 +30,19 @@ cover:
     alt: "Philips Sonicare 4100 electric toothbrush"
     caption: "The $50 toothbrush that made my $300 one feel like a waste"
     relative: false
+
+pros:
+  - "Multiple cleaning modes for different needs"
+  - "Noticeably cleaner teeth after first use"
+  - "Long battery life lasts weeks"
+  - "Pressure sensor prevents over-brushing"
+  - "Timer ensures proper brushing duration"
+cons:
+  - "Replacement brush heads are expensive"
+  - "Charging base takes counter space"
+  - "Can be too intense for sensitive gums"
+amazon_rating: 4.7
+amazon_review_count: 6652
 ---
 
 I'll admit it. I was the guy who thought spending more on an electric toothbrush meant cleaner teeth. Like, I genuinely believed that. Went out and bought an Oral-B iO Series 9 for almost three hundred bucks because it had a color screen and "AI brushing recognition" and I thought that sounded important.

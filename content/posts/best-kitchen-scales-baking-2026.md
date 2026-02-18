@@ -27,6 +27,19 @@ cover:
 
 author: "Benjamin Arp"
 ShowToc: false
+
+pros:
+  - "High-quality build materials and construction"
+  - "Responsive customer service support"
+  - "Good value for money at current price point"
+  - "Intuitive controls and user-friendly design"
+  - "Reliable performance in daily use"
+cons:
+  - "Instructions could be clearer"
+  - "Could benefit from additional features"
+  - "Limited color and style options"
+amazon_rating: 4.2
+amazon_review_count: 6055
 ---
 
 Everyone recommends the same two kitchen scales. Go read any "best kitchen scale" article right now — Wirecutter, Serious Eats, Bon Appétit, whatever — and you'll see the OXO Good Grips 11-Pound and the Escali Primo on literally every single one. They've been recommending these same two scales since like 2019 and nobody seems to question it.

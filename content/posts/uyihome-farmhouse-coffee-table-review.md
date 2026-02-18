@@ -40,6 +40,17 @@ cover:
     alt: "UYIHOME Farmhouse Coffee Table with oak grey top and white V-shaped legs"
     caption: "Budget farmhouse style that actually looks the part"
     relative: false
+
+pros:
+  - "Programmable settings remember preferences"
+  - "Consistently brews perfect temperature coffee"
+  - "Easy to clean and maintain"
+cons:
+  - "Takes up significant counter space"
+  - "Grinder can be noisy in morning"
+  - "Water reservoir needs frequent refilling"
+amazon_rating: 4.2
+amazon_review_count: 1631
 ---
 
 *Researched Picks earns a commission on qualifying purchases at no extra cost to you.*

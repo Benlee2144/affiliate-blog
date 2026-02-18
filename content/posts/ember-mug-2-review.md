@@ -38,6 +38,19 @@ cover:
     alt: "Ember Mug 2 temperature control smart mug"
     caption: "The Ember Mug 2 — impressive tech with some caveats"
     relative: false
+
+pros:
+  - "Responsive customer service support"
+  - "High-quality build materials and construction"
+  - "Good value for money at current price point"
+  - "Reliable performance in daily use"
+  - "Intuitive controls and user-friendly design"
+cons:
+  - "Limited color and style options"
+  - "Could benefit from additional features"
+  - "Instructions could be clearer"
+amazon_rating: 4.5
+amazon_review_count: 5618
 ---
 
 Look, I went down a rabbit hole on this one.

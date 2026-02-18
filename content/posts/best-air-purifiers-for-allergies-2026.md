@@ -30,6 +30,17 @@ cover:
     alt: "Coway Airmega AP-1512HH Mighty air purifier"
     caption: "The Coway Mighty - what I wish I'd bought three years ago"
     relative: false
+
+pros:
+  - "Intuitive controls and user-friendly design"
+  - "Reliable performance in daily use"
+  - "High-quality build materials and construction"
+cons:
+  - "Limited color and style options"
+  - "Instructions could be clearer"
+  - "Could benefit from additional features"
+amazon_rating: 4.6
+amazon_review_count: 3864
 ---
 
 Let me save you three years of sneezing.

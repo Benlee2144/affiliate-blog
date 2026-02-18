@@ -37,6 +37,17 @@ faq:
     answer: "Yes, and honestly you should. Powered bookshelf speakers like the Edifier R1280T or Audioengine A2+ are just better than most things marketed as computer speakers. They're designed for actual audio quality."
   - question: "What's the difference between USB-powered and self-powered speakers?"
     answer: "USB-powered speakers pull power from your computer, which limits how loud they can get. Self-powered speakers have their own amplifier built in, which means better sound at every volume level."
+
+pros:
+  - "High-quality build materials and construction"
+  - "Responsive customer service support"
+  - "Intuitive controls and user-friendly design"
+cons:
+  - "Instructions could be clearer"
+  - "Could benefit from additional features"
+  - "Limited color and style options"
+amazon_rating: 4.5
+amazon_review_count: 4165
 ---
 
 I thought I didn't care about how my computer sounded.

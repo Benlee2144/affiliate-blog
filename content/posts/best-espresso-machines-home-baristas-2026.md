@@ -40,6 +40,16 @@ cover:
     alt: "Breville Bambino Plus espresso machine brewing a shot"
     caption: "The sweet spot for most home baristas"
     relative: false
+
+pros:
+  - "Easy to clean and maintain"
+  - "Thermal carafe keeps coffee hot for hours"
+  - "Built-in grinder ensures fresh grounds"
+cons:
+  - "Grinder can be noisy in morning"
+  - "Takes up significant counter space"
+amazon_rating: 4.5
+amazon_review_count: 6713
 ---
 
 Look, I'm just gonna be upfront about something — I spent way too much money figuring out espresso machines. Like, embarassingly too much. Three machines over two years, bags of specialty beans that cost more than some peoples' grocery bills, and a grinder that my wife still gives me side-eye about.

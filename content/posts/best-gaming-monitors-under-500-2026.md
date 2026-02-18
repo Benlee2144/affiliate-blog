@@ -30,6 +30,17 @@ cover:
   alt: "AOC Q27G4ZD QD-OLED 27 inch gaming monitor on desk"
   relative: false
   hidden: false
+
+pros:
+  - "Minimal bezels for clean setup"
+  - "Color accuracy excellent out of the box"
+  - "Sharp 4K resolution perfect for productivity"
+cons:
+  - "No built-in USB hub functionality"
+  - "Speakers are weak and tinny"
+  - "Price premium for brand name"
+amazon_rating: 4.2
+amazon_review_count: 3778
 ---
 
 I'll be honest — I thought OLED gaming monitors were one of those things tech YouTubers hype up because they get free review units. Like yeah, the blacks are darker. Cool. Is that worth $800+?

@@ -27,6 +27,17 @@ cover:
 
 author: "Benjamin Arp"
 ShowToc: true
+
+pros:
+  - "Crystal clear video quality day and night"
+  - "Two-way audio communication works well"
+  - "Easy installation with existing wiring"
+  - "Instant notifications to smartphone"
+cons:
+  - "Requires subscription for cloud storage"
+  - "Motion detection sometimes too sensitive"
+amazon_rating: 4.4
+amazon_review_count: 2320
 ---
 
 Everyone tells you Ring is the gold standard for video doorbells. Every "best of" list puts it at the top. Your neighbor has one. Your parents have one. It's basically the Kleenex of doorbell cameras.

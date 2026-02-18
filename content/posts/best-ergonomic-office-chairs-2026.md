@@ -38,6 +38,18 @@ faq:
     answer: "Some are. The Ticova Ergonomic around $130 is surprisingly decent — adjustable headrest, lumbar support, mesh back. But a lot of the sub-$100 chairs on Amazon are garbage with fake reviews. Stick to brands with actual warranty support."
   - question: "Do ergonomic chairs actually help with back pain?"
     answer: "They can, but they're not magic. A good chair with proper lumbar support and adjustable seat depth made a noticeable difference for my lower back after about 2 weeks. But you still need to get up and move around — no chair fixes 10 hours of sitting."
+
+pros:
+  - "Responsive customer service support"
+  - "High-quality build materials and construction"
+  - "Good value for money at current price point"
+  - "Reliable performance in daily use"
+cons:
+  - "Instructions could be clearer"
+  - "Limited color and style options"
+  - "Could benefit from additional features"
+amazon_rating: 4.2
+amazon_review_count: 2141
 ---
 
 The HON Ignition 2.0 is the best ergonomic office chair for most people. There, saved you 10 minutes of reading.

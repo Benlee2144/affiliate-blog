@@ -29,6 +29,17 @@ cover:
     alt: "Weber charcoal grill vs Traeger pellet grill"
     caption: "The backyard showdown nobody can agree on"
     relative: false
+
+pros:
+  - "Intuitive controls and user-friendly design"
+  - "Reliable performance in daily use"
+  - "Good value for money at current price point"
+cons:
+  - "Instructions could be clearer"
+  - "Could benefit from additional features"
+  - "Limited color and style options"
+amazon_rating: 4.3
+amazon_review_count: 8766
 ---
 
 *This post contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

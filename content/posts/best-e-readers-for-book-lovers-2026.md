@@ -30,6 +30,17 @@ cover:
     alt: "Amazon Kindle Paperwhite 2024"
     caption: "The one I keep coming back to"
     relative: false
+
+pros:
+  - "Intuitive controls and user-friendly design"
+  - "Reliable performance in daily use"
+  - "Good value for money at current price point"
+  - "Responsive customer service support"
+cons:
+  - "Could benefit from additional features"
+  - "Instructions could be clearer"
+amazon_rating: 4.7
+amazon_review_count: 4250
 ---
 
 I thought e-readers were kind of pointless.

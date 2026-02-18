@@ -40,6 +40,18 @@ cover:
     alt: "FlexiSpot Standing Desk Converter"
     caption: "Turn any desk into a sit-stand workstation"
     relative: false
+
+pros:
+  - "Intuitive controls and user-friendly design"
+  - "Good value for money at current price point"
+  - "High-quality build materials and construction"
+  - "Responsive customer service support"
+cons:
+  - "Instructions could be clearer"
+  - "Could benefit from additional features"
+  - "Limited color and style options"
+amazon_rating: 4.6
+amazon_review_count: 6815
 ---
 
 *Affiliate disclosure: This post contains Amazon affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

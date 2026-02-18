@@ -40,6 +40,17 @@ cover:
     alt: "Roku Streaming Stick 4K"
     caption: "Stream everything for $50"
     relative: false
+
+pros:
+  - "High-quality build materials and construction"
+  - "Intuitive controls and user-friendly design"
+  - "Good value for money at current price point"
+  - "Responsive customer service support"
+cons:
+  - "Instructions could be clearer"
+  - "Limited color and style options"
+amazon_rating: 4.7
+amazon_review_count: 5826
 ---
 
 *Affiliate disclosure: This post contains Amazon affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

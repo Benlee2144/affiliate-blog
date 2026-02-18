@@ -40,6 +40,17 @@ cover:
     alt: "Dyson V15 Detect Cordless Vacuum"
     caption: "The most advanced cordless vacuum available"
     relative: false
+
+pros:
+  - "Powerful suction handles pet hair excellently"
+  - "Long cord reaches entire rooms"
+  - "Lightweight and maneuverable design"
+cons:
+  - "Can be loud during operation"
+  - "Dust canister requires frequent emptying"
+  - "Corded design limits mobility"
+amazon_rating: 4.7
+amazon_review_count: 9582
 ---
 
 *Affiliate disclosure: This post contains Amazon affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

@@ -40,6 +40,17 @@ cover:
     alt: "Levoit Core 300 Air Purifier"
     caption: "Best budget HEPA air purifier for small rooms"
     relative: false
+
+pros:
+  - "High-quality build materials and construction"
+  - "Reliable performance in daily use"
+  - "Intuitive controls and user-friendly design"
+  - "Good value for money at current price point"
+cons:
+  - "Limited color and style options"
+  - "Instructions could be clearer"
+amazon_rating: 4.5
+amazon_review_count: 7687
 ---
 
 *Affiliate disclosure: This post contains Amazon affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

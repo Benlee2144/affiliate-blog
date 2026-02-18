@@ -40,6 +40,19 @@ cover:
     alt: "Panasonic FlashXpress compact toaster oven on a kitchen counter"
     caption: "Small but mighty"
     relative: false
+
+pros:
+  - "Reliable performance in daily use"
+  - "Intuitive controls and user-friendly design"
+  - "Good value for money at current price point"
+  - "High-quality build materials and construction"
+  - "Responsive customer service support"
+cons:
+  - "Instructions could be clearer"
+  - "Could benefit from additional features"
+  - "Limited color and style options"
+amazon_rating: 4.8
+amazon_review_count: 5445
 ---
 
 I'm gonna rant for a second.

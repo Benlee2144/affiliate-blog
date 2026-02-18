@@ -40,6 +40,17 @@ cover:
     alt: "Weber Original Kettle 22 Inch Grill"
     caption: "70 years of backyard perfection"
     relative: false
+
+pros:
+  - "High-quality build materials and construction"
+  - "Good value for money at current price point"
+  - "Intuitive controls and user-friendly design"
+  - "Responsive customer service support"
+cons:
+  - "Instructions could be clearer"
+  - "Could benefit from additional features"
+amazon_rating: 4.4
+amazon_review_count: 3282
 ---
 
 *Affiliate disclosure: This post contains Amazon affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

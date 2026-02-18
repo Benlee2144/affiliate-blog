@@ -40,6 +40,16 @@ cover:
     alt: "Samsung Galaxy Tab S9 Tablet"
     caption: "The Android tablet that finally competes"
     relative: false
+
+pros:
+  - "Good value for money at current price point"
+  - "Intuitive controls and user-friendly design"
+  - "High-quality build materials and construction"
+cons:
+  - "Instructions could be clearer"
+  - "Limited color and style options"
+amazon_rating: 4.6
+amazon_review_count: 22221
 ---
 
 *Affiliate disclosure: This post contains Amazon affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

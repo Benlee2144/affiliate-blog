@@ -30,6 +30,17 @@ cover:
     alt: "Anova Precision Cooker 3.0 sous vide machine"
     caption: "The gadget I rolled my eyes at for years"
     relative: false
+
+pros:
+  - "High-quality build materials and construction"
+  - "Good value for money at current price point"
+  - "Reliable performance in daily use"
+  - "Responsive customer service support"
+cons:
+  - "Could benefit from additional features"
+  - "Instructions could be clearer"
+amazon_rating: 4.3
+amazon_review_count: 7131
 ---
 
 I spent years making fun of sous vide people.

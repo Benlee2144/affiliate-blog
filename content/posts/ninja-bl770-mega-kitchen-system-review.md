@@ -38,6 +38,16 @@ cover:
     alt: "Ninja BL770 Mega Kitchen System"
     caption: "The budget blender that refuses to stay in its lane"
     relative: false
+
+pros:
+  - "High-quality build materials and construction"
+  - "Intuitive controls and user-friendly design"
+  - "Good value for money at current price point"
+cons:
+  - "Could benefit from additional features"
+  - "Limited color and style options"
+amazon_rating: 4.5
+amazon_review_count: 3567
 ---
 
 *This post contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

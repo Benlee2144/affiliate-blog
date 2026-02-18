@@ -27,6 +27,19 @@ cover:
 
 author: "Benjamin Arp"
 ShowToc: false
+
+pros:
+  - "High-quality build materials and construction"
+  - "Good value for money at current price point"
+  - "Intuitive controls and user-friendly design"
+  - "Responsive customer service support"
+  - "Reliable performance in daily use"
+cons:
+  - "Limited color and style options"
+  - "Could benefit from additional features"
+  - "Instructions could be clearer"
+amazon_rating: 4.5
+amazon_review_count: 7404
 ---
 
 I owe my coworker Sarah an apology. For almost two years she sat through weekly standups staring at my grainy, weirdly dark laptop camera feed and never said a word. Then one day in November she goes "hey, have you ever thought about getting an external webcam? The lighting on your end is kinda..." and trailed off.

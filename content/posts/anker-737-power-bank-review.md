@@ -40,6 +40,18 @@ cover:
     alt: "Anker 737 Power Bank"
     caption: "The power bank that charges everything"
     relative: false
+
+pros:
+  - "Multiple device charging simultaneously"
+  - "High-capacity battery lasts multiple days"
+  - "Fast charging speeds for both input and output"
+  - "LED display shows precise battery percentage"
+cons:
+  - "Premium price compared to basic options"
+  - "No wireless charging capability"
+  - "Heavier than standard power banks"
+amazon_rating: 4.3
+amazon_review_count: 10096
 ---
 
 *Affiliate disclosure: This post contains Amazon affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

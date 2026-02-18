@@ -40,6 +40,17 @@ cover:
     alt: "Fitbit Charge 6 Fitness Tracker"
     caption: "The fitness tracker that replaced my smartwatch"
     relative: false
+
+pros:
+  - "Good value for money at current price point"
+  - "Intuitive controls and user-friendly design"
+  - "Responsive customer service support"
+  - "High-quality build materials and construction"
+cons:
+  - "Instructions could be clearer"
+  - "Could benefit from additional features"
+amazon_rating: 4.4
+amazon_review_count: 2813
 ---
 
 *Affiliate disclosure: This post contains Amazon affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*

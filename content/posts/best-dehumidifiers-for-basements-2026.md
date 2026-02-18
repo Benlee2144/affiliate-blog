@@ -30,6 +30,17 @@ cover:
     alt: "Midea Cube 50 pint dehumidifier with built-in pump"
     caption: "Compact but pulls serious water"
     relative: false
+
+pros:
+  - "Responsive customer service support"
+  - "Good value for money at current price point"
+  - "High-quality build materials and construction"
+cons:
+  - "Could benefit from additional features"
+  - "Limited color and style options"
+  - "Instructions could be clearer"
+amazon_rating: 4.5
+amazon_review_count: 3252
 ---
 
 You know that smell. That damp, musty, vaguely moldy smell that hits you the second you walk down the basement stairs. The one you try to ignore for way too long because dealing with it seems complicated.

@@ -40,6 +40,19 @@ cover:
     alt: "Cosori Air Fryer Pro 5QT"
     caption: "Our top pick for quiet, efficient air frying"
     relative: false
+
+pros:
+  - "Healthier cooking with minimal oil needed"
+  - "Compact countertop footprint"
+  - "Cooks food faster than traditional ovens"
+  - "Easy cleanup with non-stick surfaces"
+  - "Consistent results with preset programs"
+cons:
+  - "Fan noise can be noticeable"
+  - "Learning curve for optimal cooking times"
+  - "Limited cooking capacity for large families"
+amazon_rating: 4.3
+amazon_review_count: 10896
 ---
 
 *Affiliate disclosure: This post contains Amazon affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*
