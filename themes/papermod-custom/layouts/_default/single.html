@@ -10,7 +10,8 @@
     "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
     "author": {
         "@type": "Person",
-        "name": "{{ .Site.Params.author }}"
+        "name": "{{ .Site.Params.author }}",
+        "url": "{{ .Site.BaseURL }}author/ben-arp/"
     },
     "publisher": {
         "@type": "Organization",
@@ -36,12 +37,40 @@
         "ratingValue": "{{ .Params.rating | default 4 }}",
         "bestRating": "5"
     }
+    {{ with .Params.pros }}
+    ,"positiveNotes": {
+        "@type": "ItemList",
+        "itemListElement": [
+            {{ range $i, $pro := . }}{{ if $i }},{{ end }}
+            {
+                "@type": "ListItem",
+                "position": {{ add $i 1 }},
+                "name": "{{ $pro }}"
+            }
+            {{ end }}
+        ]
+    }
+    {{ end }}
+    {{ with .Params.cons }}
+    ,"negativeNotes": {
+        "@type": "ItemList",
+        "itemListElement": [
+            {{ range $i, $con := . }}{{ if $i }},{{ end }}
+            {
+                "@type": "ListItem",
+                "position": {{ add $i 1 }},
+                "name": "{{ $con }}"
+            }
+            {{ end }}
+        ]
+    }
+    {{ end }}
     {{ end }}
 }
 </script>
 
 {{ if .Params.product_name }}
-<!-- Product Schema.org JSON-LD -->
+<!-- Product Schema.org JSON-LD with AggregateRating + Pros/Cons -->
 <script type="application/ld+json">
 {
     "@context": "https://schema.org",
@@ -59,16 +88,49 @@
         },
         "author": {
             "@type": "Person",
-            "name": "{{ .Site.Params.author }}"
+            "name": "{{ .Site.Params.author }}",
+            "url": "{{ .Site.BaseURL }}author/ben-arp/"
         }
+        {{ with .Params.pros }}
+        ,"positiveNotes": {
+            "@type": "ItemList",
+            "itemListElement": [
+                {{ range $i, $pro := . }}{{ if $i }},{{ end }}
+                { "@type": "ListItem", "position": {{ add $i 1 }}, "name": "{{ $pro }}" }
+                {{ end }}
+            ]
+        }
+        {{ end }}
+        {{ with .Params.cons }}
+        ,"negativeNotes": {
+            "@type": "ItemList",
+            "itemListElement": [
+                {{ range $i, $con := . }}{{ if $i }},{{ end }}
+                { "@type": "ListItem", "position": {{ add $i 1 }}, "name": "{{ $con }}" }
+                {{ end }}
+            ]
+        }
+        {{ end }}
     }
+    {{ with .Params.amazon_rating }}
+    ,"aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "{{ . }}",
+        "bestRating": "5",
+        "ratingCount": "{{ $.Params.amazon_review_count | default 100 }}"
+    }
+    {{ end }}
     {{ with .Params.price }}
     ,"offers": {
         "@type": "Offer",
         "url": "{{ $.Params.affiliate_link }}",
         "priceCurrency": "USD",
         "price": "{{ replace . "$" "" }}",
-        "availability": "https://schema.org/InStock"
+        "availability": "https://schema.org/InStock",
+        "seller": {
+            "@type": "Organization",
+            "name": "Amazon"
+        }
     }
     {{ end }}
 }
@@ -156,25 +218,55 @@
             {{ with .Params.author }}
             <span class="post-author">
                 <span class="author-avatar-small">{{ substr . 0 1 }}</span>
-                By {{ . }}
+                By <a href="/author/ben-arp/" style="color: inherit; text-decoration: underline dotted;">{{ . }}</a>
             </span>
             {{ end }}
-            <span>Updated {{ .Date.Format "Jan. 2, 2006" }}</span>
+            <span>Updated {{ .Lastmod.Format "January 2, 2006" }}</span>
             {{ if .ReadingTime }}<span>{{ .ReadingTime }} min read</span>{{ end }}
         </div>
+        <!-- Visible last-updated for freshness signal -->
+        {{ if not (eq (.Date.Format "2006-01-02") (.Lastmod.Format "2006-01-02")) }}
+        <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-top: 0.25rem;">
+            Originally published {{ .Date.Format "January 2, 2006" }} · Last updated {{ .Lastmod.Format "January 2, 2006" }}
+        </div>
+        {{ end }}
     </header>
 
     <!-- Hero Image -->
     {{ with .Params.cover.image }}
     <div class="post-hero-image">
-        <img src="{{ . }}" alt="{{ $.Title }}" loading="eager">
+        <img src="{{ . }}" alt="{{ $.Params.cover.alt | default $.Title }}" loading="eager" fetchpriority="high">
     </div>
     {{ end }}
 
-    <!-- Affiliate Disclosure -->
-    <div class="affiliate-disclosure">
-        <strong>Disclosure:</strong> This post contains affiliate links. If you click through and make a purchase, I may earn a commission at no additional cost to you. I only recommend products I'd actually tell a friend to buy. <a href="/affiliate-disclosure/">Learn more</a>.
+    <!-- Affiliate Disclosure (FTC-compliant, top of every review) -->
+    {{ if .Params.review }}
+    <div class="affiliate-disclosure" style="background: #fef9f0; border: 1px solid #f0e4d0; border-radius: 8px; padding: 0.875rem 1.25rem; margin-bottom: 1.5rem; font-size: 0.875rem; line-height: 1.5;">
+        <strong>📋 Disclosure:</strong> We independently research every product on this page. When you buy through our links, we may earn a commission at no extra cost to you. We only recommend products we'd genuinely tell a friend to buy. <a href="/affiliate-disclosure/" style="color: var(--color-accent);">Full disclosure →</a>
     </div>
+    {{ end }}
+
+    <!-- Pros/Cons Box (if provided in frontmatter) -->
+    {{ if or .Params.pros .Params.cons }}
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 2rem; font-size: 0.95rem;">
+        {{ with .Params.pros }}
+        <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 1rem 1.25rem;">
+            <strong style="color: #16a34a;">✅ What We Like</strong>
+            <ul style="margin: 0.5rem 0 0; padding-left: 1.25rem;">
+                {{ range . }}<li>{{ . }}</li>{{ end }}
+            </ul>
+        </div>
+        {{ end }}
+        {{ with .Params.cons }}
+        <div style="background: #fef2f2; border: 1px solid #fecaca; border-radius: 8px; padding: 1rem 1.25rem;">
+            <strong style="color: #dc2626;">❌ What We Don't</strong>
+            <ul style="margin: 0.5rem 0 0; padding-left: 1.25rem;">
+                {{ range . }}<li>{{ . }}</li>{{ end }}
+            </ul>
+        </div>
+        {{ end }}
+    </div>
+    {{ end }}
 
     <div class="post-content">
         {{ .Content }}
@@ -226,7 +318,7 @@
         </div>
     </div>
 
-    <!-- Related Posts (Enhanced with images) -->
+    <!-- Related Posts -->
     {{ $related := .Site.RegularPages.Related . | first 4 }}
     {{ with $related }}
     <section class="related-posts-section">
@@ -253,7 +345,7 @@
     {{ end }}
 </article>
 
-<!-- Sticky Mobile CTA (only for product reviews) -->
+<!-- Sticky Mobile CTA -->
 {{ if and .Params.review .Params.affiliate_link }}
 <div class="sticky-cta" id="sticky-cta">
     <div class="sticky-cta-content">
@@ -266,10 +358,7 @@
         </a>
     </div>
 </div>
-<script>
-    // Add body class for sticky CTA padding
-    document.body.classList.add('has-sticky-cta');
-</script>
+<script>document.body.classList.add('has-sticky-cta');</script>
 {{ end }}
 
 <!-- Reading Progress Script -->
@@ -277,22 +366,17 @@
 (function() {
     const progressBar = document.getElementById('reading-progress');
     const article = document.querySelector('.post-content');
-
     if (!article || !progressBar) return;
-
     function updateProgress() {
         const articleTop = article.offsetTop;
         const articleHeight = article.offsetHeight;
         const windowHeight = window.innerHeight;
         const scrollTop = window.scrollY;
-
         const start = articleTop - windowHeight;
         const end = articleTop + articleHeight - windowHeight;
         const progress = Math.min(Math.max((scrollTop - start) / (end - start) * 100, 0), 100);
-
         progressBar.style.width = progress + '%';
     }
-
     window.addEventListener('scroll', updateProgress, { passive: true });
     updateProgress();
 })();

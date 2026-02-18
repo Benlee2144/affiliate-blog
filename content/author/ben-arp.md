@@ -1,51 +1,86 @@
 ---
-title: "Ben Arp"
-date: 2026-01-01T00:00:00+00:00
-draft: false
-description: "Ben Arp — Founder & Lead Researcher at Researched Picks. Product research obsessive who hates wasting money on bad products."
+title: "Ben Arp — Lead Researcher"
+slug: "ben-arp"
+description: "Ben Arp is the founder and lead researcher at Researched Picks. He spends hours reading Amazon reviews, Reddit threads, and forum posts to find products that are actually worth buying."
 layout: "single"
-url: "/author/ben-arp/"
+sitemap:
+  priority: 0.7
 ---
 
-<div style="display: flex; gap: 2rem; align-items: flex-start; margin-bottom: 2rem; flex-wrap: wrap;">
+<div class="author-page" style="max-width: 720px; margin: 0 auto;">
+
+<div style="display: flex; gap: 2rem; align-items: flex-start; margin-bottom: 2.5rem; flex-wrap: wrap;">
+<div style="width: 120px; height: 120px; border-radius: 50%; background: linear-gradient(135deg, #1B4965, #E85D3A); display: flex; align-items: center; justify-content: center; color: white; font-size: 2.5rem; font-weight: 700; font-family: 'Lora', serif; flex-shrink: 0;">BA</div>
 <div style="flex: 1; min-width: 280px;">
 
 ## Ben Arp
-**Founder & Lead Researcher**
 
-I'm the person behind every post on Researched Picks. I started this site because I have a borderline unhealthy obsession with researching products before I buy them. My wife can confirm — she's watched me spend an entire Saturday comparing rice cookers.
+**Founder & Lead Researcher** at Researched Picks
 
-The short version: I hate wasting money on bad products. Like, it genuinely bothers me. Not just my money — anyone's money. When someone buys a $200 gadget based on a fake review and it breaks after 3 months, that makes me angry. So I started writing the reviews I wished existed.
+I've spent the last few years obsessively reading product reviews — not just the 5-star ones, but the 1-star disasters, the 3-star "it's fine I guess" ones, and the detailed Reddit threads where people argue about whether the Breville Bambino is actually better than the Gaggia Classic.
+
+That obsession became this site.
 
 </div>
-<div style="flex-shrink: 0;">
-<img src="/images/ben-about.jpg" alt="Ben Arp" style="width: 220px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);">
 </div>
+
+## How I Research
+
+Every review on this site follows the same process:
+
+1. **Read 200-500+ real owner reviews** on Amazon, sorted by most recent and most critical
+2. **Check Reddit threads** — r/BuyItForLife, r/headphones, r/Cooking, r/HomeOffice, and dozens of niche subreddits where people don't hold back
+3. **Cross-reference forum discussions** — Head-Fi, AVS Forum, Whirlpool, specialized communities where enthusiasts actually know their stuff
+4. **Look for patterns** — When 50 people mention the same problem, that's not a fluke. When Reddit loves something that Amazon reviewers are mixed on, that tells you something about expectations vs. reality.
+5. **Write honestly** — No product is perfect. I tell you what's great, what's not, and who should actually buy it.
+
+I don't accept sponsored products. I don't get paid to write positive reviews. The only way I make money is if you click through and buy something — so it's in my interest to recommend products you'll actually be happy with.
+
+## What I Cover
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
+
+<a href="/categories/electronics/" style="padding: 1rem; border: 1px solid var(--color-border); border-radius: 8px; text-decoration: none; color: inherit;">
+**Electronics** — Headphones, speakers, streaming devices, power banks
+</a>
+
+<a href="/categories/kitchen-appliances/" style="padding: 1rem; border: 1px solid var(--color-border); border-radius: 8px; text-decoration: none; color: inherit;">
+**Kitchen** — Air fryers, espresso machines, blenders, cookware
+</a>
+
+<a href="/categories/home-garden/" style="padding: 1rem; border: 1px solid var(--color-border); border-radius: 8px; text-decoration: none; color: inherit;">
+**Home & Garden** — Vacuums, air purifiers, smart home, outdoor
+</a>
+
+<a href="/categories/fitness-health/" style="padding: 1rem; border: 1px solid var(--color-border); border-radius: 8px; text-decoration: none; color: inherit;">
+**Fitness & Health** — Trackers, massage guns, workout gear
+</a>
+
+<a href="/categories/office-productivity/" style="padding: 1rem; border: 1px solid var(--color-border); border-radius: 8px; text-decoration: none; color: inherit;">
+**Office** — Standing desks, webcams, monitors, ergonomics
+</a>
+
+<a href="/categories/beauty/" style="padding: 1rem; border: 1px solid var(--color-border); border-radius: 8px; text-decoration: none; color: inherit;">
+**Beauty** — Hair dryers, skincare tools, grooming essentials
+</a>
+
 </div>
+
+## Contact
+
+Have a product you want me to research? Found an error in one of my reviews? Just want to argue about whether AirPods Pro are really worth it?
+
+**Email:** [ben@researchedpick.com](mailto:ben@researchedpick.com)
 
 ---
 
-### What I Do
+<div style="margin-top: 2rem;">
 
-For every product I cover, I spend 4-6 hours digging through Amazon reviews (sorted by recent, verified purchase only), Reddit threads, YouTube long-term reviews, forum discussions, and anywhere else real owners share their honest opinions. I look for patterns, not outliers. If 40 people mention the same problem, that's not bad luck — that's a design flaw.
+### All Reviews by Ben
 
-I also personally own and test a bunch of products I review. The ones I don't own, I'm upfront about it.
+</div>
+</div>
 
-### Background
-
-Before starting Researched Picks, I was just a regular person who spent way too long on Amazon before buying anything. Turns out that's a marketable skill. Who knew.
-
-I'm based in the US, I drink too much coffee, and I think the Lodge cast iron skillet is one of the greatest products ever made for the money.
-
-### Get in Touch
-
-- **Email:** [benarp2144@gmail.com](mailto:benarp2144@gmail.com)
-- **Site:** [researchedpick.com](https://researchedpick.com)
-
----
-
-## My Articles
-
-Here are all the reviews and guides I've published. I try to update them regularly as new products come out or my recommendations change.
-
-*Check out the [homepage](/) for the latest posts, or browse by [category](/categories/).*
+{{ range where .Site.RegularPages "Params.review" true }}
+- [{{ .Title }}]({{ .Permalink }}) — {{ .Date.Format "Jan 2, 2006" }}
+{{ end }}

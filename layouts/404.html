@@ -1,0 +1,65 @@
+{{ define "main" }}
+<div class="container" style="max-width: 680px; margin: 4rem auto; text-align: center; padding: 2rem;">
+    <h1 style="font-family: 'Lora', serif; font-size: 3rem; color: var(--color-heading); margin-bottom: 0.5rem;">404</h1>
+    <p style="font-size: 1.25rem; color: var(--color-text-muted); margin-bottom: 2rem;">
+        This page doesn't exist — but we probably have what you're looking for.
+    </p>
+
+    <!-- Search -->
+    <div style="margin-bottom: 3rem;">
+        <input type="text" id="search-404" placeholder="Search reviews and guides..."
+            style="width: 100%; max-width: 480px; padding: 0.875rem 1.25rem; border: 2px solid var(--color-border); border-radius: 8px; font-size: 1rem; font-family: 'Inter', sans-serif; outline: none; transition: border-color 0.2s;"
+            onfocus="this.style.borderColor='var(--color-accent)'"
+            onblur="this.style.borderColor='var(--color-border)'">
+        <div id="search-404-results" style="text-align: left; max-width: 480px; margin: 0.5rem auto;"></div>
+    </div>
+
+    <!-- Popular Categories -->
+    <h2 style="font-family: 'Lora', serif; font-size: 1.25rem; margin-bottom: 1rem;">Browse by Category</h2>
+    <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center; margin-bottom: 3rem;">
+        {{ range .Site.Taxonomies.categories }}
+        <a href="{{ .Page.Permalink }}" style="padding: 0.5rem 1rem; border: 1px solid var(--color-border); border-radius: 6px; color: var(--color-text); text-decoration: none; font-size: 0.9rem; transition: all 0.2s;"
+            onmouseover="this.style.borderColor='var(--color-accent)'; this.style.color='var(--color-accent)'"
+            onmouseout="this.style.borderColor='var(--color-border)'; this.style.color='var(--color-text)'">
+            {{ .Page.Title }} ({{ .Count }})
+        </a>
+        {{ end }}
+    </div>
+
+    <!-- Recent Posts -->
+    <h2 style="font-family: 'Lora', serif; font-size: 1.25rem; margin-bottom: 1rem;">Latest Reviews</h2>
+    <div style="text-align: left; max-width: 480px; margin: 0 auto;">
+        {{ range first 5 .Site.RegularPages.ByDate.Reverse }}
+        <a href="{{ .Permalink }}" style="display: block; padding: 0.75rem 0; border-bottom: 1px solid var(--color-border); color: var(--color-text); text-decoration: none;">
+            <strong>{{ .Title }}</strong>
+            <br><span style="font-size: 0.85rem; color: var(--color-text-muted);">{{ .Date.Format "Jan 2, 2006" }}</span>
+        </a>
+        {{ end }}
+    </div>
+
+    <p style="margin-top: 3rem;">
+        <a href="/" style="color: var(--color-accent); text-decoration: none; font-weight: 600;">← Back to Home</a>
+    </p>
+</div>
+
+<script>
+(function() {
+    const input = document.getElementById('search-404');
+    const results = document.getElementById('search-404-results');
+    let idx = null;
+
+    input.addEventListener('input', function() {
+        const q = this.value.toLowerCase().trim();
+        if (!q) { results.innerHTML = ''; return; }
+        if (!idx) {
+            fetch('/index.json').then(r => r.json()).then(d => { idx = d; doSearch(q); });
+        } else { doSearch(q); }
+    });
+
+    function doSearch(q) {
+        const hits = idx.filter(i => i.title.toLowerCase().includes(q) || (i.content && i.content.toLowerCase().includes(q))).slice(0, 5);
+        results.innerHTML = hits.map(h => '<a href="' + h.permalink + '" style="display:block;padding:0.5rem 0;border-bottom:1px solid var(--color-border);color:var(--color-text);text-decoration:none;"><strong>' + h.title + '</strong></a>').join('');
+    }
+})();
+</script>
+{{ end }}

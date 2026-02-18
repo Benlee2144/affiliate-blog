@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <title>{{ if .IsHome }}{{ .Site.Title }} — Honest Product Reviews Backed by Real Research{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
 
     <!-- Google Search Console Verification -->
     <meta name="google-site-verification" content="eHhEWipHsvtT67q3i_O83Kc1aUjpgRrmC-Ocwkc4iR4" />
@@ -14,8 +14,12 @@
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}">
     <meta name="keywords" content="{{ with .Keywords }}{{ delimit . ", " }}{{ else }}{{ delimit .Site.Params.keywords ", " }}{{ end }}">
     <meta name="author" content="{{ .Site.Params.author }}">
-    {{- if and .Data.Singular (eq .Data.Singular "tag") }}
+    {{- if eq .Section "tags" }}
     <meta name="robots" content="noindex, follow">
+    {{- else if eq .Kind "taxonomyTerm" }}{{/* /tags/ listing */}}
+    {{- if eq .Data.Plural "tags" }}
+    <meta name="robots" content="noindex, follow">
+    {{- end }}
     {{- end }}
     <link rel="canonical" href="{{ .Permalink }}">
 
@@ -37,7 +41,7 @@
     <meta name="twitter:image" content="{{ . | absURL }}">
     {{ end }}
 
-    <!-- Favicon (all sizes for Google, browsers, and mobile) -->
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}">
     <link rel="icon" type="image/png" sizes="192x192" href="{{ "favicon-192x192.png" | relURL }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}">
@@ -49,20 +53,32 @@
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}">
     {{ end }}
 
-    <!-- Preload critical assets -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Self-hosted fonts (eliminates render-blocking Google Fonts requests) -->
+    <link rel="preload" href="/fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/lora-var-latin.woff2" as="font" type="font/woff2" crossorigin>
 
     <!-- Styles -->
     <style>
+        /* Self-hosted font declarations */
+        @font-face {
+            font-family: 'Inter';
+            src: url('/fonts/inter-var-latin.woff2') format('woff2');
+            font-weight: 100 900;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'Lora';
+            src: url('/fonts/lora-var-latin.woff2') format('woff2');
+            font-weight: 400 700;
+            font-style: normal;
+            font-display: swap;
+        }
+
         {{ partial "css/style.css" . | safeCSS }}
     </style>
 
-    <!-- AdSense Placeholder - Add your AdSense code here when approved -->
-    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossorigin="anonymous"></script> -->
-
-    <!-- Analytics Placeholder -->
+    <!-- Google Analytics with Affiliate Click Tracking -->
     {{ if .Site.Params.analytics.google }}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.analytics.google }}"></script>
     <script>
@@ -70,8 +86,61 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', '{{ .Site.Params.analytics.google }}');
+
+        // Track affiliate link clicks
+        document.addEventListener('click', function(e) {
+            var link = e.target.closest('a[href*="amazon.com"]') || e.target.closest('a[rel*="sponsored"]');
+            if (link) {
+                gtag('event', 'affiliate_click', {
+                    'event_category': 'affiliate',
+                    'event_label': link.href,
+                    'link_text': link.textContent.trim().substring(0, 100),
+                    'page_title': document.title,
+                    'transport_type': 'beacon'
+                });
+            }
+        });
+
+        // Track scroll depth
+        var scrollMarks = [25, 50, 75, 90];
+        var scrollFired = {};
+        window.addEventListener('scroll', function() {
+            var pct = Math.round((window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100);
+            scrollMarks.forEach(function(mark) {
+                if (pct >= mark && !scrollFired[mark]) {
+                    scrollFired[mark] = true;
+                    gtag('event', 'scroll_depth', {
+                        'event_category': 'engagement',
+                        'event_label': mark + '%',
+                        'value': mark,
+                        'non_interaction': true
+                    });
+                }
+            });
+        }, { passive: true });
+
+        // Track CTA button clicks
+        document.addEventListener('click', function(e) {
+            var cta = e.target.closest('.cta-button, .sticky-cta a, .buy-button');
+            if (cta) {
+                gtag('event', 'cta_click', {
+                    'event_category': 'conversion',
+                    'event_label': cta.textContent.trim().substring(0, 50),
+                    'page_title': document.title
+                });
+            }
+        });
     </script>
     {{ end }}
+
+    <!-- Microsoft Clarity (free heatmaps & session recordings) -->
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "CLARITY_PROJECT_ID");
+    </script>
 
     {{ block "head" . }}{{ end }}
 
@@ -82,9 +151,27 @@
         "@type": "Organization",
         "name": "{{ .Site.Title }}",
         "url": "{{ .Site.BaseURL }}",
-        "logo": "{{ .Site.BaseURL }}images/logo.svg",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "{{ .Site.BaseURL }}images/logo.svg",
+            "width": 300,
+            "height": 60
+        },
         "description": "{{ .Site.Params.description }}",
-        "sameAs": []
+        "founder": {
+            "@type": "Person",
+            "name": "Ben Arp",
+            "url": "{{ .Site.BaseURL }}author/ben-arp/"
+        },
+        "foundingDate": "2026-01",
+        "sameAs": [
+            "{{ .Site.BaseURL }}index.xml"
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "url": "{{ .Site.BaseURL }}contact/"
+        }
     }
     </script>
 
@@ -99,7 +186,11 @@
         "description": "{{ .Site.Params.description }}",
         "publisher": {
             "@type": "Organization",
-            "name": "{{ .Site.Title }}"
+            "name": "{{ .Site.Title }}",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "{{ .Site.BaseURL }}images/logo.svg"
+            }
         },
         "potentialAction": {
             "@type": "SearchAction",
@@ -128,12 +219,7 @@
         // Dark Mode Toggle
         const themeToggle = document.getElementById('theme-toggle');
         const savedTheme = localStorage.getItem('theme');
-
-        // Apply saved theme on load
-        if (savedTheme === 'dark') {
-            document.body.classList.add('dark-mode');
-        }
-
+        if (savedTheme === 'dark') document.body.classList.add('dark-mode');
         if (themeToggle) {
             themeToggle.addEventListener('click', function() {
                 document.body.classList.toggle('dark-mode');
@@ -147,81 +233,68 @@
         const searchClose = document.getElementById('search-close');
         const searchInput = document.getElementById('search-input');
         const searchResults = document.getElementById('search-results');
-
+        const searchToggleMobile = document.getElementById('search-toggle-mobile');
         let searchIndex = null;
 
-        if (searchToggle && searchOverlay) {
-            searchToggle.addEventListener('click', function() {
-                searchOverlay.classList.add('active');
-                searchInput.focus();
-                loadSearchIndex();
-            });
+        function openSearch() {
+            if (searchOverlay) { searchOverlay.classList.add('active'); searchInput.focus(); loadSearchIndex(); }
+        }
+        function closeSearch() {
+            if (searchOverlay) { searchOverlay.classList.remove('active'); searchInput.value = ''; searchResults.innerHTML = ''; }
+        }
 
-            searchClose.addEventListener('click', function() {
-                searchOverlay.classList.remove('active');
-                searchInput.value = '';
-                searchResults.innerHTML = '';
-            });
+        if (searchToggle) searchToggle.addEventListener('click', openSearch);
+        if (searchClose) searchClose.addEventListener('click', closeSearch);
+        if (searchToggleMobile) searchToggleMobile.addEventListener('click', openSearch);
+        if (searchOverlay) searchOverlay.addEventListener('click', function(e) { if (e.target === searchOverlay) closeSearch(); });
 
-            searchOverlay.addEventListener('click', function(e) {
-                if (e.target === searchOverlay) {
-                    searchOverlay.classList.remove('active');
-                    searchInput.value = '';
-                    searchResults.innerHTML = '';
-                }
-            });
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && searchOverlay && searchOverlay.classList.contains('active')) closeSearch();
+            if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+        });
 
-            // Escape key closes search
-            document.addEventListener('keydown', function(e) {
-                if (e.key === 'Escape' && searchOverlay.classList.contains('active')) {
-                    searchOverlay.classList.remove('active');
-                    searchInput.value = '';
-                    searchResults.innerHTML = '';
-                }
-                // Cmd/Ctrl + K opens search
-                if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
-                    e.preventDefault();
-                    searchOverlay.classList.add('active');
-                    searchInput.focus();
-                    loadSearchIndex();
-                }
-            });
-
+        if (searchInput) {
             searchInput.addEventListener('input', function() {
                 const query = this.value.toLowerCase().trim();
-                if (!query || !searchIndex) {
-                    searchResults.innerHTML = '';
-                    return;
-                }
-
+                if (!query || !searchIndex) { searchResults.innerHTML = ''; return; }
                 const results = searchIndex.filter(item =>
-                    item.title.toLowerCase().includes(query) ||
-                    item.content.toLowerCase().includes(query)
+                    item.title.toLowerCase().includes(query) || (item.content && item.content.toLowerCase().includes(query))
                 ).slice(0, 8);
-
                 if (results.length === 0) {
                     searchResults.innerHTML = '<p style="padding: 1rem; color: var(--color-text-muted);">No results found</p>';
                     return;
                 }
-
-                searchResults.innerHTML = results.map(item => `
-                    <a href="${item.permalink}" class="search-result-item">
-                        <h4>${item.title}</h4>
-                        <p>${item.summary || ''}</p>
-                    </a>
-                `).join('');
+                searchResults.innerHTML = results.map(item =>
+                    '<a href="' + item.permalink + '" class="search-result-item"><h4>' + item.title + '</h4><p>' + (item.summary || '') + '</p></a>'
+                ).join('');
             });
         }
 
+        // Mobile hamburger nav
+        const hamburger = document.getElementById('hamburger-menu');
+        const mobileNav = document.getElementById('mobile-nav');
+        const mobileNavOverlay = document.getElementById('mobile-nav-overlay');
+        const mobileNavClose = document.getElementById('mobile-nav-close');
+
+        function openMobileNav() {
+            if (mobileNav) mobileNav.classList.add('active');
+            if (mobileNavOverlay) mobileNavOverlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeMobileNav() {
+            if (mobileNav) mobileNav.classList.remove('active');
+            if (mobileNavOverlay) mobileNavOverlay.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        if (hamburger) hamburger.addEventListener('click', openMobileNav);
+        if (mobileNavClose) mobileNavClose.addEventListener('click', closeMobileNav);
+        if (mobileNavOverlay) mobileNavOverlay.addEventListener('click', closeMobileNav);
+
         function loadSearchIndex() {
             if (searchIndex) return;
-
-            fetch('/index.json')
-                .then(response => response.json())
-                .then(data => {
-                    searchIndex = data;
-                })
-                .catch(err => console.log('Search index not available'));
+            fetch('/index.json').then(r => r.json()).then(d => { searchIndex = d; })
+                .catch(function() { console.log('Search index not available'); });
         }
     })();
     </script>
