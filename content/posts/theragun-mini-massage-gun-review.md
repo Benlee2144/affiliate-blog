@@ -9,7 +9,7 @@ summary: "1.5 lbs of portable percussion therapy. We break down whether Therabod
 
 keywords: ["Theragun Mini review", "Theragun vs cheap massage gun", "portable massage gun"]
 
-categories: ["Fitness categories: ["Fitness"] Health"]
+categories: ["Fitness & Health"]
 tags: ["Theragun", "massage gun", "product review", "fitness recovery", "buying guide"]
 
 review: true

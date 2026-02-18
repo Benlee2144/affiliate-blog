@@ -9,7 +9,7 @@ summary: "After setting up 3 home offices (mine, my wife's, and my brother's), h
 
 keywords: ["home office setup guide 2026", "best home office equipment", "work from home essentials", "home office buying guide"]
 
-categories: ["Office categories: ["Office and Productivity"] Productivity"]
+categories: ["Office & Productivity"]
 tags: ["home office", "standing desk", "laptop", "microphone", "buying guide", "work from home"]
 
 author: "Ben Arp"

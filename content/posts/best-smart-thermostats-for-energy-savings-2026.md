@@ -9,7 +9,7 @@ summary: "Skeptic turned believer after 3 months of testing. Most smart thermost
 
 keywords: ["best smart thermostat 2026", "smart thermostat energy savings", "Ecobee vs Nest", "smart thermostat worth it", "Ecobee Premium review"]
 
-categories: ["Home categories: ["Home and Garden"] Garden"]
+categories: ["Home & Garden"]
 tags: ["smart thermostat", "Ecobee", "Nest", "energy savings", "smart home", "HVAC"]
 
 review: true

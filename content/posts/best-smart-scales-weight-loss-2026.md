@@ -9,7 +9,7 @@ summary: "After dismissing smart scales as overpriced nonsense for years, I fina
 
 keywords: ["best smart scales 2026", "smart scale for weight loss", "Withings Body Smart review", "Renpho smart scale review", "Wyze Scale X review", "body composition scale", "best bathroom scale 2026"]
 
-categories: ["Fitness categories: ["Health"] Health"]
+categories: ["Fitness & Health"]
 tags: ["smart scale", "weight loss", "Withings", "Renpho", "Wyze", "body composition", "fitness tracker"]
 
 review: true

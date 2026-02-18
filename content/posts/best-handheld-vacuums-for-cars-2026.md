@@ -9,7 +9,7 @@ summary: "Tested 4 handheld vacuums for car cleaning — from a $30 corded Amazo
 
 keywords: ["best handheld vacuum for cars 2026", "car vacuum cleaner review", "best car vacuum", "handheld vacuum comparison"]
 
-categories: ["Home categories: ["Home"] Garden"]
+categories: ["Home & Garden"]
 tags: ["car vacuum", "handheld vacuum", "car cleaning", "auto detailing"]
 
 review: true

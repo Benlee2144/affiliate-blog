@@ -9,7 +9,7 @@ summary: "24 hours cold, 12 hours hot, and a lifetime warranty. We test if the I
 
 keywords: ["Hydro Flask review", "best water bottle 2026", "Hydro Flask vs Stanley", "insulated water bottle"]
 
-categories: ["Fitness categories: ["Fitness"] Health"]
+categories: ["Fitness & Health"]
 tags: ["Hydro Flask", "water bottle", "product review", "fitness gear", "buying guide"]
 
 review: true

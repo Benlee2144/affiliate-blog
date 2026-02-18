@@ -9,7 +9,7 @@ summary: "I installed 3 different video doorbells over the past 4 months. Two of
 
 keywords: ["best smart doorbells 2026", "smart doorbell camera no subscription", "eufy E340 review", "Tapo D225 doorbell review", "Ring doorbell subscription", "best video doorbell no monthly fee", "doorbell camera comparison 2026"]
 
-categories: ["Home categories: ["Home and Garden"] Garden"]
+categories: ["Home & Garden"]
 tags: ["smart doorbell", "video doorbell", "eufy", "TP-Link Tapo", "Ring", "home security", "smart home"]
 
 review: true

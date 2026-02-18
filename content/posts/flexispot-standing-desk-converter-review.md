@@ -9,7 +9,7 @@ summary: "4.8/5 stars from 8,300+ Amazon reviews. We dig into whether this stand
 
 keywords: ["FlexiSpot standing desk converter review", "best standing desk converter 2026", "sit stand desk converter", "ergonomic desk"]
 
-categories: ["Office categories: ["Office"] Productivity"]
+categories: ["Office & Productivity"]
 tags: ["FlexiSpot", "standing desk", "product review", "ergonomic", "home office"]
 
 review: true

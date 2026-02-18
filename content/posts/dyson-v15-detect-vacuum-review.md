@@ -9,7 +9,7 @@ summary: "Laser dust detection, 124 AW suction, and piezo sensor that counts par
 
 keywords: ["Dyson V15 Detect review", "Dyson V15 vs V12", "laser vacuum cleaner"]
 
-categories: ["Home categories: ["Home and Garden"] Garden"]
+categories: ["Home & Garden"]
 tags: ["Dyson", "cordless vacuum", "product review", "home cleaning", "buying guide"]
 
 review: true
