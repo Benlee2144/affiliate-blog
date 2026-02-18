@@ -17,7 +17,7 @@ disableHLJS: true
 disableShare: false
 searchHidden: false
 cover:
-    image: "/images/products/office-setup.jpg"
+    image: "/images/products/benq-screenbar-halo.jpg"
     alt: "Best Home Office Setup 2026 Collection"
     caption: "Our top office and productivity picks for 2026"
     relative: false

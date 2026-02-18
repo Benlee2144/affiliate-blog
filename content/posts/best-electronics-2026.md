@@ -17,7 +17,7 @@ disableHLJS: true
 disableShare: false
 searchHidden: false
 cover:
-    image: "/images/products/tech-collection.jpg"
+    image: "/images/products/airpods-pro-3-1.jpg"
     alt: "Best Electronics 2026 Collection"
     caption: "Our top electronics picks for 2026"
     relative: false

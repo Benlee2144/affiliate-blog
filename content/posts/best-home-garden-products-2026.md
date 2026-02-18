@@ -17,7 +17,7 @@ disableHLJS: true
 disableShare: false
 searchHidden: false
 cover:
-    image: "/images/products/home-garden.jpg"
+    image: "/images/products/roborock-q5-pro-1.jpg"
     alt: "Best Home & Garden Products 2026 Collection"
     caption: "Our top home and garden picks for 2026"
     relative: false

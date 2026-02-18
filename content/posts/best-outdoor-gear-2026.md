@@ -17,7 +17,7 @@ disableHLJS: true
 disableShare: false
 searchHidden: false
 cover:
-    image: "/images/products/outdoor-gear.jpg"
+    image: "/images/products/weber-kettle-1.jpg"
     alt: "Best Outdoor Gear 2026 Collection"
     caption: "Our top outdoor gear picks for 2026"
     relative: false

@@ -13,6 +13,10 @@ description: "We pit Apple's controversial AirPods Pro 3 against Sony's flagship
 summary: "Apple innovation meets Sony engineering. We break down sound quality, ANC, battery life, and value to help you choose."
 keywords: ["AirPods Pro 3 vs Sony WF-1000XM5", "best wireless earbuds 2026", "Apple vs Sony earbuds comparison"]
 tags: ["Apple", "Sony", "wireless earbuds", "comparison", "ANC"]
+
+cover:
+    image: "/images/products/airpods-pro-3-1.jpg"
+    alt: "Airpods Pro 3 Vs Sony Wf 1000Xm5"
 ---
 
 # AirPods Pro 3 vs Sony WF-1000XM5: The Ultimate Premium Earbuds Battle

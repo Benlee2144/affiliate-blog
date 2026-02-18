@@ -11,6 +11,10 @@ description: "After testing 15 budget kitchen appliances, here are the best perf
 summary: "Great kitchen tools don't require huge budgets. We found 8 exceptional appliances under $50 that punch above their price point."
 keywords: ["best kitchen appliances under $50", "budget kitchen gadgets 2026", "cheap kitchen appliances that work"]
 tags: ["kitchen appliances", "budget", "cooking", "coffee", "blender", "food prep"]
+
+cover:
+    image: "/images/products/instant-pot-duo-plus-1.jpg"
+    alt: "Best Kitchen Appliances Under 50"
 ---
 
 # Best Kitchen Appliances Under $50 in 2026 (We Tested 15 Products)

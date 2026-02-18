@@ -17,7 +17,7 @@ disableHLJS: true
 disableShare: false
 searchHidden: false
 cover:
-    image: "/images/products/kitchen-appliances.jpg"
+    image: "/images/products/cosori-air-fryer-5qt-5.jpg"
     alt: "Best Kitchen Appliances 2026 Collection"
     caption: "Our top kitchen appliance picks for 2026"
     relative: false

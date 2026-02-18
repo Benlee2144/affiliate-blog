@@ -13,6 +13,10 @@ description: "iOS vs Android, Apple Pencil vs S Pen. We compare the iPad Air 5th
 summary: "Premium tablet titans clash. We test performance, creativity features, and ecosystem value to determine the winner."
 keywords: ["iPad Air vs Samsung Galaxy Tab S9", "best tablet 2026", "iPad vs Android tablet"]
 tags: ["Apple", "Samsung", "tablet", "iPad", "Galaxy Tab", "comparison"]
+
+cover:
+    image: "/images/products/ipad-air-m3-1.jpg"
+    alt: "Ipad Air 5Th Gen Vs Samsung Galaxy Tab S9"
 ---
 
 # iPad Air 5th Gen vs Samsung Galaxy Tab S9: The Definitive Tablet Showdown

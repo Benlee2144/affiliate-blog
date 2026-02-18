@@ -17,7 +17,7 @@ disableHLJS: true
 disableShare: false
 searchHidden: false
 cover:
-    image: "/images/products/fitness-gear.jpg"
+    image: "/images/products/apple-watch-10-1.jpg"
     alt: "Best Fitness & Health Gear 2026 Collection"
     caption: "Our top fitness and health picks for 2026"
     relative: false

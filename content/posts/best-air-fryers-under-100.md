@@ -11,6 +11,10 @@ description: "After testing 14 budget air fryers, here are the best performers u
 summary: "Crispy, healthy cooking doesn't require premium air fryers. We found 7 excellent models under $100 that rival more expensive options."
 keywords: ["best air fryers under $100", "budget air fryer 2026", "cheap air fryers that work"]
 tags: ["air fryer", "kitchen appliances", "budget", "healthy cooking", "crispy food"]
+
+cover:
+    image: "/images/products/cosori-air-fryer-5qt-5.jpg"
+    alt: "Best Air Fryers Under 100"
 ---
 
 # Best Air Fryers Under $100 in 2026 (We Tested 14 Models)

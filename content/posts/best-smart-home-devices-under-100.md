@@ -11,6 +11,10 @@ description: "After testing 20 smart home devices, here are the best performers 
 summary: "Smart home automation doesn't require premium prices. We found 8 excellent devices under $100 that bring intelligence to your home."
 keywords: ["best smart home devices under $100", "budget smart home 2026", "cheap smart home automation"]
 tags: ["smart home", "budget", "automation", "security", "Amazon Alexa", "Google Home"]
+
+cover:
+    image: "/images/products/amazon-smart-plug.jpg"
+    alt: "Best Smart Home Devices Under 100"
 ---
 
 # Best Smart Home Devices Under $100 in 2026 (We Tested 20 Products)

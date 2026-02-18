@@ -10,6 +10,10 @@ review: false
 showToc: true
 TocOpen: true
 weight: 0
+
+cover:
+    image: "/images/products/sony-wh1000xm5-1.jpg"
+    alt: "How To Choose Headphones"
 ---
 
 We've tested over 200 pairs of headphones across every category. Here's what actually matters when choosing between over-ear, on-ear, in-ear, and true wireless — and what's just expensive marketing.

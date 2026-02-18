@@ -11,6 +11,10 @@ description: "After testing 12 pairs under $100, here are the best budget headph
 summary: "Quality audio doesn't require breaking the bank. We found 6 exceptional headphones under $100 that rival more expensive models."
 keywords: ["best headphones under $100", "budget headphones 2026", "cheap headphones that sound good"]
 tags: ["headphones", "budget", "wireless", "wired", "gaming", "audio"]
+
+cover:
+    image: "/images/products/sony-wh1000xm5-1.jpg"
+    alt: "Best Headphones Under 100"
 ---
 
 # Best Headphones Under $100 in 2026 (We Tested 12 Pairs)

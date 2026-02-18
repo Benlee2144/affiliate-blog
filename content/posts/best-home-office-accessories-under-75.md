@@ -11,6 +11,10 @@ description: "After testing 22 home office accessories, here are the best perfor
 summary: "Professional home office setup doesn't require expensive furniture. We found 8 excellent accessories under $75 that boost productivity and comfort."
 keywords: ["best home office accessories under $75", "budget office equipment 2026", "cheap office accessories that work"]
 tags: ["home office", "productivity", "ergonomic", "desk accessories", "work from home", "office equipment"]
+
+cover:
+    image: "/images/products/benq-screenbar.jpg"
+    alt: "Best Home Office Accessories Under 75"
 ---
 
 # Best Home Office Accessories Under $75 in 2026 (We Tested 22 Products)

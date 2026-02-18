@@ -10,6 +10,10 @@ review: false
 showToc: true
 TocOpen: true
 weight: 0
+
+cover:
+    image: "/images/products/roborock-s8-maxv-ultra-1.jpg"
+    alt: "How To Choose Robot Vacuum"
 ---
 
 We've spent hundreds of hours reading robot vacuum reviews, Reddit threads, and testing reports. Here's what actually matters when choosing one — and what's just marketing nonsense.

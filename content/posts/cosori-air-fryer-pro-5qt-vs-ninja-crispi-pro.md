@@ -13,6 +13,10 @@ description: "We tested both the Cosori Pro 5QT and Ninja Crispi Pro extensively
 summary: "Traditional basket vs revolutionary glass container design. We compare performance, convenience, and value to help you choose."
 keywords: ["Cosori vs Ninja air fryer", "best air fryer 2026", "Cosori Pro 5QT vs Ninja Crispi Pro comparison"]
 tags: ["Cosori", "Ninja", "air fryer", "comparison", "kitchen appliances"]
+
+cover:
+    image: "/images/products/cosori-pro-5qt-1.jpg"
+    alt: "Cosori Air Fryer Pro 5Qt Vs Ninja Crispi Pro"
 ---
 
 # Cosori Air Fryer Pro 5QT vs Ninja Crispi Pro: The Battle of Air Fryer Philosophies

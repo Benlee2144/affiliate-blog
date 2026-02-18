@@ -13,6 +13,10 @@ description: "We compare the reliable Roborock Q5 Pro against the premium ECOVAC
 summary: "Mid-range reliability vs premium power. We break down navigation, suction, and value to help you choose the right robot vacuum."
 keywords: ["Roborock Q5 Pro vs ECOVACS X11", "best robot vacuum 2026", "robot vacuum comparison"]
 tags: ["Roborock", "ECOVACS", "robot vacuum", "comparison", "smart home"]
+
+cover:
+    image: "/images/products/roborock-q5-pro-1.jpg"
+    alt: "Roborock Q5 Pro Vs Ecovacs Deebot X11"
 ---
 
 # Roborock Q5 Pro vs ECOVACS DEEBOT X11: When Reliability Meets Raw Power

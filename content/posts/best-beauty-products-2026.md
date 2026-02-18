@@ -17,7 +17,7 @@ disableHLJS: true
 disableShare: false
 searchHidden: false
 cover:
-    image: "/images/products/beauty-products.jpg"
+    image: "/images/products/shark-hyperair-1.jpg"
     alt: "Best Beauty & Personal Care Products 2026 Collection"
     caption: "Our top beauty and personal care picks for 2026"
     relative: false

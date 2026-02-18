@@ -13,6 +13,10 @@ description: "Dedicated e-reader vs premium tablet for reading. We compare eye s
 summary: "E-ink perfection meets vibrant AMOLED. We test which device delivers the better reading experience for digital book lovers."
 keywords: ["Kindle vs tablet for reading", "Kindle Paperwhite vs Galaxy Tab", "best device for reading 2026"]
 tags: ["Kindle", "Samsung", "e-reader", "tablet", "reading", "comparison"]
+
+cover:
+    image: "/images/products/kindle-paperwhite-2024-1.jpg"
+    alt: "Kindle Paperwhite 2024 Vs Samsung Galaxy Tab S9 Reading"
 ---
 
 # Kindle Paperwhite 2024 vs Samsung Galaxy Tab S9: The Ultimate Reading Device Showdown

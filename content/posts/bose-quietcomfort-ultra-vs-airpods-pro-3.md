@@ -13,6 +13,10 @@ description: "Two premium ANC earbuds with different strengths. We compare Bose'
 summary: "Legendary noise cancellation meets seamless Apple integration. We test which $249-299 earbuds deliver the better premium experience."
 keywords: ["Bose QuietComfort Ultra vs AirPods Pro 3", "best ANC earbuds 2026", "Bose vs Apple earbuds"]
 tags: ["Bose", "Apple", "ANC earbuds", "comparison", "premium audio"]
+
+cover:
+    image: "/images/products/apple-airpods-max-1.jpg"
+    alt: "Bose Quietcomfort Ultra Vs Airpods Pro 3"
 ---
 
 # Bose QuietComfort Ultra vs AirPods Pro 3: The Premium ANC Showdown

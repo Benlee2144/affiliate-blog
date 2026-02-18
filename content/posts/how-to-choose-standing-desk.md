@@ -10,6 +10,10 @@ review: false
 showToc: true
 TocOpen: true
 weight: 0
+
+cover:
+    image: "/images/products/flexispot-e7-pro-1.jpg"
+    alt: "How To Choose Standing Desk"
 ---
 
 We've tested 31 standing desks over 4 years of remote work. Here's what actually matters when choosing between manual, electric, and converter options — and why most people's height calculations are completely wrong.

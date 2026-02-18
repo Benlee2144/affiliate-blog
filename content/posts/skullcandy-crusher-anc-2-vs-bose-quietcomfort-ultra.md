@@ -13,6 +13,10 @@ description: "Over-ear bass monster vs premium earbuds. We compare Skullcandy's 
 summary: "Sensory bass overload meets audiophile precision. We test which audio approach delivers better value and experience."
 keywords: ["Skullcandy Crusher ANC 2 vs Bose earbuds", "bass headphones vs premium earbuds", "best headphones for bass 2026"]
 tags: ["Skullcandy", "Bose", "headphones", "earbuds", "comparison", "bass"]
+
+cover:
+    image: "/images/products/apple-airpods-max-2.jpg"
+    alt: "Skullcandy Crusher Anc 2 Vs Bose Quietcomfort Ultra"
 ---
 
 # Skullcandy Crusher ANC 2 vs Bose QuietComfort Ultra: The Audio Philosophy Clash

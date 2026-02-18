@@ -11,6 +11,10 @@ description: "After testing 18 budget fitness products, here are the best perfor
 summary: "Effective workouts don't require expensive equipment. We found 8 exceptional fitness products under $50 that rival gym-quality gear."
 keywords: ["best fitness gear under $50", "budget workout equipment 2026", "cheap fitness equipment that works"]
 tags: ["fitness", "workout", "home gym", "budget", "exercise equipment", "health"]
+
+cover:
+    image: "/images/products/fitbit-charge-6-1.jpg"
+    alt: "Best Fitness Gear Under 50"
 ---
 
 # Best Fitness Gear Under $50 in 2026 (We Tested 18 Products)
