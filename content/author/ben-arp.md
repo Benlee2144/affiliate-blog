@@ -48,15 +48,15 @@ I don't accept sponsored products. I don't get paid to write positive reviews. T
 **Kitchen** — Air fryers, espresso machines, blenders, cookware
 </a>
 
-<a href="/categories/home-garden/" style="padding: 1rem; border: 1px solid var(--color-border); border-radius: 8px; text-decoration: none; color: inherit;">
+<a href="/categories/home--garden/" style="padding: 1rem; border: 1px solid var(--color-border); border-radius: 8px; text-decoration: none; color: inherit;">
 **Home & Garden** — Vacuums, air purifiers, smart home, outdoor
 </a>
 
-<a href="/categories/fitness-health/" style="padding: 1rem; border: 1px solid var(--color-border); border-radius: 8px; text-decoration: none; color: inherit;">
+<a href="/categories/fitness--health/" style="padding: 1rem; border: 1px solid var(--color-border); border-radius: 8px; text-decoration: none; color: inherit;">
 **Fitness & Health** — Trackers, massage guns, workout gear
 </a>
 
-<a href="/categories/office-productivity/" style="padding: 1rem; border: 1px solid var(--color-border); border-radius: 8px; text-decoration: none; color: inherit;">
+<a href="/categories/office--productivity/" style="padding: 1rem; border: 1px solid var(--color-border); border-radius: 8px; text-decoration: none; color: inherit;">
 **Office** — Standing desks, webcams, monitors, ergonomics
 </a>
 

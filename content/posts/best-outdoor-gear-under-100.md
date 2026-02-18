@@ -1,7 +1,7 @@
 ---
 title: "Best Outdoor Gear Under $100 in 2026 (We Tested 19 Products)"
 slug: "best-outdoor-gear-under-100"
-categories: ["Outdoor and Recreation"]
+categories: ["Outdoor"]
 review: false
 showToc: true
 date: 2026-02-18

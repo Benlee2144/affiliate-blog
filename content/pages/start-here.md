@@ -40,7 +40,7 @@ Sometimes you've narrowed it down to two options and just need someone to tell y
 
 - [Kitchen Appliances](/categories/kitchen-appliances/) — Blenders, air fryers, espresso machines, rice cookers
 - [Electronics](/categories/electronics/) — Headphones, speakers, streaming devices, e-readers
-- [Home & Garden](/categories/home-garden/) — Vacuums, air purifiers, smart home, grills
+- [Home & Garden](/categories/home--garden/) — Vacuums, air purifiers, smart home, grills
 - [Fitness](/categories/fitness/) — Trackers, massage guns, fitness gear
 - [Beauty](/categories/beauty/) — Hair dryers, styling tools, personal care
 - [Office](/categories/office/) — Standing desks, microphones, WFH gear
