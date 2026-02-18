@@ -9,7 +9,7 @@ summary: "After months of garbage sleep thanks to my neighbor's dog, I bought 3 
 
 keywords: ["best white noise machines 2026", "white noise machine for sleep", "LectroFan EVO review", "Yogasleep Dohm review", "white noise machine neighbor noise", "sound machine for sleeping"]
 
-categories: ["Home"]
+categories: ["Home categories: ["Home"] Garden"]
 tags: ["white noise machine", "sleep", "LectroFan", "Yogasleep", "Dohm", "sound machine"]
 
 review: true

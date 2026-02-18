@@ -9,7 +9,7 @@ summary: "LiDAR navigation and 5500Pa suction at mid-range pricing. We dig into 
 
 keywords: ["Roborock Q5 Pro review", "best robot vacuum 2026", "Roborock vs Roomba", "robot vacuum pet hair"]
 
-categories: ["Home and Garden"]
+categories: ["Home categories: ["Home and Garden"] Garden"]
 tags: ["Roborock", "robot vacuum", "product review", "smart home", "buying guide"]
 
 review: true

@@ -9,7 +9,7 @@ summary: "After frying two cheap Amazon hubs and dealing with constant disconnec
 
 keywords: ["best USB-C hub MacBook 2026", "USB-C hub for MacBook Pro", "Anker 555 USB-C hub review", "Satechi Pro Hub Max review", "Plugable 9-in-1 hub review", "USB-C hub overheating"]
 
-categories: ["Tech"]
+categories: ["Electronics"]
 tags: ["USB-C hub", "MacBook", "Anker", "Satechi", "Plugable", "laptop accessories", "work from home"]
 
 review: true

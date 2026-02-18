@@ -9,7 +9,7 @@ summary: "Most air purifiers marketed for allergies barely help. After years of 
 
 keywords: ["best air purifier for allergies 2026", "HEPA air purifier allergies", "Coway AP-1512HH review", "air purifier for pollen", "allergy relief air purifier"]
 
-categories: ["Home and Garden"]
+categories: ["Home categories: ["Home and Garden"] Garden"]
 tags: ["air purifier", "Coway", "Honeywell", "Levoit", "allergies", "HEPA filter", "pollen"]
 
 review: true

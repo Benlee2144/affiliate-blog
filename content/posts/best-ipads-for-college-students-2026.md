@@ -9,7 +9,7 @@ summary: "We break down which iPad actually makes sense for college—from the b
 
 keywords: ["best iPad for college students 2026", "iPad Air vs iPad Pro for students", "iPad for note-taking", "college tablet buying guide", "iPad student discount"]
 
-categories: ["Tablets"]
+categories: ["Electronics"]
 tags: ["Apple", "iPad", "college", "students", "note-taking", "buying guide"]
 
 review: true

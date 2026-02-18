@@ -9,7 +9,7 @@ summary: "After testing the Levoit LV600S, Carepod One, and Dreo HM311S in my be
 
 keywords: ["best humidifiers for bedrooms 2026", "bedroom humidifier review", "Levoit LV600S review", "Carepod One review", "Dreo HM311S review", "quiet humidifier bedroom", "best humidifier for sleep"]
 
-categories: ["Home"]
+categories: ["Home categories: ["Home"] Garden"]
 tags: ["humidifier", "bedroom", "Levoit", "Carepod", "Dreo", "sleep", "air quality"]
 
 review: true

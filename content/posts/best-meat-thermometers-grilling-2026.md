@@ -9,7 +9,7 @@ summary: "After going through 5 different meat thermometers in 3 years, I finall
 
 keywords: ["best meat thermometers 2026", "best meat thermometer for grilling", "instant read thermometer", "Thermapen ONE review", "ThermoPro TP19H review"]
 
-categories: ["Kitchen"]
+categories: ["Kitchen Appliances"]
 tags: ["meat thermometer", "grilling", "ThermoWorks", "ThermoPro", "Lavatools", "MEATER", "cooking"]
 
 review: true

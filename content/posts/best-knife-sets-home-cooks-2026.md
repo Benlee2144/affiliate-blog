@@ -9,7 +9,7 @@ summary: "I spent $200 on a 15-piece knife set in 2022 and used maybe 4 of them.
 
 keywords: ["best knife sets 2026", "best kitchen knives home cook", "Victorinox Fibrox Pro review", "best chef knife", "Henckels knife set review", "knife set worth it"]
 
-categories: ["Kitchen"]
+categories: ["Kitchen Appliances"]
 tags: ["knife set", "chef knife", "Victorinox", "Henckels", "Wusthof", "kitchen essentials"]
 
 review: true

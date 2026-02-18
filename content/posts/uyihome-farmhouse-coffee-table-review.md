@@ -9,7 +9,7 @@ summary: "A budget-friendly farmhouse table that nails the rustic aesthetic, but
 
 keywords: ["UYIHOME coffee table review", "farmhouse coffee table", "best budget coffee table 2026", "2-tier coffee table with storage"]
 
-categories: ["Home and Garden"]
+categories: ["Home categories: ["Home and Garden"] Garden"]
 tags: ["UYIHOME", "coffee table", "farmhouse furniture", "living room", "product review"]
 
 review: true

@@ -9,7 +9,7 @@ summary: "Not all cold brew makers are created equal. I tested 4 of the most pop
 
 keywords: ["best cold brew coffee makers 2026", "cold brew coffee maker review", "OXO cold brew review", "Takeya cold brew review", "Toddy cold brew system", "KitchenAid cold brew maker"]
 
-categories: ["Kitchen"]
+categories: ["Kitchen Appliances"]
 tags: ["cold brew", "coffee maker", "OXO", "Takeya", "Toddy", "KitchenAid", "iced coffee"]
 
 review: true

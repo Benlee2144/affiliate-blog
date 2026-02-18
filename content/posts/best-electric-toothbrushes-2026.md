@@ -9,7 +9,7 @@ summary: "I spent way too much money testing electric toothbrushes. The expensiv
 
 keywords: ["best electric toothbrushes 2026", "Sonicare 4100 review", "Oral-B iO Series 3 review", "Oral-B Pro 1000 review", "best electric toothbrush for the money"]
 
-categories: ["Beauty & Personal Care"]
+categories: ["Beauty"]
 tags: ["electric toothbrush", "Philips Sonicare", "Oral-B", "dental care", "personal care"]
 
 review: true

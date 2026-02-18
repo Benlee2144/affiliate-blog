@@ -9,7 +9,7 @@ summary: "19,500Pa suction sounds incredible on paper. But independent tests tel
 
 keywords: ["ECOVACS DEEBOT X11 review", "ECOVACS X11 OmniCyclone problems", "robot vacuum mop combo 2026", "ECOVACS vs Roborock"]
 
-categories: ["Home and Garden"]
+categories: ["Home categories: ["Home and Garden"] Garden"]
 tags: ["ECOVACS", "robot vacuum", "product review", "smart home"]
 
 review: true

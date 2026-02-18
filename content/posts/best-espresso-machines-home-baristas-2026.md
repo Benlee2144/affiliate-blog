@@ -9,7 +9,7 @@ summary: "From budget to mid-range to serious hobby territory — which espresso
 
 keywords: ["best espresso machines 2026", "home espresso machine", "espresso machine for beginners", "Breville Bambino Plus review", "Gaggia Classic Pro"]
 
-categories: ["Kitchen"]
+categories: ["Kitchen Appliances"]
 tags: ["espresso machine", "coffee", "Breville", "Gaggia", "De'Longhi", "buying guide"]
 
 review: true

@@ -9,7 +9,7 @@ summary: "The premium vacuum vs the value champ. After testing both on the same 
 
 keywords: ["Dyson vs Shark vacuum", "Dyson V15 vs Shark Stratos", "is Dyson worth it", "Shark vs Dyson comparison"]
 
-categories: ["Home and Garden"]
+categories: ["Home categories: ["Home and Garden"] Garden"]
 tags: ["Dyson", "Shark", "cordless vacuum", "comparison", "cleaning"]
 
 review: true

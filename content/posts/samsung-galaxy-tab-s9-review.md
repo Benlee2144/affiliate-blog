@@ -9,7 +9,7 @@ summary: "S Pen included, DeX desktop mode, and AMOLED display. We test if Samsu
 
 keywords: ["Samsung Galaxy Tab S9 review", "best Android tablet 2026", "Galaxy Tab S9 vs iPad", "Samsung tablet review"]
 
-categories: ["Tablets"]
+categories: ["Electronics"]
 tags: ["Samsung", "tablet", "product review", "Android", "buying guide"]
 
 review: true

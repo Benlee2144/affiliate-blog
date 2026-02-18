@@ -9,7 +9,7 @@ summary: "Most robot vacuums claim to handle pet hair. Most of them lie. Here's 
 
 keywords: ["best robot vacuum for pet hair 2026", "robot vacuum dog hair", "Roborock pet hair review", "Roomba vs Roborock pets", "robot vacuum that handles shedding"]
 
-categories: ["Home and Garden"]
+categories: ["Home categories: ["Home and Garden"] Garden"]
 tags: ["robot vacuum", "Roborock", "Roomba", "pet hair", "cleaning", "home automation"]
 
 review: true

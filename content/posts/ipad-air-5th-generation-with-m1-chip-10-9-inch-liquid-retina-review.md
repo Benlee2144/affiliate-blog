@@ -9,7 +9,7 @@ summary: "The iPad Air M1 has a dirty secret: the 64GB model is a $150 mistake. 
 
 keywords: ["iPad Air M1 review", "iPad Air 5th generation worth it", "iPad Air vs iPad Pro", "iPad Air 64GB vs 256GB", "best iPad 2026", "iPad Air M1 problems"]
 
-categories: ["Tablets"]
+categories: ["Electronics"]
 tags: ["Apple", "tablets", "product review", "buying guide"]
 
 review: true

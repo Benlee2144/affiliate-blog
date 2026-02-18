@@ -9,7 +9,7 @@ summary: "Skip the $1,400 Herman Miller. I tested 4 ergonomic office chairs from
 
 keywords: ["best ergonomic office chairs 2026", "ergonomic office chair", "best office chair for back pain", "HON Ignition 2.0 review", "Branch Ergonomic Chair review"]
 
-categories: ["Office"]
+categories: ["Office categories: ["Office"] Productivity"]
 tags: ["office chair", "ergonomic", "HON", "Branch", "Ticova", "home office", "work from home"]
 
 review: true

@@ -9,7 +9,7 @@ summary: "After testing the Razer Viper V3 Pro, Logitech G Pro X Superlight 2, R
 
 keywords: ["best wireless gaming mice 2026", "wireless gaming mouse review", "Razer Viper V3 Pro review", "Logitech G Pro X Superlight 2 review", "Razer DeathAdder V3 HyperSpeed review", "best lightweight gaming mouse"]
 
-categories: ["Tech"]
+categories: ["Electronics"]
 tags: ["gaming mouse", "wireless mouse", "Razer", "Logitech", "esports", "PC gaming", "gaming peripherals"]
 
 review: true

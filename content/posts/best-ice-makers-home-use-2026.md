@@ -9,7 +9,7 @@ summary: "After buying a GE Profile Opal 2.0, a Magic Chef MCIM22, and a Frigida
 
 keywords: ["best ice makers 2026", "best countertop ice maker", "GE Profile Opal 2.0 review", "Magic Chef ice maker review", "nugget ice maker home", "countertop ice maker worth it"]
 
-categories: ["Kitchen"]
+categories: ["Kitchen Appliances"]
 tags: ["ice maker", "countertop ice maker", "GE Profile Opal", "Magic Chef", "nugget ice", "kitchen appliances"]
 
 review: true

@@ -9,7 +9,7 @@ summary: "After burning through a cheap Crock-Pot and dealing with cracked lids 
 
 keywords: ["best slow cookers 2026", "slow cooker for families", "GreenPan Elite slow cooker review", "Cuisinart MSC-600 review", "slow cooker problems", "best crock pot 2026"]
 
-categories: ["Kitchen"]
+categories: ["Kitchen Appliances"]
 tags: ["slow cooker", "crock pot", "GreenPan", "Cuisinart", "Instant Pot", "meal prep", "family cooking"]
 
 review: true

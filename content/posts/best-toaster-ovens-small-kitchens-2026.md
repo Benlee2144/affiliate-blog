@@ -9,7 +9,7 @@ summary: "Most 'best toaster oven' lists ignore the size problem entirely. Here'
 
 keywords: ["best toaster ovens small kitchens 2026", "compact toaster oven", "small toaster oven", "toaster oven for small spaces", "Panasonic FlashXpress review"]
 
-categories: ["Kitchen"]
+categories: ["Kitchen Appliances"]
 tags: ["toaster oven", "Panasonic", "Breville", "Hamilton Beach", "small kitchen", "compact appliances"]
 
 review: true

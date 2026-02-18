@@ -9,7 +9,7 @@ summary: "I compared a premium ViewSonic, a mid-range ASUS ZenScreen, and a $90 
 
 keywords: ["best portable monitors for laptops 2026", "portable monitor review", "ViewSonic TD1656-2K review", "ASUS ZenScreen MB16ACV review", "InnoView portable monitor", "USB-C portable monitor", "second screen for laptop"]
 
-categories: ["Tech"]
+categories: ["Electronics"]
 tags: ["portable monitor", "laptop accessories", "ViewSonic", "ASUS", "InnoView", "work from home", "remote work"]
 
 review: true

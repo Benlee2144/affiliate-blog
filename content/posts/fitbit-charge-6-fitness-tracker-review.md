@@ -9,7 +9,7 @@ summary: "Google integration, built-in GPS, and 7-day battery. We test if Fitbit
 
 keywords: ["Fitbit Charge 6 review", "best fitness tracker 2026", "Fitbit vs Apple Watch", "Fitbit Charge 6 vs Charge 5"]
 
-categories: ["Fitness"]
+categories: ["Fitness categories: ["Fitness"] Health"]
 tags: ["Fitbit", "fitness tracker", "product review", "health tracking", "buying guide"]
 
 review: true

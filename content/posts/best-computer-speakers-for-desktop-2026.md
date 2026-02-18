@@ -9,7 +9,7 @@ summary: "After living with three very different desktop speaker setups — a $3
 
 keywords: ["best computer speakers for desktop 2026", "desktop speakers", "Edifier R1280T review", "Audioengine A2+ review", "Creative Pebble Plus review", "best PC speakers", "computer speakers for music"]
 
-categories: ["Tech"]
+categories: ["Electronics"]
 tags: ["computer speakers", "desktop audio", "Edifier", "Audioengine", "Creative", "PC speakers", "home office"]
 
 review: true

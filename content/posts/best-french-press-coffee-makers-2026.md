@@ -9,7 +9,7 @@ summary: "After going through a Bodum Chambord, an Espro P3, and a Mueller stain
 
 keywords: ["best french press coffee maker 2026", "french press vs drip coffee", "Espro P3 review", "Bodum Chambord review", "Mueller french press review", "french press coffee guide", "best french press under $50"]
 
-categories: ["Kitchen"]
+categories: ["Kitchen Appliances"]
 tags: ["french press", "coffee maker", "Espro", "Bodum", "Mueller", "coffee", "kitchen"]
 
 review: true

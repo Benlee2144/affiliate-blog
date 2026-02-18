@@ -9,7 +9,7 @@ summary: "After testing a Keychron Q5 Max, K8 Pro, V5 Max, and a cheap Amazon bo
 
 keywords: ["best mechanical keyboards for typing 2026", "mechanical keyboard for writers", "Keychron Q5 Max review", "Keychron K8 Pro review", "best keyboard for work", "mechanical keyboard typing experience", "quiet mechanical keyboard"]
 
-categories: ["Tech"]
+categories: ["Electronics"]
 tags: ["mechanical keyboard", "Keychron", "typing", "keyboard", "work from home", "office"]
 
 review: true

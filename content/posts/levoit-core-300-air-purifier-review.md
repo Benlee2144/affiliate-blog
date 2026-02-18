@@ -9,7 +9,7 @@ summary: "True HEPA filtration under $100 with whisper-quiet 24dB operation. We 
 
 keywords: ["Levoit Core 300 review", "best air purifier 2026", "budget air purifier", "HEPA air purifier"]
 
-categories: ["Home and Garden"]
+categories: ["Home categories: ["Home and Garden"] Garden"]
 tags: ["Levoit", "air purifier", "product review", "HEPA", "home air quality"]
 
 review: true

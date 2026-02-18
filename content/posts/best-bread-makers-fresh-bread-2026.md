@@ -9,7 +9,7 @@ summary: "Tested the Zojirushi Virtuoso Plus, Cuisinart CBK-210, and Hamilton Be
 
 keywords: ["best bread makers 2026", "bread machine review", "Zojirushi Virtuoso Plus review", "Cuisinart CBK-210 review", "Hamilton Beach bread maker", "best bread machine for beginners"]
 
-categories: ["Kitchen"]
+categories: ["Kitchen Appliances"]
 tags: ["bread maker", "bread machine", "Zojirushi", "Cuisinart", "Hamilton Beach", "baking"]
 
 review: true
