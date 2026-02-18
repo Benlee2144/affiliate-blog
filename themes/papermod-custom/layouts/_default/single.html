@@ -67,7 +67,7 @@
         "@type": "Offer",
         "url": "{{ $.Params.affiliate_link }}",
         "priceCurrency": "USD",
-        "price": "{{ . }}",
+        "price": "{{ replace . "$" "" }}",
         "availability": "https://schema.org/InStock"
     }
     {{ end }}
