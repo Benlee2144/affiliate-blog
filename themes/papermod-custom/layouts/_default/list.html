@@ -3,7 +3,7 @@
 <!-- Disclosure bar -->
 <div class="disclosure-bar">
     <div class="container">
-        <span>I independently research everything I recommend. When you buy through my links, I may earn a commission.</span>
+        <span>We independently research everything we recommend. When you buy through our links, we may earn a commission.</span>
         <a href="/affiliate-disclosure/">Learn more ›</a>
     </div>
 </div>
@@ -19,8 +19,17 @@
             <div class="latest-list">
                 {{ range first 6 $allPages }}
                 <div class="latest-item">
-                    <a href="{{ .Permalink }}">{{ .Title }}</a>
-                    <span class="latest-date">Updated {{ .Date.Format "Jan. 2" }}</span>
+                    <a href="{{ .Permalink }}" class="latest-item-link">
+                        {{ with .Params.cover.image }}
+                        <img class="latest-thumb" src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+                        {{ else }}
+                        <div class="latest-thumb latest-thumb-placeholder"></div>
+                        {{ end }}
+                        <div class="latest-item-text">
+                            <span class="latest-title">{{ .Title }}</span>
+                            <span class="latest-date">Updated {{ .Date.Format "Jan. 2" }}</span>
+                        </div>
+                    </a>
                 </div>
                 {{ end }}
             </div>
@@ -96,8 +105,17 @@
             <div class="article-list">
                 {{ range after 1 (first 4 $pages) }}
                 <div class="article-list-item">
-                    <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-                    <p class="article-list-byline">{{ with .Params.author }}By {{ . }} · {{ end }}Updated {{ .Date.Format "Jan. 2, 2006" }}</p>
+                    <a href="{{ .Permalink }}" class="article-list-item-link">
+                        {{ with .Params.cover.image }}
+                        <img class="article-list-thumb" src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+                        {{ else }}
+                        <div class="article-list-thumb article-list-thumb-placeholder"></div>
+                        {{ end }}
+                        <div class="article-list-item-text">
+                            <h4>{{ .Title }}</h4>
+                            <p class="article-list-byline">{{ with .Params.author }}By {{ . }} · {{ end }}Updated {{ .Date.Format "Jan. 2, 2006" }}</p>
+                        </div>
+                    </a>
                 </div>
                 {{ end }}
             </div>
