@@ -43,6 +43,17 @@ cons:
   - "Water reservoir needs frequent refilling"
 amazon_rating: 4.3
 amazon_review_count: 2158
+faq:
+  - question: "Is the OXO Cold Brew Coffee Maker worth it in 2026?"
+    answer: "Yes, at $50 it's the sweet spot for quality and convenience. The rainmaker lid creates smoother coffee than cheaper options, and it makes concentrate that lasts over a week."
+  - question: "How does the OXO compare to the Takeya cold brew maker?"
+    answer: "OXO makes smoother concentrate with better filtration and even water distribution. Takeya at $22 makes ready-to-drink cold brew but requires new batches every 2-3 days."
+  - question: "Should I buy the Toddy or OXO cold brew system?"
+    answer: "OXO for convenience and everyday use. Toddy for absolute best coffee quality if you don't mind the ritual and felt filter maintenance every few months."
+  - question: "Are expensive cold brew makers like KitchenAid worth it?"
+    answer: "No, the KitchenAid at $120+ has inferior filtration to the OXO despite looking better. You're paying for aesthetics, not better coffee."
+  - question: "What's the best cold brew maker for beginners?"
+    answer: "Takeya at $22 is perfect for beginners. It's foolproof, makes good cold brew, and helps you learn if you want to upgrade later to concentrate systems."
 ---
 
 I'll admit something embarrassing. For about a year I was making "cold brew" by just... brewing regular coffee and sticking it in the fridge. I know. I KNOW. My coworker finally caught me doing it and basically staged an intervention.

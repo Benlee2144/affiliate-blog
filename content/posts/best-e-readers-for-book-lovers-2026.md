@@ -41,6 +41,17 @@ cons:
   - "Instructions could be clearer"
 amazon_rating: 4.7
 amazon_review_count: 4250
+faq:
+  - question: "Is the Kindle Paperwhite 2024 worth it for book lovers in 2026?"
+    answer: "Yes, at $159.99 it offers the best overall experience with a 7-inch screen, faster page turns, month-long battery life, and seamless Amazon ecosystem integration."
+  - question: "How does the Kindle Paperwhite compare to Kobo e-readers?"
+    answer: "Kindle excels if you buy from Amazon with better ecosystem integration. Kobo is superior for library borrowing via Libby and supports epub files natively that Kindle doesn't."
+  - question: "Should I buy the basic Kindle or pay extra for the Paperwhite?"
+    answer: "Pay the extra $50 for the Paperwhite. You get a larger screen, warm light adjustment, waterproofing, and better build quality - all features you'll actually use."
+  - question: "Which e-reader is best for library book borrowing?"
+    answer: "Kobo Libra Colour at $229.99 offers seamless library integration through built-in OverDrive/Libby, while Kindle makes library borrowing unnecessarily complicated."
+  - question: "Are color e-readers like Kobo Libra Colour worth the extra cost?"
+    answer: "Only if you read graphic novels or want colored book covers. For regular text reading, color E-Ink looks grainier than black and white displays."
 ---
 
 I thought e-readers were kind of pointless.

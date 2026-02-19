@@ -38,6 +38,17 @@ cons:
   - "Sound quality requires external speakers"
 amazon_rating: 4.5
 amazon_review_count: 6177
+faq:
+  - question: "Is the TCL QM6K worth it in 2026?"
+    answer: "Absolutely. At $600, the TCL QM6K delivers mini-LED technology, quantum dot color, and 144Hz refresh rate that competes with TVs costing twice as much."
+  - question: "How does the TCL QM6K compare to the TCL QM7K?"
+    answer: "The QM7K offers more dimming zones and brighter highlights but costs $300 more. For most viewers, the QM6K provides 90% of the performance for 40% less money."
+  - question: "What are the best 4K TVs under $1000 in 2026?"
+    answer: "The top picks are TCL QM6K ($600), TCL QM7K ($900), and Hisense U7QG ($800). The QM6K offers the best value, while the U7QG excels for gaming."
+  - question: "Should I buy the TCL QM6K or Hisense U7QG?"
+    answer: "Choose TCL QM6K for better value and reliability at $600. Pick Hisense U7QG if gaming performance is priority, but watch for quality control issues."
+  - question: "Is a 65-inch TV better than 55-inch for under $1000?"
+    answer: "Yes, the size difference is dramatic and only costs $100-200 more. The viewing experience improvement far outweighs the modest price increase."
 ---
 
 My wife told me in November that she was "done" with our 55-inch Vizio from 2020. It had this weird green tint in the corners that had been getting worse for months, and honestly she was right — it looked terrible. So she handed me a budget of "under a thousand dollars, please" and told me to figure it out.

@@ -40,6 +40,17 @@ cons:
   - "Corded design limits mobility"
 amazon_rating: 4.5
 amazon_review_count: 8958
+faq:
+  - question: "Is the Dyson V12 Detect Slim worth it for apartments in 2026?"
+    answer: "Yes, at $549 it's the best apartment vacuum. Quiet enough for morning use, 45-minute battery, and compact wall mount design perfect for small spaces."
+  - question: "How does the Dyson V12 compare to Shark cordless vacuums for apartments?"
+    answer: "Dyson V12 is significantly quieter and more reliable than Shark options. Shark models are loud enough to trigger neighbor complaints and have shorter battery life."
+  - question: "Should I buy a budget cordless vacuum under $150 for my apartment?"
+    answer: "No, avoid cheap cordless vacuums. After testing multiple options, anything under $150 breaks within months and lacks proper suction. Start with Dyson V8 refurbished at $250."
+  - question: "What's the best quiet cordless vacuum for apartment living?"
+    answer: "Dyson V12 Detect Slim is the quietest option tested. Unlike Shark models that wake neighbors, the V12 can be used at 8am without noise complaints."
+  - question: "Are cordless vacuums good for small apartments?"
+    answer: "Yes, when chosen correctly. The Dyson V12 cleans a 750 sq ft apartment in one 45-minute charge with wall-mount storage taking minimal closet space."
 ---
 
 Four vacuums in eight months.

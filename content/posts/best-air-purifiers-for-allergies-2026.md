@@ -41,6 +41,17 @@ cons:
   - "Could benefit from additional features"
 amazon_rating: 4.6
 amazon_review_count: 3864
+faq:
+  - question: "Is the Coway AP-1512HH Mighty worth it for allergies in 2026?"
+    answer: "Absolutely. After testing multiple air purifiers, the Coway Mighty at $160 provides true HEPA filtration with quiet operation that makes a noticeable difference during allergy season."
+  - question: "How does the Coway Mighty compare to the Honeywell HPA300 for allergies?"
+    answer: "Coway Mighty is quieter and better for bedrooms, while Honeywell HPA300 has higher CADR (300 vs 233 CFM) for larger rooms but runs louder on higher settings."
+  - question: "What's the best air purifier for severe pollen allergies?"
+    answer: "The Coway AP-1512HH Mighty excels for bedrooms where you sleep, while the Honeywell HPA300 provides more power for larger living spaces with heavy pollen exposure."
+  - question: "Do budget air purifiers under $100 work for allergies?"
+    answer: "The Levoit Core 300 at $100 is the cheapest option worth buying, but only works effectively in small rooms (150-200 sq ft). Cheaper models lack sufficient CADR."
+  - question: "Should I buy an air purifier for seasonal allergies?"
+    answer: "Yes, but only True HEPA models with adequate CADR for your room size. The author's allergies improved dramatically after switching from ineffective cheaper models to the Coway Mighty."
 ---
 
 Let me save you three years of sneezing.

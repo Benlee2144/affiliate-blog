@@ -24,6 +24,20 @@ author: "Ben Arp"
 showToc: true
 TocOpen: true
 
+faq:
+  - question: "Is Dyson really worth twice the price of Shark?"
+    answer: "For most people, no. Dyson provides 15-20% better performance at 100% higher cost. Shark offers better value unless you need absolute best cleaning power."
+  - question: "Which lasts longer, Dyson or Shark?"
+    answer: "Both typically last 3-5 years. Dyson has more reported battery issues at 18-24 months, while Shark tends to have more motor problems after 3-4 years."
+  - question: "Is the Dyson laser actually useful?"
+    answer: "Yes, especially on hard floors. It reveals dust you'd otherwise miss. However, it won't change carpet cleaning performance where most deep dirt lives."
+  - question: "Which is better for pet hair?"
+    answer: "Shark's self-cleaning brushroll prevents hair wraps better. Dyson has stronger suction for embedded pet hair in carpet. Both handle surface pet hair well."
+  - question: "Should I buy Shark if I have mostly hardwood floors?"
+    answer: "Yes, Shark excels on hard floors and costs half as much. The DuoClean head transitions between surfaces without manual switching."
+  - question: "Which has better customer service?"
+    answer: "Dyson has better warranty coverage and replacement policies. Shark's customer service is adequate but slower response times are common."
+
 cover:
     image: "/images/products/dyson-vs-shark-1.jpg"
     alt: "Dyson vs Shark cordless vacuum comparison"

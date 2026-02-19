@@ -41,6 +41,17 @@ cons:
   - "Instructions could be clearer"
 amazon_rating: 4.6
 amazon_review_count: 6633
+faq:
+  - question: "Is the XGIMI Halo+ worth it in 2026?"
+    answer: "Yes, if convenience matters most. At $449, it auto-focuses, has Android TV built-in, and decent speakers, making it the easiest projector to use daily despite lower brightness than alternatives."
+  - question: "How does the XGIMI Halo+ compare to Epson Home Cinema 880?"
+    answer: "XGIMI offers convenience with auto-focus and smart features at 700 lumens. Epson delivers 3,300 lumens for daytime viewing but needs external streaming device and has poor contrast."
+  - question: "Should I buy a budget projector or stick with a TV?"
+    answer: "Budget projectors work well for dedicated movie nights and large screen experience. However, 55\" 4K TVs at $350 offer better picture quality and convenience for daily use."
+  - question: "What's the best budget projector for gaming?"
+    answer: "BenQ TH685i at $700 offers 8.3ms input lag and 120Hz support, making it ideal for gaming. However, the price approaches quality TV territory."
+  - question: "Do those $100 projectors on Amazon work?"
+    answer: "No, cheap projectors like Vankyo use fake brightness claims and poor picture quality. Stick to reputable brands with proper ANSI or ISO lumen ratings starting around $400."
 ---
 
 I thought projectors were overhyped. Like genuinely thought they were one of those things people buy, use twice, then shove in a closet next to their bread maker and that ab roller from 2019.

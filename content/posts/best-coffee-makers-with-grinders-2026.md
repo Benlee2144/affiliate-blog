@@ -38,6 +38,17 @@ cons:
   - "Water reservoir needs frequent refilling"
 amazon_rating: 4.8
 amazon_review_count: 6388
+faq:
+  - question: "Is the Breville Grind Control worth it in 2026?"
+    answer: "Yes, if you drink coffee daily and care about quality. At $300, it provides excellent burr grinder consistency and thermal carafe, but requires regular maintenance and is quite loud."
+  - question: "How does the Breville Grind Control compare to Cuisinart DGB-900BC?"
+    answer: "Breville offers superior grind consistency and calibration features for $300. Cuisinart provides 80% of the quality for $100, making it the better value for most people."
+  - question: "Should I buy a grind-and-brew coffee maker or separate grinder?"
+    answer: "Grind-and-brew offers convenience at 5:30am with one-button operation. Separate units give more control but require more effort. Choose based on your morning routine priorities."
+  - question: "Are budget grind-and-brew machines like Black+Decker worth it?"
+    answer: "The Black+Decker CM5000B at $60 uses blade grinder creating uneven extraction and burnt taste. Better to buy $40 drip maker plus $25 hand burr grinder separately."
+  - question: "What's the best coffee maker with grinder for most people?"
+    answer: "Cuisinart DGB-900BC at $100 offers the best value with burr grinder, thermal carafe, and programmable features. It's 80% as good as the Breville for one-third the price."
 ---
 
 Everyone says you need a grind-and-brew machine if you're serious about coffee. Fresh grounds, better flavor, one machine does it all. Sounds perfect right?

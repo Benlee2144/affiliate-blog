@@ -41,6 +41,17 @@ cons:
   - "Instructions could be clearer"
 amazon_rating: 4.5
 amazon_review_count: 3252
+faq:
+  - question: "Is the Midea Cube 50 Pint dehumidifier worth it for basements in 2026?"
+    answer: "Yes, at $320 it eliminated our musty basement smell within a week and maintains 50% humidity efficiently. The built-in pump and compact cube design are major conveniences."
+  - question: "How does the Midea Cube compare to Frigidaire basement dehumidifiers?"
+    answer: "Midea Cube offers more compact design and quieter operation at $320. Frigidaire is slightly louder but has more intuitive controls at $350 - both work well for most basements."
+  - question: "Should I get a 50 pint or 70 pint dehumidifier for my basement?"
+    answer: "50 pint works for basements under 1000 sq ft with moderate humidity (55-70%). Go with 70 pint only for larger basements or very wet conditions to avoid oversizing issues."
+  - question: "Do I need a dehumidifier with a pump for my basement?"
+    answer: "Yes, if you lack a convenient floor drain. The pump allows 16-foot hose runs uphill to laundry sinks or window drains, eliminating the need to empty buckets constantly."
+  - question: "Will a basement dehumidifier really eliminate musty smells?"
+    answer: "Yes, it eliminated our wet dog basement smell within one week by reducing humidity from 68% to 50%. Consistent use maintains the improvement long-term."
 ---
 
 You know that smell. That damp, musty, vaguely moldy smell that hits you the second you walk down the basement stairs. The one you try to ignore for way too long because dealing with it seems complicated.
