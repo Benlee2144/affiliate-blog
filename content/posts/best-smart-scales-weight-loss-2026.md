@@ -45,6 +45,16 @@ cons:
   - "Could benefit from additional features"
 amazon_rating: 4.5
 amazon_review_count: 6410
+
+faq:
+  - question: "Is the I Was Wrong About Smart Scales worth buying in 2026?"
+    answer: "Based on our analysis of thousands of owner reviews, yes — for the right buyer. We detail exactly who should and shouldn't buy this in our full review above."
+  - question: "What are the main downsides of the I Was Wrong About Smart Scales?"
+    answer: "No product is perfect. We cover the honest cons and common complaints from real owners in our detailed review above, including issues that only show up after months of use."
+  - question: "Where is the best place to buy the I Was Wrong About Smart Scales?"
+    answer: "Amazon typically offers the best combination of price, return policy, and fast shipping. We include direct links to verified listings throughout our review."
+  - question: "How does the I Was Wrong About Smart Scales compare to alternatives?"
+    answer: "We compare it against the top competitors in our review, covering price, features, reliability, and real owner satisfaction. The best choice depends on your specific needs and budget."
 ---
 
 I owe smart scales an apology.

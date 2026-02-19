@@ -23,6 +23,18 @@ weight: 0
 cover:
     image: "/images/products/breville-bambino-plus-1.jpg"
     alt: "How To Choose Espresso Machine product image with detailed view and professional lighting"
+
+faq:
+  - question: "What's the most important feature when buying a espresso machine?"
+    answer: "It depends on your specific use case, but for most people, reliability and core performance matter more than extra features. We break down the key decision factors in our buying framework above."
+  - question: "How much should I spend on a espresso machine?"
+    answer: "The sweet spot for most people is the mid-range — you get 90% of the performance of premium models at 50-60% of the price. We outline specific budget tiers and what you get at each level in our guide."
+  - question: "What are the most common mistakes when buying a espresso machine?"
+    answer: "The biggest mistake is overpaying for features you won't use. The second most common is buying based on brand name alone rather than actual performance. Our guide helps you avoid both."
+  - question: "Should I buy a espresso machine online or in store?"
+    answer: "Online typically offers better prices and selection, especially from Amazon where you can easily return items. However, some products benefit from hands-on testing if a store near you carries them."
+  - question: "How often should I replace my espresso machine?"
+    answer: "Most quality products in this category last 3-7 years with proper care. We discuss longevity expectations and maintenance tips for each recommendation in our guide."
 ---
 
 I've owned 12 espresso machines over 8 years, from a $60 Nespresso knockoff to a $3,000 prosumer setup. Here's what actually matters when choosing an espresso machine — and why most people should probably start with something cheaper than they're considering.
