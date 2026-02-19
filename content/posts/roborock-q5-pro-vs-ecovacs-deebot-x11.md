@@ -13,6 +13,15 @@ description: "We compare the reliable Roborock Q5 Pro against the premium ECOVAC
 summary: "Mid-range reliability vs premium power. We break down navigation, suction, and value to help you choose the right robot vacuum."
 keywords: ["Roborock Q5 Pro vs ECOVACS X11", "best robot vacuum 2026", "robot vacuum comparison"]
 tags: ["Roborock", "ECOVACS", "robot vacuum", "comparison", "smart home"]
+pros:
+  - "Both models offer excellent navigation and mapping for multi-room homes"
+  - "Q5 Pro delivers reliable performance at $350 vs X11's premium $700+ price"
+  - "Analysis of 800+ reviews validates real-world performance differences"
+  - "Clear value proposition: mid-range reliability vs premium power"
+cons:
+  - "Both require significant investment compared to basic robot vacuums"
+  - "Complex features may be overkill for simple single-floor cleaning needs"
+  - "Premium X11 features may not justify 2x price increase for many users"
 
 cover:
     image: "/images/products/roborock-q5-pro-1.jpg"

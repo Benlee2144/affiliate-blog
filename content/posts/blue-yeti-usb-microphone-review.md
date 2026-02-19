@@ -34,6 +34,12 @@ faq:
     answer: "Yeti for versatility (4 patterns vs 1). MV7 for voice isolation (dynamic vs condenser). MV7 rejects room noise better; Yeti captures more detail."
   - question: "Is the Blue Yeti overkill for Zoom calls?"
     answer: "Honestly, yes—a $50 headset mic is fine for video calls. But if you also stream, podcast, or record music, the Yeti grows with you."
+  - question: "Does the Blue Yeti work with PS5 and Xbox?"
+    answer: "Yes for PS5, no for Xbox Series X/S without additional adapters. Works instantly with PS5 via USB port. Xbox requires specific USB headset adapters."
+  - question: "How far should you sit from a Blue Yeti?"
+    answer: "6-12 inches in cardioid mode for best balance of presence and noise rejection. Too close causes proximity effect (excessive bass), too far picks up room noise."
+  - question: "Can you use Blue Yeti for music recording?"
+    answer: "Yes, it excels at vocals and acoustic instruments. The stereo mode captures beautiful room ambience. However, dynamic microphones often better for loud instruments like drums."
 
 cover:
     image: "/images/products/blue-yeti-1.jpg"

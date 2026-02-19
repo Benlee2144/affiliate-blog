@@ -40,6 +40,17 @@ cons:
   - "Instructions could be clearer"
 amazon_rating: 4.6
 amazon_review_count: 2969
+faq:
+  - question: "Is the Cuisinart CPK-17 PerfecTemp kettle worth it for tea in 2026?"
+    answer: "Yes, at $80 it offers six preset temperatures including 175°F for green tea and 160°F for white tea, preventing the bitter taste from over-scalding delicate teas."
+  - question: "How does the Cuisinart CPK-17 compare to the Fellow Stagg EKG?"
+    answer: "Cuisinart offers better value at $80 with presets and 1.7L capacity. Fellow costs $195 but provides precise pour control and design aesthetics - better for coffee than tea."
+  - question: "Do I really need temperature control for making tea?"
+    answer: "Yes, green tea requires 175°F max and white tea needs 160-185°F. Boiling water (212°F) releases bitter compounds that ruin the flavor of delicate teas."
+  - question: "Should I buy a variable temperature kettle or basic boil-only model?"
+    answer: "Variable temperature is worth the extra $50-60 for tea drinkers. Basic kettles work for black tea and coffee but ruin green, white, and oolong teas."
+  - question: "What's the best electric kettle for tea lovers in 2026?"
+    answer: "Cuisinart CPK-17 at $80 offers the best value with six temperature presets and 30-minute hold function. Most tea varieties are covered by the preset temperatures."
 ---
 
 I've been drinking tea wrong for years.
