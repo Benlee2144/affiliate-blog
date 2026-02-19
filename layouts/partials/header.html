@@ -33,7 +33,7 @@
 <!-- Category Navigation Bar -->
 <nav class="category-nav">
     <div class="container">
-        {{ $cats := slice "Electronics" "Home & Garden" "Kitchen Appliances" "Fitness" "Beauty" "Office" "Outdoor" }}
+        {{ $cats := slice "Electronics" "Home & Garden" "Kitchen Appliances" "Fitness & Health" "Beauty" "Office & Productivity" "Outdoor" }}
         {{ range $cats }}
         <a href="/categories/{{ . | urlize }}/">{{ . }}</a>
         {{ end }}
@@ -47,7 +47,7 @@
     <div class="mobile-nav-header">Researched Picks</div>
     <ul class="mobile-nav-links">
         <li><a href="/">Home</a></li>
-        {{ $cats := slice "Electronics" "Home & Garden" "Kitchen Appliances" "Fitness" "Beauty" "Office" "Outdoor" }}
+        {{ $cats := slice "Electronics" "Home & Garden" "Kitchen Appliances" "Fitness & Health" "Beauty" "Office & Productivity" "Outdoor" }}
         {{ range $cats }}
         <li><a href="/categories/{{ . | urlize }}/">{{ . }}</a></li>
         {{ end }}
