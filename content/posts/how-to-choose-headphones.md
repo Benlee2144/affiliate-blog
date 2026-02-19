@@ -17,6 +17,10 @@ faq:
     answer: "Online typically offers better prices and selection, especially from Amazon where you can easily return items. However, some products benefit from hands-on testing if a store near you carries them."
   - question: "How often should I replace my headphones?"
     answer: "Most quality products in this category last 3-7 years with proper care. We discuss longevity expectations and maintenance tips for each recommendation in our guide."
+
+cover:
+    image: "/images/products/sony-wh1000xm5-1.jpg"
+    alt: "How To Choose Headphones"
 ---
 
 # How to Choose Headphones: Complete Audio Buying Guide 2026

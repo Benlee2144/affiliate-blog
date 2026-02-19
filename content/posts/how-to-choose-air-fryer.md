@@ -17,6 +17,10 @@ faq:
     answer: "Online typically offers better prices and selection, especially from Amazon where you can easily return items. However, some products benefit from hands-on testing if a store near you carries them."
   - question: "How often should I replace my air fryer?"
     answer: "Most quality products in this category last 3-7 years with proper care. We discuss longevity expectations and maintenance tips for each recommendation in our guide."
+
+cover:
+    image: "/images/products/cosori-twinfry-9qt-1.jpg"
+    alt: "How To Choose Air Fryer"
 ---
 
 # How to Choose an Air Fryer: Complete Buying Guide 2026

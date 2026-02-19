@@ -36,7 +36,7 @@ faq:
     answer: "Based on Apple's M1 track record, expect 5-6 years of software support and smooth performance. The M1 is the same chip in MacBooks Apple still sells."
 
 cover:
-    image: "https://www.apple.com/newsroom/images/product/ipad/standard/Apple-iPad-Air-hero-color-lineup-220308_big.jpg.large.jpg"
+    image: "/images/products/ipad-air-m3-1.jpg"
     alt: "Apple iPad Air 5th Generation with M1 chip product image with detailed view and professional lighting"
     caption: "Our top pick for most iPad buyers"
     relative: false

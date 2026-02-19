@@ -24,6 +24,10 @@ faq:
     answer: "We update this guide whenever significant new products launch or prices change substantially. We also re-check owner reviews quarterly to catch any emerging reliability issues with our recommendations."
   - question: "Can I trust Amazon reviews for stick vacuums under $200?"
     answer: "Not blindly — that's why we exist. We cross-reference Amazon reviews with Reddit discussions, forum posts, and expert tests to filter out fake reviews and identify genuine owner experiences."
+
+cover:
+    image: "/images/products/dyson-v12-1.jpg"
+    alt: "Best Stick Vacuums Under 200 2026"
 ---
 
 # Best Stick Vacuums Under $200 in 2026

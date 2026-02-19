@@ -44,7 +44,7 @@ faq:
     answer: "GPS requires iPhone nearby for calls/messages. Cellular ($100 more) works independently with own phone number via carrier."
 
 cover:
-    image: "https://www.apple.com/newsroom/images/2024/09/introducing-apple-watch-series-10/article/Apple-Watch-Series-10-hero-240909_big.jpg.large.jpg"
+    image: "/images/products/apple-watch-10-1.jpg"
     alt: "Apple Watch Series 10 product image with detailed view and professional lighting"
     caption: "Apple's thinnest smartwatch ever"
     relative: false

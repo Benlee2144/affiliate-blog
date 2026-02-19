@@ -22,6 +22,10 @@ faq:
     answer: "Amazon typically offers the best combination of price, return policy, and fast shipping. We include direct links to verified listings throughout our review."
   - question: "How does the Best Vacuums for Pet Hair in 2026 compare to alternatives?"
     answer: "We compare it against the top competitors in our review, covering price, features, reliability, and real owner satisfaction. The best choice depends on your specific needs and budget."
+
+cover:
+    image: "/images/products/roborock-s8-maxv-ultra-1.jpg"
+    alt: "Best Vacuums For Pet Hair 2026"
 ---
 
 # Best Vacuums for Pet Hair in 2026
