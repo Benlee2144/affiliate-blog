@@ -24,7 +24,7 @@ That obsession became this site.
 </div>
 </div>
 
-## How I Research
+## How We Research
 
 Every review on this site follows the same process:
 

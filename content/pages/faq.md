@@ -25,7 +25,7 @@ When I haven't personally tested something, my recommendations are based on exte
 
 Short answer: obsessive research. Long answer: I read hundreds of verified Amazon reviews, dig through Reddit threads (r/BuyItForLife, r/Cooking, r/headphones, etc.), watch YouTube reviews, and check forum discussions. I look for patterns — if 50 people say the motor dies after 6 months, that's not a fluke, it's a design problem.
 
-Full breakdown on my [How I Research](/how-i-research/) page.
+Full breakdown on our [How We Research](/how-i-research/) page.
 
 ## Can I suggest a product for you to review?
 

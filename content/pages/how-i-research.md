@@ -1,5 +1,5 @@
 ---
-title: "How I Research Products"
+title: "How We Research Products"
 date: 2026-01-15T00:00:00+00:00
 draft: false
 description: "My obsessive process for finding the best products — Reddit deep dives, Amazon review analysis, YouTube teardowns, and more."

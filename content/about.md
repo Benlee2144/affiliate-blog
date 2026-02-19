@@ -49,7 +49,7 @@ I don't have a lab. I don't have a team of testers with clipboards. Here's what 
 
 5. **Give you a straight answer** — Here's what to buy. Here's why. Here's who should skip it.
 
-Want the full breakdown? Check out my [How I Research](/how-i-research/) page.
+Want the full breakdown? Check out my [How We Research](/how-i-research/) page.
 
 ---
 

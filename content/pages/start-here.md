@@ -11,7 +11,7 @@ url: "/start-here/"
 
 I spend hours reading Amazon reviews, Reddit threads, and forum posts so you don't have to. Every product recommendation is backed by real owner feedback — not press releases or sponsored content.
 
-If you want the full story, check out my [About](/about/) page or [How I Research](/how-i-research/) page.
+If you want the full story, check out our [About](/about/) page or [How We Research](/how-i-research/) page.
 
 Otherwise, here are some good places to start:
 
@@ -41,9 +41,9 @@ Sometimes you've narrowed it down to two options and just need someone to tell y
 - [Kitchen Appliances](/categories/kitchen-appliances/) — Blenders, air fryers, espresso machines, rice cookers
 - [Electronics](/categories/electronics/) — Headphones, speakers, streaming devices, e-readers
 - [Home & Garden](/categories/home--garden/) — Vacuums, air purifiers, smart home, grills
-- [Fitness](/categories/fitness/) — Trackers, massage guns, fitness gear
+- [Fitness & Health](/categories/fitness--health/) — Trackers, massage guns, fitness gear
 - [Beauty](/categories/beauty/) — Hair dryers, styling tools, personal care
-- [Office](/categories/office/) — Standing desks, microphones, WFH gear
+- [Office & Productivity](/categories/office--productivity/) — Standing desks, microphones, WFH gear
 
 ---
 
