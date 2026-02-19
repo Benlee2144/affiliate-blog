@@ -22,7 +22,7 @@ TocOpen: true
 
 cover:
     image: "/images/products/home-office-guide-1.jpg"
-    alt: "Home office setup guide 2026"
+    alt: "Home office setup guide 2026 product image with detailed view and professional lighting"
     caption: "Your complete guide to the perfect home office"
     relative: false
 

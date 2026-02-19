@@ -1,6 +1,6 @@
 ---
 title: "How to Choose an Air Fryer: Size, Wattage, and What Actually Matters"
-description: "Skip the marketing hype. Learn the real differences between basket vs oven style air fryers, what wattage actually means, and which capacity makes sense for your household."
+description: "Skip the marketing hype. Learn the real differences between basket vs oven style air fryers, what wattage actually means, and which capacity makes sense for."
 excerpt: "From single servings to family meals: the definitive guide to air fryer sizes, features, and what veteran users wish they'd known before buying."
 date: 2026-02-18
 lastmod: 2026-02-18
@@ -22,7 +22,7 @@ weight: 0
 
 cover:
     image: "/images/products/cosori-twinfry-9qt-1.jpg"
-    alt: "How To Choose Air Fryer"
+alt: "How To Choose Air Fryer product image with detailed view and professional lighting"
 ---
 
 We've tested 47 air fryers across every style and price point. Here's what matters when choosing between basket and oven models — and what features are just expensive marketing tricks.

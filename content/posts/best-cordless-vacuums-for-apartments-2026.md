@@ -1,5 +1,5 @@
 ---
-title: "Best Cordless Vacuums for Apartments 2026: I Returned 4 Before Finding the Right One"
+title: "Best Cordless Vacuums for Apartments (2026)"
 slug: "best-cordless-vacuums-for-apartments-2026"
 date: 2026-02-01T06:41:34+00:00
 lastmod: 2026-02-01T06:41:34+00:00
@@ -27,7 +27,7 @@ TocOpen: false
 
 cover:
     image: "/images/products/dyson-v12-1.jpg"
-    alt: "Dyson V12 Detect Slim cordless vacuum"
+    alt: "Dyson V12 Detect Slim cordless vacuum product image with detailed view and professional lighting"
     caption: "The one that finally stuck around"
     relative: false
 
@@ -109,7 +109,7 @@ After all that, I caved and got the [Dyson V12 Detect Slim](https://www.amazon.c
 
 Yeah, it's expensive. I paid $549 on sale last November (Black Friday pricing). But here's the thing — I've had it for almost four months now and nothing's broken, the battery still lasts 40+ minutes on regular mode, and my neighbors haven't complained once.
 
-![Dyson V12 Detect Slim cordless vacuum](/images/products/dyson-v12-1.jpg)
+![Dyson V12 Detect Slim cordless vacuum product image with detailed view and professional lighting](/images/products/dyson-v12-1.jpg)
 
 The V12 is specifically the *Slim* version, which matters for apartments. It's noticeably lighter than the V15 or the older models. I can vacuum my entire place — including getting under the couch and doing the edges — with one hand without my arm getting tired.
 

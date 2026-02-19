@@ -35,7 +35,7 @@ faq:
 
 cover:
     image: "/images/products/ecovacs-x11-1.png"
-    alt: "ECOVACS DEEBOT X11 OmniCyclone"
+    alt: "ECOVACS DEEBOT X11 OmniCyclone product image with detailed view and professional lighting"
     caption: "Premium price, questionable value"
     relative: false
 
@@ -61,7 +61,7 @@ So when I saw the DEEBOT X11 OmniCyclone popping up everywhere with its fancy 19
 
 What I found was... complicated.
 
-![ECOVACS DEEBOT X11 OmniCyclone](/images/products/ecovacs-x11-1.png)
+![ECOVACS DEEBOT X11 OmniCyclone product image with detailed view and professional lighting](/images/products/ecovacs-x11-1.png)
 
 ## The Spec Sheet Looks Amazing (On Paper)
 
@@ -88,7 +88,7 @@ Even worse? It got stuck under furniture multiple times during the 36-minute tes
 
 Android Authority's review backed this up. Their tester found that despite setting virtual boundaries and marking rooms as off-limits, the bot "still managed to find trouble" and failed to detect thin obstacles like lamp stand legs.
 
-![ECOVACS X11 in action](/images/products/ecovacs-x11-2.png)
+![ECOVACS X11 in action product image with detailed view and professional lighting](/images/products/ecovacs-x11-2.png)
 
 ## The AI Features Are Half-Baked
 
@@ -126,7 +126,7 @@ Look, it's not all bad. When the X11 works, it works pretty well.
 
 **Bagless station is convenient.** No replacement bags to buy is a genuine money-saver over time.
 
-![ECOVACS X11 base station](/images/products/ecovacs-x11-3.png)
+![ECOVACS X11 base station product image with detailed view and professional lighting](/images/products/ecovacs-x11-3.png)
 
 ## How It Stacks Up Against Roborock
 

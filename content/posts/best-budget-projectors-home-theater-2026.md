@@ -4,7 +4,7 @@ slug: "best-budget-projectors-home-theater-2026"
 date: 2026-02-13T22:50:00-05:00
 lastmod: 2026-02-13T22:50:00-05:00
 draft: false
-description: "Most YouTube projector reviews test in pitch-black rooms with perfect screens. I tested 3 budget projectors in my actual living room with actual ambient light. Big difference."
+description: "Most YouTube projector reviews test in pitch-black rooms with perfect screens. I tested 3 budget projectors in my actual living room with actual ambient light."
 summary: "I bought the XGIMI Halo+, Epson Home Cinema 880, and BenQ TH685i to test in real-world conditions. Here's what nobody tells you about budget projectors."
 
 keywords: ["best budget projectors 2026", "budget home theater projector", "XGIMI Halo Plus review", "Epson Home Cinema 880 review", "BenQ TH685i review", "best projector under 500"]
@@ -27,7 +27,7 @@ TocOpen: false
 
 cover:
   image: "/images/products/xgimi-halo-plus-1.jpg"
-  alt: "XGIMI Halo Plus portable projector for home theater"
+  alt: "XGIMI Halo Plus portable projector for home theater product image with detailed view and professional lighting"
   relative: false
   hidden: false
 
@@ -74,7 +74,7 @@ Here's what I actually cared about:
 
 ## The Three I Tested
 
-![XGIMI Halo+ Projector](/images/products/xgimi-halo-plus-1.jpg "XGIMI Halo+ portable smart projector")
+![Xgimi Halo Plus 1 "xgimi Halo+ Portable Smart Projector" product showcase with detailed features and premium finish](/images/products/xgimi-halo-plus-1.jpg "XGIMI Halo+ portable smart projector")
 
 ### XGIMI Halo+ — The One I Kept
 
@@ -96,7 +96,7 @@ Also the battery lasts about 2 hours which means it dies right at the climax of 
 
 ### Epson Home Cinema 880 — The Brightness King
 
-![Epson Home Cinema 880 Projector](/images/products/epson-home-cinema-880-1.jpg "Epson Home Cinema 880 3LCD projector")
+![Epson Home Cinema 880 Projector product image with detailed view and professional lighting](/images/products/epson-home-cinema-880-1.jpg "Epson Home Cinema 880 3LCD projector")
 
 [Check price on Amazon](https://www.amazon.com/dp/B08GL37R6Y?tag=amazonfi08e0c-20)
 
@@ -112,7 +112,7 @@ For sports though? Incredible. The brightness makes it feel like you're at a spo
 
 ### BenQ TH685i — The Gamer's Pick
 
-![BenQ TH685i Gaming Projector](/images/products/benq-th685i-1.jpg "BenQ TH685i 1080p gaming projector")
+![BenQ TH685i Gaming Projector product image with detailed view and professional lighting](/images/products/benq-th685i-1.jpg "BenQ TH685i 1080p gaming projector")
 
 [View on Amazon](https://www.amazon.com/dp/B08FF9BFWT?tag=amazonfi08e0c-20)
 

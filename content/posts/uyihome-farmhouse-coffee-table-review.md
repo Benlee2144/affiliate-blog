@@ -4,7 +4,7 @@ slug: "uyihome-farmhouse-coffee-table-review"
 date: 2026-01-16T16:38:12+00:00
 lastmod: 2026-01-16T16:38:12+00:00
 draft: false
-description: "After analyzing owner reviews and comparing farmhouse coffee tables, here's whether the UYIHOME 2-tier coffee table delivers real value—or just looks good in photos."
+description: "After analyzing owner reviews and comparing farmhouse coffee tables, here's whether the UYIHOME 2-tier coffee table delivers real value—or just looks good in."
 summary: "A budget-friendly farmhouse table that nails the rustic aesthetic, but assembly quality varies."
 
 keywords: ["UYIHOME coffee table review", "farmhouse coffee table", "best budget coffee table 2026", "2-tier coffee table with storage"]
@@ -37,7 +37,7 @@ faq:
 
 cover:
     image: "/images/products/uyihome-farmhouse-coffee-table-1.jpg"
-    alt: "UYIHOME Farmhouse Coffee Table with oak grey top and white V-shaped legs"
+    alt: "UYIHOME Farmhouse Coffee Table with oak grey top and white V-shaped legs product image with detailed view and professional lighting"
     caption: "Budget farmhouse style that actually looks the part"
     relative: false
 
@@ -65,7 +65,7 @@ You want the farmhouse look without the farmhouse price tag. Every solid wood co
 
 ## Our Pick: UYIHOME Farmhouse Coffee Table
 
-![UYIHOME Farmhouse Coffee Table](/images/products/uyihome-farmhouse-coffee-table-1.jpg)
+![UYIHOME Farmhouse Coffee Table product image with detailed view and professional lighting](/images/products/uyihome-farmhouse-coffee-table-1.jpg)
 
 **Quick take:** A two-tone farmhouse table with oak grey top and white V-shaped legs that photographs beautifully and holds up to daily use—at under $100.
 
@@ -85,7 +85,7 @@ You want the farmhouse look without the farmhouse price tag. Every solid wood co
 
 ## Why It Stands Out
 
-![UYIHOME coffee table dimensions and storage shelf](/images/products/uyihome-farmhouse-coffee-table-2.jpg)
+![UYIHOME coffee table dimensions and storage shelf product image with detailed view and professional lighting](/images/products/uyihome-farmhouse-coffee-table-2.jpg)
 
 ### The Look Actually Delivers
 
@@ -138,7 +138,7 @@ A small percentage of buyers received tables with fit issues or slightly misalig
 
 ## Who Should Buy This
 
-![UYIHOME Farmhouse Coffee Table in living room setting](/images/products/uyihome-farmhouse-coffee-table-3.jpg)
+![UYIHOME Farmhouse Coffee Table in living room setting product image with detailed view and professional lighting](/images/products/uyihome-farmhouse-coffee-table-3.jpg)
 
 **First apartment or rental:** You want style without investing hundreds in furniture you might not move.
 

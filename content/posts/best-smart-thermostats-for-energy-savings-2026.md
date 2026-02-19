@@ -4,7 +4,7 @@ slug: "best-smart-thermostats-for-energy-savings-2026"
 date: 2026-02-04T14:59:50+00:00
 lastmod: 2026-02-04T14:59:50+00:00
 draft: false
-description: "Smart thermostats promising 8-26% energy savings sounded like marketing garbage to me. Turns out I was wrong. Here's what actually delivers and what's just expensive wallpaper."
+description: "Smart thermostats promising 8-26% energy savings sounded like marketing garbage to me. Turns out I was wrong. Here's what actually delivers and what's just."
 summary: "Skeptic turned believer after 3 months of testing. Most smart thermostat claims are overhyped, but the energy savings are real — if you pick the right one."
 
 keywords: ["best smart thermostat 2026", "smart thermostat energy savings", "Ecobee vs Nest", "smart thermostat worth it", "Ecobee Premium review"]
@@ -27,7 +27,7 @@ TocOpen: false
 
 cover:
     image: "/images/products/ecobee-premium-1.jpg"
-    alt: "Ecobee Smart Thermostat Premium on wall"
+    alt: "Ecobee Smart Thermostat Premium on wall product image with detailed view and professional lighting"
     caption: "The Ecobee Premium - finally a smart thermostat that earns its price tag"
     relative: false
 
@@ -65,7 +65,7 @@ But it couldn't know that I left early on Tuesdays. Or that I worked from home r
 
 The Ecobee figured all of that out in about two weeks.
 
-![Ecobee Smart Thermostat Premium installed](/images/products/ecobee-premium-2.jpg)
+![Ecobee Smart Thermostat Premium installed product image with detailed view and professional lighting](/images/products/ecobee-premium-2.jpg)
 
 ---
 
@@ -111,7 +111,7 @@ At 15% savings on a $200/month heating bill, the thermostat pays for itself in a
 
 ---
 
-![Ecobee Premium app control](/images/products/ecobee-premium-3.jpg)
+![Ecobee Premium app control product image with detailed view and professional lighting](/images/products/ecobee-premium-3.jpg)
 
 What about the Nest?
 
@@ -129,7 +129,7 @@ But if you're ecosystem-agnostic or prefer Apple stuff, the Ecobee wins.
 
 ---
 
-![Google Nest Thermostat](/images/products/nest-thermostat-2.jpg)
+![Google Nest Thermostat product image with detailed view and professional lighting](/images/products/nest-thermostat-2.jpg)
 
 Budget option: the [Amazon Smart Thermostat](https://www.amazon.com/dp/B08J4C8871?tag=amazonfi08e0c-20) at around $80.
 
@@ -143,7 +143,7 @@ I returned it after two weeks. The $170 difference between it and the Ecobee pay
 
 ---
 
-![Amazon Smart Thermostat on wall](/images/products/amazon-smart-thermostat-1.jpg)
+![Amazon Smart Thermostat on wall product image with detailed view and professional lighting](/images/products/amazon-smart-thermostat-1.jpg)
 
 Quick hits on stuff that matters:
 

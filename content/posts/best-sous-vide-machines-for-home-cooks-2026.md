@@ -27,7 +27,7 @@ TocOpen: false
 
 cover:
     image: "/images/products/anova-precision-cooker-3-1.jpg"
-    alt: "Anova Precision Cooker 3.0 sous vide machine"
+    alt: "Anova Precision Cooker 3.0 sous vide machine with multiple cooking functions and timer"
     caption: "The gadget I rolled my eyes at for years"
     relative: false
 
@@ -61,7 +61,7 @@ The way it works is stupidly simple. You clip this stick thing to the side of a 
 
 The food can't overcook because it physically cannot exceed the water temperature. Set it to 130°F and walk away for 3 hours. Come back and your steak is exactly 130°F all the way through. Sear it for 60 seconds per side and you're eating.
 
-![Anova Precision Cooker 3.0](/images/products/anova-precision-cooker-3-1.jpg)
+![Anova Precision Cooker 3 1 product showcase with detailed features and premium finish](/images/products/anova-precision-cooker-3-1.jpg)
 
 That predictability is the whole point. I used to think precision cooking was for food nerds who cared about decimal points. But really it's for people who don't want to babysit their food or risk screwing up a $30 piece of meat.
 
@@ -77,7 +77,7 @@ The [Anova Precision Cooker 3.0](https://www.amazon.com/dp/B0BQ9F56WV?tag=amazon
 
 The physical controls on the unit are intuitive enough. Twist the dial to set temperature, push to start. My parents could figure it out without an app which matters if you're gifting one.
 
-![Breville Joule Turbo](/images/products/breville-joule-turbo-1.jpg)
+![Breville Joule Turbo product image with detailed view and professional lighting](/images/products/breville-joule-turbo-1.jpg)
 
 The [Breville Joule Turbo](https://www.amazon.com/dp/B0C384T4P2?tag=amazonfi08e0c-20) costs around $250 and is genuinely better — but double the price for maybe 15% better performance. It's smaller (easier to store), heats faster (1110 watts with their "turbo" mode), and the app is really well designed with visual guides for doneness.
 

@@ -25,7 +25,7 @@ cons:
 
 cover:
     image: "/images/products/vitamix-5200-1.jpg"
-    alt: "Vitamix E310 Vs Ninja Bl480"
+alt: "Vitamix E310 Vs Ninja Bl480 product image with detailed view and professional lighting"
 ---
 
 # Vitamix E310 vs Ninja BL480: When Premium Meets Practical

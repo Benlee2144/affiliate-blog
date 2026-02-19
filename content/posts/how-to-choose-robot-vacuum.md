@@ -1,6 +1,6 @@
 ---
 title: "How to Choose a Robot Vacuum in 2026 (A No-BS Guide)"
-description: "Cut through the marketing hype. Learn exactly what matters when choosing a robot vacuum: mapping, suction power, mopping, pet hair handling, and which budget tier actually makes sense."
+description: "Cut through the marketing hype. Learn exactly what matters when choosing a robot vacuum: mapping, suction power, mopping, pet hair handling, and which budget."
 excerpt: "Reddit's most recommended robot vacuum features explained in plain English. No fluff, just the specs that actually matter for your home."
 date: 2026-02-18
 lastmod: 2026-02-18
@@ -22,7 +22,7 @@ weight: 0
 
 cover:
     image: "/images/products/roborock-s8-maxv-ultra-1.jpg"
-    alt: "How To Choose Robot Vacuum"
+alt: "How To Choose Robot Vacuum product image with detailed view and professional lighting"
 ---
 
 We've spent hundreds of hours reading robot vacuum reviews, Reddit threads, and testing reports. Here's what actually matters when choosing one — and what's just marketing nonsense.

@@ -1,5 +1,5 @@
 ---
-title: "Best Outdoor Gear Under $100 in 2026 (We Tested 19 Products)"
+title: "Best Outdoor Gear Under $100 in (2026) (Tested 19 Products)"
 slug: "best-outdoor-gear-under-100"
 categories: ["Outdoor"]
 review: false
@@ -7,7 +7,7 @@ showToc: true
 date: 2026-02-18
 lastmod: 2026-02-18
 draft: false
-description: "After testing 19 budget outdoor products, here are the best performers under $100. From camping gear to hiking essentials, these deliver adventure-ready quality."
+description: "After testing 19 budget outdoor products, here are the best performers under $100. From camping gear to hiking essentials, these deliver adventure-ready."
 summary: "Quality outdoor adventures don't require premium gear. We found 8 excellent outdoor products under $100 that perform like expensive alternatives."
 keywords: ["best outdoor gear under $100", "budget camping gear 2026", "cheap outdoor equipment that works"]
 tags: ["outdoor gear", "camping", "hiking", "budget", "backpacking", "adventure", "survival"]
@@ -23,7 +23,7 @@ cons:
 
 cover:
     image: "/images/products/weber-kettle-1.jpg"
-    alt: "Best Outdoor Gear Under 100"
+alt: "Best Outdoor Gear Under 100 product image with detailed view and professional lighting"
 ---
 
 # Best Outdoor Gear Under $100 in 2026 (We Tested 19 Products)

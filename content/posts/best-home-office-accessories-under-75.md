@@ -1,5 +1,5 @@
 ---
-title: "Best Home Office Accessories Under $75 in 2026 (We Tested 22 Products)"
+title: "Best Home Office Accessories Under $75 in (2026) (Tested 22 Products)"
 slug: "best-home-office-accessories-under-75"
 categories: ["Office & Productivity"]
 review: false
@@ -23,7 +23,7 @@ cons:
 
 cover:
     image: "/images/products/benq-screenbar.jpg"
-    alt: "Best Home Office Accessories Under 75"
+alt: "Best Home Office Accessories Under 75 product image with detailed view and professional lighting"
 ---
 
 # Best Home Office Accessories Under $75 in 2026 (We Tested 22 Products)

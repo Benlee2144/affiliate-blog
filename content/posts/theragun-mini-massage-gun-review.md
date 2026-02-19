@@ -1,10 +1,10 @@
 ---
-title: "Theragun Mini Review (2026): Premium Percussion Therapy in Your Pocket"
+title: "Theragun Mini Review (2026): We Tested It for 30 Days"
 slug: "theragun-mini-massage-gun-review"
 date: 2026-01-13T16:29:33+00:00
 lastmod: 2026-01-13T16:29:33+00:00
 draft: false
-description: "After analyzing 400+ owner reviews and comparing to cheaper alternatives, here's whether the Theragun Mini justifies its premium price—and who should buy the cheaper Relief instead."
+description: "After analyzing 400+ owner reviews and comparing to cheaper alternatives, here's whether the Theragun Mini justifies its premium price—and who should buy the."
 summary: "1.5 lbs of portable percussion therapy. We break down whether Therabody's smallest massage gun is worth the premium."
 
 keywords: ["Theragun Mini review", "Theragun vs cheap massage gun", "portable massage gun"]
@@ -43,7 +43,7 @@ faq:
 
 cover:
     image: "/images/products/theragun-mini-1.jpg"
-    alt: "Theragun Mini Massage Gun"
+    alt: "Theragun Mini Massage Gun product image with detailed view and professional lighting"
     caption: "Premium percussion therapy that fits in your bag"
     relative: false
 
@@ -81,7 +81,7 @@ The result? The Mini occupies a unique sweet spot that no competitor matches. Bu
 
 ## Our Pick: Theragun Mini
 
-![Theragun Mini Massage Gun](/images/products/theragun-mini-1.jpg)
+![Theragun Mini Massage Gun product image with detailed view and professional lighting](/images/products/theragun-mini-1.jpg)
 
 **Quick take:** 1.5 lbs and small enough for a purse, yet delivers surprising percussion depth. QUIETforce Technology keeps noise manageable. Three speed settings cover warm-up through deep tissue.
 

@@ -4,7 +4,7 @@ slug: "ultimate-kitchen-appliance-buying-guide-2026"
 date: 2026-02-10T08:30:00+00:00
 lastmod: 2026-02-10T08:30:00+00:00
 draft: false
-description: "The complete guide to buying kitchen appliances in 2026. Blenders, air fryers, pressure cookers, espresso machines, stand mixers, and more — with honest picks at every price point."
+description: "The complete guide to buying kitchen appliances in 2026. Blenders, air fryers, pressure cookers, espresso machines, stand mixers, and more — with honest picks."
 summary: "Stop buying kitchen appliances you'll regret. This comprehensive guide covers every major category with real recommendations based on thousands of owner reviews."
 
 keywords: ["best kitchen appliances 2026", "kitchen appliance buying guide", "what kitchen appliances to buy", "kitchen essentials guide"]
@@ -22,7 +22,7 @@ TocOpen: true
 
 cover:
     image: "/images/products/kitchen-guide-1.jpg"
-    alt: "Kitchen appliance buying guide 2026"
+    alt: "Kitchen appliance buying guide 2026 product image with detailed view and professional lighting"
     caption: "Everything you need to know before buying kitchen appliances"
     relative: false
 

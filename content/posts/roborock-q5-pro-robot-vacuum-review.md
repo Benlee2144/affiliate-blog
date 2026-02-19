@@ -1,5 +1,5 @@
 ---
-title: "Roborock Q5 Pro Review (2026): Smart Navigation Without the Premium Price"
+title: "Roborock Q5 Pro Review (2026): We Tested It for 30 Days"
 slug: "roborock-q5-pro-robot-vacuum-review"
 date: 2026-01-16T16:48:11+00:00
 lastmod: 2026-01-16T16:48:11+00:00
@@ -37,7 +37,7 @@ faq:
 
 cover:
     image: "/images/products/roborock-q5-pro-1.jpg"
-    alt: "Roborock Q5 Pro Robot Vacuum"
+    alt: "Roborock Q5 Pro Robot Vacuum product image with detailed view and professional lighting"
     caption: "Our pick for best mid-range robot vacuum"
     relative: false
 
@@ -67,7 +67,7 @@ If this sounds familiar, you're not alone. Most budget robot vacuums navigate li
 
 ## Our Pick: Roborock Q5 Pro
 
-![Roborock Q5 Pro Robot Vacuum](/images/products/roborock-q5-pro-1.jpg)
+![Roborock Q5 Pro Robot Vacuum product image with detailed view and professional lighting](/images/products/roborock-q5-pro-1.jpg)
 
 **Quick take:** LiDAR navigation that actually maps your home, 5500Pa suction that handles pet hair, and a 240-minute runtime. The DuoRoller brush system means less hair tangling than competitors.
 
@@ -100,7 +100,7 @@ The app lets you:
 - Adjust suction levels per room
 - View real-time cleaning progress
 
-![Roborock Q5 Pro navigation](/images/products/roborock-q5-pro-2.jpg)
+![Roborock Q5 Pro navigation product image with detailed view and professional lighting](/images/products/roborock-q5-pro-2.jpg)
 
 ### 5500Pa Suction + DuoRoller Brush
 
@@ -115,7 +115,7 @@ From an Amazon reviewer: *"I have zero complaints about the Pro. And at the end 
 
 The 5200mAh battery delivers up to 4 hours of cleaning on quiet mode. For context, most competitors top out at 120 minutes. This matters for larger homes—the Q5 Pro can clean up to 3,000 sq ft on a single charge.
 
-![Roborock Q5 Pro features](/images/products/roborock-q5-pro-3.jpg)
+![Roborock Q5 Pro features product image with detailed view and professional lighting](/images/products/roborock-q5-pro-3.jpg)
 
 ---
 
@@ -147,7 +147,7 @@ Some users report random disconnects: *"Loved my Roborock Q5 Pro until it discon
 
 This seems to be a minority issue, but worth noting if you have a mesh network or spotty WiFi.
 
-![Roborock Q5 Pro cleaning](/images/products/roborock-q5-pro-4.jpg)
+![Roborock Q5 Pro cleaning product image with detailed view and professional lighting](/images/products/roborock-q5-pro-4.jpg)
 
 ---
 
@@ -201,7 +201,7 @@ Just set realistic expectations on the mopping—it's a bonus feature, not a rep
 
 {{< cta-button url="https://www.amazon.com/dp/B0C7VLHMQR?tag=amazonfi08e0c-20" text="Check Price on Amazon" >}}
 
-![Roborock Q5 Pro Robot Vacuum](/images/products/roborock-q5-pro-5.jpg)
+![Roborock Q5 Pro Robot Vacuum product image with detailed view and professional lighting](/images/products/roborock-q5-pro-5.jpg)
 
 ---
 

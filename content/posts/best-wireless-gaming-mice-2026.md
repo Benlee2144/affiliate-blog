@@ -1,5 +1,5 @@
 ---
-title: "Best Wireless Gaming Mice 2026: I Tested 5 Before Keeping These 3"
+title: "Best Wireless Gaming Mice (2026)"
 slug: "best-wireless-gaming-mice-2026"
 date: 2026-02-14T22:52:00-05:00
 lastmod: 2026-02-14T22:52:00-05:00
@@ -27,7 +27,7 @@ TocOpen: false
 
 cover:
   image: "/images/products/razer-viper-v3-pro.jpg"
-  alt: "Razer Viper V3 Pro wireless gaming mouse in black"
+  alt: "Razer Viper V3 Pro wireless gaming mouse with Focus Pro 30K sensor and 90-hour battery"
   relative: false
   hidden: false
 
@@ -62,7 +62,7 @@ The two I returned? Pulsar X2 (quality control issues, mine had a wobbly side bu
 
 ## Razer Viper V3 Pro — The One I Use Every Day
 
-![Razer Viper V3 Pro wireless gaming mouse](/images/products/razer-viper-v3-pro.jpg "Razer Viper V3 Pro")
+![Razer Viper V3 Pro wireless gaming mouse with Focus Pro 30K sensor and 90-hour battery](/images/products/razer-viper-v3-pro.jpg "Razer Viper V3 Pro")
 
 [Check current price on Amazon](https://www.amazon.com/dp/B0CW25XR5R?tag=amazonfi08e0c-20)
 
@@ -78,7 +78,7 @@ Battery life is rated at 95 hours at 1000 Hz. I charge mine maybe once every wee
 
 ## Logitech G Pro X Superlight 2 — The Safe Pick
 
-![Logitech G Pro X Superlight 2 in white](/images/products/logitech-gpx-superlight-2.jpg "Logitech G Pro X Superlight 2")
+![Logitech G Pro X Superlight 2 wireless gaming mouse in white with HERO 25K sensor](/images/products/logitech-gpx-superlight-2.jpg "Logitech G Pro X Superlight 2")
 
 [See it on Amazon](https://www.amazon.com/dp/B09NBWQDKX?tag=amazonfi08e0c-20)
 
@@ -98,7 +98,7 @@ If you're coming from any previous Logitech mouse and like the shape, get this. 
 
 ## Razer DeathAdder V3 HyperSpeed — The Budget King (Sort Of)
 
-![Razer DeathAdder V3 HyperSpeed with accessories](/images/products/razer-deathadder-v3-hyperspeed.jpg "Razer DeathAdder V3 HyperSpeed")
+![Razer DeathAdder V3 HyperSpeed wireless gaming mouse with ergonomic right-handed design](/images/products/razer-deathadder-v3-hyperspeed.jpg "Razer DeathAdder V3 HyperSpeed")
 
 [Grab one here](https://www.amazon.com/dp/B0D4RF55QK?tag=amazonfi08e0c-20)
 

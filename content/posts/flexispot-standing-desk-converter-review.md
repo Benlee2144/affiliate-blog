@@ -45,7 +45,7 @@ faq:
 
 cover:
     image: "/images/products/flexispot-desk-1.jpg"
-    alt: "FlexiSpot Standing Desk Converter"
+    alt: "FlexiSpot Standing Desk Converter product image with detailed view and professional lighting"
     caption: "Turn any desk into a sit-stand workstation"
     relative: false
 
@@ -85,7 +85,7 @@ The FlexiSpot consistently delivers the best balance of stability, functionality
 
 ## Our Pick: FlexiSpot 35" Standing Desk Converter
 
-![FlexiSpot Standing Desk Converter](/images/products/flexispot-desk-1.jpg)
+![FlexiSpot Standing Desk Converter product image with detailed view and professional lighting](/images/products/flexispot-desk-1.jpg)
 
 **Quick take:** 4.8/5 stars from 8,300+ Amazon reviews. Pneumatic lift requires no electricity, height adjusts from 5.7" to 19.7", and the 35" workspace fits dual monitors plus keyboard.
 

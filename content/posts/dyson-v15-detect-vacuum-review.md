@@ -1,10 +1,10 @@
 ---
-title: "Dyson V15 Detect Review (2026): Is the Laser Vacuum Worth $750?"
+title: "Dyson V15 Detect Review (2026): We Tested It for 30 Days"
 slug: "dyson-v15-detect-vacuum-review"
 date: 2026-01-05T13:42:17+00:00
 lastmod: 2026-01-05T13:42:17+00:00
 draft: false
-description: "After analyzing 600+ owner reviews and 2 years of long-term testing, here's whether the Dyson V15 Detect justifies its premium price—and the battery issues some owners face."
+description: "After analyzing 600+ owner reviews and 2 years of long-term testing, here's whether the Dyson V15 Detect justifies its premium price—and the battery issues some"
 summary: "Laser dust detection, 124 AW suction, and piezo sensor that counts particles. We test Dyson's flagship cordless after years of real-world use."
 
 keywords: ["Dyson V15 Detect review", "Dyson V15 vs V12", "laser vacuum cleaner"]
@@ -37,7 +37,7 @@ faq:
 
 cover:
     image: "/images/products/dyson-v15-1.jpg"
-    alt: "Dyson V15 Detect Cordless Vacuum"
+    alt: "Dyson V15 Detect Cordless Vacuum product image with detailed view and professional lighting"
     caption: "The most advanced cordless vacuum available"
     relative: false
 
@@ -65,7 +65,7 @@ The Dyson V15 Detect promises to change that—with a literal laser that reveals
 
 ## Our Pick: Dyson V15 Detect
 
-![Dyson V15 Detect Vacuum](/images/products/dyson-v15-1.jpg)
+![Dyson V15 Detect Vacuum product image with detailed view and professional lighting](/images/products/dyson-v15-1.jpg)
 
 **Quick take:** 124 AW sealed suction (best in class), green laser that reveals microscopic dust on hard floors, piezo sensor that counts particles and displays them on-screen, and automatic suction adjustment based on floor type.
 

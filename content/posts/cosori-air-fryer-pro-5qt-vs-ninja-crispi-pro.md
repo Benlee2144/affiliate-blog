@@ -25,7 +25,7 @@ cons:
 
 cover:
     image: "/images/products/cosori-pro-5qt-1.jpg"
-    alt: "Cosori Air Fryer Pro 5Qt Vs Ninja Crispi Pro"
+alt: "Cosori Air Fryer Pro 5Qt Vs Ninja Crispi Pro product image with detailed view and professional lighting"
 ---
 
 # Cosori Air Fryer Pro 5QT vs Ninja Crispi Pro: The Battle of Air Fryer Philosophies

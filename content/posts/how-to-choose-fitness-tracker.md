@@ -1,6 +1,6 @@
 ---
 title: "How to Choose a Fitness Tracker: Garmin vs Apple Watch vs Fitbit"
-description: "Stop drowning in fitness tracker features. Learn what GPS accuracy actually means, which heart rate sensors work, and why battery life matters more than step counting accuracy."
+description: "Stop drowning in fitness tracker features. Learn what GPS accuracy actually means, which heart rate sensors work, and why battery life matters more than step."
 excerpt: "From casual step counting to marathon training: what 3 years of testing every major fitness tracker taught us about choosing devices that actually improve your health."
 date: 2026-02-18
 lastmod: 2026-02-18
@@ -22,7 +22,7 @@ weight: 0
 
 cover:
     image: "/images/products/apple-watch-10-1.jpg"
-    alt: "How To Choose Fitness Tracker"
+alt: "How To Choose Fitness Tracker product image with detailed view and professional lighting"
 ---
 
 We've tested 23 fitness trackers across every category and price range. Here's what actually matters when choosing between basic step counters and advanced sports watches — and why most people are tracking the wrong metrics.

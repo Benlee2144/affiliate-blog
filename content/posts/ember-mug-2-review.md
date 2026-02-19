@@ -4,7 +4,7 @@ slug: "ember-mug-2-review"
 date: 2026-01-10T10:34:16+00:00
 lastmod: 2026-01-10T10:34:16+00:00
 draft: false
-description: "After digging through Reddit threads, BBB complaints, and 200+ reviews, here's the real deal on the Ember Mug 2—including the coating issue that might make you reconsider."
+description: "After digging through Reddit threads, BBB complaints, and 200+ reviews, here's the real deal on the Ember Mug 2—including the coating issue that might make you."
 summary: "A $150 mug that keeps your coffee hot sounds great until you read about the coating flaking off. I spent way too long researching this thing."
 
 keywords: ["ember mug 2 review", "ember mug problems", "ember mug worth it", "smart coffee mug"]
@@ -35,7 +35,7 @@ faq:
 
 cover:
     image: "/images/products/ember-mug-2-1.jpg"
-    alt: "Ember Mug 2 temperature control smart mug"
+    alt: "Ember Mug 2 temperature control smart mug product image with detailed view and professional lighting"
     caption: "The Ember Mug 2 — impressive tech with some caveats"
     relative: false
 
@@ -61,7 +61,7 @@ What started as a quick search for "is the Ember Mug worth it" turned into three
 
 The Ember Mug 2 is a $150 coffee mug with a built-in heater and battery. You set your preferred temperature between 120°F and 145°F using the app, and it holds your drink there until you finish it or the battery dies (about 80 minutes). Keep it on the included charging coaster and it'll stay warm literally all day.
 
-![Ember Mug 2 in white](/images/products/ember-mug-2-2.jpg)
+![Ember Mug 2 in white product image with detailed view and professional lighting](/images/products/ember-mug-2-2.jpg)
 
 That's it. That's the product. And honestly, for slow coffee drinkers who hate reheating their cup three times a morning, it's kind of brilliant.
 
@@ -87,7 +87,7 @@ Here's where things get interesting. I spent a lot of time on the complaints bec
 
 This one showed up constantly. The interior has a ceramic-reinforced coating, and for some users, it starts flaking off.
 
-![Ember Mug 2 copper version](/images/products/ember-mug-2-3.jpg)
+![Ember Mug 2 copper version product image with detailed view and professional lighting](/images/products/ember-mug-2-3.jpg)
 
 On Reddit, someone posted that their mug started flaking in one area after just 3 months, eventually becoming a 50-cent-sized patch. Another person said the bottom started coming apart within two weeks — and understandably didn't love the idea of drinking coffee with "flakes of ceramic coated with god-knows-what."
 

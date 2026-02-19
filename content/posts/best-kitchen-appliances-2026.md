@@ -1,5 +1,5 @@
 ---
-title: "Best Kitchen Appliances 2026: We Researched So You Don't Have To"
+title: "Best Kitchen Appliances (2026)"
 date: 2026-02-18
 lastmod: 2026-02-18
 draft: false
@@ -14,7 +14,7 @@ cons:
   - "Kitchen size and cooking style variations affect appliance suitability"
   - "Brand reliability can vary by region and support availability"
   - "Some appliances require significant counter space many kitchens lack"
-description: "We've tested dozens of kitchen appliances and read thousands of reviews to find what actually works in real kitchens. From air fryers to espresso machines - honest recommendations."
+description: "We've tested dozens of kitchen appliances and read thousands of reviews to find what actually works in real kitchens. From air fryers to espresso machines -."
 keywords: ["best kitchen appliances 2026", "kitchen buying guide", "appliance reviews", "cooking gear 2026"]
 author: "Ben Arp"
 showToc: true
@@ -27,7 +27,7 @@ disableShare: false
 searchHidden: false
 cover:
     image: "/images/products/cosori-air-fryer-5qt-5.jpg"
-    alt: "Best Kitchen Appliances 2026 Collection"
+    alt: "Best Kitchen Appliances 2026 Collection product image with detailed view and professional lighting"
     caption: "Our top kitchen appliance picks for 2026"
     relative: false
 ---

@@ -4,7 +4,7 @@ slug: "weber-vs-traeger-grill-comparison"
 date: 2026-02-09T09:07:56+00:00
 lastmod: 2026-02-09T09:07:56+00:00
 draft: false
-description: "Charcoal purist vs pellet grill convert. After 3 summers with a Weber Kettle and 2 with a Traeger Ironwood, here's the truth about which grill is actually better."
+description: "Charcoal purist vs pellet grill convert. After 3 summers with a Weber Kettle and 2 with a Traeger Ironwood, here's the truth about which grill is actually."
 summary: "The oldest debate in backyard cooking. I've spent thousands of hours on both sides and the answer depends on one honest question you need to ask yourself."
 
 keywords: ["Weber vs Traeger", "charcoal vs pellet grill", "best grill 2026", "Traeger Ironwood review", "Weber Kettle vs Traeger"]
@@ -26,7 +26,7 @@ TocOpen: true
 
 cover:
     image: "/images/products/weber-vs-traeger-1.jpg"
-    alt: "Weber charcoal grill vs Traeger pellet grill"
+    alt: "Weber charcoal grill vs Traeger pellet grill product image with detailed view and professional lighting"
     caption: "The backyard showdown nobody can agree on"
     relative: false
 

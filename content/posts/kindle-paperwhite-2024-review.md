@@ -37,7 +37,7 @@ faq:
 
 cover:
     image: "/images/products/kindle-paperwhite-1.jpg"
-    alt: "Amazon Kindle Paperwhite 2024"
+    alt: "Amazon Kindle Paperwhite 2024 product image with detailed view and professional lighting"
     caption: "The best e-reader for most people"
     relative: false
 
@@ -66,7 +66,7 @@ An e-reader solves all of this—and the 2024 Kindle Paperwhite is the best one 
 
 ## Our Pick: Kindle Paperwhite (2024)
 
-![Kindle Paperwhite 2024](/images/products/kindle-paperwhite-1.jpg)
+![Kindle Paperwhite 2024 product image with detailed view and professional lighting](/images/products/kindle-paperwhite-1.jpg)
 
 **Quick take:** 7" glare-free display (up from 6.8"), 25% faster page turns, adjustable warm light, IPX8 waterproofing, and up to 12 weeks of battery life. The definitive reading device.
 
@@ -87,7 +87,7 @@ An e-reader solves all of this—and the 2024 Kindle Paperwhite is the best one 
 
 ## What's New in 2024
 
-![Kindle Paperwhite display](/images/products/kindle-paperwhite-2.jpg)
+![Kindle Paperwhite display product image with detailed view and professional lighting](/images/products/kindle-paperwhite-2.jpg)
 
 ### Larger 7" Display
 
@@ -105,7 +105,7 @@ The new processor delivers snappier performance. Page turns, menu navigation, an
 
 ## The Honest Downsides
 
-![Kindle Paperwhite e-reader](/images/products/kindle-paperwhite-3.jpg)
+![Kindle Paperwhite e-reader product image with detailed view and professional lighting](/images/products/kindle-paperwhite-3.jpg)
 
 ### Quality Control Concerns
 

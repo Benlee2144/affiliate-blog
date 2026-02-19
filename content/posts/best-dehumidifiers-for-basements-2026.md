@@ -27,7 +27,7 @@ TocOpen: false
 
 cover:
     image: "/images/products/midea-cube-pump-1.jpg"
-    alt: "Midea Cube 50 pint dehumidifier with built-in pump"
+    alt: "Midea Cube 50 pint dehumidifier with built-in pump product image with detailed view and professional lighting"
     caption: "Compact but pulls serious water"
     relative: false
 
@@ -76,7 +76,7 @@ But digging deeper, most of the failures people talk about are either cheap no-n
 
 The other big issue people mentioned was the bucket. Everyone hates emptying the bucket. A bunch of threads had comments like "the drain hose option is a must" and "for the love of god get one with a pump."
 
-![Midea Cube 50 pint dehumidifier](/images/products/midea-cube-pump-1.jpg)
+![Midea Cube 50 pint dehumidifier product image with detailed view and professional lighting](/images/products/midea-cube-pump-1.jpg)
 
 That last point stuck with me. My basement doesn't have a floor drain anywhere convenient. The only drain is in the laundry room corner, and running a hose across the floor seemed sketchy. So I specifically looked for units with a built-in pump that could push water uphill to a drain or out a window.
 
@@ -100,7 +100,7 @@ Within like 6 hours it had already pulled the humidity down to 54%. By the next 
 
 The smell was gone within a week. Not exaggerating. That musty basement odor just... disappeared. My wife thought I'd cleaned something down there when really I'd just been running the dehumidifer.
 
-![Frigidaire 50 pint dehumidifier with pump](/images/products/frigidaire-pump-1.jpg)
+![Frigidaire 50 pint dehumidifier with pump product image with detailed view and professional lighting](/images/products/frigidaire-pump-1.jpg)
 
 Now its been about 4 months. The unit runs maybe 30% of the time now that the initial moisture is gone. Energy cost has been noticably lower than I expected — our electric bill went up maybe $15-20/month when it was running constantly, and now it's probably $8-10 extra.
 
@@ -122,7 +122,7 @@ The Frigidaire and hOmeLabs would probably work fine too. I've seen the Frigidai
 
 If I had to buy again tomorrow I'd probably stick with the [Midea Cube](https://www.amazon.com/dp/B091BYVD2W?tag=amazonfi08e0c-20). The compact design actually matters when you're trying to tuck it in a corner, and so far the reliability has been fine.
 
-![hOmeLabs 50 pint dehumidifier with pump](/images/products/homelabs-pump-2.jpg)
+![hOmeLabs 50 pint dehumidifier with pump with ultrasonic technology and quiet operation](/images/products/homelabs-pump-2.jpg)
 
 For sizing, the general rule I found is: basement under 1000 sq ft with moderate humidity (55-70%) = 50 pint unit is probably enough. Bigger basement or really wet conditions = look at 70 pint. Don't oversize too much though, that cycling issue is real.
 

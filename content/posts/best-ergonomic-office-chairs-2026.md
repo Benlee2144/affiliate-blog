@@ -1,5 +1,5 @@
 ---
-title: "Best Ergonomic Office Chairs 2026: I Tested 4 So You Don't Have To"
+title: "Best Ergonomic Office Chairs (2026)"
 slug: "best-ergonomic-office-chairs-2026"
 date: 2026-02-12T22:52:00-05:00
 lastmod: 2026-02-12T22:52:00-05:00
@@ -69,7 +69,7 @@ I sat in each of these for at least two full work weeks. Not a weekend test — 
 
 ## HON Ignition 2.0 — The One I Keep Coming Back To
 
-![HON Ignition 2.0 office chair](/images/products/hon-ignition-2-1.jpg)
+![Hon Ignition 2 1 product showcase with detailed features and premium finish](/images/products/hon-ignition-2-1.jpg)
 
 I bought this from a local office furniture liquidator for $220 — they had a bunch from some company that downsized. Brand new, still in the box. You can find them on [Amazon for around $300](https://www.amazon.com/dp/B06Y3PGPR2?tag=amazonfi08e0c-20) which is still reasonable.
 
@@ -85,7 +85,7 @@ Tom's Guide gave this a pretty positive review and I mostly agree with them. Whe
 
 ## Branch Ergonomic Chair Pro — The Fancy One
 
-![Branch Ergonomic Chair Pro](/images/products/branch-ergonomic-pro-1.jpg)
+![Branch Ergonomic Chair Pro product image with detailed view and professional lighting](/images/products/branch-ergonomic-pro-1.jpg)
 
 CNET named this their best overall pick and... I get it. Sort of. It's a really nice chair. The 5D armrests are probably the best I've used outside of a Steelcase Leap, and the forward tilt feature is something I didn't know I wanted until I had it.
 
@@ -101,7 +101,7 @@ Also — and this is petty — the recline has this slightly plasticky click sou
 
 ## Branch Ergonomic Chair (Standard) — The Looker
 
-![Branch Ergonomic Chair](/images/products/branch-ergonomic-1.jpg)
+![Branch Ergonomic Chair product image with detailed view and professional lighting](/images/products/branch-ergonomic-1.jpg)
 
 This is what Wirecutter recommends and it's fine. It's a fine chair. The white frame looks genuinely great in a modern home office, way better than the sea of black mesh chairs everywhere. My wife actually said "that one looks nice" when it arrived, which is not something she's ever said about office furniture.
 
@@ -117,7 +117,7 @@ I used this for about 3 weeks before switching to the HON and immediately notice
 
 ## Ticova Ergonomic — The Budget Surprise
 
-![Ticova Ergonomic office chair](/images/products/ticova-ergonomic-1.jpg)
+![Ticova Ergonomic office chair product image with detailed view and professional lighting](/images/products/ticova-ergonomic-1.jpg)
 
 Ok so I bought this expecting to hate it. $130 for an office chair with a headrest, adjustable lumbar, AND a footrest? That screams "Amazon garbage" to me. I've been burned before by cheap chairs that feel great for a week then the gas cylinder dies or the fake leather starts peeling.
 

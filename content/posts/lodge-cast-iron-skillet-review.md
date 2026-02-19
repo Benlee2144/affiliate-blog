@@ -4,7 +4,7 @@ slug: "lodge-cast-iron-skillet-review"
 date: 2026-01-11T21:05:48+00:00
 lastmod: 2026-01-11T21:05:48+00:00
 draft: false
-description: "After analyzing 50,000+ Amazon reviews and testing for 5+ years, here's whether the Lodge cast iron skillet lives up to its legendary reputation—and the rough surface controversy."
+description: "After analyzing 50,000+ Amazon reviews and testing for 5+ years, here's whether the Lodge cast iron skillet lives up to its legendary reputation—and the rough."
 summary: "Pre-seasoned and ready to use at under $25. We test if America's most popular cast iron delivers on its century-old reputation."
 
 keywords: ["Lodge cast iron skillet review", "best cast iron skillet 2026", "Lodge vs Le Creuset", "cast iron pan seasoning"]
@@ -37,7 +37,7 @@ faq:
 
 cover:
     image: "/images/products/lodge-cast-iron-1.jpg"
-    alt: "Lodge 10.25 Inch Cast Iron Skillet"
+    alt: "Lodge 10.25 Inch Cast Iron Skillet with steam function and non-stick soleplate"
     caption: "The kitchen essential that lasts generations"
     relative: false
 
@@ -65,7 +65,7 @@ What if your next pan could last 100 years—and actually get better with age?
 
 ## Our Pick: Lodge 10.25" Pre-Seasoned Cast Iron Skillet
 
-![Lodge Cast Iron Skillet](/images/products/lodge-cast-iron-1.jpg)
+![Lodge Cast Iron Skillet product image with detailed view and professional lighting](/images/products/lodge-cast-iron-1.jpg)
 
 **Quick take:** American-made cast iron that's been the standard since 1896. Pre-seasoned and ready to use, naturally non-stick when properly maintained, and virtually indestructible. Your grandchildren will cook with this pan.
 

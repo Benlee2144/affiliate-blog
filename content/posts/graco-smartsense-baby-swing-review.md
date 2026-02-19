@@ -4,7 +4,7 @@ slug: "graco-smartsense-baby-swing-review"
 date: 2026-01-22T20:28:57+00:00
 lastmod: 2026-01-22T20:28:57+00:00
 draft: false
-description: "The Graco SmartSense swing promises 'cry detection technology' that soothes your baby automatically. I dug through parent forums and complaint threads to find out if it actually works."
+description: "The Graco SmartSense swing promises 'cry detection technology' that soothes your baby automatically. I dug through parent forums and complaint threads to find."
 summary: "Cry detection sounds like magic. But after reading through hundreds of parent reviews, the reality is more complicated than the marketing suggests."
 
 keywords: ["Graco SmartSense swing review", "baby swing cry detection", "Graco SmartSense vs mamaRoo", "best baby swing 2026"]
@@ -35,7 +35,7 @@ faq:
 
 cover:
     image: "/images/products/graco-smartsense-swing-1.jpg"
-    alt: "Graco SmartSense Soothing Baby Swing"
+    alt: "Graco SmartSense Soothing Baby Swing product image with detailed view and professional lighting"
     caption: "The swing that listens to your baby cry"
     relative: false
 
@@ -63,7 +63,7 @@ Four hours later, I'd read through probably 200+ parent reviews, watched a dozen
 
 The swing she was looking at? The **Graco SmartSense** with its fancy "Cry Detection Technology." And honestly, the more I dug into it, the more I realized this thing is genuinely polarizing. Parents either swear by it or think it's overpriced junk.
 
-![Graco SmartSense Baby Swing](/images/products/graco-smartsense-swing-1.jpg)
+![Graco SmartSense Baby Swing product image with detailed view and professional lighting](/images/products/graco-smartsense-swing-1.jpg)
 
 ## What "Cry Detection" Actually Means
 
@@ -83,7 +83,7 @@ That's... actually how it's designed to work? But I get why that would feel frus
 
 This is where things get interesting. The cry detection is either too sensitive or not sensitive enough, depending on who you ask.
 
-![Graco SmartSense swing close-up](/images/products/graco-smartsense-swing-2.jpg)
+![Graco SmartSense swing close-up product image with detailed view and professional lighting](/images/products/graco-smartsense-swing-2.jpg)
 
 **Too sensitive camp:**
 
@@ -109,7 +109,7 @@ From Graco's own website reviews:
 
 > *"After one use we noticed that it started making this weird clicking sound, then it started swinging improperly and got stuck in the forward swing position."*
 
-![Graco SmartSense swing features](/images/products/graco-smartsense-swing-3.jpg)
+![Graco SmartSense swing features product image with detailed view and professional lighting](/images/products/graco-smartsense-swing-3.jpg)
 
 Now, the SmartSense does have solid reviews overall—4.1 out of 5 stars with 70+ reviews on Graco's site. Won some parenting awards too. But when you filter for the negative stuff, the failure rate on the swing mechanism seems higher than it should be for a $230 product.
 
@@ -137,7 +137,7 @@ The SmartSense has the cry detection feature the mamaRoo doesn't have, more moti
 
 Here's the thing though—there was a mamaRoo recall in 2022 for strangulation concerns. You can get a free strap fastener fix from 4moms, but still. Worth knowing.
 
-![Graco SmartSense swing in nursery](/images/products/graco-smartsense-swing-4.jpg)
+![Graco SmartSense swing in nursery product image with detailed view and professional lighting](/images/products/graco-smartsense-swing-4.jpg)
 
 My honest take? If you want to control everything from your phone and care about aesthetics, get the mamaRoo. If you want the swing to try to figure things out automatically and you're okay with a bigger footprint, the SmartSense makes sense.
 

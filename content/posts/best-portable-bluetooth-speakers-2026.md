@@ -27,7 +27,7 @@ TocOpen: false
 
 cover:
     image: "/images/products/jbl-flip-7-1.jpg"
-    alt: "JBL Flip 7 portable Bluetooth speaker"
+    alt: "JBL Flip 7 portable Bluetooth speaker product image with detailed view and professional lighting"
     caption: "The JBL Flip 7 — my top pick after way too much testing"
     relative: false
 
@@ -65,7 +65,7 @@ But if you have specific needs — or a different budget — keep reading becaus
 
 ## JBL Flip 7 — The One I Kept
 
-![JBL Flip 7](/images/products/jbl-flip-7-1.jpg)
+![JBL Flip 7 product image with detailed view and professional lighting](/images/products/jbl-flip-7-1.jpg)
 
 I ordered this in blue from Amazon on a Tuesday, had it by Thursday. First impressions: it's slightly bigger than the Flip 6 but not enough to notice in a bag. The new PushLock system on top is actually pretty clever — you can swap out accessories like carabiners and straps.
 
@@ -81,7 +81,7 @@ One complaint: the JBL app is kinda bloated. You need it for the EQ settings and
 
 ## Bose SoundLink Flex 2 — If You Care About Sound Above Everything
 
-![Bose SoundLink Flex 2nd Gen](/images/products/bose-soundlink-flex-2-1.jpg)
+![Bose SoundLink Flex 2nd Gen product image with detailed view and professional lighting](/images/products/bose-soundlink-flex-2-1.jpg)
 
 Ok so I need to be honest here. The Bose sounds *better* than the JBL. There, I said it. The mids are richer, vocals sound more natural, and theres this spacious quality to the sound that JBL just doesn't match. My wife — who could not care less about audio gear — walked into the kitchen while I was playing Fleetwood Mac on this thing and said "wow that sounds really good." That never happens.
 
@@ -97,7 +97,7 @@ That said, if you mostly use a speaker indoors — kitchen, office, bedroom — 
 
 ## UE Wonderboom 4 — The Indestructible Little Tank
 
-![UE Wonderboom 4](/images/products/ue-wonderboom-4-1.jpg)
+![UE Wonderboom 4 product image with detailed view and professional lighting](/images/products/ue-wonderboom-4-1.jpg)
 
 This is the speaker Wirecutter has recommended for like 7 years running and... yeah I get it. The Wonderboom 4 is the Honda Civic of Bluetooth speakers. Not exciting, not flashy, just really good at what it does.
 
@@ -113,7 +113,7 @@ I gave this one to my mom after testing it and she loves it. Uses it in the kitc
 
 ## Soundcore Boom 2 — The Budget Beast Nobody Talks About
 
-![Soundcore Boom 2](/images/products/soundcore-boom-2-1.jpg)
+![Soundcore Boom 2 product image with detailed view and professional lighting](/images/products/soundcore-boom-2-1.jpg)
 
 Ok this one surprised me. I almost didn't buy it because Anker's Soundcore brand always felt like "the cheap option" in my head. But I kept seeing it pop up on r/Bluetooth_Speakers and a couple YouTube channels I trust (Oluv's Gadgets specifically) were raving about it.
 
@@ -129,7 +129,7 @@ The What Hi-Fi reviewers gave it 4 stars and said the treble was "slightly aggre
 
 ## JBL Charge 6 — For When Battery Life is Everything
 
-![JBL Charge 6](/images/products/jbl-charge-6-1.jpg)
+![JBL Charge 6 product image with detailed view and professional lighting](/images/products/jbl-charge-6-1.jpg)
 
 The Charge 6 is basically a bigger Flip 7 with one killer feature: 28 hours of battery life and a built-in power bank so you can charge your phone from it. If you go camping, travel a lot, or just hate charging things, this is the move.
 

@@ -24,9 +24,23 @@ author: "Ben Arp"
 showToc: true
 TocOpen: true
 
+faq:
+  - question: "Sony WH-1000XM5 or Bose QC Ultra for long flights?"
+    answer: "Bose QC Ultra—more comfortable for extended wear and better ANC for airplane engines. The Sony sounds better but the Bose wins on comfort after 4+ hours."
+  - question: "Which has better sound quality?"
+    answer: "Sony WH-1000XM5 has more detailed, dynamic sound. Bose QC Ultra is more balanced but less exciting. For music lovers, Sony wins clearly."
+  - question: "Do either work well for phone calls?"
+    answer: "Sony has much better call quality—8 microphones vs Bose's 6. In noisy environments, the Sony is notably clearer for voice calls."
+  - question: "Which headphones last longer on battery?"
+    answer: "Sony: 30 hours with ANC. Bose: 24 hours with ANC. Sony also charges faster (3 hours vs 2.5 hours full charge)."
+  - question: "Are the touch controls on Sony reliable?"
+    answer: "After 8 months, yes—but they took weeks to master. Bose's physical buttons are more intuitive initially but the Sony controls become second nature."
+  - question: "Which has better build quality?"
+    answer: "Surprisingly close. Sony feels more premium in materials, Bose has more durable hinges. Both have survived daily use without issues."
+
 cover:
     image: "/images/products/sony-wh1000xm5-vs-1.jpg"
-    alt: "Sony WH-1000XM5 vs Bose QC Ultra headphones"
+    alt: "Sony WH-1000XM5 vs Bose QC Ultra headphones product image with detailed view and professional lighting"
     caption: "Two flagships, eight months, one winner (kind of)"
     relative: false
 
@@ -81,7 +95,7 @@ Here's where things get subjective and forums get angry.
 
 I listen to a lot of everything. Rock on weekends, podcasts during work, some hip-hop at the gym. For my taste the Sony edges it out because that bass presence just makes music more fun. But I completely understand people who prefer the Bose's more refined sound.
 
-![Sony WH-1000XM5](/images/products/sony-wh1000xm5-vs-1.jpg)
+![Sony WH-1000XM5 product image with detailed view and professional lighting](/images/products/sony-wh1000xm5-vs-1.jpg)
 
 ## Comfort: 8-Hour Workday Test
 

@@ -5,7 +5,7 @@ date: 2026-01-25T13:16:00+00:00
 lastmod: 2026-01-25T13:16:00+00:00
 draft: false
 robots: "noindex, nofollow"
-description: "Moltbook is a social network exclusively for AI agents—and humans can only watch. We explore what's happening on 'the front page of the agent internet' and how you can observe the chaos yourself."
+description: "Moltbook is a social network exclusively for AI agents—and humans can only watch. We explore what's happening on 'the front page of the agent internet' and how."
 summary: "A social network where 770,000+ AI agents post, debate, and create religions while humans watch from the sidelines. Welcome to Moltbook."
 
 keywords: ["Moltbook", "AI social network", "AI agents", "artificial intelligence", "Moltbook website", "agent internet"]
@@ -40,7 +40,7 @@ faq:
 
 cover:
     image: "/images/products/moltbook-ai-social-network-1.jpg"
-    alt: "Moltbook - The AI Social Network"
+    alt: "Moltbook - The AI Social Network product image with detailed view and professional lighting"
     caption: "Where AI agents build their own internet"
     relative: false
 ---
@@ -63,7 +63,7 @@ Within weeks of launch, Moltbook exploded from 157,000 users to over **770,000 a
 
 Elon Musk called it "the very early stages of the singularity."
 
-![Moltbook AI social network interface](/images/products/moltbook-ai-social-network-1.jpg)
+![Moltbook AI social network interface product image with detailed view and professional lighting](/images/products/moltbook-ai-social-network-1.jpg)
 
 ---
 
@@ -79,7 +79,7 @@ Once registered, AI agents can:
 
 Humans can browse everything but cannot interact. You're essentially a ghost, watching artificial minds converse.
 
-![Moltbook - humans can observe but not participate](/images/products/moltbook-ai-social-network-2.png)
+![Moltbook - humans can observe but not participate product image with detailed view and professional lighting](/images/products/moltbook-ai-social-network-2.png)
 
 ---
 

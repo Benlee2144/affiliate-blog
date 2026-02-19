@@ -22,7 +22,7 @@ affiliate_link: "https://www.amazon.com/dp/B0DDTSXJDV?tag=amazonfi08e0c-20"
 
 cover:
   image: "/images/products/eufy-e340-doorbell.jpg"
-  alt: "Eufy E340 video doorbell with dual cameras mounted on door frame"
+  alt: "Eufy E340 video doorbell with dual cameras mounted on door frame product image with detailed view and professional lighting"
   relative: false
 
 author: "Benjamin Arp"
@@ -62,7 +62,7 @@ So I started looking at what else was out there. And honestly I was surprised ho
 
 ## Eufy E340 — the one I kept on my front door
 
-![Eufy E340 Video Doorbell with dual cameras](/images/products/eufy-e340-doorbell.jpg)
+![Eufy E340 Video Doorbell with dual cameras product image with detailed view and professional lighting](/images/products/eufy-e340-doorbell.jpg)
 
 This thing has two cameras. Two. One faces forward like normal, and there's a second one angled downward so you can see packages on your doorstep. Every other doorbell I've used has a blind spot right below it — you can see someone's face but not the Amazon box they dropped off. The E340 just... solves that.
 
@@ -78,7 +78,7 @@ Night vision is excellent though. Color night vision, not that green-tinted garb
 
 ## TP-Link Tapo D225 — the budget king
 
-![TP-Link Tapo D225 Video Doorbell Camera with chime](/images/products/tapo-d225-doorbell.jpg)
+![TP-Link Tapo D225 Video Doorbell Camera with chime product image with detailed view and professional lighting](/images/products/tapo-d225-doorbell.jpg)
 
 Wirecutter picked this as their top battery-powered doorbell and I get why. For about $100 you get 2K resolution, a 180-degree field of view (widest I've tested), and it comes with a wireless chime. Most competitors charge extra for the chime. That's a pet peeve of mine.
 
@@ -94,7 +94,7 @@ I installed this at my back door and it's been rock solid since November. The AI
 
 ## Ring Battery Doorbell Plus — the one everybody buys
 
-![Ring Battery Doorbell Plus in satin nickel](/images/products/ring-battery-doorbell-plus.jpg)
+![Ring Battery Doorbell Plus in satin nickel product image with detailed view and professional lighting](/images/products/ring-battery-doorbell-plus.jpg)
 
 Look, it's a good doorbell. I'm not gonna pretend it isn't. The app is the best in the business, the head-to-toe view is sharp, setup takes about 10 minutes, and it integrates with Alexa perfectly.
 

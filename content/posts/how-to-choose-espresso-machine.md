@@ -1,6 +1,6 @@
 ---
 title: "How to Choose an Espresso Machine (From a Former Nespresso User)"
-description: "Skip the coffee shop markup. Learn the real differences between manual, semi-auto, and super-auto espresso machines, why your grinder matters more than your machine, and which boiler types actually make sense."
+description: "Skip the coffee shop markup. Learn the real differences between manual, semi-auto, and super-auto espresso machines, why your grinder matters more than your."
 excerpt: "From pod machines to prosumer setups: what I wish someone had told me before spending $2,000 learning to make espresso at home."
 date: 2026-02-18
 lastmod: 2026-02-18
@@ -22,7 +22,7 @@ weight: 0
 
 cover:
     image: "/images/products/breville-bambino-plus-1.jpg"
-    alt: "How To Choose Espresso Machine"
+alt: "How To Choose Espresso Machine product image with detailed view and professional lighting"
 ---
 
 I've owned 12 espresso machines over 8 years, from a $60 Nespresso knockoff to a $3,000 prosumer setup. Here's what actually matters when choosing an espresso machine — and why most people should probably start with something cheaper than they're considering.

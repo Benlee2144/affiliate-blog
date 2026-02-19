@@ -4,7 +4,7 @@ slug: "apple-watch-series-10-review"
 date: 2026-01-05T20:10:23+00:00
 lastmod: 2026-01-05T20:10:23+00:00
 draft: false
-description: "After analyzing 500+ owner reviews and wearing it daily for 3 months, here's whether the Apple Watch Series 10 justifies upgrading—and the battery truth Apple won't tell you."
+description: "After analyzing 500+ owner reviews and wearing it daily for 3 months, here's whether the Apple Watch Series 10 justifies upgrading—and the battery truth Apple."
 summary: "Thinner design, larger display, sleep apnea detection. We test if the 10th anniversary Apple Watch delivers meaningful upgrades."
 
 keywords: ["Apple Watch Series 10 review", "best smartwatch 2026", "Apple Watch 10 vs Ultra", "Apple Watch battery life"]
@@ -37,7 +37,7 @@ faq:
 
 cover:
     image: "https://www.apple.com/newsroom/images/2024/09/introducing-apple-watch-series-10/article/Apple-Watch-Series-10-hero-240909_big.jpg.large.jpg"
-    alt: "Apple Watch Series 10"
+    alt: "Apple Watch Series 10 product image with detailed view and professional lighting"
     caption: "Apple's thinnest smartwatch ever"
     relative: false
 
@@ -67,7 +67,7 @@ A smartwatch filters what matters. The Apple Watch Series 10 does it better than
 
 ## Our Pick: Apple Watch Series 10
 
-![Apple Watch Series 10](/images/products/apple-watch-10-1.jpg)
+![Apple Watch Series 10 product image with detailed view and professional lighting](/images/products/apple-watch-10-1.jpg)
 
 **Quick take:** 10% thinner case, larger 46mm display option, sleep apnea detection, S10 chip with on-device Siri, and the same 18-hour battery life Apple refuses to improve.
 

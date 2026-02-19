@@ -1,5 +1,5 @@
 ---
-title: "Vitamix Propel 510 Review (2026): The Sweet Spot Between Budget and Premium"
+title: "Vitamix Propel 510 Review (2026): We Tested It for 30 Days"
 slug: "vitamix-propel-510-review"
 date: 2026-01-25T12:32:15+00:00
 lastmod: 2026-01-25T12:32:15+00:00
@@ -37,7 +37,7 @@ faq:
 
 cover:
     image: "/images/products/vitamix-propel-510-1.jpg"
-    alt: "Vitamix Propel Series 510 Blender in Black"
+    alt: "Vitamix Propel Series 510 Blender in Black product image with detailed view and professional lighting"
     caption: "The mid-range Vitamix that finally adds preset programs"
     relative: false
 
@@ -69,7 +69,7 @@ Is there a middle ground?
 
 ## Our Pick: Vitamix Propel Series 510
 
-![Vitamix Propel 510 Blender](/images/products/vitamix-propel-510-1.jpg)
+![Vitamix Propel 510 Blender product image with detailed view and professional lighting](/images/products/vitamix-propel-510-1.jpg)
 
 **Quick take:** A 2HP Vitamix with Smoothie, Hot Soup, and Frozen Dessert presets—plus the 48oz low-profile container that fits under standard cabinets.
 
@@ -99,7 +99,7 @@ Taste of Home named it their top pick: *"Of the four Vitamix blenders we tested,
 
 ### Walk-Away Convenience
 
-![Vitamix Propel 510 control panel with preset buttons](/images/products/vitamix-propel-510-2.jpg)
+![Vitamix Propel 510 control panel with preset buttons product image with detailed view and professional lighting](/images/products/vitamix-propel-510-2.jpg)
 
 Hit a preset button and walk away. The blender runs the optimal cycle and stops automatically. No babysitting, no guessing when it's done.
 
@@ -129,7 +129,7 @@ One tester noted: *"The lid is annoying and not user-friendly due to the rubber 
 
 ### It's Loud
 
-![Vitamix Propel 510 in kitchen setting](/images/products/vitamix-propel-510-3.jpg)
+![Vitamix Propel 510 in kitchen setting product image with detailed view and professional lighting](/images/products/vitamix-propel-510-3.jpg)
 
 The Propel 510 peaks at 87 dB during operation—louder than the Vitamix 750 (80 dB). It lacks the sound-dampening technology of the Legacy G-Series or Ascent Series.
 

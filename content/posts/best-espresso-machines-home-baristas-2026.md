@@ -1,10 +1,10 @@
 ---
-title: "Best Espresso Machines for Home Baristas 2026: What $100 vs $500 Actually Gets You"
+title: "Best Espresso Machines for Home Baristas (2026)"
 slug: "best-espresso-machines-home-baristas-2026"
 date: 2026-02-12T07:15:00-05:00
 lastmod: 2026-02-12T07:15:00-05:00
 draft: false
-description: "I've owned 3 espresso machines across every price range. Here's what's actually worth buying in 2026, from a $120 De'Longhi to a $600 Breville with a built-in grinder."
+description: "I've owned 3 espresso machines across every price range. Here's what's actually worth buying in 2026, from a $120 De'Longhi to a $600 Breville with a built-in."
 summary: "From budget to mid-range to serious hobby territory — which espresso machines are worth it and which ones are just fancy hot water dispensers."
 
 keywords: ["best espresso machines 2026", "home espresso machine", "espresso machine for beginners", "Breville Bambino Plus review", "Gaggia Classic Pro"]
@@ -37,7 +37,7 @@ faq:
 
 cover:
     image: "/images/products/breville-bambino-plus-1.jpg"
-    alt: "Breville Bambino Plus espresso machine brewing a shot"
+    alt: "Breville Bambino Plus automatic espresso machine with milk frother and compact design"
     caption: "The sweet spot for most home baristas"
     relative: false
 
@@ -62,7 +62,7 @@ So instead of ranking 15 machines I've never touched, I'm breaking this down by 
 
 ### De'Longhi Stilosa ($120)
 
-![De'Longhi Stilosa espresso machine](/images/products/delonghi-stilosa-1.jpg "De'Longhi Stilosa — solid for the price")
+![De'Longhi Stilosa manual espresso machine with stainless steel boiler and steam wand](/images/products/delonghi-stilosa-1.jpg "De'Longhi Stilosa — solid for the price")
 
 I started here. Bought the [De'Longhi Stilosa](https://www.amazon.com/dp/B08C96BG9H?tag=amazonfi08e0c-20) off Amazon for like $118 on a random Tuesday because I was tired of spending $6 on lattes.
 
@@ -90,7 +90,7 @@ This is where things get real. You go from "pressurized basket toy" to actual es
 
 ### Breville Bambino Plus ($500) — My Pick
 
-![Breville Bambino Plus espresso machine](/images/products/breville-bambino-plus-1.jpg "Breville Bambino Plus — the one I actually kept")
+![Breville Bambino Plus automatic espresso machine with milk frother and compact design](/images/products/breville-bambino-plus-1.jpg "Breville Bambino Plus — the one I actually kept")
 
 The [Breville Bambino Plus](https://www.amazon.com/dp/B07JVD78TT?tag=amazonfi08e0c-20) is what I upgraded to after the Stilosa, and honestly it felt like going from a Honda Civic to a BMW. That sounds dramatic but I'm serious.
 
@@ -119,7 +119,7 @@ The auto steam wand deserves its own mention because it changed how I make coffe
 
 ### Gaggia Classic Pro ($449) — The Tinkerer's Choice
 
-![Gaggia Classic Pro espresso machine](/images/products/gaggia-classic-evo-1.jpg "Gaggia Classic Pro — built like a tank")
+![Gaggia Classic Pro semi-automatic espresso machine with commercial-style group head](/images/products/gaggia-classic-evo-1.jpg "Gaggia Classic Pro — built like a tank")
 
 My buddy Jake has had a [Gaggia Classic Pro](https://www.amazon.com/dp/B07RQ3NL76?tag=amazonfi08e0c-20) for like 4 years and the thing looks like it'll outlive us both. This is the machine that r/espresso basically worships, and after pulling some shots on his, I get why.
 
@@ -151,7 +151,7 @@ But if you want great espresso with minimal fuss? Bambino Plus.
 
 ### Breville Barista Express Impress ($600)
 
-![Breville Barista Express Impress espresso machine](/images/products/breville-barista-express-impress-1.jpg "Breville Barista Express Impress — grinder included")
+![Breville Barista Express Impress espresso machine with built-in conical burr grinder](/images/products/breville-barista-express-impress-1.jpg "Breville Barista Express Impress — grinder included")
 
 The [Barista Express Impress](https://www.amazon.com/dp/B0BBYNPV33?tag=amazonfi08e0c-20) is what I'd buy if I was starting over from scratch and wanted one purchase to cover everything. Built-in burr grinder, assisted tamping (it literally tamps for you with consistent pressure), dose control, the works.
 

@@ -4,7 +4,7 @@ slug: "ninja-bl770-mega-kitchen-system-review"
 date: 2026-01-07T22:14:43+00:00
 lastmod: 2026-01-07T22:14:43+00:00
 draft: false
-description: "I dug through years of owner complaints, iFixit threads, and 8,000+ Best Buy reviews to see if the Ninja BL770 Mega Kitchen System is actually worth it—or just cheap junk."
+description: "I dug through years of owner complaints, iFixit threads, and 8,000+ Best Buy reviews to see if the Ninja BL770 Mega Kitchen System is actually worth it—or just."
 summary: "The Vitamix cult is strong. But after digging through thousands of owner reviews and repair forums, I'm not convinced everyone needs to drop $400+ on a blender."
 
 keywords: ["Ninja BL770 review", "Ninja Mega Kitchen System", "Ninja vs Vitamix", "Ninja BL770 problems"]
@@ -35,7 +35,7 @@ faq:
 
 cover:
     image: "/images/products/ninja-bl770-1.jpg"
-    alt: "Ninja BL770 Mega Kitchen System"
+    alt: "Ninja BL770 Mega Kitchen System product image with detailed view and professional lighting"
     caption: "The budget blender that refuses to stay in its lane"
     relative: false
 
@@ -58,7 +58,7 @@ But here's the thing that bugs me—most people asking for blender advice aren't
 
 So I spent way too much of last weekend digging through iFixit repair threads, 8,000+ Best Buy reviews, RTINGS lab tests, and enough Amazon complaints to make my eyes bleed. All to answer one question: **Is the Ninja BL770 Mega Kitchen System actually good, or is it just cheap garbage dressed up in marketing?**
 
-![Ninja BL770 Mega Kitchen System](/images/products/ninja-bl770-1.jpg)
+![Ninja BL770 Mega Kitchen System product image with detailed view and professional lighting](/images/products/ninja-bl770-1.jpg)
 
 ## What You Actually Get
 
@@ -83,7 +83,7 @@ Alright, here's where it gets interesting. Because no product is perfect, and th
 
 This one came up over and over in my research. The rubber seal on the blade assembly can start deteriorating within the first year. One iFixit user described theirs as turning into "a thick gooey mess" after about 10 months of regular use—and they weren't even putting it in the dishwasher.
 
-![Ninja BL770 accessories and cups](/images/products/ninja-bl770-3.jpg)
+![Ninja BL770 accessories and cups product image with detailed view and professional lighting](/images/products/ninja-bl770-3.jpg)
 
 Ninja does sell replacement gaskets, but the fact that this seems to be a recurring issue across multiple production runs is... not ideal. If you buy one, maybe budget an extra $10-15 for a spare gasket down the road.
 
@@ -124,7 +124,7 @@ Because I know someone's gonna ask.
 
 If texture is everything to you and budget doesn't matter, get the Vitamix. If you want versatility and don't want to spend half a mortgage payment on a kitchen appliance, the Ninja makes a lot of sense.
 
-![Ninja BL770 blending](/images/products/ninja-bl770-4.jpg)
+![Ninja BL770 blending product image with detailed view and professional lighting](/images/products/ninja-bl770-4.jpg)
 
 ## The Thing Nobody Else Mentions
 

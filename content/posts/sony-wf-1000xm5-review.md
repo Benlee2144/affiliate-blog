@@ -37,7 +37,7 @@ faq:
 
 cover:
     image: "/images/products/sony-wf-1000xm5-1.jpg"
-    alt: "Sony WF-1000XM5 Wireless Earbuds"
+    alt: "Sony WF-1000XM5 Wireless Earbuds product image with detailed view and professional lighting"
     caption: "The current benchmark for premium wireless earbuds"
     relative: false
 
@@ -66,7 +66,7 @@ What if you could have earbuds that actually sound like high-end headphones?
 
 ## Our Pick: Sony WF-1000XM5
 
-![Sony WF-1000XM5 Wireless Earbuds](/images/products/sony-wf-1000xm5-1.jpg)
+![Sony WF-1000XM5 Wireless Earbuds product image with detailed view and professional lighting](/images/products/sony-wf-1000xm5-1.jpg)
 
 **Quick take:** 87% noise reduction (best in class), audiophile-approved sound with customizable EQ, and 8 hours of battery per charge. 25% smaller than the previous generation.
 
@@ -94,7 +94,7 @@ In controlled testing, the XM5 reduced ambient noise by 87%—the highest of any
 
 What Hi-Fi called the noise canceling "remarkably effective." You'll forget you're on a plane or in a coffee shop.
 
-![Sony WF-1000XM5 in ear](/images/products/sony-wf-1000xm5-2.jpg)
+![Sony WF-1000XM5 in ear product image with detailed view and professional lighting](/images/products/sony-wf-1000xm5-2.jpg)
 
 ### Audiophile-Approved Sound
 
@@ -108,7 +108,7 @@ Sony shrunk these 25% smaller and 20% lighter than the XM4. The result? They act
 
 One reviewer noted: *"Gone are the days when you need to jam and twist the earbuds into your ears to attain a proper seal."*
 
-![Sony WF-1000XM5 with accessories](/images/products/sony-wf-1000xm5-3.jpg)
+![Sony WF-1000XM5 with accessories product image with detailed view and professional lighting](/images/products/sony-wf-1000xm5-3.jpg)
 
 ---
 
@@ -137,7 +137,7 @@ The case lid feels "a bit wobbly" compared to the XM4. It's not a dealbreaker, b
 
 You can connect to two devices simultaneously, but it's disabled by default and can cause stability issues when enabled.
 
-![Sony WF-1000XM5 case](/images/products/sony-wf-1000xm5-4.jpg)
+![Sony WF-1000XM5 case product image with detailed view and professional lighting](/images/products/sony-wf-1000xm5-4.jpg)
 
 ---
 
@@ -180,7 +180,7 @@ If you've been underwhelmed by "good enough" earbuds and want to hear what premi
 
 {{< cta-button url="https://www.amazon.com/dp/B0C345M3T7?tag=amazonfi08e0c-20" text="Check Price on Amazon" >}}
 
-![Sony WF-1000XM5](/images/products/sony-wf-1000xm5-5.jpg)
+![Sony WF-1000XM5 product image with detailed view and professional lighting](/images/products/sony-wf-1000xm5-5.jpg)
 
 ---
 

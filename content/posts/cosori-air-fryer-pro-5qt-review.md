@@ -37,7 +37,7 @@ faq:
 
 cover:
     image: "/images/products/cosori-air-fryer-5qt-1.png"
-    alt: "Cosori Air Fryer Pro 5QT"
+    alt: "Cosori Air Fryer Pro 5QT product image with detailed view and professional lighting"
     caption: "Our top pick for quiet, efficient air frying"
     relative: false
 
@@ -67,7 +67,7 @@ Sound familiar? That's exactly why the Cosori Pro 5QT has quietly (literally) be
 
 ## Our Pick: Cosori Air Fryer Pro 5QT
 
-![Cosori Air Fryer Pro 5QT](/images/products/cosori-air-fryer-5qt-1.png)
+![Cosori Air Fryer Pro 5QT product image with detailed view and professional lighting](/images/products/cosori-air-fryer-5qt-1.png)
 
 **Quick take:** 1500W of cooking power at refrigerator-level noise. The ceramic-coated basket cleans in seconds, and the 450°F max temperature cooks food 50% faster than a conventional oven.
 
@@ -97,7 +97,7 @@ At 53 decibels, this is one of the quietest air fryers ever tested. For context:
 
 Multiple r/airfryer users confirm this. One wrote: *"Everyone is saying go big... I downsized from a dual basket Ninja to a Cosori Pro LE. The noise difference is night and day."*
 
-![Cosori Air Fryer control panel](/images/products/cosori-air-fryer-5qt-2.png)
+![Cosori Air Fryer control panel product image with detailed view and professional lighting](/images/products/cosori-air-fryer-5qt-2.png)
 
 ### Actually Gets Crispy
 
@@ -111,7 +111,7 @@ The ceramic-coated nonstick basket is the real MVP. Food releases easily and res
 
 Reddit user feedback: *"Better/stronger circulation. Food cooks faster & gets crisper. It's MUCH easier to clean non stick surfaces (1 minute after each use)."*
 
-![Cosori Air Fryer basket](/images/products/cosori-air-fryer-5qt-3.png)
+![Cosori Air Fryer basket product image with detailed view and professional lighting](/images/products/cosori-air-fryer-5qt-3.png)
 
 ---
 
@@ -150,7 +150,7 @@ Unlike the Cosori Pro II, this model requires manual preheating. Add 3-5 minutes
 - You want WiFi/app control (Cosori Pro II)
 - You regularly feed 5+ people (look at 5.8QT+ models)
 
-![Cosori Air Fryer cooking](/images/products/cosori-air-fryer-5qt-4.png)
+![Cosori Air Fryer cooking product image with detailed view and professional lighting](/images/products/cosori-air-fryer-5qt-4.png)
 
 ---
 
@@ -185,7 +185,7 @@ At $89.99, it's the air fryer we recommend to anyone who asks—especially if th
 
 {{< cta-button url="https://www.amazon.com/dp/B0936FGLQS?tag=amazonfi08e0c-20" text="Check Price on Amazon" >}}
 
-![Cosori Air Fryer Pro 5QT](/images/products/cosori-air-fryer-5qt-5.jpg)
+![Cosori Air Fryer Pro 5QT product image with detailed view and professional lighting](/images/products/cosori-air-fryer-5qt-5.jpg)
 
 ---
 

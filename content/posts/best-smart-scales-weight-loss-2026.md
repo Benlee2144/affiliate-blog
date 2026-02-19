@@ -21,7 +21,7 @@ price: "$99.95"
 
 cover:
   image: "/images/products/withings-body-smart.jpg"
-  alt: "Withings Body Smart scale on bathroom floor with smartphone app"
+alt: "Withings Body Smart scale on bathroom floor with smartphone app product image with detailed view and professional lighting"
 
 affiliate_links:
   - name: "Withings Body Smart"
@@ -69,7 +69,7 @@ I went with three at different price points because I wanted to know if spending
 
 ### Withings Body Smart — The One I Kept
 
-![Withings Body Smart scale](/images/products/withings-body-smart.jpg)
+![Withings Body Smart scale product image with detailed view and professional lighting](/images/products/withings-body-smart.jpg)
 
 **Price:** ~$100 on Amazon
 
@@ -89,7 +89,7 @@ Build quality is solid. Glass top, feels premium. The display is a proper color 
 
 ### Renpho Elis 1 — Stupid Good for the Price
 
-![Renpho Elis 1 smart scale](/images/products/renpho-smart-scale.jpg)
+![Renpho Elis 1 smart scale product image with detailed view and professional lighting](/images/products/renpho-smart-scale.jpg)
 
 **Price:** ~$30 on Amazon
 
@@ -107,7 +107,7 @@ But seriously. Thirty bucks. If you're on a budget this is a no-brainer.
 
 ### Wyze Scale X — The Wirecutter Pick That I Almost Loved
 
-![Wyze Scale X smart scale](/images/products/wyze-scale-x.jpg)
+![Wyze Scale X smart scale product image with detailed view and professional lighting](/images/products/wyze-scale-x.jpg)
 
 **Price:** ~$34 on Amazon
 

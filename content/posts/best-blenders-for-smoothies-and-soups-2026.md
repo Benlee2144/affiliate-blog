@@ -27,7 +27,7 @@ TocOpen: false
 
 cover:
     image: "/images/products/vitamix-5200-1.jpg"
-    alt: "Vitamix 5200 blender with fruits and vegetables"
+    alt: "Vitamix 5200 blender with fruits and vegetables product image with detailed view and professional lighting"
     caption: "The blender that finally stopped making me hate smoothies"
     relative: false
 
@@ -70,7 +70,7 @@ Replaced it with a NutriBullet knockoff. Twenty bucks on Amazon, which should ha
 
 Third try was a legit [NutriBullet Pro](https://www.amazon.com/dp/B07CTBHQZK?tag=amazonfi08e0c-20). Better build quality, works great for basic smoothies. Still use it actually — perfect for quick protein shakes when I dont feel like pulling out the big blender. But for anything with frozen fruit or leafy greens? It struggles. The smoothie comes out... chunky. Like, detectably chunky.
 
-![NutriBullet Pro personal blender](/images/products/nutribullet-pro-1.jpg)
+![NutriBullet Pro personal blender product image with detailed view and professional lighting](/images/products/nutribullet-pro-1.jpg)
 
 ## What Changed My Mind
 
@@ -98,7 +98,7 @@ But here's what you're actually getting:
 
 **Self-cleaning.** Drop of dish soap, fill halfway with warm water, run on high for 60 seconds. Done. This actually matters when you're using it daily.
 
-![Vitamix 5200 blender](/images/products/vitamix-5200-1.jpg)
+![Vitamix 5200 blender product image with detailed view and professional lighting](/images/products/vitamix-5200-1.jpg)
 
 The tall, tapered container is annoying for storage — mine doesn't fit under my cabinets. But that shape is why it blends so well. Creates the vortex thing. Physics. Whatever.
 
@@ -110,7 +110,7 @@ I tested one at my sister's place. Made the same green smoothie I make every mor
 
 The Ninja uses stacked blades instead of a single blade at the bottom. Works well for ice and frozen fruit. Less effective for things like nut butters or hot soup — the motor isn't built for that kind of sustained heavy use.
 
-![Ninja Professional BL610 blender](/images/products/ninja-bl610-1.jpg)
+![Ninja Professional BL610 blender product image with detailed view and professional lighting](/images/products/ninja-bl610-1.jpg)
 
 Consumer Reports actually rated some Ninja models nearly as high as Vitamix for smoothie performance specifically. The gap closes significantly if all you're doing is smoothies.
 

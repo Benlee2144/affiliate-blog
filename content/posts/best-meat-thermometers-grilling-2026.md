@@ -27,7 +27,7 @@ TocOpen: false
 
 cover:
   image: "/images/products/thermapen-one-1.jpg"
-  alt: "ThermoWorks Thermapen ONE instant read meat thermometer"
+alt: "ThermoWorks Thermapen ONE instant-read meat thermometer with rotating display and waterproof design"
 
 faq:
   - question: "What is the most accurate meat thermometer?"
@@ -61,7 +61,7 @@ Here's what I landed on.
 
 ## The One Everyone Recommends: ThermoWorks Thermapen ONE
 
-![ThermoWorks Thermapen ONE](/images/products/thermapen-one-1.jpg)
+![ThermoWorks Thermapen ONE instant-read meat thermometer with rotating display and waterproof design](/images/products/thermapen-one-1.jpg)
 
 Yeah, I know. Every single review recommends the Thermapen. It's almost annoying at this point. But after using one for about 8 months now... they're right. Damn it.
 
@@ -75,7 +75,7 @@ But here's the thing I didn't expect — I actually use it way more than I thoug
 
 ## The Budget Pick That's Actually Good: ThermoPro TP19H
 
-![ThermoPro TP19H meat thermometer](/images/products/thermopro-tp19h-1.jpg)
+![ThermoPro TP19H digital instant-read meat thermometer with backlit display and fold-away probe](/images/products/thermopro-tp19h-1.jpg)
 
 Ok so here's where I disagree with most of the fancy reviewers. If you're a normal person who grills on weekends and makes dinner during the week, you do not need to spend $100+ on a thermometer.
 
@@ -91,7 +91,7 @@ I gave my old one to my neighbor Dave when I upgraded and he texts me like once 
 
 ## The Middle Ground: Lavatools Javelin Pro Duo
 
-![Lavatools Javelin Pro Duo thermometer](/images/products/lavatools-javelin-pro-1.jpg)
+![Lavatools Javelin Pro Duo digital meat thermometer with dual temperature sensors](/images/products/lavatools-javelin-pro-1.jpg)
 
 Wirecutter's budget pick and I get why. The Javelin Pro Duo is around $55 and it slots right between the ThermoPro and Thermapen in basically every way — speed, build quality, accuracy, all of it.
 
@@ -105,7 +105,7 @@ If somebody asked me "what thermometer should I buy" with zero other context, th
 
 ## The Wireless Option: MEATER Plus
 
-![MEATER Plus wireless thermometer](/images/products/meater-plus-1.jpg)
+![MEATER Plus wireless meat thermometer with Bluetooth connectivity for remote monitoring](/images/products/meater-plus-1.jpg)
 
 Now this is a completley different category. The MEATER Plus isn't really competing with instant-read thermometers — it's a leave-in probe that connects to your phone over Bluetooth.
 

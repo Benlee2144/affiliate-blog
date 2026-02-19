@@ -37,7 +37,7 @@ faq:
 
 cover:
     image: "/images/products/roku-streaming-1.jpg"
-    alt: "Roku Streaming Stick 4K"
+    alt: "Roku Streaming Stick 4K product image with detailed view and professional lighting"
     caption: "Stream everything for $50"
     relative: false
 
@@ -65,7 +65,7 @@ A streaming stick transforms any TV into a responsive, modern smart TV—and the
 
 ## Our Pick: Roku Streaming Stick 4K
 
-![Roku Streaming Stick 4K](/images/products/roku-streaming-1.jpg)
+![Roku Streaming Stick 4K product image with detailed view and professional lighting](/images/products/roku-streaming-1.jpg)
 
 **Quick take:** 4K HDR10+ streaming, Dolby Vision, dual-band WiFi, voice remote with TV controls, and access to every major streaming service. The streaming device that stays out of your way.
 

@@ -22,7 +22,7 @@ affiliate_link: "https://www.amazon.com/dp/B0DSRSTJ54?tag=amazonfi08e0c-20"
 
 cover:
   image: "/images/products/tcl-qm6k-65.jpg"
-  alt: "TCL QM6K 65 inch 4K mini-LED TV front view"
+  alt: "TCL QM6K 65 inch 4K mini-LED TV front view product image with detailed view and professional lighting"
   relative: false
 
 author: "Benjamin Arp"
@@ -71,7 +71,7 @@ So I bought all three. Well — I bought the QM6K first, then got curious and or
 
 ## TCL QM6K — The one I kept
 
-![TCL QM6K 65-inch mini-LED TV](/images/products/tcl-qm6k-65.jpg)
+![TCL QM6K 65-inch mini-LED TV product image with detailed view and professional lighting](/images/products/tcl-qm6k-65.jpg)
 
 [Check price on Amazon](https://www.amazon.com/dp/B0DSRSTJ54?tag=amazonfi08e0c-20)
 
@@ -89,7 +89,7 @@ Gaming was solid too. I hooked up my PS5 and the input lag was barely noticeable
 
 ## TCL QM7K — Good, but the math doesn't work
 
-![TCL QM7K 65-inch mini-LED TV](/images/products/tcl-qm7k-65.jpg)
+![TCL QM7K 65-inch mini-LED TV product image with detailed view and professional lighting](/images/products/tcl-qm7k-65.jpg)
 
 [See it on Amazon](https://www.amazon.com/dp/B0DVX8WJ7S?tag=amazonfi08e0c-20)
 
@@ -109,7 +109,7 @@ I returned it.
 
 ## Hisense U7QG — The wildcard
 
-![Hisense U7QG 65-inch mini-LED TV](/images/products/hisense-u7qg-65.jpg)
+![Hisense U7QG 65-inch mini-LED TV product image with detailed view and professional lighting](/images/products/hisense-u7qg-65.jpg)
 
 [Check current price on Amazon](https://www.amazon.com/dp/B0F1DWQKXC?tag=amazonfi08e0c-20)
 

@@ -4,7 +4,7 @@ slug: "best-massage-guns-for-recovery-2026"
 date: 2026-01-29T12:43:41+00:00
 lastmod: 2026-01-29T12:43:41+00:00
 draft: false
-description: "I spent $800 on massage guns before realizing most people only need one thing. Here's the honest breakdown of what works, what's overhyped, and where your money should actually go."
+description: "I spent $800 on massage guns before realizing most people only need one thing. Here's the honest breakdown of what works, what's overhyped, and where your money"
 summary: "Massage gun marketing is out of control. After testing several models and reading thousands of Amazon reviews, here's what actually matters — and it's probably not what you think."
 
 keywords: ["best massage gun 2026", "Theragun Prime review", "massage gun for recovery", "percussion massager comparison", "Theragun vs Hypervolt"]
@@ -27,7 +27,7 @@ TocOpen: false
 
 cover:
     image: "/images/products/theragun-prime-6th-gen-1.jpg"
-    alt: "Theragun Prime 6th Generation massage gun"
+    alt: "Theragun Prime 6th Generation massage gun product image with detailed view and professional lighting"
     caption: "The Theragun Prime - the sweet spot for most people"
     relative: false
 
@@ -87,7 +87,7 @@ I spent a weird amount of time reading reviews across price points. Here's what 
 
 ---
 
-![Theragun Prime 6th Gen in use](/images/products/theragun-prime-6th-gen-2.jpg)
+![Theragun Prime 6th Gen in use product image with detailed view and professional lighting](/images/products/theragun-prime-6th-gen-2.jpg)
 
 ## Why the Prime Specifically
 
@@ -127,7 +127,7 @@ If you travel constantly and want something TSA-friendly that won't take up your
 
 ---
 
-![Theragun Prime attachment heads](/images/products/theragun-prime-6th-gen-3.jpg)
+![Theragun Prime attachment heads product image with detailed view and professional lighting](/images/products/theragun-prime-6th-gen-3.jpg)
 
 ## The $50 Massage Gun Trap
 

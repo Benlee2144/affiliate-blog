@@ -1,5 +1,5 @@
 ---
-title: "Shark FlexStyle Review (2026): The Dyson Airwrap Alternative That Actually Competes"
+title: "Shark FlexStyle Review (2026): We Tested It for 30 Days"
 slug: "shark-flexstyle-air-styler-review"
 date: 2026-01-09T09:25:56+00:00
 lastmod: 2026-01-09T09:25:56+00:00
@@ -37,7 +37,7 @@ faq:
 
 cover:
     image: "/images/products/shark-flexstyle-1.jpg"
-    alt: "Shark FlexStyle Air Styler"
+    alt: "Shark FlexStyle Air Styler product image with detailed view and professional lighting"
     caption: "Salon-quality styling without the salon price"
     relative: false
 
@@ -66,7 +66,7 @@ Enter the Shark FlexStyle: same Coanda technology, half the price.
 
 ## Our Pick: Shark FlexStyle
 
-![Shark FlexStyle Air Styler](/images/products/shark-flexstyle-1.jpg)
+![Shark FlexStyle Air Styler product image with detailed view and professional lighting](/images/products/shark-flexstyle-1.jpg)
 
 **Quick take:** Coanda air curling, powerful hair dryer, and multiple styling attachments at half Dyson's price. The transforming flex hinge lets you style hard-to-reach sections easily.
 

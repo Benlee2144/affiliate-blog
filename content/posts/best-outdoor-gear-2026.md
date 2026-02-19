@@ -1,5 +1,5 @@
 ---
-title: "Best Outdoor Gear 2026: What Survives Real-World Use"
+title: "Best Outdoor Gear (2026): What Survives Real-World Use"
 date: 2026-02-18
 lastmod: 2026-02-18
 draft: false
@@ -27,7 +27,7 @@ disableShare: false
 searchHidden: false
 cover:
     image: "/images/products/weber-kettle-1.jpg"
-    alt: "Best Outdoor Gear 2026 Collection"
+    alt: "Best Outdoor Gear 2026 Collection product image with detailed view and professional lighting"
     caption: "Our top outdoor gear picks for 2026"
     relative: false
 ---

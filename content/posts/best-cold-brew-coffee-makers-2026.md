@@ -27,7 +27,7 @@ TocOpen: false
 
 cover:
   image: "/images/products/oxo-cold-brew-1.jpg"
-  alt: "OXO Good Grips cold brew coffee maker with glass carafe"
+  alt: "OXO Good Grips cold brew coffee maker with glass carafe product image with detailed view and professional lighting"
   relative: false
   hidden: false
 
@@ -62,7 +62,7 @@ So I went on a buying spree. Four cold brew makers over two years. And here's wh
 
 ## The Takeya: Where Most People Should Start
 
-![Takeya Cold Brew Coffee Maker](/images/products/takeya-cold-brew-1.jpg "Takeya Tritan Cold Brew Coffee Maker")
+![Takeya Cold Brew Coffee Maker product image with detailed view and professional lighting](/images/products/takeya-cold-brew-1.jpg "Takeya Tritan Cold Brew Coffee Maker")
 
 **Takeya Patented Deluxe Cold Brew Coffee Maker** — [check current price on Amazon](https://www.amazon.com/dp/B00FFLY64U?tag=amazonfi08e0c-20)
 
@@ -76,7 +76,7 @@ I used mine almost daily for about 8 months before I started wondering if I was 
 
 ## The OXO: My Actual Favorite
 
-![OXO Good Grips Cold Brew Coffee Maker](/images/products/oxo-cold-brew-1.jpg "OXO Good Grips 32oz Cold Brew Coffee Maker")
+![OXO Good Grips Cold Brew Coffee Maker product image with detailed view and professional lighting](/images/products/oxo-cold-brew-1.jpg "OXO Good Grips 32oz Cold Brew Coffee Maker")
 
 **OXO Good Grips 32 Ounce Cold Brew Coffee Maker** — [see it on Amazon](https://www.amazon.com/dp/B00JVSVM36?tag=amazonfi08e0c-20)
 
@@ -92,7 +92,7 @@ It makes concentrate, not ready-to-drink coffee. So you mix it about 1:1 with wa
 
 ## The Toddy: The Coffee Shop Standard
 
-![Toddy Cold Brew System](/images/products/toddy-cold-brew-1.jpg "Toddy Cold Brew System")
+![Toddy Cold Brew System product image with detailed view and professional lighting](/images/products/toddy-cold-brew-1.jpg "Toddy Cold Brew System")
 
 **Toddy Cold Brew System** — [grab one here](https://www.amazon.com/dp/B0006H0JVW?tag=amazonfi08e0c-20)
 
@@ -110,7 +110,7 @@ Consumer Reports actually rated the Toddy pretty high and I get why. The coffee 
 
 ## The KitchenAid: Pretty But Overpriced
 
-![KitchenAid Cold Brew Coffee Maker](/images/products/kitchenaid-cold-brew-1.jpg "KitchenAid 38oz Cold Brew Coffee Maker")
+![KitchenAid Cold Brew Coffee Maker product image with detailed view and professional lighting](/images/products/kitchenaid-cold-brew-1.jpg "KitchenAid 38oz Cold Brew Coffee Maker")
 
 **KitchenAid 38 oz Cold Brew Coffee Maker** — [current pricing](https://www.amazon.com/dp/B07G4W8S7K?tag=amazonfi08e0c-20)
 

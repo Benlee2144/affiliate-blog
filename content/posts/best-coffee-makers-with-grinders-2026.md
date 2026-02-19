@@ -22,7 +22,7 @@ affiliate_link: "https://www.amazon.com/dp/B00VGGVQCI?tag=amazonfi08e0c-20"
 
 cover:
   image: "/images/products/breville-bdc650bss.jpg"
-  alt: "Breville Grind Control coffee maker with built-in grinder"
+  alt: "Breville Grind Control coffee maker with built-in grinder product image with detailed view and professional lighting"
   relative: false
 
 author: "Benjamin Arp"
@@ -80,7 +80,7 @@ Spoiler: it doesn't. But the expensive one is still the best. Let me explain.
 
 ## Breville BDC650BSS — The One I Kept on the Counter
 
-![Breville Grind Control coffee maker](/images/products/breville-bdc650bss.jpg)
+![Breville Grind Control coffee maker product image with detailed view and professional lighting](/images/products/breville-bdc650bss.jpg)
 
 I bought the Breville off Amazon last March for $289. It showed up in a massive box — this thing is bigger than it looks in photos. Like, significantly bigger. Clear out some cabinet space before it arrives.
 
@@ -96,7 +96,7 @@ Also the grind chute. Every couple weeks I have to take the top apart and brush 
 
 ## Cuisinart DGB-900BC — The Smart Middle Ground
 
-![Cuisinart Grind and Brew coffee maker](/images/products/cuisinart-dgb-900bc-coffee.jpg)
+![Cuisinart Grind and Brew coffee maker product image with detailed view and professional lighting](/images/products/cuisinart-dgb-900bc-coffee.jpg)
 
 I picked up the Cuisinart at Target back in November for $95 on sale. Regular price is around $110 which is still pretty reasonable for what you get.
 
@@ -112,7 +112,7 @@ I watched a teardown video on YouTube from a channel called Coffee Chronicler (o
 
 ## Black+Decker CM5000B — The Budget Reality Check
 
-![Black and Decker Mill and Brew coffee maker](/images/products/blackdecker-cm5000b.jpg)
+![Black and Decker Mill and Brew coffee maker product image with detailed view and professional lighting](/images/products/blackdecker-cm5000b.jpg)
 
 Alright so I bought this one at Walmart for $58 back in August because I wanted to test the absolute floor of what a grind-and-brew can do. 
 

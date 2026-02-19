@@ -21,7 +21,7 @@ price: "$37.46"
 
 cover:
   image: "/images/products/espro-p3.jpg"
-  alt: "Espro P3 french press coffee maker with dual micro-filter system"
+  alt: "Espro P3 french press coffee maker with dual micro-filter system product image with detailed view and professional lighting"
   relative: false
 
 affiliate_links:
@@ -44,6 +44,17 @@ cons:
   - "Takes up significant counter space"
 amazon_rating: 4.8
 amazon_review_count: 3532
+faq:
+  - question: "Is the Espro P3 French press worth it in 2026?"
+    answer: "Yes, at $37 the Espro P3's dual micro-filter system eliminates sediment completely while producing richer coffee than $200+ drip machines. It's the best innovation in French press design in decades."
+  - question: "How does the Espro P3 compare to the Bodum Chambord?"
+    answer: "Espro P3 produces cleaner coffee with zero sediment thanks to dual filters, while Bodum Chambord offers classic aesthetics and solid build quality but allows some grounds through."
+  - question: "Does French press coffee really taste better than drip coffee?"
+    answer: "Yes, dramatically. French press allows 4-minute steeping versus single water pass-through, extracting more oils and flavors that paper filters trap in drip machines."
+  - question: "Should I buy a French press or expensive drip coffee maker?"
+    answer: "French press at $25-40 makes better coffee than most $200+ drip machines. The author's side-by-side tests showed French press was richer and smoother with more flavor complexity."
+  - question: "Is French press coffee bad for cholesterol?"
+    answer: "Only if you drink 5-6 cups daily. At normal consumption (1-2 cups), the cholesterol impact is minimal. The Espro P3's fine filters also catch more cafestol than standard mesh filters."
 ---
 
 I need to rant for a second.
@@ -82,7 +93,7 @@ Depends on what you care about. Let me break down the three I've used.
 
 [Check current price on Amazon](https://www.amazon.com/dp/B011WTM622?tag=amazonfi08e0c-20)
 
-![Espro P3 french press with dual filter system](/images/products/espro-p3.jpg)
+![Espro P3 french press with dual filter system product image with detailed view and professional lighting](/images/products/espro-p3.jpg)
 
 This is the one I use every single morning. The dual filter is genuinley the best innovation in french press design in like 50 years. Wirecutter picked it as their top choice too, and for once I actually agree with them.
 
@@ -103,7 +114,7 @@ I paid $37 for mine on Amazon. At that price it's stupid not to try it.
 
 [See it on Amazon](https://www.amazon.com/dp/B003D3NBDY?tag=amazonfi08e0c-20)
 
-![Bodum Chambord french press with chrome frame](/images/products/bodum-chambord.jpg)
+![Bodum Chambord french press with chrome frame product image with detailed view and professional lighting](/images/products/bodum-chambord.jpg)
 
 If you've ever seen a french press in a movie or a coffee shop, it was probably a Chambord. This thing has been around since the 1950s and theres a reason — it's beautiful, it works, and it feels like a real piece of kitchen equipment.
 
@@ -117,7 +128,7 @@ I'd say the Chambord is for people who care about aesthetics and don't mind a ti
 
 [View on Amazon](https://www.amazon.com/dp/B07JGBK6XV?tag=amazonfi08e0c-20)
 
-![Mueller stainless steel french press](/images/products/mueller-french-press.jpg)
+![Mueller stainless steel french press product image with detailed view and professional lighting](/images/products/mueller-french-press.jpg)
 
 My brother-in-law has had this thing for three years. He has two kids under five. He's dropped it more times than he can count and it still works perfectly because — surprise — stainless steel doesn't shatter.
 

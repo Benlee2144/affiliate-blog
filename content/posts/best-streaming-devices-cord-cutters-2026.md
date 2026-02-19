@@ -37,7 +37,7 @@ faq:
 
 cover:
     image: "/images/products/roku-stick-4k.jpg"
-    alt: "Roku Streaming Stick 4K with voice remote"
+    alt: "Roku Streaming Stick 4K with voice remote product image with detailed view and professional lighting"
     caption: "Still the one to beat for most people"
     relative: false
 
@@ -68,7 +68,7 @@ What actually matters is three things — the interface speed, how annoying the 
 
 ## My pick for most people: Roku Streaming Stick 4K
 
-![Roku Streaming Stick 4K](/images/products/roku-stick-4k.jpg "The Roku Streaming Stick 4K — small, cheap, and honestly just works")
+![Roku Streaming Stick 4K product image with detailed view and professional lighting](/images/products/roku-stick-4k.jpg "The Roku Streaming Stick 4K — small, cheap, and honestly just works")
 
 **Price:** ~$50 | [Check current price on Amazon](https://www.amazon.com/dp/B09BKCDXZC?tag=amazonfi08e0c-20)
 
@@ -84,7 +84,7 @@ Dolby Vision support means HDR content looks great on compatible TVs. The remote
 
 ## The budget king: Roku Streaming Stick Plus (2025)
 
-![Roku Streaming Stick Plus 2025](/images/products/roku-stick-plus-2025.jpg "The newer Plus model at a crazy low price")
+![Roku Streaming Stick Plus 2025 product image with detailed view and professional lighting](/images/products/roku-stick-plus-2025.jpg "The newer Plus model at a crazy low price")
 
 **Price:** ~$30 | [See it on Amazon](https://www.amazon.com/dp/B0DXY833HV?tag=amazonfi08e0c-20)
 
@@ -96,7 +96,7 @@ I bought one of these for my bedroom TV and it's been flawless. No complaints wh
 
 ## For the Amazon household: Fire TV Stick 4K Max
 
-![Amazon Fire TV Stick 4K Max](/images/products/fire-tv-stick-4k-max.jpg "The Fire TV Stick 4K Max with Alexa remote")
+![Amazon Fire TV Stick 4K Max product image with detailed view and professional lighting](/images/products/fire-tv-stick-4k-max.jpg "The Fire TV Stick 4K Max with Alexa remote")
 
 **Price:** ~$60 | [Check availability](https://www.amazon.com/dp/B0BP9SNVH9?tag=amazonfi08e0c-20)
 
@@ -112,7 +112,7 @@ Also — and this is a weird complaint — the remote has too many buttons. Ther
 
 ## The premium pick: Apple TV 4K
 
-![Apple TV 4K 3rd generation](/images/products/apple-tv-4k.jpg "Apple TV 4K — premium price, premium experience")
+![Apple TV 4K 3rd generation product image with detailed view and professional lighting](/images/products/apple-tv-4k.jpg "Apple TV 4K — premium price, premium experience")
 
 **Price:** ~$130 | [View on Amazon](https://www.amazon.com/dp/B0BJLDVJTC?tag=amazonfi08e0c-20)
 
@@ -130,7 +130,7 @@ I had mine for 18 months before it died and I loved using it. I just can't justi
 
 ## The Android pick: Google TV Streamer
 
-![Google TV Streamer 4K](/images/products/google-tv-streamer.jpg "Google's latest streaming device")
+![Google TV Streamer 4K product image with detailed view and professional lighting](/images/products/google-tv-streamer.jpg "Google's latest streaming device")
 
 **Price:** ~$100 | [Current pricing](https://www.amazon.com/dp/B0D8WJYSF9?tag=amazonfi08e0c-20)
 

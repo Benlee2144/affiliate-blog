@@ -14,7 +14,7 @@ cons:
   - "Individual workspace needs vary greatly by job type and space constraints"
   - "High-quality office setup requires significant upfront investment"
   - "Some recommendations may not suit shared living/working spaces"
-description: "We've tested dozens of office products through months of remote work to find what actually improves productivity. From standing desks to webcams - honest recommendations."
+description: "We've tested dozens of office products through months of remote work to find what actually improves productivity. From standing desks to webcams - honest."
 keywords: ["best office setup 2026", "home office guide", "work from home products", "productivity gear 2026"]
 author: "Ben Arp"
 showToc: true
@@ -27,7 +27,7 @@ disableShare: false
 searchHidden: false
 cover:
     image: "/images/products/benq-screenbar-halo.jpg"
-    alt: "Best Home Office Setup 2026 Collection"
+    alt: "Best Home Office Setup 2026 Collection product image with detailed view and professional lighting"
     caption: "Our top office and productivity picks for 2026"
     relative: false
 ---

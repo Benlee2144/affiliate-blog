@@ -27,7 +27,7 @@ TocOpen: false
 
 cover:
     image: "/images/products/cuisinart-cpk17-1.jpg"
-    alt: "Cuisinart CPK-17 PerfecTemp electric kettle on kitchen counter"
+    alt: "Cuisinart CPK-17 PerfecTemp electric kettle on kitchen counter product image with detailed view and professional lighting"
     caption: "The kettle that finally made my tea taste right"
     relative: false
 
@@ -75,7 +75,7 @@ I learned this the hard way after buying a $30 tin of Japanese sencha that taste
 
 The solution wasn't a fancy tea pot or special technique. It was just... a kettle that lets you pick the temperature.
 
-![Cuisinart CPK-17 PerfecTemp kettle](/images/products/cuisinart-cpk17-1.jpg)
+![Cuisinart CPK-17 PerfecTemp kettle product image with detailed view and professional lighting](/images/products/cuisinart-cpk17-1.jpg)
 
 ## What I Actually Use Now
 
@@ -95,7 +95,7 @@ If you want something that looks like it belongs in a design museum, the [Fellow
 
 Gorgeous. That matte black finish with the angular spout. People on YouTube coffee channels treat this thing like art. And honestly... it is kind of beautiful.
 
-![Fellow Stagg EKG gooseneck kettle](/images/products/fellow-stagg-ekg-1.jpg)
+![Fellow Stagg EKG gooseneck kettle product image with detailed view and professional lighting](/images/products/fellow-stagg-ekg-1.jpg)
 
 The gooseneck spout gives you precise pour control. If you're doing pour-over coffee, this is almost mandatory. For tea? It's nice but not necessary.
 
@@ -115,7 +115,7 @@ Glass body so you can see the water. Single-degree temperature control from 104Â
 
 Around $100. Bigger capacity than the Fellow. More control than the Cuisinart.
 
-![OXO Brew glass electric kettle](/images/products/oxo-brew-kettle-1.jpg)
+![OXO Brew glass electric kettle product image with detailed view and professional lighting](/images/products/oxo-brew-kettle-1.jpg)
 
 Downside: glass kettles are heavier. And if you drop it... well, you're buying a new kettle.
 

@@ -22,7 +22,7 @@ affiliate_link: "https://www.amazon.com/dp/B016P9HJIA?tag=amazonfi08e0c-20"
 
 cover:
   image: "/images/products/edifier-r1280t.jpg"
-  alt: "Edifier R1280T powered bookshelf speakers on a desk"
+  alt: "Edifier R1280T powered bookshelf speakers on a desk product image with detailed view and professional lighting"
   relative: false
 
 author: "Benjamin Arp"
@@ -60,7 +60,7 @@ I ended up buying three different sets at three different price points. Here's w
 
 ## The $30 question: Creative Pebble Plus
 
-![Creative Pebble Plus 2.1 desktop speakers](/images/products/creative-pebble-plus.jpg)
+![Creative Pebble Plus 2.1 desktop speakers with Bluetooth 5.0 and waterproof design](/images/products/creative-pebble-plus.jpg)
 
 I grabbed the [Creative Pebble Plus](https://www.amazon.com/dp/B07NWLWM9B?tag=amazonfi08e0c-20) from Amazon because they're like the default recommendation everywhere. $30, USB powered, comes with a little subwoofer. Tom's Guide has them on their budget picks list. Reddit loves them. Every "best speakers under $50" article has them.
 
@@ -74,7 +74,7 @@ Ouch.
 
 ## The sweet spot everyone should start at: Edifier R1280T
 
-![Edifier R1280T bookshelf speakers on desk](/images/products/edifier-r1280t.jpg)
+![Edifier R1280T bookshelf speakers on desk product image with detailed view and professional lighting](/images/products/edifier-r1280t.jpg)
 
 Ok so the [Edifier R1280T](https://www.amazon.com/dp/B016P9HJIA?tag=amazonfi08e0c-20) is where things get interesting. These are technically bookshelf speakers, not "computer speakers" — and that distinction matters more than I expected.
 
@@ -90,7 +90,7 @@ But for a hundred bucks? This is the answer for 80% of people reading this.
 
 ## When you want to feel fancy: Audioengine A2+
 
-![Audioengine A2+ desktop speakers](/images/products/audioengine-a2-plus.jpg)
+![Audioengine A2+ desktop speakers with Bluetooth 5.0 and waterproof design](/images/products/audioengine-a2-plus.jpg)
 
 The [Audioengine A2+](https://www.amazon.com/dp/B07MYV2527?tag=amazonfi08e0c-20) is $279 and I want to be honest — I had a hard time justifying the price before I actually heard them.
 

@@ -27,7 +27,7 @@ TocOpen: false
 
 cover:
     image: "/images/products/sony-wh1000xm5-1.jpg"
-    alt: "Sony WH-1000XM5 wireless noise cancelling headphones in black"
+    alt: "Sony WH-1000XM5 wireless noise cancelling headphones in black product image with detailed view and professional lighting"
     caption: "The Sony XM5 - my daily driver for the past 6 months"
     relative: false
 
@@ -78,7 +78,7 @@ The Sony XM5 has this weird quirk though — the ANC sometimes creates a slight 
 
 If you're buying specifically for maximum noise cancelling and that pressure thing sounds annoying, get the Bose. Otherwise, both are genuinely best-in-class. You're splitting hairs.
 
-![Sony WH-1000XM5 on desk](/images/products/sony-wh1000xm5-2.jpg)
+![Sony WH-1000XM5 on desk product image with detailed view and professional lighting](/images/products/sony-wh1000xm5-2.jpg)
 
 ---
 
@@ -116,7 +116,7 @@ The Bose QC Ultra keeps that classic Bose cushiness. Slightly deeper ear cups. I
 
 One annoyance with Sony: the touch controls on the right cup are too sensitive. I accidentally pause music constantly just by adjusting the fit. Bose uses physical buttons which I've come to prefer despite initially thinking they were old-fashioned.
 
-![Bose QuietComfort Ultra headphones](/images/products/bose-qc-ultra-1.jpg)
+![Bose QuietComfort Ultra headphones product image with detailed view and professional lighting](/images/products/bose-qc-ultra-1.jpg)
 
 ---
 
@@ -152,7 +152,7 @@ They cost $549. They're heavier than both Sony and Bose. Battery life is 20 hour
 
 For iPhone users who value that ecosystem integration and don't mind the premium? Sure, they're great. For everyone else? The Sony or Bose is a better value by a significant margin.
 
-![Apple AirPods Max](/images/products/apple-airpods-max-1.jpg)
+![Apple AirPods Max product image with detailed view and professional lighting](/images/products/apple-airpods-max-1.jpg)
 
 {{< cta-button url="https://www.amazon.com/dp/B08PZHYWJS?tag=amazonfi08e0c-20" text="See AirPods Max on Amazon" >}}
 

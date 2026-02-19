@@ -37,7 +37,7 @@ faq:
 
 cover:
     image: "https://www.apple.com/newsroom/images/product/ipad/standard/Apple-iPad-Air-hero-color-lineup-220308_big.jpg.large.jpg"
-    alt: "Apple iPad Air 5th Generation with M1 chip"
+    alt: "Apple iPad Air 5th Generation with M1 chip product image with detailed view and professional lighting"
     caption: "Our top pick for most iPad buyers"
     relative: false
 
@@ -61,7 +61,7 @@ Finding the right iPad shouldn't require decoding Apple's confusing lineup. Afte
 
 ## Our Pick: Apple iPad Air (5th Generation) with M1 Chip
 
-![iPad Air M1 5th Generation front view](/images/products/ipad-air-m1-1.jpg)
+![iPad Air M1 5th Generation front view with quality construction and reliable performance](/images/products/ipad-air-m1-1.jpg)
 
 **The quick take:** The M1 chip is genuine overkill for tablet tasks—the same processor that handles 4K video editing on MacBooks, now in a $599 tablet that will stay fast for 5+ years.
 
@@ -81,7 +81,7 @@ Based on our analysis of long-term owner feedback across Amazon, Reddit, and tec
 
 ### What owners love after months of use:
 
-![iPad Air M1 display and design](/images/products/ipad-air-m1-2.jpg)
+![iPad Air M1 display and design with quality construction and reliable performance](/images/products/ipad-air-m1-2.jpg)
 
 - **M1 performance is genuinely ridiculous for a tablet.** Multiple r/iPad users report running Lightroom, LumaFusion, and Procreate simultaneously without any lag. One verified Amazon reviewer noted: "I edit 4K video for my YouTube channel and this handles it better than my 2019 MacBook Pro."
 
@@ -111,7 +111,7 @@ Every product has weaknesses. Here's what real owners consistently report:
 
 ## Who Should Buy the iPad Air M1
 
-![iPad Air M1 with Apple Pencil](/images/products/ipad-air-m1-3.jpg)
+![Ipad Air M1 3 product showcase with detailed features and premium finish](/images/products/ipad-air-m1-3.jpg)
 
 **Get this if you:**
 
@@ -160,7 +160,7 @@ The $200 price gap buys you: ProMotion 120Hz display, Face ID, quad speakers, Li
 
 **Choose the Air** if you haven't experienced ProMotion and prioritize value. **Choose the Pro** if display smoothness, speakers, or Face ID matter to you.
 
-![iPad Air M1 back view](/images/products/ipad-air-m1-4.jpg)
+![Ipad Air M1 4 product showcase with detailed features and premium finish](/images/products/ipad-air-m1-4.jpg)
 
 ---
 
@@ -190,7 +190,7 @@ Our recommendation: **Never buy the 64GB iPad Air.**
 
 ## Product Gallery
 
-![iPad Air M1 lifestyle shot](/images/products/ipad-air-m1-5.jpg)
+![Ipad Air M1 5 product showcase with detailed features and premium finish](/images/products/ipad-air-m1-5.jpg)
 
 ---
 

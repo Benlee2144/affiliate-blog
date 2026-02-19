@@ -4,7 +4,7 @@ slug: "best-white-noise-machines-sleep-2026"
 date: 2026-02-14T07:15:00-05:00
 lastmod: 2026-02-14T07:15:00-05:00
 draft: false
-description: "I tried 3 white noise machines after months of terrible sleep from a barking dog next door. One of them genuinely changed how I sleep and it cost less than dinner for two."
+description: "I tried 3 white noise machines after months of terrible sleep from a barking dog next door. One of them genuinely changed how I sleep and it cost less than."
 summary: "After months of garbage sleep thanks to my neighbor's dog, I bought 3 white noise machines. The LectroFan EVO won and it wasn't even close."
 
 keywords: ["best white noise machines 2026", "white noise machine for sleep", "LectroFan EVO review", "Yogasleep Dohm review", "white noise machine neighbor noise", "sound machine for sleeping"]
@@ -27,7 +27,7 @@ TocOpen: false
 
 cover:
   image: "/images/products/lectrofan-evo-1.jpg"
-  alt: "LectroFan EVO white noise machine for sleep"
+  alt: "LectroFan EVO white noise machine for sleep product image with detailed view and professional lighting"
   relative: false
   hidden: false
 
@@ -54,7 +54,7 @@ Here's what happened.
 
 ## The LectroFan EVO — This Is the One
 
-![LectroFan EVO white noise machine](/images/products/lectrofan-evo-1.jpg "LectroFan EVO - my pick for best white noise machine")
+![LectroFan EVO white noise machine product image with detailed view and professional lighting](/images/products/lectrofan-evo-1.jpg "LectroFan EVO - my pick for best white noise machine")
 
 I grabbed this one first because Wirecutter recommended it and honestly? They were right. Paid $49.95 on Amazon, showed up in two days.
 
@@ -70,7 +70,7 @@ One complaint — the buttons on top are kinda mushy and hard to press in the da
 
 ## Yogasleep Dohm Nova — The Fancy One
 
-![Yogasleep Dohm Nova](/images/products/yogasleep-dohm-nova-1.jpg "Yogasleep Dohm Nova with night light")
+![Yogasleep Dohm Nova product image with detailed view and professional lighting](/images/products/yogasleep-dohm-nova-1.jpg "Yogasleep Dohm Nova with night light")
 
 OK so this one is interesting. The Dohm is like the OG of white noise machines — been around forever. The Nova is their upgraded version with a night light and 10 speed settings instead of the old two-speed switch.
 
@@ -86,7 +86,7 @@ The problem? It's not as loud as the LectroFan. On max speed the Dohm Nova is fi
 
 ## Yogasleep Dohm Classic — The Budget Pick
 
-![Yogasleep Dohm Classic](/images/products/yogasleep-dohm-classic-1.jpg "Yogasleep Dohm Classic white noise machine")
+![Yogasleep Dohm Classic product image with detailed view and professional lighting](/images/products/yogasleep-dohm-classic-1.jpg "Yogasleep Dohm Classic white noise machine")
 
 This is the stripped down version. Two speeds. No light. No fancy controls. Just a white dome with a switch on the front.
 

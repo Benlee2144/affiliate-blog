@@ -37,7 +37,7 @@ faq:
 
 cover:
     image: "/images/products/nespresso-vertuo-1.jpg"
-    alt: "Nespresso Vertuo Next"
+    alt: "Nespresso Vertuo Next product image with detailed view and professional lighting"
     caption: "One-touch coffee and espresso"
     relative: false
 
@@ -66,7 +66,7 @@ Nespresso Vertuo promises both convenience and quality. Does it deliver?
 
 ## Our Pick: Nespresso Vertuo Next
 
-![Nespresso Vertuo Next](/images/products/nespresso-vertuo-1.jpg)
+![Nespresso Vertuo Next product image with detailed view and professional lighting](/images/products/nespresso-vertuo-1.jpg)
 
 **Quick take:** Barcode-reading technology customizes each brew, centrifugal extraction produces rich crema, and five cup sizes from espresso to full carafe. One button, perfect coffee.
 

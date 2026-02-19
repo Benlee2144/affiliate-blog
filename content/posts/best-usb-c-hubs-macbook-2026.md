@@ -1,5 +1,5 @@
 ---
-title: "Stop Buying Cheap USB-C Hubs — These 3 Actually Work With MacBooks"
+title: "Stop Buying Cheap USB-C Hubs — These 3 Work With MacBooks"
 slug: "best-usb-c-hubs-macbook-2026"
 date: 2026-02-14T18:38:00-05:00
 lastmod: 2026-02-14T18:38:00-05:00
@@ -27,7 +27,7 @@ TocOpen: false
 
 cover:
   image: "/images/products/anker-555-usbc-hub.jpg"
-  alt: "Anker 555 USB-C 8-in-1 hub for MacBook"
+  alt: "Anker 555 USB-C 8-in-1 hub for MacBook product image with detailed view and professional lighting"
   relative: false
 
 pros:
@@ -50,7 +50,7 @@ So when I finally sat down last month and decided to actually research this prop
 
 ## The Anker 555 — My Daily Driver Now
 
-![Anker 555 USB-C Hub](/images/products/anker-555-usbc-hub.jpg)
+![Anker PowerExpand+ 555 USB-C hub with 8-in-1 connectivity and 100W power delivery](/images/products/anker-555-usbc-hub.jpg)
 
 I grabbed this one off Amazon for $36 on a Tuesday. It showed up Thursday. First impression — its heavier than I expected. Like, there's actual metal in this thing, not that hollow plastic crap from the cheap ones.
 
@@ -70,7 +70,7 @@ Skip if: You need more than 85W charging or dual monitor support.
 
 ## The Plugable 9-in-1 — For the Power Users
 
-![Plugable 9-in-1 USB-C Hub](/images/products/plugable-9in1-usbc-hub.jpg)
+![Plugable UD-ULTCDL 9-in-1 USB-C hub with dual 4K HDMI and 100W charging](/images/products/plugable-9in1-usbc-hub.jpg)
 
 Macworld named this their top pick and after using it for a week I get why. Its essentially the Anker 555 with one extra USB-A port, faster SD card readers, and — this is the big one — **125W passthrough charging**. That's enough for even the beefiest 16-inch MacBook Pro under full load.
 
@@ -90,7 +90,7 @@ Skip if: You don't need the extra port or faster SD readers — save $15 and get
 
 ## The Satechi Pro Hub Max — The Pretty One
 
-![Satechi Pro Hub Max](/images/products/satechi-pro-hub-max.jpg)
+![Satechi Pro Hub Max aluminum USB-C hub with magnetic attachment for MacBook](/images/products/satechi-pro-hub-max.jpg)
 
 OK I'll admit it. I bought this partly because it looks incredible. It clips directly onto your MacBook's USB-C ports — no dangling cable — and matches the Space Gray finish perfectly. If you care about desk aesthetics (and honestly, who doesn't at least a little), this thing is beautiful.
 

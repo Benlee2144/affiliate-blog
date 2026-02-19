@@ -40,7 +40,7 @@ faq:
 
 cover:
     image: "/images/products/dyson-vs-shark-1.jpg"
-    alt: "Dyson vs Shark cordless vacuum comparison"
+    alt: "Dyson vs Shark cordless vacuum comparison product image with detailed view and professional lighting"
     caption: "Is the premium worth it?"
     relative: false
 
@@ -136,7 +136,7 @@ Shark: Fewer attachments but arguably more practical ones. The pet multi-tool is
 
 ## After 6 Months: The Data You Won't Find Elsewhere
 
-![Dyson vs Shark long-term comparison](/images/products/dyson-vs-shark-2.jpg)
+![Dyson vs Shark long-term comparison product image with detailed view and professional lighting](/images/products/dyson-vs-shark-2.jpg)
 
 ### Cleaning Performance Metrics
 

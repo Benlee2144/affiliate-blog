@@ -74,7 +74,7 @@ Made sense to me. So I started testing.
 
 ## The Victorinox Fibrox Pro — The $35 Knife That Ended My Search
 
-![Victorinox Fibrox Pro 8-inch chef's knife](/images/products/victorinox-fibrox-pro-1.jpg)
+![Victorinox Fibrox Pro 8-inch chef's knife with professional features and premium build quality](/images/products/victorinox-fibrox-pro-1.jpg)
 
 I almost didn't buy this because it looked... cheap? The plastic handle, the plain blade. Compared to the fancy German knives with their forged bolsters and triple rivets, the Victorinox looked like something from a college dorm kitchen.
 
@@ -100,7 +100,7 @@ I get it. Some people want the block on the counter. It looks nice. Your mother-
 
 If you're going the set route, the Henckels Definition 14-Piece is the one I'd get.
 
-![Henckels Definition 14-piece self-sharpening knife block](/images/products/henckels-definition-14pc-1.jpg)
+![Henckels Definition 14-piece self-sharpening knife block product image with detailed view and professional lighting](/images/products/henckels-definition-14pc-1.jpg)
 
 It runs about $130 on Amazon which sounds like a lot until you realize that's less than $10 per knife. And unlike those sketchy Amazon sets, Henckels actually has a reputation to protect. They've been making knives in Germany since like 1731 or something ridiculous.
 
@@ -114,7 +114,7 @@ The 8" chef's knife in this set is... fine. It's not going to blow your mind lik
 
 ## The Splurge: Wüsthof Classic 8"
 
-![Wüsthof Classic 8-inch chef's knife](/images/products/wusthof-classic-8-1.jpg)
+![Wüsthof Classic 8-inch chef's knife with quality construction and reliable performance](/images/products/wusthof-classic-8-1.jpg)
 
 $170 for one knife. ONE knife.
 
