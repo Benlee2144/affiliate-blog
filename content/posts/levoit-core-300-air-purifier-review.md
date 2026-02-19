@@ -34,6 +34,12 @@ faq:
     answer: "Every 6-8 months depending on air quality and usage. Heavy use (24/7 in dusty environments) may require replacement every 4-5 months."
   - question: "How loud is the Levoit Core 300?"
     answer: "24dB on the lowest setting (quieter than a whisper). On high, it reaches about 50dB—noticeable but not disruptive."
+  - question: "Does the Levoit Core 300 remove odors?"
+    answer: "Yes, the activated carbon filter layer effectively removes cooking odors, pet smells, and smoke. However, very strong odors may require the dedicated pet or smoke filter variants."
+  - question: "Can you wash Levoit Core 300 filters?"
+    answer: "No, the HEPA and carbon filters are not washable. Only the pre-filter (outer mesh) can be vacuumed or rinsed. Attempting to wash the main filter will damage it."
+  - question: "What's the difference between Core 300 and Core 300S?"
+    answer: "Core 300S adds WiFi connectivity and app control for $20-30 more. Otherwise identical performance and filtration. Choose based on whether smart features matter to you."
 
 cover:
     image: "/images/products/levoit-core-300-1.jpg"
