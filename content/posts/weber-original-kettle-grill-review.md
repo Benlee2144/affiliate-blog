@@ -170,7 +170,7 @@ The one-touch cleaning system helps, but you're still dealing with ash. Empty it
 
 ## After 30 Days: What We've Learned
 
-![Weber Kettle after extended use product image with detailed view and professional lighting](/images/products/weber-kettle-4.jpg)
+<!-- Broken image removed during quality audit -->
 
 ### The Good Gets Better
 

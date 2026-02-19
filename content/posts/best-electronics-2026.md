@@ -264,7 +264,7 @@ Very important. Electronics can fail, and manufacturing defects happen. Always b
 
 For certain categories, yes. Apple refurbished products, for example, often come with full warranties and are essentially new. Avoid refurbished products for categories where battery life is critical (power banks, headphones) unless the battery has been replaced.
 
-### How do I know if an electronic device will last?
+### How do We know if an electronic device will last?
 
 Look for patterns in long-term user reviews, check if the manufacturer provides software updates, and consider the build quality. Products that feel solid and come from manufacturers with good track records tend to last longer.
 

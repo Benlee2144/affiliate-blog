@@ -32,7 +32,7 @@ faq:
     answer: "Loud—around 87 dB at peak, which is louder than the Vitamix 750 (80 dB). All high-powered blenders are noisy, but the Propel lacks the sound-dampening of premium Ascent models."
   - question: "Does the Vitamix Propel 510 overheat?"
     answer: "Some users report overheating when running at lower speed settings for extended periods. This appears to be a known issue. For most typical blending tasks (30-60 seconds), it's not a problem."
-  - question: "Can I use Vitamix Self-Detect containers with the Propel 510?"
+  - question: "Can We use Vitamix Self-Detect containers with the Propel 510?"
     answer: "No—Self-Detect containers are only compatible with the Ascent series. The Propel uses standard Vitamix containers."
 
 cover:

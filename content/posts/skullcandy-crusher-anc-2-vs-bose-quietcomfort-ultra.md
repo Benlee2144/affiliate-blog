@@ -268,7 +268,7 @@ Both excel in their intended niches, making this a choice between specialized ba
 **Q: Which is better for working out?**
 A: Bose QuietComfort Ultra wins for exercise due to IPX4 water resistance, secure fit, and lighter weight. The Crusher ANC 2 has no water resistance and can slide during movement.
 
-**Q: Can I feel the bass on the Bose earbuds?**
+**Q: Can We feel the bass on the Bose earbuds?**
 A: While Bose delivers excellent bass response, it cannot match the physical haptic sensation of Skullcandy's vibrating drivers. The experience is fundamentally different.
 
 **Q: Which has better call quality?**

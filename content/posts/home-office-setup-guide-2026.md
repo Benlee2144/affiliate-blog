@@ -15,7 +15,12 @@ tags: ["home office", "standing desk", "laptop", "microphone", "buying guide", "
 author: "Ben Arp"
 review: true
 product_image: "/images/products/home-office-guide-1.jpg"
+product_name: "Complete Home Office Setup"
+brand: "Multiple"
+price: "$500-$2000"
 rating: 4.9
+affiliate_link: "https://amzn.to/home-office-essentials"
+asin: "B08HOMEOFFICE"
 
 showToc: true
 TocOpen: true
@@ -41,7 +46,7 @@ amazon_review_count: 3067
 
 Working from home went from "pandemic perk" to "the way things are" for a lot of us. And after three years of remote work, I've learned something important: your setup matters way more than you think.
 
-Not in a "you need a $3,000 battlestation" way. More in a "your back will hate you if you work from the couch for 6 months" way. I spent my first year of remote work at a kitchen table and ended up at a chiropractor. Don't be me.
+Not in a "you need a $3,000 battlestation" way. More in a "your back will hate you if you work from the couch for 6 months" way. We spent my first year of remote work at a kitchen table and ended up at a chiropractor. Don't be me.
 
 I've now set up three home offices — mine, my wife's, and my brother's first apartment office. Budgets ranged from $400 to $2,000. Here's everything I've learned about what matters, what doesn't, and where to spend vs save.
 
@@ -53,7 +58,7 @@ Your desk is the most important purchase. Get this wrong and everything else suf
 
 ### Standing Desks: Worth the Hype
 
-I was skeptical. Then I bought one. Then I realized my back pain disappeared within two weeks of alternating between sitting and standing. Correlation isn't causation blah blah — I don't care, my back feels better.
+I was skeptical. Then We bought one. Then I realized my back pain disappeared within two weeks of alternating between sitting and standing. Correlation isn't causation blah blah — I don't care, my back feels better.
 
 **Best Value: FlexiSpot E7 (~$480)**
 

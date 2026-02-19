@@ -48,15 +48,15 @@ faq:
     answer: "Samsung T9 maintains consistent speeds longer during sustained writes (1,690 MB/s vs 1,540 MB/s), while Crucial X10 Pro runs cooler and costs less but throttles more during long editing sessions."
   - question: "Should I buy the SanDisk Extreme Pro V2 or Samsung T9 for video editing?"
     answer: "Samsung T9 for editing performance. SanDisk throttles after 45 minutes of continuous use, causing dropped frames. Only choose SanDisk if you need IP65 water/dust protection."
-  - question: "Do I need a 2,000 MB/s external SSD for video editing?"
+  - question: "Do We need a 2,000 MB/s external SSD for video editing?"
     answer: "Only if your computer has USB 3.2 Gen 2x2 ports. Most laptops cap at 1,000 MB/s with Gen 2 ports, making a cheaper SATA SSD like Samsung T7 sufficient."
   - question: "What's the best external SSD for 4K video editing?"
     answer: "Samsung T9 provides the most consistent performance for 4K ProRes editing with sustained speeds around 1,690 MB/s even during long transfers, preventing timeline stutters."
 ---
 
-Look, I know what you're thinking — "just buy the cheapest 2TB drive and move on." That's what I thought too back in 2024 when I was editing wedding videos off a spinning hard drive like some kind of caveman. The timeline stuttering was so bad I legitimately thought DaVinci Resolve was broken.
+Look, We know what you're thinking — "just buy the cheapest 2TB drive and move on." That's what I thought too back in 2024 when I was editing wedding videos off a spinning hard drive like some kind of caveman. The timeline stuttering was so bad I legitimately thought DaVinci Resolve was broken.
 
-So I spent the last few months rotating between three of the most popular external SSDs for video editing work: the **Samsung T9**, the **Crucial X10 Pro**, and the **SanDisk Extreme Pro V2**. All 2TB models. All claiming roughly 2,000 MB/s speeds. And yeah, one of them definately comes out on top.
+So We spent the last few months rotating between three of the most popular external SSDs for video editing work: the **Samsung T9**, the **Crucial X10 Pro**, and the **SanDisk Extreme Pro V2**. All 2TB models. All claiming roughly 2,000 MB/s speeds. And yeah, one of them definately comes out on top.
 
 ## The Quick Verdict
 
@@ -82,9 +82,9 @@ See that? The Samsung barely drops. The SanDisk fell off a cliff by run 3. And t
 
 ![Samsung T9 portable SSD 2TB with USB 3.2 Gen 2x2 interface and shock-resistant design](/images/products/samsung-t9-ssd-1.jpg)
 
-I bought my T9 last October from Amazon for like $155 — think the price bounces around depending on the week. First impression was honestly the weight. This thing is heavier than it looks. Not in a bad way, more like you can feel the build quality. The rubber bumper around the edges gives me confidence tossing it in my bag.
+We bought my T9 last October from Amazon for like $155 — think the price bounces around depending on the week. First impression was honestly the weight. This thing is heavier than it looks. Not in a bad way, more like you can feel the build quality. The rubber bumper around the edges gives me confidence tossing it in my bag.
 
-**What I like:**
+**What We like:**
 
 - Sustained speeds stay consistent even during long transfers
 - USB 3.2 Gen 2x2 means you actually get those speeds (if your port supports it)
@@ -111,7 +111,7 @@ This drive is *tiny*. Like, absurdly small for 2TB. It's about the size of a cre
 
 The speeds are actually faster than the Samsung on paper — 2,100 MB/s read vs 2,000 — but in my sustained tests it dropped off more. Not a dealbreaker for editing though. When you're scrubbing through a timeline, you're doing random reads, not sustained sequential writes. And for random reads both drives felt identical.
 
-One thing I noticed that reviews dont mention: the X10 Pro runs cooler than the Samsung. Like notably cooler. During a 100GB transfer the Samsung was uncomfortable to hold, the Crucial was just warm. If you're editing in a hot room or your desk doesnt have great airflow, thats worth considering.
+One thing We noticed that reviews dont mention: the X10 Pro runs cooler than the Samsung. Like notably cooler. During a 100GB transfer the Samsung was uncomfortable to hold, the Crucial was just warm. If you're editing in a hot room or your desk doesnt have great airflow, thats worth considering.
 
 **The verdict on this one:** If you find it for under $160, buy it. Honestly for most video editors you won't notice the difference between this and the Samsung. I just prefer the Samsung's consistency under sustained loads.
 
@@ -121,9 +121,9 @@ One thing I noticed that reviews dont mention: the X10 Pro runs cooler than the 
 
 ![SanDisk Extreme Pro Portable SSD V2 with IP65 water and dust resistance](/images/products/sandisk-extreme-pro-v2-1.jpg)
 
-This was actually the first external SSD I bought for video editing, back in early 2024. And for a while I loved it. The design is genuinely cool — that orange carabiner loop, the rugged silicone shell, the IP65 rating. I clip it to my camera bag strap when I'm shooting on location and it feels bulletproof.
+This was actually the first external SSD We bought for video editing, back in early 2024. And for a while I loved it. The design is genuinely cool — that orange carabiner loop, the rugged silicone shell, the IP65 rating. I clip it to my camera bag strap when I'm shooting on location and it feels bulletproof.
 
-But here's the thing nobody warned me about. After about 45 minutes of continuous use — like editing a long project directly off the drive — the SanDisk starts thermal throttling. Not catastrophically, but enough that I noticed dropped frames during playback of 4K footage. I thought my timeline was corrupted the first time it happened.
+But here's the thing nobody warned me about. After about 45 minutes of continuous use — like editing a long project directly off the drive — the SanDisk starts thermal throttling. Not catastrophically, but enough that We noticed dropped frames during playback of 4K footage. I thought my timeline was corrupted the first time it happened.
 
 I did some digging on the DaVinci Resolve forums (shoutout to user ColorGradingGuy who saved me hours of troubleshooting) and apparently this is a known thing with the Extreme Pro V2. The aluminum core heats up and the controller dials back speeds to protect itself. Makes sense from an engineering standpoint, but it's annoying when you're in the middle of a client deadline.
 
@@ -144,7 +144,7 @@ If you've got Gen 2 ports (most modern laptops), honestly the [Crucial X9 Pro](h
 
 ## My Actual Setup
 
-For what it's worth, here's how I use these day to day:
+For what it's worth, here's how We use these day to day:
 
 - **Samsung T9 (2TB):** Main editing drive, lives on my desk plugged into the Mac mini
 - **Crucial X10 Pro (2TB):** Backup/archive drive, gets swapped monthly

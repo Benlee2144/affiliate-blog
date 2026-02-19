@@ -300,7 +300,7 @@ Smart features are convenient when they work, but they're not essential and can 
 
 For certain brands and categories, yes. Vitamix and KitchenAid refurbished products often come with warranties and significant savings. Avoid refurbished appliances with complex electronics or those from unfamiliar brands.
 
-### How do I know if a kitchen appliance will last?
+### How do We know if a kitchen appliance will last?
 
 Look for simple, robust construction over complex features. Read long-term user reviews and check if replacement parts are readily available. Brands with good customer service are more likely to support their products long-term.
 

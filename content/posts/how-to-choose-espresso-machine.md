@@ -1,7 +1,7 @@
 ---
 title: "How to Choose an Espresso Machine (From a Former Nespresso User)"
 description: "Skip the coffee shop markup. Learn the real differences between manual, semi-auto, and super-auto espresso machines, why your grinder matters more than your."
-excerpt: "From pod machines to prosumer setups: what I wish someone had told me before spending $2,000 learning to make espresso at home."
+excerpt: "From pod machines to prosumer setups: what We wish someone had told us before spending $2,000 learning to make espresso at home."
 date: 2026-02-18
 lastmod: 2026-02-18
 categories: ["Kitchen Appliances"]

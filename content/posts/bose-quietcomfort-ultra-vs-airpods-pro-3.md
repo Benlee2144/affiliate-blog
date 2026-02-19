@@ -249,7 +249,7 @@ Both are excellent premium earbuds that justify their pricing. Bose delivers sup
 **Q: Which has better bass?**
 A: AirPods Pro 3 has more emphasized, punchy bass due to its V-shaped tuning. Bose has more controlled, accurate bass that doesn't overwhelm other frequencies.
 
-**Q: Can I use either with Android?**
+**Q: Can We use either with Android?**
 A: Yes, both work with Android via Bluetooth. However, AirPods lose many features (Siri, seamless switching, etc.), while Bose maintains full functionality.
 
 **Q: Which is better for working out?**

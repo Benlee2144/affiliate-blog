@@ -5,7 +5,7 @@ date: 2026-01-10T10:34:16+00:00
 lastmod: 2026-01-10T10:34:16+00:00
 draft: false
 description: "After digging through Reddit threads, BBB complaints, and 200+ reviews, here's the real deal on the Ember Mug 2—including the coating issue that might make you."
-summary: "A $150 mug that keeps your coffee hot sounds great until you read about the coating flaking off. I spent way too long researching this thing."
+summary: "A $150 mug that keeps your coffee hot sounds great until you read about the coating flaking off. We spent way too long researching this thing."
 
 keywords: ["ember mug 2 review", "ember mug problems", "ember mug worth it", "smart coffee mug"]
 
@@ -81,7 +81,7 @@ That said, the battery-only runtime (80 minutes for the 14oz, slightly longer fo
 
 ## The Problems Nobody Talks About
 
-Here's where things get interesting. I spent a lot of time on the complaints because that's where you find out if a product is actually good or just *marketed* well.
+Here's where things get interesting. We spent a lot of time on the complaints because that's where you find out if a product is actually good or just *marketed* well.
 
 ### The Coating Issue
 
@@ -149,7 +149,7 @@ If you decide to go for it, buy from Amazon rather than direct so you have an ea
 
 ---
 
-*I spent way too long reading Ember Mug complaints so you don't have to. If you found this useful, check out my other deep dives on [robot vacuums](/roborock-q5-pro-review-2026-smart-navigation-without-the-premium-price/) and [espresso machines](/breville-bambino-review-2026-cafe-espresso-in-the-smallest-footprint/).*
+*We spent way too long reading Ember Mug complaints so you don't have to. If you found this useful, check out my other deep dives on [robot vacuums](/roborock-q5-pro-review-2026-smart-navigation-without-the-premium-price/) and [espresso machines](/breville-bambino-review-2026-cafe-espresso-in-the-smallest-footprint/).*
 
 ---
 

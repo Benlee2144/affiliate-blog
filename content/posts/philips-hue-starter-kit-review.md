@@ -28,11 +28,11 @@ TocOpen: true
 faq:
   - question: "Is Philips Hue worth the premium price?"
     answer: "Yes—the reliability, color accuracy, and ecosystem depth justify the cost for serious smart home users. Casual users may find budget bulbs sufficient."
-  - question: "Do I need the Hue Bridge?"
+  - question: "Do We need the Hue Bridge?"
     answer: "For full functionality, yes. Without the Bridge, you lose schedules, away-from-home control, and third-party integrations."
   - question: "Philips Hue vs LIFX—which is better?"
     answer: "Hue for reliability and ecosystem; LIFX for no-hub simplicity. Hue's colors are slightly more accurate in testing."
-  - question: "Can I use Philips Hue with a dimmer switch?"
+  - question: "Can We use Philips Hue with a dimmer switch?"
     answer: "No—conventional dimmers cause flickering. Use Hue dimmer switches or keep regular switches at full on."
 
 cover:

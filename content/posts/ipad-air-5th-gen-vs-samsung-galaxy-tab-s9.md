@@ -282,7 +282,7 @@ Both tablets excel at their intended purposes. The iPad remains the better consu
 **Q: Which is better for students?**
 A: iPad Air generally wins for students due to better educational app support and longer battery life. However, Galaxy Tab S9 is better for students who need file management and multitasking for research and writing.
 
-**Q: Can I use either for serious photo editing?**
+**Q: Can We use either for serious photo editing?**
 A: Yes, both handle photo editing well. iPad has better apps like Affinity Photo and Photoshop, while Galaxy Tab S9's AMOLED display shows more vibrant colors (though less color-accurate).
 
 **Q: Which has better keyboard accessories?**

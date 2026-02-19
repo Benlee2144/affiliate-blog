@@ -28,7 +28,7 @@ TocOpen: true
 faq:
   - question: "Are Umite Chef mixing bowls dishwasher safe?"
     answer: "The stainless steel bowls are dishwasher safe, but the lids should be hand washed. The heat from dishwashers can cause the plastic lids to warp over time, compromising their airtight seal."
-  - question: "Can I use Umite Chef mixing bowls with a stand mixer?"
+  - question: "Can We use Umite Chef mixing bowls with a stand mixer?"
     answer: "No, these bowls don't lock into stand mixers like KitchenAid. They only have silicone non-slip bottoms for countertop stability, not mixer-compatible locking mechanisms."
   - question: "What sizes are included in the 8-piece set?"
     answer: "The set includes five stainless steel bowls (5QT, 4QT, 3.5QT, 2QT, and 1.5QT), plus three interchangeable grater attachments for thin slicing, thicker shredding, and fine grating."

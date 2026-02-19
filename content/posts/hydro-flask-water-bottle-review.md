@@ -169,7 +169,7 @@ Hydro Flask leads on cold retention. Stanley's lid design is better for hot drin
 
 ## After 30 Days: Daily Use Reality Check
 
-![Hydro Flask after extended use product image with detailed view and professional lighting](/images/products/hydro-flask-4.jpg)
+<!-- Broken image removed during quality audit -->
 
 ### The Performance Promise Delivers
 

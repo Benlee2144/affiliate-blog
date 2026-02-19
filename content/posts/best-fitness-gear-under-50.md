@@ -27,7 +27,7 @@ faq:
     answer: "For general fitness and muscle toning, absolutely. Resistance bands provide variable resistance that can be more challenging than free weights, though limited for maximum strength development."
   - question: "What's the best fitness equipment under $50 for home workouts?"
     answer: "Resistance bands with door anchor at $29 offer the most versatility, providing full-body strength training equivalent to an entire weight room in compact storage."
-  - question: "How much space do I need for a budget home gym setup?"
+  - question: "How much space do We need for a budget home gym setup?"
     answer: "All 8 tested items fit in a closet and can be used in a 6x6 foot space. Most exercises work in a typical bedroom or living room area."
   - question: "Are these budget fitness products durable enough for daily use?"
     answer: "Our picks withstand regular use - the resistance bands and jump rope showed no wear after months of daily testing. At these prices, replacement is affordable when needed."
@@ -252,7 +252,7 @@ We evaluated each product on:
 **Q: Can resistance bands really replace weight training?**
 A: For general fitness and muscle toning, absolutely. Resistance bands provide variable resistance that can be more challenging than free weights. However, they're limited for maximum strength development compared to heavy weights.
 
-**Q: How much space do I need for a home gym?**
+**Q: How much space do We need for a home gym?**
 A: Our entire equipment list fits in a closet and can be used in a 6x6 foot space. Most exercises can be performed in a typical bedroom or living room.
 
 **Q: Are these products durable enough for daily use?**

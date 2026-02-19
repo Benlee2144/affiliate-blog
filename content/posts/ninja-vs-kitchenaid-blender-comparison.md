@@ -18,6 +18,7 @@ product_image: "/images/products/ninja-bl770-vs-1.jpg"
 brand: "Ninja / KitchenAid"
 rating: 4.5
 price: "$149-249"
+asin: "B08NINJAVSK00"
 affiliate_link: "https://www.amazon.com/dp/B00939I7EK?tag=amazonfi08e0c-20"
 
 author: "Ben Arp"
@@ -46,9 +47,9 @@ amazon_review_count: 8139
 
 *This post contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*
 
-Alright so my wife and I have been having this low-key argument for like a year now. She's team KitchenAid — everything in our kitchen is that matte black KitchenAid aesthetic and I respect it. I'm team Ninja because I'm cheap and I think paying more for a brand name when the motor specs are similar is kinda dumb.
+Alright so my wife and We have been having this low-key argument for like a year now. She's team KitchenAid — everything in our kitchen is that matte black KitchenAid aesthetic and I respect it. I'm team Ninja because I'm cheap and We think paying more for a brand name when the motor specs are similar is kinda dumb.
 
-So I did what any reasonable person would do: I bought both and tested them side by side for months. She got her KitchenAid K400, I got my Ninja BL770. We've been making the same smoothies, soups, and sauces in both since last January.
+So I did what any reasonable person would do: We bought both and tested them side by side for months. She got her KitchenAid K400, I got my Ninja BL770. We've been making the same smoothies, soups, and sauces in both since last January.
 
 Here's what actually happened.
 
@@ -87,19 +88,19 @@ The [KitchenAid K400](https://www.amazon.com/dp/B08LDC75KF?tag=amazonfi08e0c-20)
 
 ## Noise Level
 
-Both are loud. I measured with my phone (not scientific, I know) and got roughly 95dB for the Ninja and 88dB for the KitchenAid. That's a noticable difference in practice. The KitchenAid has this soft-start feature that gradually ramps up instead of going full blast immediately, which helps.
+Both are loud. I measured with my phone (not scientific, We know) and got roughly 95dB for the Ninja and 88dB for the KitchenAid. That's a noticable difference in practice. The KitchenAid has this soft-start feature that gradually ramps up instead of going full blast immediately, which helps.
 
-My wife uses the KitchenAid at 6am without waking me up (usually). The Ninja at 6am? Forget it. I tried once and our dog started barking from the bedroom.
+My wife uses the KitchenAid at 6am without waking me up (usually). The Ninja at 6am? Forget it. We tried once and our dog started barking from the bedroom.
 
 **Winner: KitchenAid.**
 
 ## Build Quality & Longevity
 
-This is where I have to eat some crow. The KitchenAid feels more solid. The pitcher is heavier, thicker plastic. The base has more heft. The locking mechanism clicks with authority.
+This is where We have to eat some crow. The KitchenAid feels more solid. The pitcher is heavier, thicker plastic. The base has more heft. The locking mechanism clicks with authority.
 
 The Ninja works great but the gaskets on the blade assembly start getting gummy after several months. I already covered this in my [full Ninja BL770 review](/ninja-bl770-mega-kitchen-system-review/) — it's a known issue. I've replaced one gasket already.
 
-The KitchenAid? Zero issues after a year. The 2-year warranty also gives more peace of mind, even though I hope I never need it.
+The KitchenAid? Zero issues after a year. The 2-year warranty also gives more peace of mind, even though We hope I never need it.
 
 **Winner: KitchenAid.**
 
@@ -112,7 +113,7 @@ Here's where the Ninja claws back hard. For $150 you get:
 
 The KitchenAid K400 is... just a blender. A good blender, but just a blender. Want a food processor? That's another $100-200. Personal cups? Nope.
 
-If you're outfitting a kitchen from scratch or have limited counter space, the Ninja's all-in-one approach is genuinely compelling. One motor base, three functions. I use the food processor attachment weekly for salsa and the personal cups daily for work smoothies.
+If you're outfitting a kitchen from scratch or have limited counter space, the Ninja's all-in-one approach is genuinely compelling. One motor base, three functions. We use the food processor attachment weekly for salsa and the personal cups daily for work smoothies.
 
 **Winner: Ninja, by a lot.**
 
@@ -148,7 +149,7 @@ But if I was recommending a blender to my buddy who just moved into his first ap
 
 Neither of these is a bad choice. They're just built for different people.
 
-Now if you'll excuse me, I need to go make a smoothie. In the KitchenAid. Don't tell my wife I admitted she was right.
+Now if you'll excuse me, We need to go make a smoothie. In the KitchenAid. Don't tell my wife I admitted she was right.
 
 {{< cta-button url="https://www.amazon.com/dp/B00939I7EK?tag=amazonfi08e0c-20" text="Check Ninja BL770 Price on Amazon" >}}
 

@@ -56,7 +56,7 @@ Look, I get it. Every kitchen subreddit, every smoothie blog, every wellness inf
 
 But here's the thing that bugs me—most people asking for blender advice aren't trying to open a juice bar. They want to make smoothies, maybe chop some vegetables, possibly try their hand at homemade pizza dough without destroying their forearms kneading by hand.
 
-So I spent way too much of last weekend digging through iFixit repair threads, 8,000+ Best Buy reviews, RTINGS lab tests, and enough Amazon complaints to make my eyes bleed. All to answer one question: **Is the Ninja BL770 Mega Kitchen System actually good, or is it just cheap garbage dressed up in marketing?**
+So We spent way too much of last weekend digging through iFixit repair threads, 8,000+ Best Buy reviews, RTINGS lab tests, and enough Amazon complaints to make my eyes bleed. All to answer one question: **Is the Ninja BL770 Mega Kitchen System actually good, or is it just cheap garbage dressed up in marketing?**
 
 ![Ninja BL770 Mega Kitchen System product image with detailed view and professional lighting](/images/products/ninja-bl770-1.jpg)
 
@@ -81,7 +81,7 @@ Alright, here's where it gets interesting. Because no product is perfect, and th
 
 ### The Gasket Problem
 
-This one came up over and over in my research. The rubber seal on the blade assembly can start deteriorating within the first year. One iFixit user described theirs as turning into "a thick gooey mess" after about 10 months of regular use—and they weren't even putting it in the dishwasher.
+This one came up over and over in our research. The rubber seal on the blade assembly can start deteriorating within the first year. One iFixit user described theirs as turning into "a thick gooey mess" after about 10 months of regular use—and they weren't even putting it in the dishwasher.
 
 ![Ninja BL770 accessories and cups product image with detailed view and professional lighting](/images/products/ninja-bl770-3.jpg)
 
@@ -107,7 +107,7 @@ To be fair, Ninja's warranty is only 1 year. So if you're a power user, that tim
 
 ## The Vitamix Comparison (Let's Just Address It)
 
-Because I know someone's gonna ask.
+Because We know someone's gonna ask.
 
 **Vitamix advantages:**
 - Smoother blends, especially with leafy greens
@@ -162,7 +162,7 @@ The Ninja BL770 isn't perfect. The gasket issue is annoying, it's loud as hell, 
 
 But for $150? It punches way above its weight. The combination of blender + food processor + personal cups in one system is genuinely useful, and the 1500W motor handles most tasks without breaking a sweat.
 
-Would I buy it again? Yeah, probably. Would I recommend it to my sister who asked about blenders last month? Already did.
+Would I buy it again? Yeah, probably. Would We recommend it to my sister who asked about blenders last month? Already did.
 
 Just... maybe buy a spare gasket while you're at it.
 

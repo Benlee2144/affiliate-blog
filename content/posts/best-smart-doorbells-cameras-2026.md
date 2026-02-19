@@ -18,6 +18,7 @@ product_image: "/images/products/eufy-e340-doorbell.jpg"
 brand: "Eufy"
 rating: 4.6
 price: "$180"
+asin: "B08BESTSMART0"
 affiliate_link: "https://www.amazon.com/dp/B0DDTSXJDV?tag=amazonfi08e0c-20"
 
 cover:
@@ -44,7 +45,7 @@ Everyone tells you Ring is the gold standard for video doorbells. Every "best of
 
 But here's what nobody mentions upfront: Ring charges you $5/month just to *save* your video clips. Without a subscription, your $150 doorbell is basically a fancy peephole that sends phone notifications. You can't review footage. You can't download clips. You paid for a camera that won't let you keep what it records.
 
-That's absurd. And I didn't realize how absurd until I tried alternatives that store everything locally, for free, forever.
+That's absurd. And I didn't realize how absurd until We tried alternatives that store everything locally, for free, forever.
 
 ## The short version
 
@@ -56,7 +57,7 @@ That's absurd. And I didn't realize how absurd until I tried alternatives that s
 
 ## Why I even started looking
 
-I had a Ring Video Doorbell 3 for about two years. It worked okay. Then last October my Ring Protect plan renewed at $50 and I thought... wait. I've now spent more on the subscription than I spent on the actual doorbell. That math doesn't sit right with me.
+I had a Ring Video Doorbell 3 for about two years. It worked okay. Then last October my Ring Protect plan renewed at $50 and I thought... wait. I've now spent more on the subscription than We spent on the actual doorbell. That math doesn't sit right with us.
 
 So I started looking at what else was out there. And honestly I was surprised how much the market has changed since 2023.
 

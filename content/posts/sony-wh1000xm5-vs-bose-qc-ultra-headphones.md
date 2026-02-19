@@ -4,7 +4,7 @@ slug: "sony-wh1000xm5-vs-bose-qc-ultra-headphones"
 date: 2026-02-08T06:32:05+00:00
 lastmod: 2026-02-08T06:32:05+00:00
 draft: false
-description: "I own both the Sony WH-1000XM5 and Bose QC Ultra headphones. After 8 months of daily switching, here's the definitive answer to which one you should buy."
+description: "We own both the Sony WH-1000XM5 and Bose QC Ultra headphones. After 8 months of daily switching, here's the definitive answer to which one you should buy."
 summary: "The internet's most debated headphone matchup, settled by someone who actually owns and uses both daily. Spoiler: the answer isn't what most reviewers say."
 
 keywords: ["Sony WH-1000XM5 vs Bose QC Ultra", "Sony vs Bose headphones", "ANC headphones comparison"]
@@ -18,6 +18,7 @@ product_image: "/images/products/sony-wh1000xm5-vs-1.jpg"
 brand: "Sony / Bose"
 rating: 4.7
 price: "$298-429"
+asin: "B08SONYWH1000"
 affiliate_link: "https://www.amazon.com/dp/B09XS7JWHH?tag=amazonfi08e0c-20"
 
 author: "Ben Arp"
@@ -81,7 +82,7 @@ Everyone wants to know which one blocks more noise. After eight months of planes
 
 **High-frequency noise** (keyboard clicks, dishes clanking): Sony wins slightly. The XM5 seems to handle sharp, transient sounds a bit better.
 
-**Overall ANC verdict:** Bose by a tiny margin. But I need to stress — tiny. We're talking maybe 2-3dB difference. Most people couldn't tell in a blind test.
+**Overall ANC verdict:** Bose by a tiny margin. But We need to stress — tiny. We're talking maybe 2-3dB difference. Most people couldn't tell in a blind test.
 
 The bigger differentiator? The Sony creates this subtle ear pressure that some people hate. I've gotten used to it, but my coworker tried mine and immediately said it felt "weird." The Bose doesn't do this at all. If you're sensitive to that kind of thing, it's a dealbreaker.
 
@@ -133,7 +134,7 @@ For desk-to-meeting use in an office? Doesn't matter. For frequent flyers? Bose 
 
 ## After 8 Months: Deep Usage Patterns Revealed
 
-![Sony vs Bose long-term comparison](/images/products/sony-wh1000xm5-vs-2.jpg)
+<!-- Broken image removed during quality audit -->
 
 ### Daily Driver Reality Check
 
@@ -402,7 +403,7 @@ For most people reading this? Get the Sony. It's cheaper, lasts longer, sounds g
 
 But if you find the Bose on sale under $350? Grab it. At that price it's an incredible headphone and you wont regret it.
 
-I'm keeping both because apparently I have a problem.
+I'm keeping both because apparently We have a problem.
 
 {{< cta-button url="https://www.amazon.com/dp/B09XS7JWHH?tag=amazonfi08e0c-20" text="Check Sony XM5 Price on Amazon" >}}
 

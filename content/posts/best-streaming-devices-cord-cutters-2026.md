@@ -32,7 +32,7 @@ faq:
     answer: "Only if you're already deep in the Apple ecosystem with iPhones, iPads, and iCloud. The AirPlay integration and Apple TV+ app are genuinely better on it. Otherwise, spend $50 on a Roku and pocket the difference."
   - question: "Fire TV Stick vs Roku — which is better?"
     answer: "Roku if you want a clean, neutral experience. Fire TV if you're a heavy Prime Video user and have Alexa smart home devices. The Fire TV interface pushes Amazon content pretty aggressively though."
-  - question: "Do I need a streaming device if my TV is a smart TV?"
+  - question: "Do We need a streaming device if my TV is a smart TV?"
     answer: "Depends on the TV. If it's running Roku OS or Google TV built-in and it's less than 3 years old, probably not. If it's a cheap smart TV with a sluggish interface or missing apps, a $30 streaming stick will transform it."
 
 cover:
@@ -92,7 +92,7 @@ This thing launched at $30 and I've seen it drop to $16 on sale. At that price i
 
 Honestly? For most TVs and most people, you will not notice the difference between HDR10 and Dolby Vision. If your TV cost less than $800, it probaly doesn't even do Dolby Vision well enough to matter.
 
-I bought one of these for my bedroom TV and it's been flawless. No complaints whatsoever.
+We bought one of these for my bedroom TV and it's been flawless. No complaints whatsoever.
 
 ## For the Amazon household: Fire TV Stick 4K Max
 
@@ -166,4 +166,4 @@ Sometimes the boring answer is the right answer.
 
 If your TV was made after 2022 and it's from a major brand (Samsung, LG, Sony, TCL, Hisense), check what smart TV platform it runs first. A lot of newer TVs have Roku OS or Google TV built right in, and the built-in version is usually fast enough. You might not need a separate streaming device at all.
 
-I only figured this out after buying a Roku stick for my bedroom TV and then realizing the TV itself runs Roku OS. So now I have a spare streaming stick in a drawer. Learn from my mistakes.
+I only figured this out after buying a Roku stick for my bedroom TV and then realizing the TV itself runs Roku OS. So now We have a spare streaming stick in a drawer. Learn from my mistakes.

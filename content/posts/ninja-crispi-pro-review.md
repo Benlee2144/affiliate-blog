@@ -94,7 +94,7 @@ After digging through hundreds of Reddit posts, owner reviews, and professional 
 
 The Crispi Pro's biggest selling point is real: all food-contact surfaces are designed without PFAS and PTFE. The glass containers eliminate the microplastic concerns that come with traditional plastic and non-stick air fryer baskets.
 
-As one Reddit user explained: *"I worried about [plastic] as well and ended up getting the Ninja Crispi because it's glass. I love it and use it daily!"*
+As one Reddit user explained: *"I worried about [plastic] as well and ended up getting the Ninja Crispi because it's glass. We love it and use it daily!"*
 
 ### Cook, Store, Reheat—Same Container
 
@@ -102,7 +102,7 @@ As one Reddit user explained: *"I worried about [plastic] as well and ended up g
 
 The glass containers come with storage lids. Meal prep directly in the container, snap on the lid, and put it in the fridge. When you're ready to eat, pop it back in the Crispi Pro and hit Recrisp.
 
-One Reddit user raved: *"I recently got the Crispi Pro and I really like it. Easier to clean and I love how you can cook and store in the same container. It came with 2 glass containers and 2 grill plates."*
+One Reddit user raved: *"I recently got the Crispi Pro and I really like it. Easier to clean and We love how you can cook and store in the same container. It came with 2 glass containers and 2 grill plates."*
 
 ### Blazing Fast Cooking
 

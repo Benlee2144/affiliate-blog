@@ -78,7 +78,7 @@ But stick around if you want to know why the other three failed me — including
 | Ryobi 18V ONE+ Hand Vac | ~$99 | No | 3.1 lbs | 3.5/5 |
 | Dyson Car+Boat | ~$350 | No | 3.8 lbs | 3/5 |
 
-Yeah, the Dyson got a 3. I know.
+Yeah, the Dyson got a 3. We know.
 
 ## ThisWorx TWC-01 — The Amazon Bestseller Trap
 
@@ -114,7 +114,7 @@ One complaint: the dust bowl is kinda small. If you let your car get really gros
 
 ![Ryobi 18V ONE+ cordless handheld vacuum with HEPA filtration](/images/products/ryobi-18v-hand-vacuum.jpg)
 
-So I have a bunch of Ryobi tools already from doing stuff around the house. Same batteries for everything, which is the whole appeal. Figured I'd try their hand vac since I had spare batteries laying around.
+So We have a bunch of Ryobi tools already from doing stuff around the house. Same batteries for everything, which is the whole appeal. Figured I'd try their hand vac since I had spare batteries laying around.
 
 Suction is genuinely good. Better than the Dustbuster honestly. And the battery life is insane — like 18+ minutes on a single charge, which is way more than you need for a car.
 

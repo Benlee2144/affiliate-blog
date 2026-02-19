@@ -26,11 +26,11 @@ showToc: true
 TocOpen: true
 
 faq:
-  - question: "What specs do I need for programming?"
+  - question: "What specs do We need for programming?"
     answer: "For most development work, you need at least 16GB RAM (32GB for virtualization), an SSD with 512GB+ storage, and a modern processor (M4, Intel Core Ultra, or Ryzen 7). Display quality matters more than you think—a 14-15 inch screen with good color accuracy reduces eye strain during long coding sessions."
   - question: "Is MacBook or Windows better for coding?"
     answer: "It depends on your stack. MacBook is essential for iOS/macOS development and offers excellent UNIX-based terminal experience. Windows is better for .NET development and enterprise environments. For web development, either works well, though many developers prefer macOS for its stability and native UNIX tools."
-  - question: "Do I need a dedicated GPU for programming?"
+  - question: "Do We need a dedicated GPU for programming?"
     answer: "For most programming, no. Integrated graphics handle code editing, web development, and even light machine learning fine. You only need a dedicated GPU for game development, heavy ML/AI training, or 3D graphics work."
   - question: "ThinkPad vs MacBook for software development?"
     answer: "ThinkPad wins on keyboard quality, Linux support, and value. MacBook wins on battery life, display quality, and macOS ecosystem. ThinkPads are preferred by many backend developers and Linux users, while MacBooks dominate among iOS developers and creative professionals."

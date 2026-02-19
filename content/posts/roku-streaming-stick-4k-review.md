@@ -30,7 +30,7 @@ faq:
     answer: "Roku for neutral platform with all apps equally accessible. Fire Stick if you're deep in Amazon ecosystem. Roku's interface is cleaner and faster."
   - question: "Does Roku have all the streaming apps?"
     answer: "Yes—Netflix, Disney+, Hulu, HBO Max, Prime Video, Apple TV+, Peacock, and thousands more. No major streaming service is missing."
-  - question: "Can I use Roku without internet?"
+  - question: "Can We use Roku without internet?"
     answer: "Barely—Roku requires internet for all streaming. Some downloaded content may work offline, but it's fundamentally an internet device."
   - question: "Why does Roku show ads on the home screen?"
     answer: "Roku's business model includes advertising revenue. You'll see promoted content on the home screen, but ads don't interrupt your streaming."

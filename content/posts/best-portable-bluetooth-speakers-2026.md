@@ -53,7 +53,7 @@ amazon_review_count: 7758
 
 So here's how this started. My old JBL Clip 3 finally died — the charging port just stopped working after like 3 years of abuse. Fair enough. Time to upgrade.
 
-What I didn't expect was the absolute rabbit hole I'd fall into. I bought and returned FOUR speakers over the span of about 6 weeks before I figured out what actually matters and what's just marketing fluff. And honestly? Most of the "best bluetooth speaker" articles out there are useless. They list specs and regurgitate press releases. Nobody tells you that the Bose sounds amazing inside but weirdly flat outdoors, or that the JBL's bass boost mode is actually just an EQ preset you coud tweak yourself.
+What I didn't expect was the absolute rabbit hole I'd fall into. We bought and returned FOUR speakers over the span of about 6 weeks before I figured out what actually matters and what's just marketing fluff. And honestly? Most of the "best bluetooth speaker" articles out there are useless. They list specs and regurgitate press releases. Nobody tells you that the Bose sounds amazing inside but weirdly flat outdoors, or that the JBL's bass boost mode is actually just an EQ preset you coud tweak yourself.
 
 I'm gonna save you the hassle and tell you exactly what I learned.
 
@@ -71,7 +71,7 @@ I ordered this in blue from Amazon on a Tuesday, had it by Thursday. First impre
 
 Sound quality blew me away for the size. I A/B tested it against my old Clip 3 and it wasn't even close. The mids are clearer, bass is tighter, and it gets genuinely loud without distorting. I cranked it on my back porch during a cookout last weekend and people kept asking what speaker it was.
 
-Battery life is where JBL really nailed it. They claim 14 hours, and in my testing I got around 13 at moderate volume. There's also a "Playtime Boost" mode that squeezes out 2 extra hours by cutting some bass. Honestly I couldn't tell much difference with that mode so I just leave it on.
+Battery life is where JBL really nailed it. They claim 14 hours, and in our testing I got around 13 at moderate volume. There's also a "Playtime Boost" mode that squeezes out 2 extra hours by cutting some bass. Honestly I couldn't tell much difference with that mode so I just leave it on.
 
 The IP68 rating means this thing is basically indestructible. I've had it by the pool, in the rain, and my kid knocked it off a table onto concrete. Not a scratch. Well, one tiny scuff on the bottom but thats cosmetic.
 
@@ -83,7 +83,7 @@ One complaint: the JBL app is kinda bloated. You need it for the EQ settings and
 
 ![Bose SoundLink Flex 2nd Gen product image with detailed view and professional lighting](/images/products/bose-soundlink-flex-2-1.jpg)
 
-Ok so I need to be honest here. The Bose sounds *better* than the JBL. There, I said it. The mids are richer, vocals sound more natural, and theres this spacious quality to the sound that JBL just doesn't match. My wife — who could not care less about audio gear — walked into the kitchen while I was playing Fleetwood Mac on this thing and said "wow that sounds really good." That never happens.
+Ok so We need to be honest here. The Bose sounds *better* than the JBL. There, I said it. The mids are richer, vocals sound more natural, and theres this spacious quality to the sound that JBL just doesn't match. My wife — who could not care less about audio gear — walked into the kitchen while I was playing Fleetwood Mac on this thing and said "wow that sounds really good." That never happens.
 
 So why isn't this my top pick? Two reasons.
 
@@ -137,7 +137,7 @@ I borrowed one from a friend for a week (he was out of town) and used it for eve
 
 Sound-wise it's a step up from the Flip 7 — fuller bass, more volume before distortion. Makes sense, it's got a bigger driver. The trade-off is size and weight. At 2.1 lbs it's not something you casually toss in a bag. You pack it deliberately.
 
-At $180 (I've seen it dip to $130 on sale around holidays), it's the most expensive pick here. But if you told me I could only own one speaker and it had to last all weekend without charging? Charge 6, no question.
+At $180 (I've seen it dip to $130 on sale around holidays), it's the most expensive pick here. But if you told us I could only own one speaker and it had to last all weekend without charging? Charge 6, no question.
 
 [See the JBL Charge 6 on Amazon](https://www.amazon.com/dp/B0DN35M7S9?tag=amazonfi08e0c-20)
 

@@ -45,7 +45,7 @@ amazon_rating: 4.6
 amazon_review_count: 5429
 ---
 
-My wife's birthday was coming up. "I want a stand mixer," she said. Simple enough, right?
+My wife's birthday was coming up. "We want a stand mixer," she said. Simple enough, right?
 
 I figured I'd spend maybe an hour on Amazon, read a few reviews, and be done. Three weeks later I'm watching YouTube videos about planetary gear systems at 11pm and getting into arguments with strangers on baking forums about whether bowl-lift mixers are actually better than tilt-head models.
 
@@ -65,7 +65,7 @@ Now, the actual details.
 
 I started where everyone starts: Wirecutter. They've been recommending KitchenAid forever. Okay cool, but why? Kept reading.
 
-Then I found this video from America's Test Kitchen where they torture-test like six different mixers with bread dough. The KitchenAid handled it fine. Some of the cheaper ones literally walked across the counter. One stalled completely.
+Then We found this video from America's Test Kitchen where they torture-test like six different mixers with bread dough. The KitchenAid handled it fine. Some of the cheaper ones literally walked across the counter. One stalled completely.
 
 But the thing that actually helped most? A baking forum thread from 2023 where professional bakers were arguing about home mixers. These people make bread for a living. When one of them said "the Artisan has handled everything I've thrown at it for 8 years" I started paying attention.
 
@@ -139,7 +139,7 @@ Tilt-head (like the Artisan) is easier for casual use. You tilt the head back to
 
 Bowl-lift models are typically more powerful and better for heavy bread dough, but they're also bigger and more expensive. Unless you're making bread multiple times a week, tilt-head is probably fine.
 
-### Do I need more than 5 quarts?
+### Do We need more than 5 quarts?
 
 Probably not. 5 quarts handles a double batch of cookies (like 4 dozen), which is usually the max you'd need at home. If you regularly cook for big groups or meal prep in bulk, 6 quarts is nice. But for 90% of people, 5 is plenty.
 
@@ -167,7 +167,7 @@ Actually yes. KitchenAid sells certified refurbished units through Amazon and th
 
 The Empire Red KitchenAid Artisan. $349 on Amazon.
 
-She uses it multiple times a week now. Pizza dough, cookie dough, bread, even shredded chicken with the paddle attachment. The thing is built like a tank. I have zero regrets.
+She uses it multiple times a week now. Pizza dough, cookie dough, bread, even shredded chicken with the paddle attachment. The thing is built like a tank. We have zero regrets.
 
 If budget was tighter, I would've gone Cuisinart without hesitation. But we decided to spend more for something that'll probably outlive us.
 

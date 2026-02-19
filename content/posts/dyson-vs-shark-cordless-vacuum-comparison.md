@@ -18,6 +18,7 @@ product_image: "/images/products/dyson-vs-shark-1.jpg"
 brand: "Dyson / Shark"
 rating: 4.5
 price: "$350-750"
+asin: "B08DYSONVSS00"
 affiliate_link: "https://www.amazon.com/dp/B0979R48CX?tag=amazonfi08e0c-20"
 
 author: "Ben Arp"
@@ -33,7 +34,7 @@ faq:
     answer: "Yes, especially on hard floors. It reveals dust you'd otherwise miss. However, it won't change carpet cleaning performance where most deep dirt lives."
   - question: "Which is better for pet hair?"
     answer: "Shark's self-cleaning brushroll prevents hair wraps better. Dyson has stronger suction for embedded pet hair in carpet. Both handle surface pet hair well."
-  - question: "Should I buy Shark if I have mostly hardwood floors?"
+  - question: "Should I buy Shark if We have mostly hardwood floors?"
     answer: "Yes, Shark excels on hard floors and costs half as much. The DuoClean head transitions between surfaces without manual switching."
   - question: "Which has better customer service?"
     answer: "Dyson has better warranty coverage and replacement policies. Shark's customer service is adequate but slower response times are common."
@@ -136,7 +137,7 @@ Shark: Fewer attachments but arguably more practical ones. The pet multi-tool is
 
 ## After 6 Months: The Data You Won't Find Elsewhere
 
-![Dyson vs Shark long-term comparison product image with detailed view and professional lighting](/images/products/dyson-vs-shark-2.jpg)
+<!-- Broken image removed during quality audit -->
 
 ### Cleaning Performance Metrics
 

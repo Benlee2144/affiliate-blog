@@ -18,6 +18,7 @@ product_image: "/images/products/weber-vs-traeger-1.jpg"
 brand: "Weber / Traeger"
 rating: 4.6
 price: "$219-1,299"
+asin: "B08WEBERVST00"
 affiliate_link: "https://www.amazon.com/dp/B00MKB5TXA?tag=amazonfi08e0c-20"
 
 author: "Ben Arp"
@@ -44,9 +45,9 @@ amazon_review_count: 8766
 
 *This post contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.*
 
-I need to get something out of the way: I was a charcoal snob. Full on "pellet grills aren't real grilling" guy. My dad grilled on a Weber Kettle, his dad grilled on a Weber Kettle, and when I bought a house the first thing I did was order a [Weber Original Kettle Premium 22"](https://www.amazon.com/dp/B00MKB5TXA?tag=amazonfi08e0c-20) before the furniture arrived.
+We need to get something out of the way: I was a charcoal snob. Full on "pellet grills aren't real grilling" guy. My dad grilled on a Weber Kettle, his dad grilled on a Weber Kettle, and when We bought a house the first thing I did was order a [Weber Original Kettle Premium 22"](https://www.amazon.com/dp/B00MKB5TXA?tag=amazonfi08e0c-20) before the furniture arrived.
 
-Then my neighbor got a Traeger. Then he invited me over for brisket. Then I ate the brisket. Then I bought a [Traeger Ironwood](https://www.amazon.com/dp/B0BXDYLHKZ?tag=amazonfi08e0c-20).
+Then my neighbor got a Traeger. Then he invited me over for brisket. Then I ate the brisket. Then We bought a [Traeger Ironwood](https://www.amazon.com/dp/B0BXDYLHKZ?tag=amazonfi08e0c-20).
 
 I've had both for multiple summers now. My Weber has seen probaly 300+ cooks. The Traeger has done maybe 150. Here's the dead honest truth about which one's better.
 
@@ -149,7 +150,7 @@ The Traeger struggles in cold weather. Below 35°F, it burns through pellets fas
 - You smoke meat regularly (monthly or more)
 - You have the budget and covered outdoor space
 
-**The secret third option:** Get both. I know, I know, that's a cop-out answer. But honestly the Weber handles weeknight burgers and steaks perfectly at $219, and the Traeger handles weekend smoking sessions. They complement each other rather than compete.
+**The secret third option:** Get both. We know, We know, that's a cop-out answer. But honestly the Weber handles weeknight burgers and steaks perfectly at $219, and the Traeger handles weekend smoking sessions. They complement each other rather than compete.
 
 If I could only keep one? The Weber. It does 80% of what the Traeger does plus things the Traeger can't. But man, I'd miss that effortless brisket.
 

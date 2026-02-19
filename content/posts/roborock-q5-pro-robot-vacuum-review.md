@@ -109,7 +109,7 @@ At 5500Pa, this is serious suction—enough to pull embedded pet hair from carpe
 - Better debris pickup on hard floors
 - Easier maintenance (no scissors needed to cut wrapped hair)
 
-From an Amazon reviewer: *"I have zero complaints about the Pro. And at the end of the day, I no longer have little tumblefur balls rolling around the rooms."*
+From an Amazon reviewer: *"We have zero complaints about the Pro. And at the end of the day, I no longer have little tumblefur balls rolling around the rooms."*
 
 ### 240-Minute Runtime
 

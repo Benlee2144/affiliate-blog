@@ -51,7 +51,7 @@ The standing desk industry is basically a scam.
 
 Not the desks themselves — standing desks are great. The problem is pricing. You've got companies charging $700, $800, even $1000+ for what is, fundamentally, a motor, some metal legs, and a slab of particle board wrapped in laminate.
 
-I spent way too many hours on r/StandingDesk and r/homeoffice reading horror stories. People dropping $900 on an Uplift V3 with bamboo top. Others going budget with some $150 Amazon special that breaks after 6 months. Both extreme ends getting burned.
+We spent way too many hours on r/StandingDesk and r/homeoffice reading horror stories. People dropping $900 on an Uplift V3 with bamboo top. Others going budget with some $150 Amazon special that breaks after 6 months. Both extreme ends getting burned.
 
 The sweet spot? It exists. Most people are just looking in the wrong places.
 
@@ -97,7 +97,7 @@ Everything else? Marketing fluff.
 
 The [Flexispot E7 Pro](https://www.amazon.com/dp/B08B3X9CKH?tag=amazonfi08e0c-20).
 
-I found this after reading probably 30 Reddit recommendation threads. It kept coming up. People who owned Uplift before said it was "basically the same desk." One guy on r/StandingDesk did a side-by-side comparison and posted pictures — the internal motors were nearly identical.
+We found this after reading probably 30 Reddit recommendation threads. It kept coming up. People who owned Uplift before said it was "basically the same desk." One guy on r/StandingDesk did a side-by-side comparison and posted pictures — the internal motors were nearly identical.
 
 Specs:
 - Dual motor, 3-stage legs
@@ -125,7 +125,7 @@ Is it as nice as the Flexispot? No. The motor is slower. The control panel feels
 
 But for a basic home office setup — laptop, single monitor, keyboard, mouse — it's completly fine. I've seen these things running for 3+ years in people's setups on r/battlestations without issues.
 
-The biggest complaint I found was the desktop wobbling a bit at maximum height. Easy fix: don't use maximum height unless you're literally 6'5". Or add a monitor arm to reduce weight on the surface.
+The biggest complaint We found was the desktop wobbling a bit at maximum height. Easy fix: don't use maximum height unless you're literally 6'5". Or add a monitor arm to reduce weight on the surface.
 
 ![FEZIBO standing desk with drawer product image with detailed view and professional lighting](/images/products/fezibo-standing-desk-1.jpg)
 

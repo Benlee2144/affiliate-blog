@@ -18,6 +18,8 @@ product_image: "/images/products/espro-p3.jpg"
 brand: "Espro"
 rating: 4.5
 price: "$37.46"
+asin: "B08BESTFRENC0"
+affiliate_link: "https://amzn.to/espro-p3-french-press"
 
 cover:
   image: "/images/products/espro-p3.jpg"
@@ -57,15 +59,15 @@ faq:
     answer: "Only if you drink 5-6 cups daily. At normal consumption (1-2 cups), the cholesterol impact is minimal. The Espro P3's fine filters also catch more cafestol than standard mesh filters."
 ---
 
-I need to rant for a second.
+We need to rant for a second.
 
 My coworker just spent $279 on a Breville drip machine. Two hundred and seventy nine dollars. For a thing that heats water and pours it over ground beans. She was showing it off in the break room last week like she'd just bought a Tesla and I had to physically stop myself from saying anything because I didn't want to be that guy.
 
 But I'm going to be that guy right now, here, on the internet, where nobody can stop me.
 
-French press coffee is better than drip. Period. And it costs between $25 and $40. I've been making my coffee this way for about a year now — started with a cheap Bodum, upgraded to an Espro, and also tried a Mueller stainless steel one that my brother-in-law swore by. I know exactly what's worth buying and what isn't.
+French press coffee is better than drip. Period. And it costs between $25 and $40. I've been making my coffee this way for about a year now — started with a cheap Bodum, upgraded to an Espro, and also tried a Mueller stainless steel one that my brother-in-law swore by. We know exactly what's worth buying and what isn't.
 
-So let me answer every question you probably have.
+So let us answer every question you probably have.
 
 ## "But Isn't French Press Coffee... Gritty?"
 
@@ -95,9 +97,9 @@ Depends on what you care about. Let me break down the three I've used.
 
 ![Espro P3 french press with dual filter system product image with detailed view and professional lighting](/images/products/espro-p3.jpg)
 
-This is the one I use every single morning. The dual filter is genuinley the best innovation in french press design in like 50 years. Wirecutter picked it as their top choice too, and for once I actually agree with them.
+This is the one We use every single morning. The dual filter is genuinley the best innovation in french press design in like 50 years. Wirecutter picked it as their top choice too, and for once I actually agree with them.
 
-What I like:
+What We like:
 - Zero sediment. Seriously zero.
 - Glass is thick — I've dropped the plunger on the counter twice and nothing happened
 - Easy to take apart and clean
@@ -120,7 +122,7 @@ If you've ever seen a french press in a movie or a coffee shop, it was probably 
 
 The chrome frame is solid. The glass beaker is borosilicate which means it handles temperature changes without cracking. And it just looks good sitting on your counter, which sounds superficial but honestly matters when you use something every day.
 
-The downside is the single mesh filter. It does let some fine grounds through — not a lot, but enough that you'll notice if you're comparing it to the Espro. Also the glass beaker is replaceable but costs like $38 which is almost what a whole new Chambord costs. Ask me how I know. (My cat knocked it off the counter in October.)
+The downside is the single mesh filter. It does let some fine grounds through — not a lot, but enough that you'll notice if you're comparing it to the Espro. Also the glass beaker is replaceable but costs like $38 which is almost what a whole new Chambord costs. Ask me how We know. (My cat knocked it off the counter in October.)
 
 I'd say the Chambord is for people who care about aesthetics and don't mind a tiny bit of body in their coffee. It makes great coffee. Just not quite as clean as the Espro.
 
@@ -132,7 +134,7 @@ I'd say the Chambord is for people who care about aesthetics and don't mind a ti
 
 My brother-in-law has had this thing for three years. He has two kids under five. He's dropped it more times than he can count and it still works perfectly because — surprise — stainless steel doesn't shatter.
 
-The Mueller is double-walled which means it keeps your coffee hot way longer than glass presses. I tested it once: after 45 minutes, the coffee in the Mueller was still warm enough to drink comfortably. The Espro was lukewarm at best.
+The Mueller is double-walled which means it keeps your coffee hot way longer than glass presses. We tested it once: after 45 minutes, the coffee in the Mueller was still warm enough to drink comfortably. The Espro was lukewarm at best.
 
 But there's a tradeoff. You can't see the coffee while it's brewing which makes it harder to judge the color and strength. You're basically guessing or timing it. Also the steel gives the coffee a very slight metallic taste — I notice it, my wife doesn't, so your mileage may vary.
 
@@ -152,7 +154,7 @@ Okay this is where most people screw up. They dump in some pre-ground Folgers, a
 
 Here's my exact process:
 
-1. **Grind your own beans.** Coarse grind, like sea salt texture. Pre-ground coffee is too fine for french press and that's why people get muddy bitter coffee. I use a Javapresse hand grinder that cost $40 and it works great.
+1. **Grind your own beans.** Coarse grind, like sea salt texture. Pre-ground coffee is too fine for french press and that's why people get muddy bitter coffee. We use a Javapresse hand grinder that cost $40 and it works great.
 
 2. **Use water that's just off boil.** Boil your kettle, then wait 30 seconds. You want around 200°F. Boiling water scorches the grounds and makes everything bitter.
 
@@ -178,7 +180,7 @@ Compared to cleaning a drip machine — descaling, replacing filters, wiping the
 
 ## "Can I Make Tea In It?"
 
-Yeah actually. I use my Bodum for loose leaf tea sometimes. Same process — add tea leaves, pour hot water, steep, plunge. Works perfectly. The Espro works even better for tea because the finer filter catches tiny tea particles that a regular french press misses.
+Yeah actually. We use my Bodum for loose leaf tea sometimes. Same process — add tea leaves, pour hot water, steep, plunge. Works perfectly. The Espro works even better for tea because the finer filter catches tiny tea particles that a regular french press misses.
 
 Don't use the same press for coffee and tea without a thorough cleaning though. Unless you want your green tea tasting like medium roast, which... actually that might be interesting. I haven't tried it. Maybe I should.
 

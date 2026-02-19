@@ -26,7 +26,7 @@ showToc: true
 TocOpen: true
 
 faq:
-  - question: "Is an iPad enough for college, or do I need a laptop?"
+  - question: "Is an iPad enough for college, or do We need a laptop?"
     answer: "For most students, an iPad with a keyboard can replace a laptop for note-taking, research, reading, and light productivity. However, if your major requires specialized software (engineering CAD programs, certain coding environments), you may need a traditional laptop alongside your iPad."
   - question: "Which iPad supports Apple Pencil for note-taking?"
     answer: "All current iPads support Apple Pencil. The iPad Air M3 and iPad Pro M4 support the Apple Pencil Pro with advanced features like squeeze gestures. The base iPad A16 supports Apple Pencil (USB-C). All are excellent for handwritten notes."

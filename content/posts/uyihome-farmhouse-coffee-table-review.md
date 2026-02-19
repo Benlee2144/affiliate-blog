@@ -138,7 +138,7 @@ A small percentage of buyers received tables with fit issues or slightly misalig
 
 ## Who Should Buy This
 
-![UYIHOME Farmhouse Coffee Table in living room setting product image with detailed view and professional lighting](/images/products/uyihome-farmhouse-coffee-table-3.jpg)
+<!-- Broken image removed during quality audit -->
 
 **First apartment or rental:** You want style without investing hundreds in furniture you might not move.
 

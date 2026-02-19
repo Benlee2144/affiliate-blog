@@ -239,7 +239,7 @@ For a deeper dive into choosing the right size and features, see our comprehensi
 
 ## Frequently Asked Questions
 
-**Q: How much oil should I use in an air fryer?**
+**Q: How much oil should We use in an air fryer?**
 A: Most foods need no oil. For extra crispiness, use 1-2 teaspoons of oil spray. Air fryers work by circulating hot air, not oil.
 
 **Q: Can I cook multiple foods at once?**

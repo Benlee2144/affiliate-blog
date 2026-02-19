@@ -18,6 +18,8 @@ product_image: "/images/products/levoit-lv600s.jpg"
 brand: "Levoit"
 rating: 4.4
 price: "$95.99"
+asin: "B08BESTHUMID0"
+affiliate_link: "https://amzn.to/levoit-lv600s-humidifier"
 
 cover:
   image: "/images/products/levoit-lv600s.jpg"
@@ -49,7 +51,7 @@ Nineteen percent. That's drier than the Sahara. Literally. I looked it up.
 
 I'd never owned a humidifier before. Always thought they were kinda unnecessary, like those fancy air purifiers that people buy and then forget to change the filter on for two years. But desperate times and all that.
 
-Long story short, I ended up buying three different humidifiers over the next couple weeks because the first one had issues and I went down a YouTube rabbit hole at 1am (as you do). Two months in, I've learned a lot — mostly stuff I wish someone had told me before I spent the money.
+Long story short, I ended up buying three different humidifiers over the next couple weeks because the first one had issues and I went down a YouTube rabbit hole at 1am (as you do). Two months in, I've learned a lot — mostly stuff We wish someone had told us before We spent the money.
 
 ## Do You Actually Need a Humidifier in Your Bedroom?
 
@@ -65,7 +67,7 @@ So yeah. You probably need one.
 
 This is where I messed up initially. There are like four different types and I didn't realize it mattered.
 
-**Ultrasonic (cool mist):** These vibrate water into a fine mist. Super quiet — we're talking 28-35 dB which is basically a whisper. This is what most bedroom humidifiers are now. The Dreo and Carepod I tested are both this type.
+**Ultrasonic (cool mist):** These vibrate water into a fine mist. Super quiet — we're talking 28-35 dB which is basically a whisper. This is what most bedroom humidifiers are now. The Dreo and Carepod We tested are both this type.
 
 **Warm mist:** Boils the water first. Kills bacteria (good) but uses more electricity and can raise room temperature. The Levoit LV600S does both warm and cool which is pretty nice actually.
 
@@ -83,11 +85,11 @@ I started with the Dreo because it was forty-something bucks on Amazon and had s
 
 The 4-liter tank lasts about 30 hours on low, which means I fill it Monday night and don't think about it again until Wednesday. The display shows current humidity and you can set a target. It's got app control through their Dreo app which works fine — nothing special but it does the job.
 
-What surprised me was how quiet it is. Dreo claims 28 dB and I believe them. With the bedroom door closed I genuinely cannot hear it unless I'm standing right next to it. My wife didn't even realize it was running the first night.
+What surprised me was how quiet it is. Dreo claims 28 dB and We believe them. With the bedroom door closed I genuinely cannot hear it unless I'm standing right next to it. My wife didn't even realize it was running the first night.
 
-**The problem:** White dust. Nobody warned me about this. After about a week I noticed a fine white film on my nightstand, my lamp, the TV in our bedroom. Turns out ultrasonic humidifiers can do this if you have hard water — they basically aerosolize the minerals along with the water. I have well water in Knoxville so... yeah. Hard water central.
+**The problem:** White dust. Nobody warned me about this. After about a week We noticed a fine white film on my nightstand, my lamp, the TV in our bedroom. Turns out ultrasonic humidifiers can do this if you have hard water — they basically aerosolize the minerals along with the water. We have well water in Knoxville so... yeah. Hard water central.
 
-I tried using distilled water and the dust went away completely. But buying distilled water regularly is annoying and adds up. Thats honestly the main downside.
+We tried using distilled water and the dust went away completely. But buying distilled water regularly is annoying and adds up. Thats honestly the main downside.
 
 [Check current price on Amazon](https://www.amazon.com/dp/B0CCVX6FSD?tag=amazonfi08e0c-20)
 
@@ -95,7 +97,7 @@ I tried using distilled water and the dust went away completely. But buying dist
 
 ![Carepod One stainless steel ultrasonic humidifier with easy-fill design and quiet operation](/images/products/carepod-one.jpg)
 
-I bought the Carepod after watching a RTINGS video where they ranked it #1 for bedrooms. Their whole pitch is that it's stainless steel inside — only 3 parts, all dishwasher safe, no filter to replace.
+We bought the Carepod after watching a RTINGS video where they ranked it #1 for bedrooms. Their whole pitch is that it's stainless steel inside — only 3 parts, all dishwasher safe, no filter to replace.
 
 And you know what, they're not lying. Cleaning this thing takes maybe 90 seconds. You pop the top off, rinse the base, done. Compare that to some humidifiers where you need a bottle brush and vinegar and 20 minutes of scrubbing to get the pink slime out of the crevices.
 
@@ -137,7 +139,7 @@ I ended up buying a 5-gallon jug of distilled water from Walmart for like $6 and
 
 ## How Loud Is Too Loud for a Bedroom?
 
-Quick reference because I tested all three with a dB meter app on my phone (not scientific but close enough):
+Quick reference because We tested all three with a dB meter app on my phone (not scientific but close enough):
 
 - **Dreo HM311S on low:** 26 dB — basically silent
 - **Carepod One on low:** 30 dB — very faint hum

@@ -57,7 +57,7 @@ Look, I didn't plan to spend my Saturday night reading hundreds of Reddit thread
 
 It started with a simple question in r/curlyhair: "What hair dryer actually works for thick hair without taking 45 minutes?" Three hours later, I'm deep in r/HaircareScience arguing with myself about ionic technology. Six hours after that, I'm cross-referencing Amazon reviews with posts from r/BuyItForLife to figure out which dryers actually last.
 
-So let me save you the rabbit hole. Here's what I learned about hair dryers for thick, dense, time-consuming-to-dry hair.
+So let us save you the rabbit hole. Here's what I learned about hair dryers for thick, dense, time-consuming-to-dry hair.
 
 ---
 
@@ -75,7 +75,7 @@ So let me save you the rabbit hole. Here's what I learned about hair dryers for 
 
 ## Why Thick Hair Is a Different Beast
 
-Before we get into specific dryers, let me explain why most hair dryer reviews are useless if you have thick hair.
+Before we get into specific dryers, let us explain why most hair dryer reviews are useless if you have thick hair.
 
 Most reviewers have fine to medium hair. When they say a dryer "works great," they're talking about 10 minutes max of drying time. Meanwhile, those of us with thick, dense hair are over here with arm cramps after 25 minutes with a weak dryer.
 
@@ -101,7 +101,7 @@ The Shark HyperAir has a 111,000 RPM motor. For context, the Dyson Supersonic ru
 
 ![Shark HyperAir with styling attachments product image with detailed view and professional lighting](/images/products/shark-hyperair-2.jpg)
 
-One user in r/curlyhair put it bluntly: "I have 4a/4b type hair and the brush attachment gets my hair really straight with minimal heat. I was skeptical because of the price but damn."
+One user in r/curlyhair put it bluntly: "We have 4a/4b type hair and the brush attachment gets my hair really straight with minimal heat. I was skeptical because of the price but damn."
 
 **What people love:**
 - Dries thick hair almost as fast as Dyson
@@ -169,7 +169,7 @@ The T3 uses something called "Custom Heat Automation"—basically sensors that a
 
 TechRadar's testing found the T3 Featherweight StyleMax was "the fastest for drying thick, curly hair" among mid-range dryers. That's saying something.
 
-**What I found in the reviews:**
+**What We found in the reviews:**
 
 A concerning number of people mention the attachments overheating. One reviewer said they burned their scalp with the smoothing comb. That's not great for a $200 dryer.
 
@@ -230,9 +230,9 @@ After reading way too many threads, here's the pattern:
 
 ## One Last Thing
 
-Here's something I noticed after hours in these forums: the people happiest with their hair dryers are the ones who stopped chasing "the best" and bought something good enough.
+Here's something We noticed after hours in these forums: the people happiest with their hair dryers are the ones who stopped chasing "the best" and bought something good enough.
 
-A u/RealisticHairCare post summed it up: "I spent 3 months researching dryers. Finally bought the Shark. It's great. Wish I'd just bought it 3 months ago."
+A u/RealisticHairCare post summed it up: "We spent 3 months researching dryers. Finally bought the Shark. It's great. Wish I'd just bought it 3 months ago."
 
 Don't be that person. Pick one, buy it, dry your hair.
 

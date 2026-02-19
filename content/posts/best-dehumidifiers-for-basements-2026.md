@@ -48,7 +48,7 @@ faq:
     answer: "Midea Cube offers more compact design and quieter operation at $320. Frigidaire is slightly louder but has more intuitive controls at $350 - both work well for most basements."
   - question: "Should I get a 50 pint or 70 pint dehumidifier for my basement?"
     answer: "50 pint works for basements under 1000 sq ft with moderate humidity (55-70%). Go with 70 pint only for larger basements or very wet conditions to avoid oversizing issues."
-  - question: "Do I need a dehumidifier with a pump for my basement?"
+  - question: "Do We need a dehumidifier with a pump for my basement?"
     answer: "Yes, if you lack a convenient floor drain. The pump allows 16-foot hose runs uphill to laundry sinks or window drains, eliminating the need to empty buckets constantly."
   - question: "Will a basement dehumidifier really eliminate musty smells?"
     answer: "Yes, it eliminated our wet dog basement smell within one week by reducing humidity from 68% to 50%. Consistent use maintains the improvement long-term."
@@ -58,13 +58,13 @@ You know that smell. That damp, musty, vaguely moldy smell that hits you the sec
 
 That was my basement from April through basically September last year.
 
-I kept telling myself it wasn't that bad. Opened a window sometimes. Put a fan down there. Convinced myself the smell was just "old house character" since we're in a 1962 split-level. My wife finally had enough and told me to fix it or she was calling someone to waterproof the whole basement, which is apparently a $15k+ job.
+I kept telling myself it wasn't that bad. Opened a window sometimes. Put a fan down there. Convinced myself the smell was just "old house character" since we're in a 1962 split-level. My wife finally had enough and told us to fix it or she was calling someone to waterproof the whole basement, which is apparently a $15k+ job.
 
 So I dove into researching dehumidifiers. And honestly? The whole thing is way more confusing than it needs to be.
 
 The specs make zero sense. Manufacturers throw around numbers like "50 pints per day" and "4,500 square feet coverage" but nobody tells you what those actually mean for a typical basement. Like, is my 900 square foot basement "large" or "medium"? Does the 50 pint rating matter if my humidity is only 65% instead of 90%? 
 
-I spent probably two weeks reading Reddit threads and Amazon reviews before pulling the trigger on anything. Here's what I wish someone had told me upfront.
+We spent probably two weeks reading Reddit threads and Amazon reviews before pulling the trigger on anything. Here's what We wish someone had told us upfront.
 
 ---
 
@@ -78,7 +78,7 @@ The other big issue people mentioned was the bucket. Everyone hates emptying the
 
 ![Midea Cube 50 pint dehumidifier product image with detailed view and professional lighting](/images/products/midea-cube-pump-1.jpg)
 
-That last point stuck with me. My basement doesn't have a floor drain anywhere convenient. The only drain is in the laundry room corner, and running a hose across the floor seemed sketchy. So I specifically looked for units with a built-in pump that could push water uphill to a drain or out a window.
+That last point stuck with us. My basement doesn't have a floor drain anywhere convenient. The only drain is in the laundry room corner, and running a hose across the floor seemed sketchy. So I specifically looked for units with a built-in pump that could push water uphill to a drain or out a window.
 
 After filtering for pump, decent reviews, and not-crazy expensive, I landed on three options:
 
@@ -112,7 +112,7 @@ The "50 pint" rating is tested at 80°F and 60% relative humidity. Your basement
 
 Built-in pumps aren't technically as reliable as external ones, according to some Reddit threads. The logic is that if the pump fails in a combo unit, the whole thing might be toast. But honestly, I'd rather deal with that potentail problem than run a separate pump. The convenience factor is huge.
 
-Noise isn't as bad as reviews make it sound. People complain about dehumidifier noise constantly online, but it's basically just a hum. I have mine running in a finished basement that's sometimes used as a home office. It's noticeable if you're actively listening for it. Otherwise it fades into background noise pretty quick.
+Noise isn't as bad as reviews make it sound. People complain about dehumidifier noise constantly online, but it's basically just a hum. We have mine running in a finished basement that's sometimes used as a home office. It's noticeable if you're actively listening for it. Otherwise it fades into background noise pretty quick.
 
 WiFi connectivity is nice but not essential. The Midea connects to their app and works with Alexa. I've used it maybe three times. Set it and forget it is the actual use case for most people.
 
@@ -124,7 +124,7 @@ If I had to buy again tomorrow I'd probably stick with the [Midea Cube](https://
 
 ![hOmeLabs 50 pint dehumidifier with pump with ultrasonic technology and quiet operation](/images/products/homelabs-pump-2.jpg)
 
-For sizing, the general rule I found is: basement under 1000 sq ft with moderate humidity (55-70%) = 50 pint unit is probably enough. Bigger basement or really wet conditions = look at 70 pint. Don't oversize too much though, that cycling issue is real.
+For sizing, the general rule We found is: basement under 1000 sq ft with moderate humidity (55-70%) = 50 pint unit is probably enough. Bigger basement or really wet conditions = look at 70 pint. Don't oversize too much though, that cycling issue is real.
 
 ---
 
@@ -132,7 +132,7 @@ The main takeaway? Don't overthink this like I did.
 
 Get a 50 pint unit with a pump if you don't have a convenient floor drain. Run the drain hose somewhere. Set the target humidity to 50% and forget about it. Your basement will stop smelling like wet dog in about a week.
 
-That $320 I spent saved a $15,000 waterproofing conversation with my wife. Pretty good ROI if you ask me.
+That $320 We spent saved a $15,000 waterproofing conversation with my wife. Pretty good ROI if you ask me.
 
 ---
 

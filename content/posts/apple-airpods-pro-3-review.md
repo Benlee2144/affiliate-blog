@@ -166,7 +166,7 @@ If you had fit issues with Pro 2, the Pro 3 likely won't be better.
 
 ## After 30 Days: The Real-World Experience
 
-![Apple AirPods Pro 3 shown during extended listening session with active noise cancellation](/images/products/airpods-pro-3-2.jpg)
+<!-- Broken image removed during quality audit -->
 
 ### The Health Features Deliver
 

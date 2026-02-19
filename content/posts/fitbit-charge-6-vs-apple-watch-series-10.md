@@ -250,11 +250,11 @@ Neither choice is wrong—they're optimized for different lifestyles and priorit
 **Q: Which has better sleep tracking?**
 A: Fitbit Charge 6 has significantly better sleep tracking with detailed sleep stages, sleep score, and insights. Apple Watch tracks sleep stages but provides less detailed analysis.
 
-**Q: Can I use Apple Watch with Android?**
+**Q: Can We use Apple Watch with Android?**
 A: No, Apple Watch requires an iPhone for setup and most functionality. Fitbit works equally well with both iOS and Android.
 
 **Q: Which is better for running?**
 A: Fitbit Charge 6 is generally more accurate for running metrics and has better battery life for long runs. Apple Watch offers more running app variety and better integration with popular running apps.
 
-**Q: Do I need to pay for subscriptions?**
+**Q: Do We need to pay for subscriptions?**
 A: Fitbit offers a premium subscription ($9.99/month) for advanced insights, but basic tracking works without it. Apple Watch doesn't require subscriptions for core functionality, though some health apps may have premium features.

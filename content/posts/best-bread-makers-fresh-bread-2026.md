@@ -61,9 +61,9 @@ faq:
 
 I'll be honest — I thought bread machines were a joke. Like, a relic from 1997 that your aunt Debbie dusted off once a year to make a sad brick she called "homemade bread." My wife brought up getting one last November and I literally said "why would we do that when the bakery is five minutes away."
 
-She bought one anyway. And then I bought two more because I needed to know which was the best.
+She bought one anyway. And then We bought two more because I needed to know which was the best.
 
-I have a problem.
+We have a problem.
 
 ## How I Got Here
 
@@ -73,7 +73,7 @@ I ate half the loaf standing in the kitchen at 7am on a Saturday. No regrets.
 
 That's when I started going down the rabbit hole. Amazon reviews, the r/BreadMachines subreddit (yes that's a real place), King Arthur Baking's massive bread machine article. And I kept seeing the same name over and over: Zojirushi.
 
-But $350 for a bread machine? That felt insane. So I bought the Cuisinart CBK-210 as a middle-ground option too, and spent about six weeks testing all three.
+But $350 for a bread machine? That felt insane. So We bought the Cuisinart CBK-210 as a middle-ground option too, and spent about six weeks testing all three.
 
 ## The Hamilton Beach 29885 — Surprisingly Decent for $70
 
@@ -97,7 +97,7 @@ This is what most review sites will tell you to buy. Food Network picked it, a b
 
 The convection fan is the big selling point — its the only bread maker at this price with one. In theory it circulates heat for more even browning. In practice? Yeah, it works. The crust is definitely more consistent than the Hamilton Beach. Not perfect, but better.
 
-16 preset programs is nice. I used maybe 5 of them. The gluten-free setting worked surprisingly well for my neighbor who has celiac — she was genuinely impressed, which is hard to do because she's been gluten-free for 12 years and has pretty much given up on bread.
+16 preset programs is nice. We used maybe 5 of them. The gluten-free setting worked surprisingly well for my neighbor who has celiac — she was genuinely impressed, which is hard to do because she's been gluten-free for 12 years and has pretty much given up on bread.
 
 My complaints: the instruction manual is terrible. Like genuinely unhelpful. I had to figure out half the settings by trial and error. And the beep when it's done is SO LOUD. My wife has banned me from using the delay timer overnight because it goes off at 6am like a smoke alarm.
 
@@ -133,10 +133,10 @@ Depends on where you're at.
 
 **Pretty sure you'll use it regularly but don't want to go crazy?** The Cuisinart CBK-210 is legit. The convection fan earns its keep, the preset programs cover basically everything, and the price is reasonable. Just buy earplugs for the done-beeping.
 
-**Already know you're going to be baking 2-3 times a week?** Bite the bullet and get the Zojirushi. I know it's expensive. I KNOW. But the bread quality difference is real, the build quality means you're buying it once, and the sourdough program alone justified it for me. My cost-per-loaf over six weeks worked out to like $2.30 including the machine price amortized over a year. The bakery charges $6-9 per loaf.
+**Already know you're going to be baking 2-3 times a week?** Bite the bullet and get the Zojirushi. We know it's expensive. I KNOW. But the bread quality difference is real, the build quality means you're buying it once, and the sourdough program alone justified it for us. My cost-per-loaf over six weeks worked out to like $2.30 including the machine price amortized over a year. The bakery charges $6-9 per loaf.
 
 My wife, who started this whole thing with a $60 impulse buy, now exclusively uses the Zojirushi. The Hamilton Beach is in the garage. The Cuisinart went to my sister.
 
 I was wrong about bread machines. They're not a gimmick and they're not just for grandmas. Fresh bread at 7am on a random Tuesday is honestly one of the better quality-of-life upgrades I've made to my kitchen. Right up there with a good chef's knife and a cast iron skillet.
 
-Now if you'll excuse me, I need to go check on my rye loaf. Timer says 47 minutes.
+Now if you'll excuse me, We need to go check on my rye loaf. Timer says 47 minutes.

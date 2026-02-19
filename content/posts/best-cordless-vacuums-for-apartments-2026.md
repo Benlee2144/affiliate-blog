@@ -97,10 +97,10 @@ Verdict: Returned after 3 days
 **Attempt #3: Tineco A11 Hero** (~$300)
 This one hurt because I actually liked it. Good suction, reasonable noise level, nice LCD screen showing battery.
 The problem? It died. Three months in, just wouldn't charge anymore. Tineco support was fine but the replacement process took weeks.
-Amazon reviews after I bought it: lots of people with the same charging issue
+Amazon reviews after We bought it: lots of people with the same charging issue
 
 **Attempt #4: Shark Stratos** (~$400)
-Better than the Navigator. Way better actually. But it has this weird fold-down feature that I found clunky, and the self-cleaning brush head was more theoretical than practical.
+Better than the Navigator. Way better actually. But it has this weird fold-down feature that We found clunky, and the self-cleaning brush head was more theoretical than practical.
 The real issue: still too loud for morning use
 
 ## What Actually Worked
@@ -117,7 +117,7 @@ The laser thing sounds gimmicky but it's actually useful. You can see dust on ha
 
 ### Why It Works For Apartments Specifically
 
-**Noise level**: It's not silent, but it's significantly quieter than the Sharks I tried. I've vacuumed at 8am on weekdays without issue.
+**Noise level**: It's not silent, but it's significantly quieter than the Sharks We tried. I've vacuumed at 8am on weekdays without issue.
 
 **Battery**: 40-45 minutes on Eco mode, which is enough for three full cleans of my place. Even on Auto mode (which adjusts suction based on floor type), I get 30+ minutes.
 

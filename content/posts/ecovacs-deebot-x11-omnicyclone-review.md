@@ -59,7 +59,7 @@ Yeah. That caught my attention too.
 
 So when I saw the DEEBOT X11 OmniCyclone popping up everywhere with its fancy 19,500Pa suction and $1,500 price tag, I figured I should actually dig into what owners and independent testers are saying—not just the marketing hype.
 
-What I found was... complicated.
+What We found was... complicated.
 
 ![ECOVACS DEEBOT X11 OmniCyclone product image with detailed view and professional lighting](/images/products/ecovacs-x11-1.png)
 
@@ -92,7 +92,7 @@ Android Authority's review backed this up. Their tester found that despite setti
 
 ## The AI Features Are Half-Baked
 
-Here's something T3's review pointed out that I think is telling: a lot of the higher-end features like stain detection **don't come turned on by default**.
+Here's something T3's review pointed out that We think is telling: a lot of the higher-end features like stain detection **don't come turned on by default**.
 
 Why? According to the reviewer, "after seeing them fail to perform, that starts to make sense."
 
@@ -102,11 +102,11 @@ The app is also reportedly confusing with "spots of poor grammar making settings
 
 ## About That Lawsuit...
 
-I mentioned the class action at the top, and I think it's worth explaining.
+I mentioned the class action at the top, and We think it's worth explaining.
 
 A lawsuit filed against ECOVACS alleges that multiple DEEBOT models have motor defects that cause premature failure. The claim is that these vacuums are "certain to fail" and that ECOVACS knew about the issue.
 
-Now, I haven't seen this specific lawsuit mention the X11 by name—it's a newer model. But the pattern of complaints I found on Trustpilot and Reddit doesn't inspire confidence:
+Now, I haven't seen this specific lawsuit mention the X11 by name—it's a newer model. But the pattern of complaints We found on Trustpilot and Reddit doesn't inspire confidence:
 
 > *"I've had nothing but problems with my Deebot X Series. The battery drains rapidly, it stops mid-clean with charging errors, and constantly reports 'tangled' mop pads when nothing is wrong."* — Trustpilot review
 

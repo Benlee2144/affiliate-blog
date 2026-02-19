@@ -5,7 +5,7 @@ date: 2026-01-27T15:12:06+00:00
 lastmod: 2026-01-27T15:12:06+00:00
 draft: false
 description: "After cycling through Kindle, Kobo, and almost buying a Boox, I finally figured out which e-reader is actually worth your money. Spoiler: it depends on one."
-summary: "I thought e-readers were overhyped until I tried reading on my phone for a year. Then I went down the rabbit hole. Here's what 6 months of testing taught me."
+summary: "I thought e-readers were overhyped until We tried reading on my phone for a year. Then I went down the rabbit hole. Here's what 6 months of testing taught me."
 
 keywords: ["best e-reader 2026", "Kindle vs Kobo", "Kindle Paperwhite review", "Kobo Libra Colour", "e-reader buying guide"]
 
@@ -60,7 +60,7 @@ Physical books are better for the soul, right? The smell, the weight, the satisf
 
 Then I moved apartments. And I realized I owned 47 books I'd never read, plus another 30-something I'd read once and would never touch again. They took up an entire wall. When I did the math on what I'd spent vs what I could have spent on ebooks, I felt genuinely ill.
 
-So I bought a Kindle Paperwhite. Then I returned it. Then I bought a Kobo. Then I bought a different Kindle. Then I almost — almost — dropped $400 on a Boox tablet before coming to my senses.
+So We bought a Kindle Paperwhite. Then I returned it. Then We bought a Kobo. Then We bought a different Kindle. Then I almost — almost — dropped $400 on a Boox tablet before coming to my senses.
 
 Six months and way too much money later, I finally understand what actually matters when choosing an e-reader. And it comes down to one question that no review seems to ask.
 
@@ -92,9 +92,9 @@ Let me walk you through what I actually bought and returned over the past 6 mont
 
 ![Kindle Paperwhite 2024 display product image with detailed view and professional lighting](/images/products/kindle-paperwhite-2024-3.jpg)
 
-I'll cut to the chase: this is the one I use every day now. The [2024 Paperwhite](https://www.amazon.com/dp/B0CFPJYX7P?tag=amazonfi08e0c-20) hit a sweet spot that the previous generation missed.
+I'll cut to the chase: this is the one We use every day now. The [2024 Paperwhite](https://www.amazon.com/dp/B0CFPJYX7P?tag=amazonfi08e0c-20) hit a sweet spot that the previous generation missed.
 
-The screen is 7 inches now (up from 6.8), which doesn't sound like much but makes a real difference. Page turns are noticeably faster — Amazon claims 20% faster, and I believe it. The display has this... crispness? Darker blacks, better contrast. Hard to quantify but obvious when you see it.
+The screen is 7 inches now (up from 6.8), which doesn't sound like much but makes a real difference. Page turns are noticeably faster — Amazon claims 20% faster, and We believe it. The display has this... crispness? Darker blacks, better contrast. Hard to quantify but obvious when you see it.
 
 What surprised me was the battery. I charged it once when I got it in early October. Didn't need to charge again until late November. And I was reading at least 30-45 minutes every night.
 
@@ -114,9 +114,9 @@ This was my second purchase, after returning my first Kindle because I wanted li
 
 The [Kobo Libra Colour](https://www.amazon.com/dp/B0CZXX465Z?tag=amazonfi08e0c-20) is really good at what it does. The color E-Ink display is neat — book covers look correct, graphic novels are readable, and you can highlight in different colors. The physical page-turn buttons are chef's kiss. Way better than tapping a screen when you're holding the device one-handed.
 
-And yeah, the library integration. I have two library cards (one local, one from a big city library I pay an out-of-state fee for). Both work flawlessly through OverDrive/Libby on the Kobo. Borrow a book, it just... appears on my device. No emailing, no USB cables, no nonsense.
+And yeah, the library integration. We have two library cards (one local, one from a big city library I pay an out-of-state fee for). Both work flawlessly through OverDrive/Libby on the Kobo. Borrow a book, it just... appears on my device. No emailing, no USB cables, no nonsense.
 
-The downsides: the color screen looks grainy in black and white compared to my Paperwhite. Like, noticeably so. I found myself squinting more. Also, the device is chunky — that asymmetric design with the buttons makes it awkward in a bag or pocket. And the software, while more flexible than Kindle, feels slower and less polished.
+The downsides: the color screen looks grainy in black and white compared to my Paperwhite. Like, noticeably so. We found myself squinting more. Also, the device is chunky — that asymmetric design with the buttons makes it awkward in a bag or pocket. And the software, while more flexible than Kindle, feels slower and less polished.
 
 I ultimately returned it because 90% of my reading is Amazon purchases, not library borrows. But if I primarily used libraries, this would be my daily driver without question.
 
@@ -136,7 +136,7 @@ This little thing impressed me. The E-Ink Carta 1300 display — same tech as th
 
 ![Kobo Clara BW screen close-up product image with detailed view and professional lighting](/images/products/kobo-clara-bw-2.jpg)
 
-The big selling point is repairability. Kobo partnered with iFixit so you can actually buy replacement batteries and screens. In a world of disposable electronics, that matters to me.
+The big selling point is repairability. Kobo partnered with iFixit so you can actually buy replacement batteries and screens. In a world of disposable electronics, that matters to us.
 
 But I returned this one too. Why? I missed the bigger screen. And honestly, Amazon's ecosystem is just more convenient when you're already in it. Kobo's store is fine but the selection is smaller, prices are slightly higher, and the reading experience (syncing, recommendations, organization) isn't as polished.
 
@@ -162,15 +162,15 @@ The $50 difference between this and the Paperwhite is 100% worth it. The bigger 
 
 ## What I Learned (That Reviews Don't Tell You)
 
-After all this testing, here are the things I wish someone had told me upfront:
+After all this testing, here are the things We wish someone had told us upfront:
 
-**E-Ink is a different experience from reading on a phone.** I was skeptical about this — screens are screens, right? But there's something about E-Ink that makes long reading sessions comfortable in a way that LCD never is. I used to get headaches reading on my phone for an hour. No issues with the Kindle after 2-3 hour sessions.
+**E-Ink is a different experience from reading on a phone.** I was skeptical about this — screens are screens, right? But there's something about E-Ink that makes long reading sessions comfortable in a way that LCD never is. We used to get headaches reading on my phone for an hour. No issues with the Kindle after 2-3 hour sessions.
 
-**The lock screen ads are not a big deal.** I was annoyed on principle, but honestly I see the ad for like 0.5 seconds before it wakes up. Not worth $20 to remove in my opinion.
+**The lock screen ads are not a big deal.** I was annoyed on principle, but honestly We see the ad for like 0.5 seconds before it wakes up. Not worth $20 to remove in our opinion.
 
 **Battery life claims are real.** Amazon says 12 weeks, and yeah, pretty much. I'm a moderate reader (maybe 10 hours a week) and I charge my Paperwhite once a month. Maybe.
 
-**Waterproofing is more useful than you think.** I've read in the bath, at the pool, in light rain. Didn't realize how often I'd use this until I had it. The basic Kindle lacking this feature is a dealbreaker for me now.
+**Waterproofing is more useful than you think.** I've read in the bath, at the pool, in light rain. Didn't realize how often I'd use this until I had it. The basic Kindle lacking this feature is a dealbreaker for us now.
 
 **The ecosystem lock-in is real but maybe fine?** People complain about Amazon's walled garden. And yes, if you switch to Kobo later, you'll lose access to your purchased books. But realistically... am I switching e-reader ecosystems? Probably not. I'm already locked into Apple, Google, Amazon for various things. One more isn't the end of the world.
 

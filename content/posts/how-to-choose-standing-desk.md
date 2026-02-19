@@ -142,7 +142,7 @@ Standard advice tells you to measure your elbow height and add monitor height. T
 
 ### Common Height Range Mistakes:
 
-**"I'm 5'10" so I need 29" sitting and 43" standing"**
+**"I'm 5'10" so We need 29" sitting and 43" standing"**
 - Ignores shoe height, monitor thickness, keyboard height
 - Doesn't account for anti-fatigue mats (add 1-2 inches)
 - Assumes perfect posture (most people slouch slightly)

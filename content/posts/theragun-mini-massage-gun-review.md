@@ -34,7 +34,7 @@ faq:
     answer: "About 150 minutes of use on a full charge. Real-world usage: several days to a week depending on session length."
   - question: "Theragun Mini vs cheap Amazon massage guns?"
     answer: "Budget guns work for casual use, but the Mini's motor quality, noise level, and portability are noticeably superior. Whether that's worth 4x the price depends on your usage."
-  - question: "Can I use the Theragun Mini on my neck and face?"
+  - question: "Can We use the Theragun Mini on my neck and face?"
     answer: "Therabody officially recommends against using any percussion device on the neck or face. Stick to major muscle groups like legs, back, and arms for safety."
   - question: "How does it compare to the Theragun Relief?"
     answer: "The Relief is larger but cheaper at $149. Choose Mini if portability matters most, Relief if you want more power and don't mind the extra bulk."
@@ -270,7 +270,7 @@ We scoured massage gun discussions across r/homegym, r/fitness, r/ChronicPain, a
 
 **r/fitness opinion:** Mixed reception. Runners and cyclists appreciate it for post-workout maintenance, but lifters find it inadequate for larger muscle groups. "It's like bringing a penknife to do construction work—functional, but not ideal."
 
-**r/ChronicPain feedback:** Generally negative for therapeutic use. "Feels like a toy compared to what I need for trigger points." However, some users with mild tension headaches report success using it on shoulder/neck muscles (against manufacturer recommendations).
+**r/ChronicPain feedback:** Generally negative for therapeutic use. "Feels like a toy compared to what We need for trigger points." However, some users with mild tension headaches report success using it on shoulder/neck muscles (against manufacturer recommendations).
 
 **r/BuyItForLife perspective:** Durability gets praise, but most users question the value proposition. "Built like a tank, but at $200 for what it does, it's hard to recommend over alternatives."
 

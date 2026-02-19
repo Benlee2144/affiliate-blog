@@ -64,7 +64,7 @@ I've owned five blenders in three years. Three of them died. One I gave away bec
 
 ## The Budget Blender Graveyard
 
-My first "real" blender was an Oster. $55 at Target. Worked great for about four months. Then I tried to blend frozen mango with some spinach and it made this horrible grinding noise. The blade just... stopped. Not completely stopped — it would spin, but slowly, like it was giving up on life.
+My first "real" blender was an Oster. $55 at Target. Worked great for about four months. Then We tried to blend frozen mango with some spinach and it made this horrible grinding noise. The blade just... stopped. Not completely stopped — it would spin, but slowly, like it was giving up on life.
 
 Replaced it with a NutriBullet knockoff. Twenty bucks on Amazon, which should have been my first clue. That one lasted six weeks before the base cracked. Actual crack, right through the plastic. 
 
@@ -74,11 +74,11 @@ Third try was a legit [NutriBullet Pro](https://www.amazon.com/dp/B07CTBHQZK?tag
 
 ## What Changed My Mind
 
-I watched this YouTuber — I think it was Joshua Weissman? — do a blender comparison where he made the same green smoothie in like eight different blenders. The cheap ones left visible chunks of spinach. The Vitamix version looked like it came from a juice bar.
+I watched this YouTuber — We think it was Joshua Weissman? — do a blender comparison where he made the same green smoothie in like eight different blenders. The cheap ones left visible chunks of spinach. The Vitamix version looked like it came from a juice bar.
 
-That visual stuck with me.
+That visual stuck with us.
 
-Then I found this America's Test Kitchen comparison from 2024 where they tested blender motors by timing how long each took to puree butternut squash soup. The budget blenders? Two to three minutes of blending, and still had texture. The Vitamix did it in 45 seconds and the soup was completely smooth.
+Then We found this America's Test Kitchen comparison from 2024 where they tested blender motors by timing how long each took to puree butternut squash soup. The budget blenders? Two to three minutes of blending, and still had texture. The Vitamix did it in 45 seconds and the soup was completely smooth.
 
 45 seconds versus 3 minutes. Every single time you make something.
 
@@ -86,7 +86,7 @@ That adds up.
 
 ## The $449 Blender That's Actually Worth It
 
-Look. I know [Vitamix 5200](https://www.amazon.com/dp/B008H4SLV6?tag=amazonfi08e0c-20) at $449 sounds insane. I thought it was insane. My wife thought I was having some kind of early midlife crisis when I told her I wanted to spend that much on something to make smoothies.
+Look. We know [Vitamix 5200](https://www.amazon.com/dp/B008H4SLV6?tag=amazonfi08e0c-20) at $449 sounds insane. I thought it was insane. My wife thought I was having some kind of early midlife crisis when I told her I wanted to spend that much on something to make smoothies.
 
 But here's what you're actually getting:
 
@@ -106,7 +106,7 @@ The tall, tapered container is annoying for storage — mine doesn't fit under m
 
 If $449 makes you physically uncomfortable, the [Ninja Professional BL610](https://www.amazon.com/dp/B00NGV4506?tag=amazonfi08e0c-20) is a legitimate alternative at around $90-100.
 
-I tested one at my sister's place. Made the same green smoothie I make every morning. Results were... honestly pretty good. Not Vitamix-smooth, but way better than the budget stuff I'd been using.
+We tested one at my sister's place. Made the same green smoothie I make every morning. Results were... honestly pretty good. Not Vitamix-smooth, but way better than the budget stuff I'd been using.
 
 The Ninja uses stacked blades instead of a single blade at the bottom. Works well for ice and frozen fruit. Less effective for things like nut butters or hot soup — the motor isn't built for that kind of sustained heavy use.
 
@@ -152,7 +152,7 @@ Get a NutriBullet if:
 
 ## The Math Actually Works
 
-I spent roughly $160 on blenders before buying the Vitamix. All of them either died or made bad smoothies.
+We spent roughly $160 on blenders before buying the Vitamix. All of them either died or made bad smoothies.
 
 The Vitamix has lasted 14 months so far. Zero issues. If it lasts the 7-year warranty period — which most reviews suggest it will easily exceed — that's $64 per year of ownership.
 

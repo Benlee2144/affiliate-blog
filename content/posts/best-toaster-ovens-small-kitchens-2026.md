@@ -29,7 +29,7 @@ faq:
   - question: "What's the best toaster oven for a small kitchen?"
     answer: "The Panasonic FlashXpress NB-G110P. It's only 13 inches wide, heats up instantly with no preheating needed, and handles toast, pizza, and frozen snacks better than ovens twice its size. Around $130."
   - question: "Can a small toaster oven replace a regular oven?"
-    answer: "For one or two people, mostly yes. I use mine for everything from reheating leftovers to baking small batches of cookies. You'll still need a full oven for big stuff like a Thanksgiving turkey or large casseroles, but for daily cooking it handles 80% of what I used to use my oven for."
+    answer: "For one or two people, mostly yes. We use mine for everything from reheating leftovers to baking small batches of cookies. You'll still need a full oven for big stuff like a Thanksgiving turkey or large casseroles, but for daily cooking it handles 80% of what We used to use my oven for."
   - question: "Panasonic FlashXpress vs Breville Mini Smart Oven — which is better?"
     answer: "The Panasonic is faster and smaller. The Breville has more cooking presets and a nicer build. If counter space is your main concern, go Panasonic. If you want something that feels more premium and you have an extra 3-4 inches of space, the Breville Mini is excellent."
   - question: "Are cheap toaster ovens worth buying?"
@@ -59,9 +59,9 @@ I'm gonna rant for a second.
 
 Every single "best toaster oven" article on the internet recommends the same giant Breville that's literally the size of a microwave. The Smart Oven Pro, the Air Fryer Pro, whatever — they're all enormous. And every single one buries the dimensions at the bottom of the page like it's some minor footnote.
 
-Meanwhile people like me are googling "toaster oven for small kitchen" because we have maybe 14 inches of usable counter space between the coffee maker and the knife block. I don't need a countertop convection oven that can roast a whole chicken. I need something that makes toast and reheats pizza without consuming my entire kitchen.
+Meanwhile people like me are googling "toaster oven for small kitchen" because we have maybe 14 inches of usable counter space between the coffee maker and the knife block. I don't need a countertop convection oven that can roast a whole chicken. We need something that makes toast and reheats pizza without consuming my entire kitchen.
 
-So I bought a bunch of them. Returned most of them. And here's what actually works when you're short on space.
+So We bought a bunch of them. Returned most of them. And here's what actually works when you're short on space.
 
 ## The quick version
 
@@ -78,13 +78,13 @@ So I bought a bunch of them. Returned most of them. And here's what actually wor
 
 **Price:** ~$130 | [Check current price on Amazon](https://www.amazon.com/dp/B008C9UFDI?tag=amazonfi08e0c-20)
 
-This thing has been Wirecutter's top pick for like eight years running and honestly I understand why. It's 13 inches wide. Thirteen. That's barely wider than a sheet of paper. And it fits 4 slices of bread or a 9-inch pizza, which covers 90% of what I actually need a toaster oven for.
+This thing has been Wirecutter's top pick for like eight years running and honestly We understand why. It's 13 inches wide. Thirteen. That's barely wider than a sheet of paper. And it fits 4 slices of bread or a 9-inch pizza, which covers 90% of what I actually need a toaster oven for.
 
 The secret sauce is the double infrared heating — one ceramic element on top, one quartz element on the bottom. What that means in practice is zero preheat time. You hit the button and it's already cooking. My old toaster oven needed like 5 minutes to warm up. This one? Immediate. I timed it once and had golden toast in under 3 minutes.
 
-I bought mine from Amazon back in September and it's been on my counter ever since. Sits right between my coffee grinder and the wall, takes up almost no space. My wife didn't even notice I'd added another appliance for like two weeks, which in our small kitchen is basically a miracle.
+We bought mine from Amazon back in September and it's been on my counter ever since. Sits right between my coffee grinder and the wall, takes up almost no space. My wife didn't even notice I'd added another appliance for like two weeks, which in our small kitchen is basically a miracle.
 
-**What I love:**
+**What We love:**
 - Instant heating, no preheat needed
 - Preset buttons for toast, pizza, frozen foods — just press and walk away
 - Interior light so you can actually see your food (underrated feature)
@@ -93,7 +93,7 @@ I bought mine from Amazon back in September and it's been on my counter ever sin
 **What bugs me:**
 - The timer maxes out at 25 minutes. Fine for toast and reheating, annoying if you want to bake something longer
 - No convection fan, so you're relying purely on infrared heat
-- The included tray is kinda flimsy. I bought a seperate small baking sheet that fits better
+- The included tray is kinda flimsy. We bought a seperate small baking sheet that fits better
 - Digital beep when it's done is weirdly loud
 
 For a small kitchen this is the one. Its been my daily driver for five months now and I genuinely can't imagine going back to a bigger unit.
@@ -124,7 +124,7 @@ OK so this one is pushing the definition of "small kitchen" but hear me out. At 
 
 Same Element IQ system as the Mini, same 8 cooking functions, same build quality. The main difference is just... more space inside. If you find yourself regularly wanting to cook things that are slightly too big for a 4-slice toaster oven — like reheating half a pizza instead of one slice at a time — this is the move.
 
-I had this one for about two weeks before I decided I'd rather have the counter space back and went with the smaller Panasonic instead. But if I had even 2-3 more inches of counter to work with, this would've been my keeper. It's just a really well-made appliance.
+I had this one for about two weeks before We decided I'd rather have the counter space back and went with the smaller Panasonic instead. But if I had even 2-3 more inches of counter to work with, this would've been my keeper. It's just a really well-made appliance.
 
 **Best for:** People who want compact but not *tiny*. If your kitchen is small-ish but not apartment-in-Manhattan small, this hits a nice sweet spot.
 
@@ -134,9 +134,9 @@ I had this one for about two weeks before I decided I'd rather have the counter 
 
 **Price:** ~$45 | [Grab one here](https://www.amazon.com/dp/B07CP7JN79?tag=amazonfi08e0c-20)
 
-I almost didn't include this because it's in a completely different league than the others. But I know a lot of people searching for small toaster ovens are also on a budget, and honestly? For $45 this thing is fine.
+I almost didn't include this because it's in a completely different league than the others. But We know a lot of people searching for small toaster ovens are also on a budget, and honestly? For $45 this thing is fine.
 
-The roll-top door is the standout feature. Instead of swinging open toward you (which requires clearance space in front), the door rolls up and back. In a cramped kitchen where you've got the toaster oven shoved under an upper cabinet, that's actually a big deal. I didn't appreciate this until I tried it — you can reach right in without the door getting in the way.
+The roll-top door is the standout feature. Instead of swinging open toward you (which requires clearance space in front), the door rolls up and back. In a cramped kitchen where you've got the toaster oven shoved under an upper cabinet, that's actually a big deal. I didn't appreciate this until We tried it — you can reach right in without the door getting in the way.
 
 Toast is decent. Not Panasonic-level even, but acceptable. It handles frozen snacks fine. Reheating leftovers? Sure. The two analog dials are dead simple — temp and timer, that's it. No presets, no LCD screen, no smart anything.
 
@@ -144,7 +144,7 @@ Toast is decent. Not Panasonic-level even, but acceptable. It handles frozen sna
 
 **Get this if:** You just need something small and cheap for occasional toast and reheating. Don't expect it to replace your oven.
 
-## What I wish someone told me before I started
+## What We wish someone told us before I started
 
 A few things I learned the hard way:
 
@@ -154,7 +154,7 @@ A few things I learned the hard way:
 
 **The door style thing is real.** Drop-down doors need clearance in front. Pull-open doors need clearance to the side. Roll-top doors (like the Hamilton Beach) need almost nothing. Think about where you're actually putting this thing and whether the door will hit anything when it opens.
 
-**Skip the air fryer toaster ovens.** I know, they sound great — two appliances in one! But the ones that actually air fry well are all huge. The compact ones that claim to air fry do a mediocre job at both. If you want an air fryer, just buy a small dedicated one.
+**Skip the air fryer toaster ovens.** We know, they sound great — two appliances in one! But the ones that actually air fry well are all huge. The compact ones that claim to air fry do a mediocre job at both. If you want an air fryer, just buy a small dedicated one.
 
 And for the love of god, **read the actual dimensions on Amazon before ordering.** Not the product title that says "compact." The actual measurements. I've been burned by "compact" appliances that were anything but.
 

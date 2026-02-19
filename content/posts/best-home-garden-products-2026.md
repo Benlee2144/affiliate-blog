@@ -253,7 +253,7 @@ Products that reduce ongoing energy costs often pay for themselves over time. Fa
 
 Start with simple smart home products like smart plugs and basic smart thermostats. These provide clear benefits without complex setup. Avoid advanced automation systems until you're comfortable with the basics.
 
-### How do I know if an air purifier is actually working?
+### How do We know if an air purifier is actually working?
 
 Look for models with air quality sensors that provide real-time feedback. You should notice reduced dust accumulation and, if you have allergies, symptom improvement. We recommend running purifiers continuously rather than intermittently.
 

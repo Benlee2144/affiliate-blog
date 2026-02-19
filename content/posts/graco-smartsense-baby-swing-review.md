@@ -105,7 +105,7 @@ From Graco's own website reviews:
 
 > *"Swing function faulty—the swing stopped swinging after only 4 months, despite only being used a few times."*
 
-> *"I have had two of these swings already and they have both stopped working."*
+> *"We have had two of these swings already and they have both stopped working."*
 
 > *"After one use we noticed that it started making this weird clicking sound, then it started swinging improperly and got stuck in the forward swing position."*
 
@@ -113,7 +113,7 @@ From Graco's own website reviews:
 
 Now, the SmartSense does have solid reviews overall—4.1 out of 5 stars with 70+ reviews on Graco's site. Won some parenting awards too. But when you filter for the negative stuff, the failure rate on the swing mechanism seems higher than it should be for a $230 product.
 
-One thing I noticed: a lot of these failures happen around the 3-4 month mark. Just past when most people would think to return it, but well before you'd expect a baby product to crap out.
+One thing We noticed: a lot of these failures happen around the 3-4 month mark. Just past when most people would think to return it, but well before you'd expect a baby product to crap out.
 
 ## What It Does Well (Because It's Not All Bad)
 

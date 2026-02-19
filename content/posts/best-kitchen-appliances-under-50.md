@@ -57,7 +57,7 @@ This versatile coffee maker brews both single-serve K-cups and full carafes. For
 - Excellent value for two machines in one
 
 **What owners say:**
-"Perfect for our household - I use K-cups, my wife uses ground coffee. Works great for both." - 4.2/5 stars (2,400+ reviews)
+"Perfect for our household - We use K-cups, my wife uses ground coffee. Works great for both." - 4.2/5 stars (2,400+ reviews)
 
 **Best for:** Mixed coffee preferences, small kitchens, versatility
 

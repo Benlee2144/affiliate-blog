@@ -95,7 +95,7 @@ Based on our analysis of long-term owner feedback across Amazon, Reddit, and tec
 
 Every product has weaknesses. Here's what real owners consistently report:
 
-- **The 64GB base model is a serious mistake.** This complaint dominates Reddit discussions. One r/iPad user said it perfectly: "I bought the 64GB to save money. Six months later I'm constantly managing storage. Should have just paid the extra $150." iPadOS takes ~15GB, leaving only ~44GB for everything else.
+- **The 64GB base model is a serious mistake.** This complaint dominates Reddit discussions. One r/iPad user said it perfectly: "We bought the 64GB to save money. Six months later I'm constantly managing storage. Should have just paid the extra $150." iPadOS takes ~15GB, leaving only ~44GB for everything else.
 
 - **Build quality concerns on some units.** Multiple reports on MacRumors forums mention the back panel feeling thin with a hollow sensation when pressed. Some users report a slight creaking noise. This appears to affect a small percentage of units.
 

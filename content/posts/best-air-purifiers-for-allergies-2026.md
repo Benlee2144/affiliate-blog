@@ -28,7 +28,7 @@ TocOpen: false
 cover:
     image: "/images/products/coway-ap1512hh-1.jpg"
     alt: "Coway Airmega AP-1512HH Mighty air purifier product image with detailed view and professional lighting"
-    caption: "The Coway Mighty - what I wish I'd bought three years ago"
+    caption: "The Coway Mighty - what We wish I'd bought three years ago"
     relative: false
 
 pros:
@@ -56,9 +56,9 @@ faq:
 
 Let me save you three years of sneezing.
 
-I have seasonal allergies. Not the cute "oh my nose is a little stuffy" kind. The kind where I wake up at 3am in April unable to breathe through my nose, eyes swollen shut, feeling like someone stuffed cotton in my sinuses overnight. My doctor prescribed Flonase, Zyrtec, eye drops — the whole arsenal. Helped some. Not enough.
+We have seasonal allergies. Not the cute "oh my nose is a little stuffy" kind. The kind where I wake up at 3am in April unable to breathe through my nose, eyes swollen shut, feeling like someone stuffed cotton in my sinuses overnight. My doctor prescribed Flonase, Zyrtec, eye drops — the whole arsenal. Helped some. Not enough.
 
-So I bought an air purifier. Then another. Then two more. Hundreds of dollars later, I finally understand what actually works and why my first three purchases were basically expensive fans with fancy marketing.
+So We bought an air purifier. Then another. Then two more. Hundreds of dollars later, I finally understand what actually works and why my first three purchases were basically expensive fans with fancy marketing.
 
 ## The Problem Nobody Tells You About
 
@@ -68,7 +68,7 @@ Wirecutter's testing team has been banging this drum for years. They calculate s
 
 Most cheap purifiers claiming to cover "500 square feet" can barely manage 2 ACH in a 200 square foot room. That's not filtering, that's just moving air around. For allergies, you need 4-5 ACH minimum. Ideally more.
 
-I bought a $50 Walmart special first. Ran it for a month. Made absolutely zero difference. The filter looked clean because basically nothing was going through it.
+We bought a $50 Walmart special first. Ran it for a month. Made absolutely zero difference. The filter looked clean because basically nothing was going through it.
 
 ---
 
@@ -94,7 +94,7 @@ But here's what actually convinced me: I can breathe through my nose in April no
 
 I've had mine running basically 24/7 for eight months. The difference during spring pollen season was... I didn't realize how bad it had gotten until it wasn't bad anymore. My wife noticed before I did. "You haven't been snoring as much lately." Turns out I was snoring because my nose was perpetually congested. Who knew.
 
-**What I like:**
+**What We like:**
 - Dead silent on low/medium. I sleep with it running 6 feet from my head.
 - The air quality indicator light actually correlates with reality. Cooking bacon? It lights up red and kicks to high. Calms back down after 10 minutes.
 - Filter replacement is obvious. There's an indicator, and the filters last about a year of continuous use.
@@ -173,7 +173,7 @@ Is three air purifiers overkill? Maybe. But I actually enjoy spring now instead 
 
 ## Quick Recommendations
 
-**For most people with allergies:** Get the [Coway AP-1512HH Mighty](https://www.amazon.com/dp/B01728NLRG?tag=amazonfi08e0c-20). Put it in your bedroom. Run it constantly. This single change made the biggest difference for me.
+**For most people with allergies:** Get the [Coway AP-1512HH Mighty](https://www.amazon.com/dp/B01728NLRG?tag=amazonfi08e0c-20). Put it in your bedroom. Run it constantly. This single change made the biggest difference for us.
 
 **For large living spaces:** The [Honeywell HPA300](https://www.amazon.com/dp/B00BWYO53G?tag=amazonfi08e0c-20) has the power to actually move enough air. Louder, but effective.
 
@@ -181,7 +181,7 @@ Is three air purifiers overkill? Maybe. But I actually enjoy spring now instead 
 
 The best air purifier is the one that's actually running. Pick one sized right for your space, turn it on, leave it on. Replace the filter when the indicator tells you to. That's it. No complicated maintenance, no fancy app features needed.
 
-I just wish someone had told me all this before I wasted $200 on purifiers that didn't work. Maybe this helps you skip that part.
+I just wish someone had told us all this before I wasted $200 on purifiers that didn't work. Maybe this helps you skip that part.
 
 {{< cta-button url="https://www.amazon.com/dp/B01728NLRG?tag=amazonfi08e0c-20" text="Get the Coway Mighty on Amazon" >}}
 

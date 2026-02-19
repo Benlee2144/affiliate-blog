@@ -95,7 +95,7 @@ Transform any appliance into a smart device with scheduling and remote control.
 - Reliable Wi-Fi connection without hub required
 
 **What owners say:**
-"I use these for lamps, coffee makers, and fans. They've worked flawlessly for over a year." - 4.4/5 stars (8,200+ reviews)
+"We use these for lamps, coffee makers, and fans. They've worked flawlessly for over a year." - 4.4/5 stars (8,200+ reviews)
 
 **Best for:** Lamp control, appliance scheduling, energy monitoring
 
@@ -232,7 +232,7 @@ We evaluated each device on:
 **Q: Which smart home platform is best for beginners?**
 A: Amazon Alexa has the largest device compatibility and easiest setup process. Google Home offers better AI and search capabilities. Start with whichever voice assistant you prefer.
 
-**Q: Do I need a hub for smart home devices?**
+**Q: Do We need a hub for smart home devices?**
 A: Many modern devices connect directly to Wi-Fi without hubs. However, hubs like SmartThings or built-in Echo hubs enable more reliable connections and advanced automation.
 
 **Q: How much can smart thermostats really save on energy bills?**

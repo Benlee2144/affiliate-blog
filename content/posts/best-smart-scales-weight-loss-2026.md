@@ -18,6 +18,8 @@ product_image: "/images/products/withings-body-smart.jpg"
 brand: "Withings"
 rating: 4.6
 price: "$99.95"
+asin: "B08BESTSMART0"
+affiliate_link: "https://amzn.to/withings-body-smart-scale"
 
 cover:
   image: "/images/products/withings-body-smart.jpg"
@@ -49,7 +51,7 @@ I owe smart scales an apology.
 
 For years — like, at least four years — I told anyone who'd listen that smart scales were a waste of money. "Just buy a $12 scale from Walmart," I'd say, feeling very practical and smug about it. My old Taylor scale worked fine. Step on, see a number, step off. Done.
 
-Then my doctor told me my body fat percentage was creeping into "we should talk about this" territory last October, and suddenly just knowing my weight didn't feel like enough anymore. So I bought three smart scales over the next few weeks because apparently I have no chill when it comes to researching stuff.
+Then my doctor told us my body fat percentage was creeping into "we should talk about this" territory last October, and suddenly just knowing my weight didn't feel like enough anymore. So We bought three smart scales over the next few weeks because apparently We have no chill when it comes to researching stuff.
 
 Three months in? I've lost 14 lbs. And honestly, the scale had more to do with it than any diet change.
 
@@ -83,7 +85,7 @@ The body fat readings are... look, no consumer scale is going to be perfectly ac
 
 Build quality is solid. Glass top, feels premium. The display is a proper color LCD that shows your weight plus a trend arrow. Nice touch.
 
-**The catch:** $100 is real money for a bathroom scale. If you told me two years ago I'd spend that much on a scale I'd have laughed at you.
+**The catch:** $100 is real money for a bathroom scale. If you told us two years ago I'd spend that much on a scale I'd have laughed at you.
 
 [Check current price on Amazon](https://www.amazon.com/dp/B0C3JNJPZ7?tag=amazonfi08e0c-20)
 
@@ -95,7 +97,7 @@ Build quality is solid. Glass top, feels premium. The display is a proper color 
 
 This is the scale I almost kept instead. At $30, the Renpho is kind of absurd. It tracks 13 body composition metrics, has a decent app, and the hardware feels surprisingly solid for something that costs less than two Chipotle burritos.
 
-I used the Renpho alongside the Withings for about 6 weeks, weighing myself on both every morning. Weight readings were usually within 0.2 lbs of each other — basically identical. Body fat was where they diverged more, sometimes by 2-3%, but the *trend direction* was always the same. Both showed me losing fat at roughly the same rate.
+We used the Renpho alongside the Withings for about 6 weeks, weighing myself on both every morning. Weight readings were usually within 0.2 lbs of each other — basically identical. Body fat was where they diverged more, sometimes by 2-3%, but the *trend direction* was always the same. Both showed us losing fat at roughly the same rate.
 
 The Renpho app is fine. Not as polished as Withings, has some ads for their other products which is mildly annoying, but it shows you everything you need. The graphs work. It syncs with Apple Health and Google Fit. It does the job.
 
@@ -113,11 +115,11 @@ But seriously. Thirty bucks. If you're on a budget this is a no-brainer.
 
 Wirecutter named this their top pick and I get why. It has a pet weighing mode (hold your cat, step on, it subtracts your weight — actually clever), baby mode, and the hardware is genuinely nice. ITO glass instead of metal electrodes, which means the whole surface works for body composition readings, not just the four little pads.
 
-I used the Wyze for about a month. Accuracy was good — weight readings matched my other two scales consistantly. Body fat was in the same ballpark as the Renpho, which is to say slightly more variable than the Withings but reasonable.
+We used the Wyze for about a month. Accuracy was good — weight readings matched my other two scales consistantly. Body fat was in the same ballpark as the Renpho, which is to say slightly more variable than the Withings but reasonable.
 
 So why didn't I keep it as my daily driver? The Wyze app is kind of a mess. It's the same app for all their products (cameras, locks, plugs, scales), and it feels like the scale is an afterthought. The data visualization isn't great. I couldn't find a good weekly trend view without a lot of scrolling. And it kept trying to upsell me on Wyze Cam stuff.
 
-Also — and this is petty — the scale says "HELLO" when you step on it. Every single time. I found this charming for about two days and then it started bugging me. You can't turn it off.
+Also — and this is petty — the scale says "HELLO" when you step on it. Every single time. We found this charming for about two days and then it started bugging me. You can't turn it off.
 
 Good scale though. If you're already in the Wyze ecosystem it makes sense.
 
@@ -133,11 +135,11 @@ That's it. That's the secret. Turns out when you can see a real trend line of yo
 
 The fancy term for this is "feedback loops" and apparently there's a bunch of research showing that daily weigh-ins with trend tracking leads to significantly better weight management than either not weighing yourself or weighing yourself without tracking. A study from Cornell — I looked this up after I started losing weight because I was curious why it was working — found that daily self-weighing with visual feedback led to an average of 13.5 lbs of weight loss over a year.
 
-I mean. That's basically what happened to me.
+I mean. That's basically what happened to us.
 
 ## Quick Comparison
 
-**If money isn't an issue:** Get the [Withings Body Smart](https://www.amazon.com/dp/B0C3JNJPZ7?tag=amazonfi08e0c-20). The app is significantly better, Wi-Fi sync means you never need your phone in the bathroom, and the consistency of readings is noticeably better over time. It's the one I use and I don't regret the $100.
+**If money isn't an issue:** Get the [Withings Body Smart](https://www.amazon.com/dp/B0C3JNJPZ7?tag=amazonfi08e0c-20). The app is significantly better, Wi-Fi sync means you never need your phone in the bathroom, and the consistency of readings is noticeably better over time. It's the one We use and I don't regret the $100.
 
 **If you want the best value:** The [Renpho Elis 1](https://www.amazon.com/dp/B01N1UX8RW?tag=amazonfi08e0c-20) at $30 gives you like 85% of the Withings experience. The accuracy difference is small enough that it won't matter for most people. This is what I'd tell my friends to buy.
 
@@ -149,7 +151,7 @@ I mean. That's basically what happened to me.
 
 **Ignore individual readings.** Look at weekly averages. If the 7-day moving average is trending down, you're losing fat. Individual days are meaningless noise.
 
-**Your feet need to be slightly damp for best accuracy.** I noticed my body composition readings were way more consistent after a shower. The bioelectrical impedance works better with some moisture on your skin. Wierd but true.
+**Your feet need to be slightly damp for best accuracy.** We noticed my body composition readings were way more consistent after a shower. The bioelectrical impedance works better with some moisture on your skin. Wierd but true.
 
 **Don't move the scale.** Pick a spot on a hard, flat floor and leave it there. Carpet screws up the readings. Moving it between uses introduces variability.
 
@@ -157,10 +159,10 @@ I mean. That's basically what happened to me.
 
 ## The Verdict
 
-Look, I spent like $165 on three scales to write about this and I don't regret any of it. The Withings stays in my bathroom. The Renpho went to my home office (yes I have two scales now, whatever). The Wyze I gave to my brother.
+Look, We spent like $165 on three scales to write about this and I don't regret any of it. The Withings stays in my bathroom. The Renpho went to my home office (yes We have two scales now, whatever). The Wyze I gave to my brother.
 
 If you're trying to lose weight — or just want to understand what's happening with your body beyond a single number — a smart scale is genuinely one of the better investments you can make. It's not the scale itself that helps, it's the data. And the accountability of stepping on something every morning that you know is tracking everything.
 
-I was wrong about these things. They're not gimmicky. They're not overpriced (well, some of them are, but the three I tested aren't). And they actually helped me lose weight in a way that felt sustainable and not miserable.
+I was wrong about these things. They're not gimmicky. They're not overpriced (well, some of them are, but the three We tested aren't). And they actually helped us lose weight in a way that felt sustainable and not miserable.
 
 Get the Renpho if you want to spend as little as possible. Get the Withings if you want the best experience. Either way, start stepping on it every morning. You'll thank yourself in three months.

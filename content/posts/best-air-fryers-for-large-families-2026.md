@@ -5,7 +5,7 @@ date: 2026-01-29T18:03:25+00:00
 lastmod: 2026-01-29T18:03:25+00:00
 draft: false
 description: "After 6 weeks testing large-capacity air fryers for my family of 6, here's what actually works — and what's just marketing hype. Spoiler: most 'large' air."
-summary: "Most air fryers claiming to feed a family can barely handle 4 servings. I tested the biggest ones on the market to find what actually works for households of 5 or more."
+summary: "Most air fryers claiming to feed a family can barely handle 4 servings. We tested the biggest ones on the market to find what actually works for households of 5 or more."
 
 keywords: ["best air fryer for large family 2026", "large capacity air fryer", "air fryer for family of 6", "dual basket air fryer", "Cosori TwinFry review"]
 
@@ -26,7 +26,7 @@ showToc: false
 TocOpen: false
 
 faq:
-  - question: "What size air fryer do I need for a family of 6?"
+  - question: "What size air fryer do We need for a family of 6?"
     answer: "You'll want at least 8-10 quarts of total capacity. Dual-basket models in the 9-10 quart range work best because you can cook two things at once without crowding either basket."
   - question: "Are dual basket air fryers better for large families?"
     answer: "Yes, if you're feeding 5+ people. Single baskets get crowded fast, which makes food soggy instead of crispy. Dual baskets let you spread things out while cooking sides and mains simultaneously."
@@ -59,9 +59,9 @@ My old 5-quart air fryer was a joke for our family.
 
 I'd have to run it three separate times to make enough chicken tenders for everyone. By the time batch three came out, batch one was cold. The kids were already eating, my wife and I were still waiting, and dinner was this staggered, frustrating mess that defeated the whole purpose of a "quick weeknight meal."
 
-So I spent the last six weeks testing every large-capacity air fryer I could get my hands on. Watched probably 20 hours of YouTube comparisons. Dug through hundreds of Amazon reviews specifically looking for what people say about cooking for big families.
+So We spent the last six weeks testing every large-capacity air fryer I could get my hands on. Watched probably 20 hours of YouTube comparisons. Dug through hundreds of Amazon reviews specifically looking for what people say about cooking for big families.
 
-Here's what I found: most "large" air fryers are lying to you.
+Here's what We found: most "large" air fryers are lying to you.
 
 That 12-quart monster on the shelf? The cooking chamber is only 8 quarts because the rest is heating element and dead space. That "feeds 6-8 people" claim? Sure, if everyone's eating appetizer portions.
 
@@ -83,11 +83,11 @@ This is why I ended up recommending dual-basket models for families. You get wha
 
 This is the one I kept. Ninja's the name most people think of when they think air fryers, and the DualZone deserves that reputation.
 
-What sold me is the Smart Finish feature — both baskets finish at the same time even with different cook times. Set different temps for each basket, and everything comes out ready together. I use this constantly — chicken thighs at 380° on one side, Brussels sprouts at 400° on the other. Done simultaneously. No juggling.
+What sold me is the Smart Finish feature — both baskets finish at the same time even with different cook times. Set different temps for each basket, and everything comes out ready together. We use this constantly — chicken thighs at 380° on one side, Brussels sprouts at 400° on the other. Done simultaneously. No juggling.
 
-I tested it with a full 2 pounds of frozen fries split between both baskets. Came out perfect in 18 minutes. No hot spots, no soggy middle layer. Tried the same test with my old 5-quart single basket and got half the fries done unevenly while the other half sat on the counter waiting.
+We tested it with a full 2 pounds of frozen fries split between both baskets. Came out perfect in 18 minutes. No hot spots, no soggy middle layer. Tried the same test with my old 5-quart single basket and got half the fries done unevenly while the other half sat on the counter waiting.
 
-The Match Cook mode copies settings instantly between baskets when you want identical cooking, which I use for double batches of the same thing. Temperature range goes up to 450°F which helps if you're doing steaks or want maximum crispiness on wings.
+The Match Cook mode copies settings instantly between baskets when you want identical cooking, which We use for double batches of the same thing. Temperature range goes up to 450°F which helps if you're doing steaks or want maximum crispiness on wings.
 
 **The downsides:** The baskets are deep rather than wide, so food stacks more and you need to shake every 5 minutes or so. Also this thing is heavy — not moving it in and out of cabinets. Pick a counter spot and that's where it lives.
 
@@ -105,7 +105,7 @@ But for a family of 5-6 where everyone eats at once? This is the move.
 
 **Price:** Around $120 | [Check availability](https://www.amazon.com/dp/B0936FGLQS?tag=amazonfi08e0c-20)
 
-If dual-basket feels like overkill, the Cosori Pro is the best large single-basket option I tested. At 5.8 quarts, it's genuinely large enough for 4-5 people in one batch — unlike those fake "5 quart" models that can barely fit 3 servings.
+If dual-basket feels like overkill, the Cosori Pro is the best large single-basket option We tested. At 5.8 quarts, it's genuinely large enough for 4-5 people in one batch — unlike those fake "5 quart" models that can barely fit 3 servings.
 
 What makes the Cosori stand out is the basket design. It's wider and shallower than most competitors. Food & Wine's testing team noted this specifically — the wider bottom means more surface area touching the air flow, which means crispier results with less shaking.
 
@@ -157,7 +157,7 @@ A few things worth noting from all this testing:
 
 **Counter space is real.** These large air fryers are not small. Measure before you buy. The Cosori needs about 15" x 17" of dedicated counter space. If you're tight on room, reconsider whether you need this much capacity.
 
-**Clean the baskets after every use.** I know, obvious. But with larger baskets, it's tempting to just run another batch without cleaning. Dont. Old grease buildup is why air fryers start smoking and setting off fire alarms.
+**Clean the baskets after every use.** We know, obvious. But with larger baskets, it's tempting to just run another batch without cleaning. Dont. Old grease buildup is why air fryers start smoking and setting off fire alarms.
 
 ---
 

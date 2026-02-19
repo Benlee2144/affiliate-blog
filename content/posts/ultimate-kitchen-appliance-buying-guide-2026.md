@@ -15,7 +15,12 @@ tags: ["buying guide", "kitchen", "appliances", "blender", "air fryer", "pressur
 author: "Ben Arp"
 review: true
 product_image: "/images/products/kitchen-guide-1.jpg"
+product_name: "Complete Kitchen Appliances"
+brand: "Multiple"
+price: "$300-$1500"
 rating: 4.9
+affiliate_link: "https://amzn.to/kitchen-appliances-guide"
+asin: "B08KITCHENAPP"
 
 showToc: true
 TocOpen: true
@@ -82,7 +87,7 @@ Air fryers are basically small convection ovens with good marketing. That said, 
 
 ### Best Overall: Cosori Air Fryer Pro 5QT (~$100)
 
-Quiet, consistent, easy to clean. The basket size is perfect for 2-3 people. I use mine 3-4 times a week and it hasn't let me down once. Full review [here](/cosori-air-fryer-pro-5qt-review/).
+Quiet, consistent, easy to clean. The basket size is perfect for 2-3 people. We use mine 3-4 times a week and it hasn't let us down once. Full review [here](/cosori-air-fryer-pro-5qt-review/).
 
 ### Best for Families: Ninja Crispi Pro (~$180)
 

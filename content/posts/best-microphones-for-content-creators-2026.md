@@ -26,11 +26,11 @@ showToc: true
 TocOpen: true
 
 faq:
-  - question: "Do I need a wireless microphone for YouTube videos?"
+  - question: "Do We need a wireless microphone for YouTube videos?"
     answer: "It depends on your content style. If you film on-the-go, walking shots, or interviews, wireless mics like the DJI Mic 2 or Rode Wireless Go II are essential. For desk-based content like podcasting or streaming, a USB mic like the Shure MV7+ offers better value and sound quality."
   - question: "Is the DJI Mic 2 worth the extra money over the Rode Wireless Go II?"
     answer: "For most creators, yes. The DJI Mic 2's 32-bit float recording prevents clipping disasters, the noise cancellation is noticeably better, and the all-in-one design is more convenient. However, if you primarily do sit-down interviews and want proven reliability, the Rode is still excellent."
-  - question: "Can I use the Shure MV7+ with both USB and XLR?"
+  - question: "Can We use the Shure MV7+ with both USB and XLR?"
     answer: "Yes, the MV7+ is a hybrid microphone. Use USB-C for plug-and-play simplicity with DSP features, or XLR for professional audio interfaces. However, the advanced DSP features only work over USB connection."
   - question: "What's the best budget option for new content creators?"
     answer: "The Rode Wireless Go II single kit at $199 offers the best entry point for wireless, while used original Shure MV7 units around $200 are excellent for podcasting. Don't underestimate smartphone audio for starting out—upgrade when you know your needs."
