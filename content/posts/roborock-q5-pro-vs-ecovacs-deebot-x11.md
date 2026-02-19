@@ -25,7 +25,7 @@ cons:
 
 cover:
     image: "/images/products/roborock-q5-pro-1.jpg"
-alt: "Roborock Q5 Pro Vs Ecovacs Deebot X11 product image with detailed view and professional lighting"
+    alt: "Roborock Q5 Pro Vs Ecovacs Deebot X11 product image with detailed view and professional lighting"
 ---
 
 # Roborock Q5 Pro vs ECOVACS DEEBOT X11: When Reliability Meets Raw Power

@@ -22,7 +22,7 @@ weight: 0
 
 cover:
     image: "/images/products/cosori-twinfry-9qt-1.jpg"
-alt: "How To Choose Air Fryer product image with detailed view and professional lighting"
+    alt: "How To Choose Air Fryer product image with detailed view and professional lighting"
 ---
 
 We've tested 47 air fryers across every style and price point. Here's what matters when choosing between basket and oven models — and what features are just expensive marketing tricks.

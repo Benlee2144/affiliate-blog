@@ -21,7 +21,7 @@ price: "$99.95"
 
 cover:
   image: "/images/products/withings-body-smart.jpg"
-alt: "Withings Body Smart scale on bathroom floor with smartphone app product image with detailed view and professional lighting"
+  alt: "Withings Body Smart scale on bathroom floor with smartphone app product image with detailed view and professional lighting"
 
 affiliate_links:
   - name: "Withings Body Smart"

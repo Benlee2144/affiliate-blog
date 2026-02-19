@@ -23,7 +23,7 @@ cons:
 
 cover:
     image: "/images/products/benq-screenbar.jpg"
-alt: "Best Home Office Accessories Under 75 product image with detailed view and professional lighting"
+    alt: "Best Home Office Accessories Under 75 product image with detailed view and professional lighting"
 ---
 
 # Best Home Office Accessories Under $75 in 2026 (We Tested 22 Products)

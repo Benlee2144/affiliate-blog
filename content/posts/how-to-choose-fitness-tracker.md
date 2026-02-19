@@ -22,7 +22,7 @@ weight: 0
 
 cover:
     image: "/images/products/apple-watch-10-1.jpg"
-alt: "How To Choose Fitness Tracker product image with detailed view and professional lighting"
+    alt: "How To Choose Fitness Tracker product image with detailed view and professional lighting"
 ---
 
 We've tested 23 fitness trackers across every category and price range. Here's what actually matters when choosing between basic step counters and advanced sports watches — and why most people are tracking the wrong metrics.

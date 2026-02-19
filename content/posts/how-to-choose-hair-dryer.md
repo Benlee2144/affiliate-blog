@@ -22,7 +22,7 @@ weight: 0
 
 cover:
     image: "/images/products/shark-hyperair-1.jpg"
-alt: "How To Choose Hair Dryer product image with detailed view and professional lighting"
+    alt: "How To Choose Hair Dryer product image with detailed view and professional lighting"
 ---
 
 We've tested 34 hair dryers across every price range and hair type. Here's what actually matters when choosing between ceramic, ionic, and tourmaline models — and why the most expensive options aren't always the best.

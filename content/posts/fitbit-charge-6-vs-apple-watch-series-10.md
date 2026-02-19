@@ -25,7 +25,7 @@ cons:
 
 cover:
     image: "/images/products/apple-watch-10-1.jpg"
-alt: "Fitbit Charge 6 Vs Apple Watch Series 10 product image with detailed view and professional lighting"
+    alt: "Fitbit Charge 6 Vs Apple Watch Series 10 product image with detailed view and professional lighting"
 ---
 
 # Fitbit Charge 6 vs Apple Watch Series 10: The Wearable Philosophy Divide

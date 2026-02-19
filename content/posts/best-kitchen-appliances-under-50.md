@@ -23,7 +23,7 @@ cons:
 
 cover:
     image: "/images/products/instant-pot-duo-plus-1.jpg"
-alt: "Best Kitchen Appliances Under 50 product image with detailed view and professional lighting"
+    alt: "Best Kitchen Appliances Under 50 product image with detailed view and professional lighting"
 ---
 
 # Best Kitchen Appliances Under $50 in 2026 (We Tested 15 Products)

@@ -25,7 +25,7 @@ cons:
 
 cover:
     image: "/images/products/ipad-air-m3-1.jpg"
-alt: "Ipad Air 5Th Gen Vs Samsung Galaxy Tab S9 product image with detailed view and professional lighting"
+    alt: "Ipad Air 5Th Gen Vs Samsung Galaxy Tab S9 product image with detailed view and professional lighting"
 ---
 
 # iPad Air 5th Gen vs Samsung Galaxy Tab S9: The Definitive Tablet Showdown

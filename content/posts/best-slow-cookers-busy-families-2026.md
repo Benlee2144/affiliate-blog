@@ -27,7 +27,7 @@ TocOpen: false
 
 cover:
   image: "/images/products/greenpan-elite-slow-cooker.jpg"
-alt: "GreenPan Elite 6-Quart Slow Cooker on kitchen counter product image with detailed view and professional lighting"
+  alt: "GreenPan Elite 6-Quart Slow Cooker on kitchen counter product image with detailed view and professional lighting"
 
 pros:
   - "High-quality build materials and construction"

@@ -27,7 +27,7 @@ TocOpen: false
 
 cover:
   image: "/images/products/thermapen-one-1.jpg"
-alt: "ThermoWorks Thermapen ONE instant-read meat thermometer with rotating display and waterproof design"
+  alt: "ThermoWorks Thermapen ONE instant-read meat thermometer with rotating display and waterproof design"
 
 faq:
   - question: "What is the most accurate meat thermometer?"

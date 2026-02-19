@@ -22,7 +22,7 @@ weight: 0
 
 cover:
     image: "/images/products/breville-bambino-plus-1.jpg"
-alt: "How To Choose Espresso Machine product image with detailed view and professional lighting"
+    alt: "How To Choose Espresso Machine product image with detailed view and professional lighting"
 ---
 
 I've owned 12 espresso machines over 8 years, from a $60 Nespresso knockoff to a $3,000 prosumer setup. Here's what actually matters when choosing an espresso machine — and why most people should probably start with something cheaper than they're considering.

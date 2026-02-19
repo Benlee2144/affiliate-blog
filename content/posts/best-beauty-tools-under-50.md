@@ -34,7 +34,7 @@ faq:
 
 cover:
     image: "/images/products/sonicare-4100-1.jpg"
-alt: "Best Beauty Tools Under 50 product image with detailed view and professional lighting"
+    alt: "Best Beauty Tools Under 50 product image with detailed view and professional lighting"
 ---
 
 # Best Beauty Tools Under $50 in 2026 (We Tested 16 Products)

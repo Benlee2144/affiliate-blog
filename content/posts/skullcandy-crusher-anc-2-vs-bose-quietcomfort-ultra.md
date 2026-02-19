@@ -25,7 +25,7 @@ cons:
 
 cover:
     image: "/images/products/apple-airpods-max-2.jpg"
-alt: "Skullcandy Crusher Anc 2 Vs Bose Quietcomfort Ultra product image with detailed view and professional lighting"
+    alt: "Skullcandy Crusher Anc 2 Vs Bose Quietcomfort Ultra product image with detailed view and professional lighting"
 ---
 
 # Skullcandy Crusher ANC 2 vs Bose QuietComfort Ultra: The Audio Philosophy Clash

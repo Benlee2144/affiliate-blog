@@ -25,7 +25,7 @@ cons:
 
 cover:
     image: "/images/products/breville-bambino-plus-1.jpg"
-alt: "Breville Bambino Vs Nespresso Vertuo Next product image with detailed view and professional lighting"
+    alt: "Breville Bambino Vs Nespresso Vertuo Next product image with detailed view and professional lighting"
 ---
 
 # Breville Bambino vs Nespresso Vertuo Next: The Coffee Philosophy Battle

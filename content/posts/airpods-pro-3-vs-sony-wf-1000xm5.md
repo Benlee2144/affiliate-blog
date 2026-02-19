@@ -36,7 +36,7 @@ faq:
 
 cover:
     image: "/images/products/airpods-pro-3-1.jpg"
-alt: "Airpods Pro 3 Vs Sony Wf 1000Xm5 product image with detailed view and professional lighting"
+    alt: "Airpods Pro 3 Vs Sony Wf 1000Xm5 product image with detailed view and professional lighting"
 ---
 
 # AirPods Pro 3 vs Sony WF-1000XM5: The Ultimate Premium Earbuds Battle

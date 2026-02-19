@@ -25,7 +25,7 @@ cons:
 
 cover:
     image: "/images/products/kindle-paperwhite-2024-1.jpg"
-alt: "Kindle Paperwhite 2024 Vs Samsung Galaxy Tab S9 Reading product image with detailed view and professional lighting"
+    alt: "Kindle Paperwhite 2024 Vs Samsung Galaxy Tab S9 Reading product image with detailed view and professional lighting"
 ---
 
 # Kindle Paperwhite 2024 vs Samsung Galaxy Tab S9: The Ultimate Reading Device Showdown

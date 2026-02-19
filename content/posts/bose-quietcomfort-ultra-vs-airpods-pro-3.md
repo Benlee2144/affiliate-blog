@@ -25,7 +25,7 @@ cons:
 
 cover:
     image: "/images/products/apple-airpods-max-1.jpg"
-alt: "Bose Quietcomfort Ultra Vs Airpods Pro 3 product image with detailed view and professional lighting"
+    alt: "Bose Quietcomfort Ultra Vs Airpods Pro 3 product image with detailed view and professional lighting"
 ---
 
 # Bose QuietComfort Ultra vs AirPods Pro 3: The Premium ANC Showdown

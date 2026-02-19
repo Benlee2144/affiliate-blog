@@ -23,7 +23,7 @@ cons:
 
 cover:
     image: "/images/products/weber-kettle-1.jpg"
-alt: "Best Outdoor Gear Under 100 product image with detailed view and professional lighting"
+    alt: "Best Outdoor Gear Under 100 product image with detailed view and professional lighting"
 ---
 
 # Best Outdoor Gear Under $100 in 2026 (We Tested 19 Products)

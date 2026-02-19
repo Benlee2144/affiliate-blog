@@ -27,7 +27,7 @@ TocOpen: false
 
 cover:
     image: "/images/products/bd-dustbuster-advancedclean.jpg"
-alt: "BLACK+DECKER Dustbuster handheld vacuum for cars with HEPA filtration"
+    alt: "BLACK+DECKER Dustbuster handheld vacuum for cars with HEPA filtration"
 
 pros:
   - "Lightweight and maneuverable design"

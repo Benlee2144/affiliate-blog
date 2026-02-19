@@ -34,7 +34,7 @@ faq:
 
 cover:
     image: "/images/products/sony-wh1000xm5-1.jpg"
-alt: "Best Headphones Under 100 product image with detailed view and professional lighting"
+    alt: "Best Headphones Under 100 product image with detailed view and professional lighting"
 ---
 
 # Best Headphones Under $100 in 2026 (We Tested 12 Pairs)

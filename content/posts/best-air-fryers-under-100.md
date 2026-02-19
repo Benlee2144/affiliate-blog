@@ -34,7 +34,7 @@ faq:
 
 cover:
     image: "/images/products/cosori-air-fryer-5qt-5.jpg"
-alt: "Best Air Fryers Under 100 product image with detailed view and professional lighting"
+    alt: "Best Air Fryers Under 100 product image with detailed view and professional lighting"
 ---
 
 # Best Air Fryers Under $100 in 2026 (We Tested 14 Models)

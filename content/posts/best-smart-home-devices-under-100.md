@@ -23,7 +23,7 @@ cons:
 
 cover:
     image: "/images/products/amazon-smart-plug.jpg"
-alt: "Best Smart Home Devices Under 100 product image with detailed view and professional lighting"
+    alt: "Best Smart Home Devices Under 100 product image with detailed view and professional lighting"
 ---
 
 # Best Smart Home Devices Under $100 in 2026 (We Tested 20 Products)

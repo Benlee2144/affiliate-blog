@@ -34,7 +34,7 @@ faq:
 
 cover:
     image: "/images/products/fitbit-charge-6-1.jpg"
-alt: "Best Fitness Gear Under 50 product image with detailed view and professional lighting"
+    alt: "Best Fitness Gear Under 50 product image with detailed view and professional lighting"
 ---
 
 # Best Fitness Gear Under $50 in 2026 (We Tested 18 Products)
