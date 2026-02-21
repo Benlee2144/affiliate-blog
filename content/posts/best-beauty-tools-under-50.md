@@ -112,7 +112,7 @@ Professional-grade epilator that removes hair from the root for 4+ weeks of smoo
 
 ## 4. CONAIR Double Ceramic Curling Iron 1.25" - Best Hair Curling
 
-**Price: $29** | [Amazon Link](https://www.amazon.com/dp/B001B58UIS?tag=amazonfi08e0c-20)
+**Price: $29** | [Amazon Link](https://www.amazon.com/dp/B07CKT4DFR?tag=amazonfi08e0c-20)
 
 Professional ceramic curling iron that creates long-lasting, bouncy curls.
 
@@ -184,7 +184,7 @@ Professional electric nail file system for salon-quality manicures at home.
 
 ## 8. HSI Professional Glider Hair Straightener - Best Hair Straightening
 
-**Price: $44** | [Amazon Link](https://www.amazon.com/dp/B004UDS81I?tag=amazonfi08e0c-20)
+**Price: $44** | [Amazon Link](https://www.amazon.com/dp/B001MA0QY2?tag=amazonfi08e0c-20)
 
 Professional-grade flat iron with ceramic plates that straighten without damage. For a more versatile styling option, consider the [Shark FlexStyle Air Styler](/shark-flexstyle-air-styler-review/) which can both straighten and curl.
 

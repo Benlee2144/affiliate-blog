@@ -20,6 +20,147 @@ You are not writing "blog posts." You are engineering content assets designed to
 
 ---
 
+# PHASE 0.5: KEYWORD RESEARCH PROTOCOL (MANDATORY)
+
+**NEVER start a blog post without completing keyword research first.**
+
+## Step 1: Keyword Discovery (10 min)
+
+**Search these patterns to find your target keyword:**
+```
+Search: "best [product category] 2026"
+Search: "[product] review"
+Search: "[product] vs [competitor]"
+Search: "is [product] worth it"
+```
+
+**Check Google's "People Also Ask" for related questions:**
+- These become your H2 headings and FAQ content
+- Each PAA question is a potential ranking opportunity
+
+**Check Google Autocomplete:**
+- Type your keyword and note all suggestions
+- These are real searches people make
+
+## Step 2: Search Volume & Difficulty Analysis (5 min)
+
+**Use free tools to estimate search volume:**
+```
+Search: "[keyword] search volume" site:ahrefs.com
+Search: "[keyword] search volume" site:semrush.com
+Search: "[keyword]" ubersuggest
+```
+
+**Volume Targets by Post Type:**
+| Post Type | Minimum Monthly Search Volume |
+|-----------|------------------------------|
+| Best [X] 2026 | 500+ searches/month |
+| [Product] Review | 200+ searches/month |
+| [A] vs [B] | 300+ searches/month |
+
+**Skip keywords with <100 monthly searches unless highly specific.**
+
+## Step 3: Competition Analysis (5 min)
+
+**Analyze top 3 ranking pages:**
+```
+Search: "[your target keyword]"
+```
+
+For each top result, note:
+- Word count (aim for 1.5x their length)
+- Number of images (match or exceed)
+- Heading structure (H2s and H3s)
+- Do they have YouTube videos embedded?
+- Do they have comparison tables?
+- What are they MISSING that you can add?
+
+**Ranking Opportunity Signals:**
+- Top results are thin (<1000 words) = easy win
+- Top results have no images = easy win
+- Top results are outdated (2023, 2024) = easy win
+- Top results are generic AI content = easy win
+- Reddit/Quora ranking in top 10 = opportunity
+
+## Step 4: Search Intent Classification (2 min)
+
+**Determine the EXACT intent before writing:**
+
+| Keyword Pattern | Intent | Your Content Format |
+|----------------|--------|---------------------|
+| "best [product] 2026" | Commercial | Comparison with 3-5 products, clear winner |
+| "[product] review" | Commercial | Single product deep-dive, verdict first |
+| "[product A] vs [product B]" | Commercial | Head-to-head, declare winner |
+| "is [product] worth it" | Commercial | Skepticism-addressing, honest verdict |
+| "[product] problems" | Informational | Problem-solution format |
+| "how to use [product]" | Informational | Tutorial (lower priority) |
+
+**ONLY target commercial intent keywords** — these convert to affiliate sales.
+
+## Step 5: Keyword Mapping (3 min)
+
+**For your chosen keyword, map out:**
+
+| Element | Your Keyword Placement |
+|---------|----------------------|
+| Title | Include exact keyword in first 60 chars |
+| URL slug | `best-[product]-2026` or `[product]-review` |
+| Meta description | Include keyword naturally |
+| H1 | Include keyword |
+| First paragraph | Include keyword in first 100 words |
+| One H2 | Include keyword or close variant |
+| Alt text | Include keyword in main image |
+| Throughout content | 3-5 times total (NO MORE) |
+
+## Step 6: Long-Tail Opportunities (5 min)
+
+**Find related long-tail keywords to include:**
+```
+Search: "[product] for [use case]"
+Search: "[product] for beginners"
+Search: "[product] under $[price]"
+Search: "cheap [product] that works"
+```
+
+**Add 2-3 long-tail variations throughout your content:**
+- Example: "best air fryer" + "best air fryer for family of 4" + "best air fryer under $100"
+
+## Step 7: Featured Snippet Targeting (3 min)
+
+**Check if there's a featured snippet opportunity:**
+```
+Search: "[your keyword]"
+```
+
+If Google shows a featured snippet:
+- **Paragraph snippet**: Write a direct 40-50 word answer in your first section
+- **List snippet**: Use numbered or bullet list format
+- **Table snippet**: Include a comparison table at the top
+
+**Featured Snippet Formula:**
+```markdown
+## What is the best [product] in 2026?
+
+The **[Product Name]** is the best [category] for most people in 2026.
+After testing [X] models and analyzing [Y] reviews, it outperformed
+competitors in [key factor 1], [key factor 2], and [key factor 3].
+```
+
+## Keyword Research Checklist
+
+Before writing, confirm:
+- [ ] Target keyword has 200+ monthly searches
+- [ ] Competition is beatable (thin content, outdated, no images)
+- [ ] Intent is commercial (not just informational)
+- [ ] I know what format top results use
+- [ ] I have 2-3 long-tail variations to include
+- [ ] I know if there's a featured snippet opportunity
+- [ ] I've noted all "People Also Ask" questions
+
+**STOP if you can't answer all these. Research more or pick a different keyword.**
+
+---
+
 # PHASE 1: ELITE RESEARCH PROTOCOL
 
 ## 1.1 The 7-Layer Research Stack
