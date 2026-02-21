@@ -14,14 +14,14 @@ tags: ["Apple", "tablets", "product review", "buying guide"]
 
 review: true
 product_name: "Apple iPad Air (5th Generation) M1"
-product_image: "https://www.apple.com/newsroom/images/product/ipad/standard/Apple-iPad-Air-hero-color-lineup-220308_big.jpg.large.jpg"
+product_image: "/images/products/ipad-air-m1-1.jpg"
 brand: "Apple"
 rating: 4.8
 price: "$599"
 affiliate_link: "https://www.amazon.com/dp/B09V3KXJPB?tag=amazonfi08e0c-20"
 asin: "B09V3KXJPB"
 
-author: "Benjamin Arp"
+author: "Ben Arp"
 showToc: true
 TocOpen: true
 

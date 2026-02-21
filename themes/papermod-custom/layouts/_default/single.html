@@ -25,6 +25,12 @@
         "@type": "WebPage",
         "@id": "{{ .Permalink }}"
     }
+    {{ with .Params.cover.image }}
+    ,"image": "{{ . | absURL }}"
+    {{ else }}{{ with $.Params.product_image }}
+    ,"image": "{{ . | absURL }}"
+    {{ end }}{{ end }}
+    ,"wordCount": {{ .WordCount }}
     {{ if .Params.review }}
     ,"itemReviewed": {
         "@type": "Product",
@@ -182,13 +188,15 @@
         ,{
             "@type": "ListItem",
             "position": 3,
-            "name": "{{ $.Title }}"
+            "name": "{{ $.Title }}",
+            "item": "{{ $.Permalink }}"
         }
         {{ else }}
         ,{
             "@type": "ListItem",
             "position": 2,
-            "name": "{{ .Title }}"
+            "name": "{{ .Title }}",
+            "item": "{{ .Permalink }}"
         }
         {{ end }}
     ]
@@ -277,11 +285,9 @@
     <section class="faq-section">
         <h2>Frequently Asked Questions</h2>
         {{ range . }}
-        <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-            <h4 itemprop="name">{{ .question }}</h4>
-            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                <p itemprop="text">{{ .answer }}</p>
-            </div>
+        <div class="faq-item">
+            <h4>{{ .question }}</h4>
+            <p>{{ .answer }}</p>
         </div>
         {{ end }}
     </section>
@@ -325,9 +331,10 @@
         <h2>You Might Also Like</h2>
         <div class="related-posts-grid">
             {{ range . }}
+            {{ $relTitle := .Title }}
             <a href="{{ .Permalink }}" class="related-post-card">
                 {{ with .Params.cover.image }}
-                <img src="{{ . }}" alt="{{ $.Title }}" class="related-post-image" loading="lazy">
+                <img src="{{ . }}" alt="{{ $relTitle }}" class="related-post-image" loading="lazy" width="400" height="300">
                 {{ else }}
                 <div class="related-post-image"></div>
                 {{ end }}

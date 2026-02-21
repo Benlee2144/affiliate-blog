@@ -21,7 +21,7 @@ price: "$159.95"
 affiliate_link: "https://www.amazon.com/dp/B0CDZMH91R?tag=amazonfi08e0c-20"
 asin: "B0CDZMH91R"
 
-author: "Benjamin Arp"
+author: "Ben Arp"
 showToc: true
 TocOpen: true
 

@@ -24,7 +24,7 @@ cons:
 
 review: false
 
-author: "Benjamin Arp"
+author: "Ben Arp"
 showToc: true
 TocOpen: true
 
