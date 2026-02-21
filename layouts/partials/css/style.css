@@ -379,3 +379,22 @@ body.search-open { overflow: hidden; }
 .cat-page-title { font-family: var(--font-display); font-size: 2rem; font-weight: 700; color: var(--color-text-primary); margin-bottom: var(--space-sm); }
 .cat-page-desc { font-size: 1rem; color: var(--color-text-secondary); max-width: 600px; }
 .cat-page-count { font-size: 0.875rem; color: var(--color-text-tertiary); margin-top: var(--space-sm); }
+
+/* FOOTER — match footer.html classes */
+.footer-main { background: var(--color-text-primary); }
+.footer-container { max-width: var(--container-max); margin: 0 auto; padding: 0 var(--space-lg); }
+.footer-main .footer-container { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr 1.5fr; gap: var(--space-2xl); padding-top: var(--space-3xl); padding-bottom: var(--space-2xl); }
+@media (max-width: 960px) { .footer-main .footer-container { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 480px) { .footer-main .footer-container { grid-template-columns: 1fr; } }
+.footer-brand { display: flex; flex-direction: column; gap: var(--space-md); }
+.footer-brand .footer-logo img { height: 30px; width: auto; filter: brightness(0) invert(1); }
+.footer-tagline { font-size: 0.875rem; line-height: 1.6; color: rgba(255,255,255,0.6); }
+.trust-badge { display: flex; align-items: center; gap: var(--space-xs); font-size: 0.8125rem; color: rgba(255,255,255,0.6); }
+.trust-badge svg { color: rgba(255,255,255,0.5); }
+.footer-links-column h4 { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #fff; margin-bottom: var(--space-md); }
+.footer-links-column nav { display: flex; flex-direction: column; gap: var(--space-sm); }
+.footer-links-column nav a { font-size: 0.875rem; color: rgba(255,255,255,0.6); transition: color var(--transition-fast); }
+.footer-links-column nav a:hover { color: #fff; }
+.footer-bottom { background: var(--color-text-primary); border-top: 1px solid rgba(255,255,255,0.1); }
+.footer-bottom .footer-container { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: var(--space-md); padding-top: var(--space-lg); padding-bottom: var(--space-lg); }
+.footer-affiliate-note { font-size: 0.8125rem; color: rgba(255,255,255,0.4); max-width: 500px; }
