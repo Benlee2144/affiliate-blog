@@ -11,7 +11,7 @@ categories: ["Kitchen Appliances"]
 tags: ["air fryer", "kitchen appliances", "cooking", "small appliances", "healthy cooking"]
 review: true
 product_name: "Cosori Air Fryer Pro Gen 2"
-product_image: "/images/products/cosori-pro-gen2-1.jpg"
+product_image: "/images/products/cosori-pro-5qt-1.jpg"
 brand: "Cosori"
 rating: 4.5
 price: "$79.99"
@@ -21,7 +21,7 @@ author: "Benjamin Arp"
 showToc: true
 TocOpen: false
 cover:
-  image: "/images/products/cosori-pro-gen2-1.jpg"
+  image: "/images/products/cosori-pro-5qt-1.jpg"
   alt: "Cosori Pro Gen 2 air fryer with golden french fries coming out of basket"
   relative: false
 pros:
