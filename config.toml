@@ -4,7 +4,7 @@ title = "Researched Picks"
 theme = "papermod-custom"
 
 # Build settings
-enableRobotsTXT = false
+enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
@@ -12,131 +12,131 @@ enableEmoji = false
 
 # Pagination
 [pagination]
-  pagerSize = 10
-  path = "page"
+  pagerSize = 12
+    path = "page"
 
-# URLs
-[permalinks]
-  posts = "/:slug/"
-  pages = "/:slug/"
+    # URLs
+    [permalinks]
+      posts = "/:slug/"
+        pages = "/:slug/"
 
-# Taxonomies
-[taxonomies]
-  category = "categories"
-  tag = "tags"
+        # Taxonomies
+        [taxonomies]
+          category = "categories"
+            tag = "tags"
 
-# Minify output
-[minify]
-  disableXML = true
-  minifyOutput = true
+            # Minify output
+            [minify]
+              disableXML = true
+                minifyOutput = true
 
-# Menu
-[menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    identifier = "categories"
-    name = "Categories"
-    url = "/categories/"
-    weight = 2
-  [[menu.main]]
-    identifier = "deals"
-    name = "Deals"
-    url = "/deals/"
-    weight = 3
-  [[menu.main]]
-    identifier = "how-i-research"
-    name = "How We Research"
-    url = "/how-i-research/"
-    weight = 4
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 5
-
-# Site parameters
-[params]
-  env = "production"
-  title = "Researched Picks — Honest Product Reviews"
-  description = "We read hundreds of Amazon reviews, Reddit threads, and forum posts so you don't have to. Real research, real opinions, no BS."
-  keywords = ["product reviews 2026", "best products reddit", "honest reviews", "buying guide", "amazon reviews analysis", "what to buy 2026", "unbiased product reviews"]
-  author = "Ben Arp"
-
-  # Images
-  images = ["/images/site-cover.jpg"]
-
-  # Light theme only
-  defaultTheme = "light"
-  disableThemeToggle = true
-
-  # Show reading time
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = false
-  ShowWordCount = false
-  ShowRssButtonInSectionTermList = true
-
-  # Home page
-  [params.homeInfoParams]
-    Title = "We Read Hundreds of Reviews So You Don't Have To"
-    Content = "Real research from Reddit, Amazon, and forums. No sponsored content. No fake 5-star ratings. Just honest answers about what's worth buying in 2026."
-
-  # Social icons (optional)
-  [[params.socialIcons]]
-    name = "rss"
-    url = "/index.xml"
-
-  # Analytics placeholder (add your tracking ID)
-  [params.analytics]
-    google = "G-K87ZM95G65"
-
-  # Search
-  [params.fuseOpts]
-    isCaseSensitive = false
-    shouldSort = true
-    location = 0
-    distance = 1000
-    threshold = 0.4
-    minMatchCharLength = 0
-    keys = ["title", "permalink", "summary", "content"]
-
-# SEO & Social
-[params.cover]
-  hidden = false
-  hiddenInList = false
-  hiddenInSingle = false
-
-# Schema.org
-[params.schema]
-  publisherType = "Organization"
-
-# Output formats
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
-  section = ["HTML", "RSS"]
-  taxonomy = ["HTML", "RSS"]
-
-# Sitemap
-[sitemap]
-  changefreq = "daily"
-  filename = "sitemap.xml"
-  priority = 0.8
-
-# Security headers
-[security]
-  [security.funcs]
-    getenv = ["^HUGO_"]
-
-# Markup
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-  [markup.highlight]
-    noClasses = false
+                # Menu
+                [menu]
+                  [[menu.main]]
+                      identifier = "home"
+                          name = "Home"
+                              url = "/"
+                                  weight = 1
+                                    [[menu.main]]
+                                        identifier = "categories"
+                                            name = "Categories"
+                                                url = "/categories/"
+                                                    weight = 2
+                                                      [[menu.main]]
+                                                          identifier = "deals"
+                                                              name = "Deals"
+                                                                  url = "/deals/"
+                                                                      weight = 3
+                                                                        [[menu.main]]
+                                                                            identifier = "how-i-research"
+                                                                                name = "How We Research"
+                                                                                    url = "/how-i-research/"
+                                                                                        weight = 4
+                                                                                          [[menu.main]]
+                                                                                              identifier = "about"
+                                                                                                  name = "About"
+                                                                                                      url = "/about/"
+                                                                                                          weight = 5
+                                                                                                          
+                                                                                                          # Site parameters
+                                                                                                          [params]
+                                                                                                            env = "production"
+                                                                                                              title = "Researched Picks — Honest Product Reviews"
+                                                                                                                description = "We read hundreds of Amazon reviews, Reddit threads, and forum posts so you don't have to. Real research, real opinions, no BS."
+                                                                                                                  keywords = ["product reviews 2026", "best products reddit", "honest reviews", "buying guide", "amazon reviews analysis", "what to buy 2026", "unbiased product reviews"]
+                                                                                                                    author = "Ben Arp"
+                                                                                                                    
+                                                                                                                      # Images
+                                                                                                                        images = ["/images/site-cover.jpg"]
+                                                                                                                        
+                                                                                                                          # Light theme only
+                                                                                                                            defaultTheme = "light"
+                                                                                                                              disableThemeToggle = true
+                                                                                                                              
+                                                                                                                                # Show reading time
+                                                                                                                                  ShowReadingTime = true
+                                                                                                                                    ShowShareButtons = true
+                                                                                                                                      ShowPostNavLinks = true
+                                                                                                                                        ShowBreadCrumbs = true
+                                                                                                                                          ShowCodeCopyButtons = false
+                                                                                                                                            ShowWordCount = false
+                                                                                                                                              ShowRssButtonInSectionTermList = true
+                                                                                                                                              
+                                                                                                                                                # Home page
+                                                                                                                                                  [params.homeInfoParams]
+                                                                                                                                                      Title = "We Read Hundreds of Reviews So You Don't Have To"
+                                                                                                                                                          Content = "Real research from Reddit, Amazon, and forums. No sponsored content. No fake 5-star ratings. Just honest answers about what's worth buying in 2026."
+                                                                                                                                                          
+                                                                                                                                                            # Social icons
+                                                                                                                                                              [[params.socialIcons]]
+                                                                                                                                                                  name = "rss"
+                                                                                                                                                                      url = "/index.xml"
+                                                                                                                                                                      
+                                                                                                                                                                        # Analytics
+                                                                                                                                                                          [params.analytics]
+                                                                                                                                                                              google = "G-K87ZM95G65"
+                                                                                                                                                                              
+                                                                                                                                                                                # Search
+                                                                                                                                                                                  [params.fuseOpts]
+                                                                                                                                                                                      isCaseSensitive = false
+                                                                                                                                                                                          shouldSort = true
+                                                                                                                                                                                              location = 0
+                                                                                                                                                                                                  distance = 1000
+                                                                                                                                                                                                      threshold = 0.4
+                                                                                                                                                                                                          minMatchCharLength = 0
+                                                                                                                                                                                                              keys = ["title", "permalink", "summary", "content"]
+                                                                                                                                                                                                              
+                                                                                                                                                                                                                # SEO & Social
+                                                                                                                                                                                                                  [params.cover]
+                                                                                                                                                                                                                      hidden = false
+                                                                                                                                                                                                                          hiddenInList = false
+                                                                                                                                                                                                                              hiddenInSingle = false
+                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                # Schema.org
+                                                                                                                                                                                                                                  [params.schema]
+                                                                                                                                                                                                                                      publisherType = "Organization"
+                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                      # Output formats
+                                                                                                                                                                                                                                      [outputs]
+                                                                                                                                                                                                                                        home = ["HTML", "RSS", "JSON"]
+                                                                                                                                                                                                                                          section = ["HTML", "RSS"]
+                                                                                                                                                                                                                                            taxonomy = ["HTML", "RSS"]
+                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                            # Sitemap
+                                                                                                                                                                                                                                            [sitemap]
+                                                                                                                                                                                                                                              changefreq = "weekly"
+                                                                                                                                                                                                                                                filename = "sitemap.xml"
+                                                                                                                                                                                                                                                  priority = 0.8
+                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                  # Security
+                                                                                                                                                                                                                                                  [security]
+                                                                                                                                                                                                                                                    [security.funcs]
+                                                                                                                                                                                                                                                        getenv = ["^HUGO_"]
+                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                        # Markup
+                                                                                                                                                                                                                                                        [markup]
+                                                                                                                                                                                                                                                          [markup.goldmark]
+                                                                                                                                                                                                                                                              [markup.goldmark.renderer]
+                                                                                                                                                                                                                                                                    unsafe = true
+                                                                                                                                                                                                                                                                      [markup.highlight]
+                                                                                                                                                                                                                                                                          noClasses = false
