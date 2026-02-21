@@ -1,391 +1,375 @@
 {{ define "head" }}
-<!-- Article Schema.org JSON-LD -->
+{{/* ============================================================
+     SCHEMA.ORG JSON-LD — Article / Review / Product / FAQ
+     ============================================================ */}}
 <script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "{{ if .Params.review }}Review{{ else }}Article{{ end }}",
-    "headline": "{{ .Title }}",
-    "description": "{{ .Description }}",
-    "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
-    "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
-    "author": {
-        "@type": "Person",
-        "name": "{{ .Site.Params.author }}",
-        "url": "{{ .Site.BaseURL }}author/ben-arp/"
-    },
-    "publisher": {
-        "@type": "Organization",
-        "name": "{{ .Site.Title }}",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "{{ .Site.BaseURL }}images/logo.svg"
-        }
-    },
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "{{ .Permalink }}"
+  "@context": "https://schema.org",
+  "@type": "{{ if .Params.review }}Review{{ else }}Article{{ end }}",
+  "headline": {{ .Title | jsonify }},
+  "description": {{ .Description | jsonify }},
+  "url": "{{ .Permalink }}",
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  "wordCount": {{ .WordCount }},
+  "author": {
+    "@type": "Person",
+    "name": "{{ .Site.Params.author | default "Ben Arp" }}",
+    "url": "{{ .Site.BaseURL }}author/ben-arp/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Researched Picks",
+    "url": "{{ .Site.BaseURL }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ .Site.BaseURL }}images/logo.svg",
+      "width": 200,
+      "height": 45
     }
-    {{ with .Params.cover.image }}
-    ,"image": "{{ . | absURL }}"
-    {{ else }}{{ with $.Params.product_image }}
-    ,"image": "{{ . | absURL }}"
-    {{ end }}{{ end }}
-    ,"wordCount": {{ .WordCount }}
-    {{ if .Params.review }}
-    ,"itemReviewed": {
-        "@type": "Product",
-        "name": "{{ .Params.product_name }}",
-        "image": "{{ .Params.product_image | absURL }}"
-        {{ with .Params.brand }},"brand": { "@type": "Brand", "name": "{{ . }}" }{{ end }}
-    },
-    "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "{{ .Params.rating | default 4 }}",
-        "bestRating": "5"
-    }
-    {{ with .Params.pros }}
-    ,"positiveNotes": {
-        "@type": "ItemList",
-        "itemListElement": [
-            {{ range $i, $pro := . }}{{ if $i }},{{ end }}
-            {
-                "@type": "ListItem",
-                "position": {{ add $i 1 }},
-                "name": "{{ $pro }}"
-            }
-            {{ end }}
-        ]
-    }
-    {{ end }}
-    {{ with .Params.cons }}
-    ,"negativeNotes": {
-        "@type": "ItemList",
-        "itemListElement": [
-            {{ range $i, $con := . }}{{ if $i }},{{ end }}
-            {
-                "@type": "ListItem",
-                "position": {{ add $i 1 }},
-                "name": "{{ $con }}"
-            }
-            {{ end }}
-        ]
-    }
-    {{ end }}
-    {{ end }}
-}
-</script>
-
-{{ if .Params.product_name }}
-<!-- Product Schema.org JSON-LD with AggregateRating + Pros/Cons -->
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  }
+  {{ with .Params.cover.image }},"image": { "@type": "ImageObject", "url": "{{ . | absURL }}" }{{ else }}{{ with $.Params.product_image }},"image": { "@type": "ImageObject", "url": "{{ . | absURL }}" }{{ end }}{{ end }}
+  {{ if .Params.review }}
+  ,"itemReviewed": {
     "@type": "Product",
-    "name": "{{ .Params.product_name }}",
-    "description": "{{ .Description }}",
-    "image": "{{ .Params.product_image | absURL }}",
-    {{ with .Params.brand }}"brand": { "@type": "Brand", "name": "{{ . }}" },{{ end }}
-    "review": {
-        "@type": "Review",
-        "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "{{ .Params.rating | default 4 }}",
-            "bestRating": "5"
-        },
-        "author": {
-            "@type": "Person",
-            "name": "{{ .Site.Params.author }}",
-            "url": "{{ .Site.BaseURL }}author/ben-arp/"
-        }
-        {{ with .Params.pros }}
-        ,"positiveNotes": {
-            "@type": "ItemList",
-            "itemListElement": [
-                {{ range $i, $pro := . }}{{ if $i }},{{ end }}
-                { "@type": "ListItem", "position": {{ add $i 1 }}, "name": "{{ $pro }}" }
-                {{ end }}
-            ]
-        }
-        {{ end }}
-        {{ with .Params.cons }}
-        ,"negativeNotes": {
-            "@type": "ItemList",
-            "itemListElement": [
-                {{ range $i, $con := . }}{{ if $i }},{{ end }}
-                { "@type": "ListItem", "position": {{ add $i 1 }}, "name": "{{ $con }}" }
-                {{ end }}
-            ]
-        }
-        {{ end }}
-    }
-    {{ with .Params.amazon_rating }}
-    ,"aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "{{ . }}",
-        "bestRating": "5",
-        "ratingCount": "{{ $.Params.amazon_review_count | default 100 }}"
-    }
-    {{ end }}
-    {{ with .Params.price }}
-    ,"offers": {
-        "@type": "Offer",
-        "url": "{{ $.Params.affiliate_link }}",
-        "priceCurrency": "USD",
-        "price": "{{ replace . "$" "" }}",
-        "availability": "https://schema.org/InStock",
-        "seller": {
-            "@type": "Organization",
-            "name": "Amazon"
-        }
-    }
-    {{ end }}
+    "name": {{ .Params.product_name | jsonify }},
+    "image": "{{ .Params.product_image | absURL }}"
+    {{ with .Params.brand }},"brand": { "@type": "Brand", "name": {{ . | jsonify }} }{{ end }}
+    {{ with .Params.amazon_rating }},"aggregateRating": { "@type": "AggregateRating", "ratingValue": "{{ . }}", "bestRating": "5", "ratingCount": "{{ $.Params.amazon_review_count | default 500 }}" }{{ end }}
+    {{ with .Params.price }},"offers": { "@type": "Offer", "priceCurrency": "USD", "price": "{{ replace . "$" "" | replace "," "" }}", "availability": "https://schema.org/InStock", "url": "{{ $.Params.affiliate_link }}", "seller": { "@type": "Organization", "name": "Amazon" } }{{ end }}
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "{{ .Params.rating | default 4 }}",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+  {{ end }}
 }
 </script>
-{{ end }}
 
 {{ if .Params.faq }}
-<!-- FAQ Schema.org JSON-LD -->
 <script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {{ range $i, $faq := .Params.faq }}
-        {{ if $i }},{{ end }}
-        {
-            "@type": "Question",
-            "name": "{{ $faq.question }}",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "{{ $faq.answer }}"
-            }
-        }
-        {{ end }}
-    ]
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{ range $i, $faq := .Params.faq }}{{ if $i }},{{ end }}{
+      "@type": "Question",
+      "name": {{ $faq.question | jsonify }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ $faq.answer | jsonify }} }
+    }{{ end }}
+  ]
 }
 </script>
 {{ end }}
 
-<!-- BreadcrumbList Schema.org JSON-LD -->
 <script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-        {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "{{ .Site.BaseURL }}"
-        }
-        {{ with .Params.categories }}
-        ,{
-            "@type": "ListItem",
-            "position": 2,
-            "name": "{{ index . 0 }}",
-            "item": "{{ $.Site.BaseURL }}categories/{{ index . 0 | urlize }}/"
-        }
-        ,{
-            "@type": "ListItem",
-            "position": 3,
-            "name": "{{ $.Title }}",
-            "item": "{{ $.Permalink }}"
-        }
-        {{ else }}
-        ,{
-            "@type": "ListItem",
-            "position": 2,
-            "name": "{{ .Title }}",
-            "item": "{{ .Permalink }}"
-        }
-        {{ end }}
-    ]
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ .Site.BaseURL }}" }
+    {{ with .Params.categories }}
+    ,{ "@type": "ListItem", "position": 2, "name": {{ index . 0 | jsonify }}, "item": "{{ $.Site.BaseURL }}categories/{{ index . 0 | urlize }}/" }
+    ,{ "@type": "ListItem", "position": 3, "name": {{ $.Title | jsonify }}, "item": "{{ $.Permalink }}" }
+    {{ else }}
+    ,{ "@type": "ListItem", "position": 2, "name": {{ .Title | jsonify }}, "item": "{{ .Permalink }}" }
+    {{ end }}
+  ]
 }
 </script>
 {{ end }}
 
 {{ define "main" }}
-<!-- Reading Progress Bar -->
-<div class="reading-progress" id="reading-progress"></div>
+{{/* Reading progress bar */}}
+<div class="reading-progress" id="reading-progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
 
-<article class="container">
-    <!-- Breadcrumbs -->
-    <nav class="breadcrumbs">
-        <a href="/">Home</a>
-        <span>›</span>
-        {{ with .Params.categories }}
-        <a href="/categories/{{ index . 0 | urlize }}/">{{ index . 0 }}</a>
-        <span>›</span>
-        {{ end }}
-        <span>{{ .Title | truncate 50 }}</span>
+<div class="single-post-layout">
+
+  {{/* ===== MAIN ARTICLE COLUMN ===== */}}
+  <article class="post-article" itemscope itemtype="https://schema.org/Article">
+
+    {{/* Breadcrumb nav */}}
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      <span class="breadcrumb-sep">›</span>
+      {{ with .Params.categories }}
+      <a href="/categories/{{ index . 0 | urlize }}/">{{ index . 0 }}</a>
+      <span class="breadcrumb-sep">›</span>
+      {{ end }}
+      <span aria-current="page">{{ .Title | truncate 55 }}</span>
     </nav>
 
+    {{/* Post header */}}
     <header class="post-header">
-        <h1>{{ .Title }}</h1>
-        <div class="post-meta">
-            {{ with .Params.author }}
-            <span class="post-author">
-                <span class="author-avatar-small">{{ substr . 0 1 }}</span>
-                By <a href="/author/ben-arp/" style="color: inherit; text-decoration: underline dotted;">{{ . }}</a>
-            </span>
-            {{ end }}
-            <span>Updated {{ .Lastmod.Format "January 2, 2006" }}</span>
-            {{ if .ReadingTime }}<span>{{ .ReadingTime }} min read</span>{{ end }}
+      {{ with .Params.categories }}
+      <a href="/categories/{{ index . 0 | urlize }}/" class="post-category-badge">{{ index . 0 }}</a>
+      {{ end }}
+
+      <h1 class="post-title" itemprop="headline">{{ .Title }}</h1>
+
+      {{ with .Description }}
+      <p class="post-subtitle">{{ . }}</p>
+      {{ end }}
+
+      <div class="post-meta-row">
+        <div class="post-author">
+          <div class="post-author-avatar">
+            <img src="/images/author-ben.jpg" alt="Ben Arp" width="36" height="36" onerror="this.style.display='none'">
+          </div>
+          <div>
+            <div class="post-author-name" itemprop="author" itemscope itemtype="https://schema.org/Person">
+              <span itemprop="name">{{ .Params.author | default "Ben Arp" }}</span>
+            </div>
+            <div class="post-author-role">Founder & Lead Researcher</div>
+          </div>
         </div>
-        <!-- Visible last-updated for freshness signal -->
-        {{ if not (eq (.Date.Format "2006-01-02") (.Lastmod.Format "2006-01-02")) }}
-        <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-top: 0.25rem;">
-            Originally published {{ .Date.Format "January 2, 2006" }} · Last updated {{ .Lastmod.Format "January 2, 2006" }}
+
+        <div class="post-meta-divider"></div>
+
+        <div class="post-meta-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          <time itemprop="dateModified" datetime="{{ .Lastmod.Format "2006-01-02" }}">Updated {{ .Lastmod.Format "January 2, 2006" }}</time>
+        </div>
+
+        {{ if .ReadingTime }}
+        <div class="post-meta-divider"></div>
+        <div class="post-meta-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+          {{ .ReadingTime }} min read
         </div>
         {{ end }}
+
+        {{ with .Params.rating }}
+        <div class="post-meta-divider"></div>
+        <div class="post-meta-item" style="color: var(--color-warning); font-weight: 600;">
+          ★ {{ . }}/5
+        </div>
+        {{ end }}
+      </div>
     </header>
 
-    <!-- Hero Image -->
+    {{/* Cover image — LCP optimization with eager loading */}}
     {{ with .Params.cover.image }}
-    <div class="post-hero-image">
-        <img src="{{ . }}" alt="{{ $.Params.cover.alt | default $.Title }}" loading="eager" fetchpriority="high">
+    <div class="post-cover">
+      <img
+        src="{{ . }}"
+        alt="{{ $.Params.cover.alt | default $.Title }}"
+        loading="eager"
+        fetchpriority="high"
+        decoding="async"
+        itemprop="image"
+        style="width:100%;height:auto;"
+      >
     </div>
     {{ end }}
 
-    <!-- Affiliate Disclosure (FTC-compliant, top of every review) -->
-    {{ if .Params.review }}
-    <div class="affiliate-disclosure" style="background: #fef9f0; border: 1px solid #f0e4d0; border-radius: 8px; padding: 0.875rem 1.25rem; margin-bottom: 1.5rem; font-size: 0.875rem; line-height: 1.5;">
-        <strong>📋 Disclosure:</strong> We independently research every product on this page. When you buy through our links, we may earn a commission at no extra cost to you. We only recommend products we'd genuinely tell a friend to buy. <a href="/affiliate-disclosure/" style="color: var(--color-accent);">Full disclosure →</a>
+    {{/* Affiliate disclosure — FTC required */}}
+    <div class="affiliate-disclosure" style="background:#fef9f0;border:1px solid #f0e4d0;border-radius:8px;padding:0.85rem 1.25rem;margin-bottom:1.5rem;font-size:0.875rem;line-height:1.5;color:#6b4c2a;">
+      <strong>📋 Disclosure:</strong> We independently research every product on this page. When you buy through our links, we may earn a commission at no extra cost to you. We only recommend products we'd genuinely tell a friend to buy. <a href="/affiliate-disclosure/" style="color:var(--color-accent);font-weight:500;">Full disclosure →</a>
+    </div>
+
+    {{/* Quick verdict box for review posts */}}
+    {{ if and .Params.review .Params.summary }}
+    <div class="verdict-box">
+      <div class="verdict-box-label">⚡ Quick Verdict</div>
+      <div class="verdict-box-text">{{ .Params.summary }}</div>
+      {{ with .Params.affiliate_link }}
+      <div class="verdict-box-winner" style="margin-top:1rem;">
+        <a href="{{ . }}" class="affiliate-btn" target="_blank" rel="noopener sponsored" style="font-size:0.9375rem;padding:10px 18px;">
+          Check Price on Amazon →
+        </a>
+      </div>
+      {{ end }}
     </div>
     {{ end }}
 
-    <!-- Pros/Cons Box (if provided in frontmatter) -->
+    {{/* Pros / Cons from frontmatter */}}
     {{ if or .Params.pros .Params.cons }}
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 2rem; font-size: 0.95rem;">
-        {{ with .Params.pros }}
-        <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 1rem 1.25rem;">
-            <strong style="color: #16a34a;">✅ What We Like</strong>
-            <ul style="margin: 0.5rem 0 0; padding-left: 1.25rem;">
-                {{ range . }}<li>{{ . }}</li>{{ end }}
-            </ul>
-        </div>
-        {{ end }}
-        {{ with .Params.cons }}
-        <div style="background: #fef2f2; border: 1px solid #fecaca; border-radius: 8px; padding: 1rem 1.25rem;">
-            <strong style="color: #dc2626;">❌ What We Don't</strong>
-            <ul style="margin: 0.5rem 0 0; padding-left: 1.25rem;">
-                {{ range . }}<li>{{ . }}</li>{{ end }}
-            </ul>
-        </div>
-        {{ end }}
+    <div class="pros-cons">
+      {{ with .Params.pros }}
+      <div class="pros-box">
+        <div class="pros-cons-title">What We Like</div>
+        <ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+      </div>
+      {{ end }}
+      {{ with .Params.cons }}
+      <div class="cons-box">
+        <div class="pros-cons-title">What Could Be Better</div>
+        <ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+      </div>
+      {{ end }}
     </div>
     {{ end }}
 
-    <div class="post-content">
-        {{ .Content }}
+    {{/* MAIN CONTENT */}}
+    <div class="post-body" itemprop="articleBody">
+      {{ .Content }}
     </div>
 
-    <!-- FAQ Section (from front matter) -->
+    {{/* FAQ from frontmatter — also renders visible on page */}}
     {{ with .Params.faq }}
-    <section class="faq-section">
-        <h2>Frequently Asked Questions</h2>
-        {{ range . }}
-        <div class="faq-item">
-            <h4>{{ .question }}</h4>
-            <p>{{ .answer }}</p>
+    <section class="faq-section" style="margin-top:2.5rem;padding-top:1.5rem;border-top:1px solid var(--color-border);">
+      <h2 style="font-family:var(--font-display);font-size:1.5rem;margin-bottom:1.25rem;">Frequently Asked Questions</h2>
+      {{ range . }}
+      <details style="border:1px solid var(--color-border);border-radius:8px;margin-bottom:0.75rem;overflow:hidden;">
+        <summary style="padding:1rem 1.25rem;font-weight:600;cursor:pointer;font-size:1rem;list-style:none;display:flex;align-items:center;justify-content:space-between;">
+          {{ .question }}
+          <span style="flex-shrink:0;margin-left:1rem;color:var(--color-text-tertiary);">+</span>
+        </summary>
+        <div style="padding:0 1.25rem 1rem;font-size:0.9375rem;color:var(--color-text-secondary);line-height:1.65;">
+          {{ .answer }}
         </div>
-        {{ end }}
+      </details>
+      {{ end }}
     </section>
     {{ end }}
 
-    <!-- Author Bio -->
-    <div class="author-bio">
-        <div class="author-avatar">BA</div>
-        <div class="author-info">
-            <h4><a href="/author/ben-arp/" style="color: inherit; text-decoration: none;">Ben Arp</a></h4>
-            <p class="author-title">Founder & Lead Researcher</p>
-            <p class="author-description">I spend hours digging through Amazon reviews, Reddit threads, and forum posts to find products that are actually worth buying. <a href="/author/ben-arp/">More about me →</a></p>
-        </div>
-    </div>
-
-    <!-- Tags -->
+    {{/* Tags */}}
     {{ with .Params.tags }}
-    <div class="tags">
-        {{ range . }}
-        <a href="/tags/{{ . | urlize }}/" class="tag">#{{ . }}</a>
-        {{ end }}
+    <div class="post-tags">
+      {{ range . }}<a href="/tags/{{ . | urlize }}/" class="post-tag">#{{ . }}</a>{{ end }}
     </div>
     {{ end }}
 
-    <!-- Post footer info -->
-    <div class="post-info">
-        <div class="reading-time">
-            {{ if .ReadingTime }}{{ .ReadingTime }} min read{{ end }}
-        </div>
-        <div class="share-buttons">
-            <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" target="_blank" rel="noopener" aria-label="Share on Twitter">𝕏</a>
-            <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" rel="noopener" aria-label="Share on Facebook">f</a>
-            <a href="https://pinterest.com/pin/create/button/?url={{ .Permalink }}&description={{ .Title }}" target="_blank" rel="noopener" aria-label="Share on Pinterest">P</a>
-        </div>
+    {{/* Author bio */}}
+    <div class="author-bio">
+      <div class="author-bio-avatar">
+        <img src="/images/author-ben.jpg" alt="Ben Arp" width="64" height="64" onerror="this.style.display='none'">
+      </div>
+      <div>
+        <div class="author-bio-name">Ben Arp</div>
+        <div class="author-bio-role">Founder & Lead Researcher</div>
+        <div class="author-bio-text">I spend hours digging through Amazon reviews, Reddit threads, and forum posts to find products that are actually worth buying. No sponsored content, no free samples — just honest research. <a href="/author/ben-arp/" style="color:var(--color-accent);">More about me →</a></div>
+      </div>
     </div>
 
-    <!-- Related Posts -->
+    {{/* Post share + nav */}}
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-top:2rem;padding-top:1.25rem;border-top:1px solid var(--color-border);flex-wrap:wrap;gap:1rem;">
+      <div style="display:flex;align-items:center;gap:0.75rem;font-size:0.875rem;color:var(--color-text-tertiary);">
+        <span>Share:</span>
+        <a href="https://twitter.com/intent/tweet?url={{ .Permalink | absURL }}&text={{ .Title | urlquery }}" target="_blank" rel="noopener" style="color:var(--color-text-secondary);font-weight:600;">𝕏</a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | absURL }}" target="_blank" rel="noopener" style="color:var(--color-text-secondary);font-weight:600;">Facebook</a>
+      </div>
+      <div style="font-size:0.8125rem;color:var(--color-text-tertiary);">
+        {{ if .ReadingTime }}{{ .ReadingTime }} min read · {{ end }}
+        Updated {{ .Lastmod.Format "Jan 2, 2006" }}
+      </div>
+    </div>
+
+    {{/* Related posts */}}
     {{ $related := .Site.RegularPages.Related . | first 4 }}
     {{ with $related }}
-    <section class="related-posts-section">
-        <h2>You Might Also Like</h2>
-        <div class="related-posts-grid">
-            {{ range . }}
-            {{ $relTitle := .Title }}
-            <a href="{{ .Permalink }}" class="related-post-card">
-                {{ with .Params.cover.image }}
-                <img src="{{ . }}" alt="{{ $relTitle }}" class="related-post-image" loading="lazy" width="400" height="300">
-                {{ else }}
-                <div class="related-post-image"></div>
-                {{ end }}
-                <div class="related-post-info">
-                    <h4>{{ .Title | truncate 60 }}</h4>
-                    <div class="related-post-meta">
-                        {{ with .Params.rating }}<span class="related-post-rating">★ {{ . }}</span> · {{ end }}
-                        {{ .Date.Format "Jan 2, 2006" }}
-                    </div>
-                </div>
-            </a>
-            {{ end }}
-        </div>
+    <section class="related-posts" style="margin-top:2.5rem;">
+      <h2 class="related-posts-title">You Might Also Like</h2>
+      <div class="related-grid">
+        {{ range . }}
+        <a href="{{ .Permalink }}" class="post-card" style="text-decoration:none;">
+          {{ with .Params.cover.image }}
+          <div class="post-card-img">
+            <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy" width="400" height="250">
+          </div>
+          {{ end }}
+          <div class="post-card-body">
+            {{ with .Params.categories }}<div class="post-card-cat">{{ index . 0 }}</div>{{ end }}
+            <div class="post-card-title">{{ .Title | truncate 65 }}</div>
+            <div class="post-card-meta">
+              {{ with .Params.rating }}<span class="post-card-rating">★ {{ . }}</span> · {{ end }}
+              {{ .Lastmod.Format "Jan 2, 2006" }}
+            </div>
+          </div>
+        </a>
+        {{ end }}
+      </div>
     </section>
     {{ end }}
-</article>
 
-<!-- Sticky Mobile CTA -->
-{{ if and .Params.review .Params.affiliate_link }}
-<div class="sticky-cta" id="sticky-cta">
-    <div class="sticky-cta-content">
-        <div class="sticky-cta-info">
-            <div class="product-name">{{ .Params.product_name | truncate 30 }}</div>
-            {{ with .Params.price }}<div class="product-price">{{ . }}</div>{{ end }}
-        </div>
-        <a href="{{ .Params.affiliate_link }}" class="cta-button" target="_blank" rel="noopener sponsored">
-            {{ with .Params.price }}{{ . }} at {{ end }}Amazon
-        </a>
+  </article>
+
+  {{/* ===== SIDEBAR ===== */}}
+  <aside class="post-sidebar">
+
+    {{/* Buy CTA box */}}
+    {{ if and .Params.affiliate_link .Params.product_name }}
+    <div style="background:var(--color-bg);border:1px solid var(--color-border);border-radius:12px;padding:1.25rem;margin-bottom:1.5rem;">
+      <div style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--color-text-tertiary);margin-bottom:0.75rem;">Our Top Pick</div>
+      {{ with .Params.cover.image }}
+      <img src="{{ . }}" alt="{{ $.Params.product_name }}" style="width:100%;height:140px;object-fit:contain;margin-bottom:0.75rem;border-radius:8px;background:var(--color-surface);padding:0.5rem;" loading="lazy">
+      {{ end }}
+      <div style="font-size:0.9375rem;font-weight:700;margin-bottom:0.25rem;line-height:1.3;">{{ .Params.product_name | truncate 50 }}</div>
+      {{ with .Params.rating }}<div style="color:var(--color-warning);font-weight:600;font-size:0.875rem;margin-bottom:0.5rem;">★ {{ . }}/5</div>{{ end }}
+      {{ with .Params.price }}<div style="font-size:1.25rem;font-weight:700;margin-bottom:1rem;">{{ . }}</div>{{ end }}
+      <a href="{{ .Params.affiliate_link }}" class="affiliate-btn" target="_blank" rel="noopener sponsored" style="width:100%;justify-content:center;display:flex;">
+        Check Price on Amazon
+      </a>
+      <div style="font-size:0.75rem;color:var(--color-text-tertiary);text-align:center;margin-top:0.5rem;">As an Amazon Associate we earn from qualifying purchases</div>
     </div>
-</div>
-<script>document.body.classList.add('has-sticky-cta');</script>
-{{ end }}
+    {{ end }}
 
-<!-- Reading Progress Script -->
+    {{/* Table of contents — sidebar version */}}
+    {{ if .Params.showToc }}
+    <div class="sidebar-toc">
+      <div class="sidebar-toc-title">In This Guide</div>
+      {{ .TableOfContents }}
+    </div>
+    {{ end }}
+
+  </aside>
+
+</div>
+
+{{/* Sticky bottom CTA on mobile */}}
+{{ if and .Params.review .Params.affiliate_link }}
+<div id="sticky-mobile-cta" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:800;background:#fff;border-top:1px solid var(--color-border);padding:0.75rem 1rem;box-shadow:0 -4px 12px rgba(0,0,0,0.08);">
+  <div style="max-width:600px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:1rem;">
+    <div>
+      <div style="font-size:0.875rem;font-weight:700;line-height:1.3;">{{ .Params.product_name | default .Title | truncate 35 }}</div>
+      {{ with .Params.price }}<div style="font-size:0.8125rem;color:var(--color-text-tertiary);">{{ . }}</div>{{ end }}
+    </div>
+    <a href="{{ .Params.affiliate_link }}" class="affiliate-btn" target="_blank" rel="noopener sponsored" style="flex-shrink:0;font-size:0.875rem;padding:10px 16px;white-space:nowrap;">
+      View on Amazon →
+    </a>
+  </div>
+</div>
 <script>
 (function() {
-    const progressBar = document.getElementById('reading-progress');
-    const article = document.querySelector('.post-content');
-    if (!article || !progressBar) return;
-    function updateProgress() {
-        const articleTop = article.offsetTop;
-        const articleHeight = article.offsetHeight;
-        const windowHeight = window.innerHeight;
-        const scrollTop = window.scrollY;
-        const start = articleTop - windowHeight;
-        const end = articleTop + articleHeight - windowHeight;
-        const progress = Math.min(Math.max((scrollTop - start) / (end - start) * 100, 0), 100);
-        progressBar.style.width = progress + '%';
-    }
-    window.addEventListener('scroll', updateProgress, { passive: true });
-    updateProgress();
+  var cta = document.getElementById('sticky-mobile-cta');
+  var hero = document.querySelector('.post-cover, .post-header');
+  if (!cta || !hero) return;
+  function checkScroll() {
+    if (window.innerWidth > 768) { cta.style.display = 'none'; return; }
+    var rect = hero.getBoundingClientRect();
+    cta.style.display = rect.bottom < 0 ? 'block' : 'none';
+  }
+  window.addEventListener('scroll', checkScroll, { passive: true });
+  window.addEventListener('resize', checkScroll);
+  checkScroll();
+})();
+</script>
+{{ end }}
+
+{{/* Reading progress script */}}
+<script>
+(function() {
+  var bar = document.getElementById('reading-progress-bar');
+  var article = document.querySelector('.post-body');
+  if (!bar || !article) return;
+  function update() {
+    var top = article.getBoundingClientRect().top + window.scrollY;
+    var h = article.offsetHeight;
+    var wh = window.innerHeight;
+    var s = window.scrollY;
+    var pct = Math.min(100, Math.max(0, (s - top + wh) / (h + wh) * 100));
+    bar.style.width = pct + '%';
+    bar.setAttribute('aria-valuenow', Math.round(pct));
+  }
+  window.addEventListener('scroll', update, { passive: true });
+  update();
 })();
 </script>
 {{ end }}
