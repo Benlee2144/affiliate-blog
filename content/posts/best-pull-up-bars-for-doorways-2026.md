@@ -31,19 +31,19 @@ pros:
   - "Sets up and takes down in under 60 seconds"
 cons:
   - "Leaves small pressure marks on doorframe paint over time"
-  - "Doesn't work with doorframes wider than 32 inches"
+  - "Does not work with doorframes wider than 32 inches"
   - "Minimal padding on grips"
 faq:
   - question: "Do doorway pull-up bars damage door frames?"
-    answer: "Most modern doorway bars use a tension/pressure mount system that rests on the door trim, not the frame itself. This can leave faint marks on painted trim with extended use. The risk is higher with narrower trim (under 2 inches) and lower with wider, more substantial door casings. Adding small foam pads under the contact points helps significantly."
+    answer: "Most modern doorway bars use a tension/pressure mount system that rests on the door trim, not the frame itself. This can leave faint marks on painted trim with extended use. The risk is higher with narrower trim and lower with wider, more substantial door casings. Adding small foam pads under the contact points helps significantly."
   - question: "How much weight can a doorway pull-up bar hold?"
-    answer: "The Iron Gym is rated for 300 lbs, which covers the vast majority of users. The Pullup & Dip bar is rated for 330 lbs. However, weight rating is only part of the story — the structural integrity of your door frame matters equally. Standard residential door frames are built to handle these loads, but hollow-core door frames in some apartments may flex."
+    answer: "The Iron Gym is rated for 300 lbs, which covers the vast majority of users. The Pullup and Dip bar is rated for 330 lbs. However, weight rating is only part of the story — the structural integrity of your door frame matters equally. Standard residential door frames handle these loads fine."
   - question: "Can I do dips on a doorway pull-up bar?"
-    answer: "With the Iron Gym and similar bars, you can do floor-mounted dips by placing the bar low and supporting yourself with legs extended. The Perfect Fitness Multi-Gym is specifically designed for this with its extended base. Neither is as effective as parallel bars for full dips, but for home use they're serviceable."
+    answer: "With the Iron Gym and similar bars, you can do floor-mounted dips by placing the bar low and supporting yourself with legs extended. The Perfect Fitness Multi-Gym is specifically designed for this with its extended base. Neither is as effective as parallel bars, but for home use they work."
   - question: "What height do I need for a doorway pull-up bar?"
-    answer: "You need at least 7 feet of clearance above where the bar mounts to hang fully extended without your feet touching the floor. Most residential interior doors are 6'8" (80 inches) high, which gives roughly 12-15 inches of clearance above the bar — enough for most people under 6'1". Taller users may need to bend their knees."
+    answer: "You need at least 7 feet of clearance above where the bar mounts to hang fully extended without your feet touching the floor. Most residential interior doors are 80 inches high, which gives roughly 12-15 inches of clearance above the bar — enough for most people under 6 feet 1 inch. Taller users may need to bend their knees."
   - question: "Can I mount a pull-up bar without a doorframe?"
-    answer: "The no-screw pressure-mount bars require a doorframe. If you want a freestanding option, you're looking at a power tower ($100–$250) or wall-mounted pull-up bars ($40–$80 with installation). For renters without wall drilling options, the doorway bar is the only practical choice."
+    answer: "The no-screw pressure-mount bars require a doorframe. If you want a freestanding option, you are looking at a power tower ($100-$250) or wall-mounted pull-up bars ($40-$80 with installation). For renters without wall drilling options, the doorway bar is the only practical choice."
 ---
 
 My gym closed early for three weeks during a renovation. I had a doorway and the internet. That combination led to a lot of research, four different bars, and an opinion I now hold pretty strongly.
@@ -72,13 +72,11 @@ Setup takes under two minutes. The bar hooks over the door trim, rests on the in
 
 The steel frame is noticeably heavier than budget bars — that weight is rigidity. When I'm at the top of a rep and my full 195 lbs is hanging from my arms, the bar doesn't move. It doesn't creak. It feels like it's part of the wall.
 
-**Grip positions:** Wide overhand (standard pull-up), neutral grip (hands facing each other), narrow underhand (chin-up). The different positions matter more than most beginners realize — neutral grip is actually easiest for most people starting out, and having that option available for free is genuinely valuable.
+**Grip positions:** Wide overhand (standard pull-up), neutral grip (hands facing each other), narrow underhand (chin-up). The different positions matter more than most beginners realize — neutral grip is actually easiest for most people starting out, and having that option built in is genuinely valuable.
 
-**The doorframe marks issue:** Over six weeks of daily use, my white trim developed faint gray pressure marks where the metal contacts the wood. Not scratches — pressure discoloration. They wiped off with a Magic Eraser with moderate effort. If you want zero marks ever, add a strip of felt tape under each contact point. Problem solved.
+**The doorframe marks issue:** Over six weeks of daily use, my white trim developed faint gray pressure marks where the metal contacts the wood. Not scratches — pressure discoloration. They wiped off with a Magic Eraser with moderate effort. If you want zero marks ever, add a strip of felt tape under each contact point.
 
-**The weight limit in practice:** Rated at 300 lbs. I weigh 195, my friend who used it weighs 240, and there was no noticeable difference in stability. I wouldn't push this in a renter apartment with hollow-core trim, but standard residential construction is fine.
-
-**Who should NOT buy this:** If your doorway molding is narrow (under 2 inches of flat surface), the bar won't sit properly. Some modern interior doors have very thin profile trim — measure before buying. Also doesn't work on frameless doorways or archways.
+**Who should NOT buy this:** If your doorway molding is narrow (under 2 inches of flat surface), the bar won't sit properly. Some modern interior doors have very thin profile trim — measure before buying.
 
 ## The Upgrade Pick: Perfect Fitness Multi-Gym
 
@@ -86,13 +84,11 @@ The [Perfect Fitness Multi-Gym](https://www.amazon.com/dp/B01N4JLKPU?tag=amazonf
 
 In practice, this means you can use the bar on the floor for push-up grips that are elevated and angled — it opens up more exercise variety than the bare Iron Gym.
 
-The build quality is similar. Slightly more padding on the grips. The floor stabilizer means slightly more setup/takedown time.
-
 **The honest verdict on upgrading:** If all you're doing is pull-ups and chin-ups, the Iron Gym is the same result for $15 less. If you want one piece of equipment that also handles push-up variations, the Perfect Fitness earns the extra money.
 
 ## What About Mounted Bars?
 
-There's a whole category of bars that screw directly into wall studs or the doorframe itself. The [Titan Fitness Doorway Bar](https://www.amazon.com/dp/B07DLXJ7JN?tag=amazonfi08e0c-20) and similar options are significantly more stable — you're attached to the structure of the house, not just resting on trim.
+There's a whole category of bars that screw directly into wall studs or the doorframe itself. These are significantly more stable — you're attached to the structure of the house, not just resting on trim.
 
 These cost $40–$60 and require drilling four holes. For renters this is usually not an option. For homeowners, a mounted bar is the right long-term move — it's more stable, handles heavier loads, and doesn't have any of the doorframe-marking concerns.
 
@@ -110,9 +106,9 @@ Don't buy the plastic one.
 
 ## Side-by-Side Comparison
 
-| Bar | Price | Material | Weight Limit | Grip Options | For |
+| Bar | Price | Material | Weight Limit | Grip Options | Best For |
 |-----|-------|----------|-------------|--------------|-----|
 | Budget no-name | ~$15 | Plastic bracket | 200 lbs | 1-2 | Skip it |
 | [Iron Gym Total](https://www.amazon.com/dp/B01HMJZKNK?tag=amazonfi08e0c-20) | ~$35 | Steel | 300 lbs | 3 | Most people |
-| [Perfect Fitness Multi](https://www.amazon.com/dp/B01N4JLKPU?tag=amazonfi08e0c-20) | ~$50 | Steel | 300 lbs | 3 + floor | Want more exercise variety |
+| [Perfect Fitness Multi](https://www.amazon.com/dp/B01N4JLKPU?tag=amazonfi08e0c-20) | ~$50 | Steel | 300 lbs | 3 + floor | Want more variety |
 | Titan Doorway Mounted | ~$55 | Steel (screwed in) | 400 lbs | 3 | Homeowners only |
