@@ -14,14 +14,14 @@ tags: ["Apple", "smartwatch", "product review", "fitness tracker", "buying guide
 
 review: true
 product_name: "Apple Watch Series 10"
-product_image: "https://www.apple.com/newsroom/images/2024/09/introducing-apple-watch-series-10/article/Apple-Watch-Series-10-hero-240909_big.jpg.large.jpg"
+product_image: "/images/products/apple-watch-10-1.jpg"
 brand: "Apple"
 rating: 4.6
 price: "$399.00"
 affiliate_link: "https://www.amazon.com/dp/B0DGJ8HXZ5?tag=amazonfi08e0c-20"
 asin: "B0DGJ8HXZ5"
 
-author: "Benjamin Arp"
+author: "Ben Arp"
 showToc: true
 TocOpen: true
 

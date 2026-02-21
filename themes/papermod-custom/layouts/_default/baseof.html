@@ -25,20 +25,35 @@
 
     <!-- Open Graph -->
     <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.description }}{{ else }}{{ .Title }}{{ end }}">
-    <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}">
+    <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Summary | truncate 160 }}{{ end }}">
     <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
     <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:locale" content="en_US">
     {{ with .Params.cover.image }}
     <meta property="og:image" content="{{ . | absURL }}">
+    {{ else }}
+    <meta property="og:image" content="{{ .Site.BaseURL }}images/logo.svg">
     {{ end }}
     <meta property="og:site_name" content="{{ .Site.Title }}">
+    {{ if .IsPage }}
+    <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+    <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
+    <meta property="article:author" content="{{ .Site.Params.author }}">
+    {{ with .Params.categories }}<meta property="article:section" content="{{ index . 0 }}">{{ end }}
+    {{ end }}
 
     <!-- Twitter Card -->
+    {{ with .Params.cover.image }}
     <meta name="twitter:card" content="summary_large_image">
+    {{ else }}
+    <meta name="twitter:card" content="summary">
+    {{ end }}
     <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
-    <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary }}{{ end }}">
+    <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Summary | truncate 160 }}{{ end }}">
     {{ with .Params.cover.image }}
     <meta name="twitter:image" content="{{ . | absURL }}">
+    {{ else }}
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}images/logo.svg">
     {{ end }}
 
     <!-- Favicon -->
@@ -56,6 +71,11 @@
     <!-- Self-hosted fonts (eliminates render-blocking Google Fonts requests) -->
     <link rel="preload" href="/fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/lora-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="dns-prefetch" href="//www.amazon.com">
+    <link rel="dns-prefetch" href="//www.googletagmanager.com">
+    {{ if .IsPage }}{{ with .Params.cover.image }}
+    <link rel="preload" as="image" href="{{ . | absURL }}">
+    {{ end }}{{ end }}
 
     <!-- Styles -->
     <style>

@@ -18,10 +18,11 @@
             <h2 class="section-heading">The latest</h2>
             <div class="latest-list">
                 {{ range first 6 $allPages }}
+                {{ $postTitle := .Title }}
                 <div class="latest-item">
                     <a href="{{ .Permalink }}" class="latest-item-link">
                         {{ with .Params.cover.image }}
-                        <img class="latest-thumb" src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+                        <img class="latest-thumb" src="{{ . }}" alt="{{ $postTitle }}" loading="lazy" width="80" height="80">
                         {{ else }}
                         <div class="latest-thumb latest-thumb-placeholder"></div>
                         {{ end }}
@@ -37,10 +38,11 @@
 
         <!-- Center: Featured article -->
         {{ with index $allPages 0 }}
+        {{ $featuredTitle := .Title }}
         <div class="hero-featured">
             <a href="{{ .Permalink }}" class="hero-featured-image">
                 {{ with .Params.cover.image }}
-                <img src="{{ . }}" alt="{{ $.Title }}" fetchpriority="high">
+                <img src="{{ . }}" alt="{{ $featuredTitle }}" fetchpriority="high" width="600" height="400">
                 {{ else }}
                 <div class="placeholder-image"></div>
                 {{ end }}
@@ -57,13 +59,14 @@
             <p class="section-subheading">Our research-backed recommendations</p>
             <div class="deals-list">
                 {{ range after 6 (first 12 $allPages) }}
+                {{ $dealTitle := .Title }}
                 <div class="deal-item">
                     {{ with .Params.categories }}
                     <span class="deal-category">{{ index . 0 }}</span>
                     {{ end }}
                     <a href="{{ .Permalink }}">
                         {{ with .Params.cover.image }}
-                        <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+                        <img src="{{ . }}" alt="{{ $dealTitle }}" loading="lazy" width="100" height="100">
                         {{ end }}
                         <span>{{ .Title | truncate 60 }}</span>
                     </a>
@@ -84,10 +87,11 @@
         <div class="category-section-content">
             <!-- Featured article (first/newest) -->
             {{ with index $pages 0 }}
+            {{ $catFeaturedTitle := .Title }}
             <div class="featured-article">
                 <a href="{{ .Permalink }}" class="featured-image">
                     {{ with .Params.cover.image }}
-                    <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+                    <img src="{{ . }}" alt="{{ $catFeaturedTitle }}" loading="lazy" width="400" height="300">
                     {{ else }}
                     <div class="placeholder-image"></div>
                     {{ end }}
@@ -104,10 +108,11 @@
             {{ if gt (len $pages) 1 }}
             <div class="article-list">
                 {{ range after 1 (first 4 $pages) }}
+                {{ $articleTitle := .Title }}
                 <div class="article-list-item">
                     <a href="{{ .Permalink }}" class="article-list-item-link">
                         {{ with .Params.cover.image }}
-                        <img class="article-list-thumb" src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+                        <img class="article-list-thumb" src="{{ . }}" alt="{{ $articleTitle }}" loading="lazy" width="120" height="90">
                         {{ else }}
                         <div class="article-list-thumb article-list-thumb-placeholder"></div>
                         {{ end }}
@@ -148,10 +153,11 @@
     <div class="reviews-grid">
         {{ $paginator := .Paginate .Pages }}
         {{ range $paginator.Pages }}
+        {{ $cardTitle := .Title }}
         <article class="review-card">
             <a href="{{ .Permalink }}" class="review-card-image">
                 {{ with .Params.cover.image }}
-                <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+                <img src="{{ . }}" alt="{{ $cardTitle }}" loading="lazy" width="800" height="600">
                 {{ else }}
                 <div style="width:100%;height:100%;background:var(--color-bg-alt);"></div>
                 {{ end }}
