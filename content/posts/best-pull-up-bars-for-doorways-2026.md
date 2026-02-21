@@ -11,7 +11,7 @@ categories: ["Fitness & Health"]
 tags: ["pull-up bar", "home gym", "calisthenics", "fitness", "strength training"]
 review: true
 product_name: "Iron Gym Total Upper Body Workout Bar"
-product_image: "/images/products/iron-gym-pullup-bar-1.jpg"
+product_image: "/images/products/iron-gym-pull-up-bar-1.jpg"
 brand: "Iron Gym"
 rating: 4.4
 price: "$34.99"
@@ -21,7 +21,7 @@ author: "Benjamin Arp"
 showToc: true
 TocOpen: false
 cover:
-  image: "/images/products/iron-gym-pullup-bar-1.jpg"
+  image: "/images/products/iron-gym-pull-up-bar-1.jpg"
   alt: "Iron Gym pull-up bar installed in doorway of home gym"
   relative: false
 pros:
