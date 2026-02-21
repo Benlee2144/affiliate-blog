@@ -886,9 +886,10 @@ body.search-open {
     width: 64px;
     height: 64px;
     border-radius: var(--radius-md);
-    object-fit: cover;
+    object-fit: contain;
     background: var(--color-surface);
     flex-shrink: 0;
+    padding: 4px;
 }
 
 .latest-thumb-placeholder {
@@ -927,19 +928,24 @@ body.search-open {
 }
 
 .hero-featured-image {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    aspect-ratio: 16/10;
+    aspect-ratio: 4/3;
     border-radius: var(--radius-lg);
     overflow: hidden;
     margin-bottom: var(--space-6);
     background: var(--color-surface);
+    padding: var(--space-4);
 }
 
 .hero-featured-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
     transition: transform var(--transition-slow);
 }
 
@@ -1030,9 +1036,10 @@ body.search-open {
     width: 48px;
     height: 48px;
     border-radius: var(--radius-sm);
-    object-fit: cover;
+    object-fit: contain;
     background: var(--color-surface);
     flex-shrink: 0;
+    padding: 4px;
 }
 
 .deal-item span {
@@ -1090,17 +1097,22 @@ body.search-open {
 }
 
 .featured-image {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     aspect-ratio: 4/3;
     border-radius: var(--radius-lg);
     overflow: hidden;
     background: var(--color-surface);
+    padding: var(--space-4);
 }
 
 .featured-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
     transition: transform var(--transition-slow);
 }
 
@@ -1173,9 +1185,10 @@ body.search-open {
     width: 80px;
     height: 80px;
     border-radius: var(--radius-md);
-    object-fit: cover;
+    object-fit: contain;
     background: var(--color-surface);
     flex-shrink: 0;
+    padding: 6px;
 }
 
 .article-list-thumb-placeholder {
@@ -1830,9 +1843,10 @@ body.search-open {
     width: 80px;
     height: 80px;
     border-radius: var(--radius-md);
-    object-fit: cover;
+    object-fit: contain;
     background: var(--color-surface);
     flex-shrink: 0;
+    padding: 6px;
 }
 
 .related-post-info {
