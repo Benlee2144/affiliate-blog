@@ -13,7 +13,7 @@ tags: ["AI", "artificial intelligence", "technology", "social media", "future te
 
 review: false
 
-author: "Benjamin Arp"
+author: "Ben Arp"
 showToc: true
 TocOpen: true
 

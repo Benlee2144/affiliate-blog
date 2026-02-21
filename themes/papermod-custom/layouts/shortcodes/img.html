@@ -6,4 +6,4 @@
 {{ $alt := .Get "alt" | default "" }}
 {{ $class := .Get "class" | default "" }}
 
-<img src="{{ $src | relURL }}" alt="{{ $alt }}"{{ if $class }} class="{{ $class }}"{{ end }} loading="lazy">
+<img src="{{ $src | relURL }}" alt="{{ $alt }}"{{ if $class }} class="{{ $class }}"{{ end }} loading="lazy" width="800" height="600">

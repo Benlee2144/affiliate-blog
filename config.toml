@@ -4,7 +4,7 @@ title = "Researched Picks"
 theme = "papermod-custom"
 
 # Build settings
-enableRobotsTXT = true
+enableRobotsTXT = false
 buildDrafts = false
 buildFuture = false
 buildExpired = false
