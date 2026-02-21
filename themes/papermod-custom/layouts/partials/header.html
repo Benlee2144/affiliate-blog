@@ -1,43 +1,125 @@
 <header class="header">
-    <div class="container">
+    <div class="header-container">
+        <!-- Logo -->
         <a href="{{ .Site.BaseURL }}" class="logo">
-            <img src="/images/logo.svg" alt="{{ .Site.Title }}" class="logo-img">
+            <img src="/images/logo.svg" alt="{{ .Site.Title }}" class="logo-img" width="180" height="40">
         </a>
-        <nav class="nav">
+
+        <!-- Desktop Navigation -->
+        <nav class="nav-desktop">
             {{ range .Site.Menus.main }}
-            <a href="{{ .URL }}">{{ .Name }}</a>
+            <a href="{{ .URL }}" class="nav-link">{{ .Name }}</a>
             {{ end }}
-
-            <!-- Search Toggle -->
-            <button class="search-toggle" id="search-toggle" aria-label="Search">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                </svg>
-            </button>
-
-            <!-- Dark Mode Toggle -->
-            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
-                <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-                </svg>
-                <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-                </svg>
-            </button>
         </nav>
+
+        <!-- Right Actions -->
+        <div class="header-actions">
+            <!-- Search Toggle -->
+            <button class="header-icon-btn" id="search-toggle" aria-label="Search">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"/>
+                    <path d="m21 21-4.3-4.3"/>
+                </svg>
+            </button>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-btn" id="mobile-menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
     </div>
+
+    <!-- Mobile Navigation -->
+    <nav class="nav-mobile" id="nav-mobile">
+        <div class="nav-mobile-inner">
+            {{ range .Site.Menus.main }}
+            <a href="{{ .URL }}" class="nav-mobile-link">{{ .Name }}</a>
+            {{ end }}
+            <div class="nav-mobile-divider"></div>
+            <div class="nav-mobile-categories">
+                <span class="nav-mobile-label">Browse Categories</span>
+                {{ range $catName, $catPages := .Site.Taxonomies.categories }}
+                <a href="/categories/{{ $catName | urlize }}/" class="nav-mobile-cat">{{ $catPages.Page.Title }}</a>
+                {{ end }}
+            </div>
+        </div>
+    </nav>
 </header>
 
 <!-- Search Overlay -->
 <div class="search-overlay" id="search-overlay">
-    <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
-    <div class="search-container">
-        <div class="search-input-wrapper">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-            </svg>
-            <input type="text" id="search-input" placeholder="Search reviews..." autocomplete="off">
+    <div class="search-modal">
+        <div class="search-header">
+            <h3>Search Reviews</h3>
+            <button class="search-close" id="search-close" aria-label="Close search">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6 6 18M6 6l12 12"/>
+                </svg>
+            </button>
         </div>
-        <div id="search-results"></div>
+        <div class="search-input-wrapper">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"/>
+                <path d="m21 21-4.3-4.3"/>
+            </svg>
+            <input type="text" id="search-input" placeholder="Search for products, reviews, guides..." autocomplete="off">
+        </div>
+        <div id="search-results" class="search-results"></div>
+        <div class="search-hints">
+            <span>Popular:</span>
+            <a href="/categories/electronics/">Electronics</a>
+            <a href="/categories/kitchen-appliances/">Kitchen</a>
+            <a href="/categories/fitness/">Fitness</a>
+        </div>
     </div>
 </div>
+
+<script>
+(function() {
+    // Mobile menu toggle
+    const menuBtn = document.getElementById('mobile-menu-toggle');
+    const mobileNav = document.getElementById('nav-mobile');
+    if (menuBtn && mobileNav) {
+        menuBtn.addEventListener('click', function() {
+            menuBtn.classList.toggle('active');
+            mobileNav.classList.toggle('active');
+            document.body.classList.toggle('nav-open');
+        });
+    }
+
+    // Search overlay
+    const searchToggle = document.getElementById('search-toggle');
+    const searchOverlay = document.getElementById('search-overlay');
+    const searchClose = document.getElementById('search-close');
+    const searchInput = document.getElementById('search-input');
+
+    if (searchToggle && searchOverlay) {
+        searchToggle.addEventListener('click', function() {
+            searchOverlay.classList.add('active');
+            document.body.classList.add('search-open');
+            setTimeout(() => searchInput?.focus(), 100);
+        });
+
+        searchClose?.addEventListener('click', function() {
+            searchOverlay.classList.remove('active');
+            document.body.classList.remove('search-open');
+        });
+
+        searchOverlay.addEventListener('click', function(e) {
+            if (e.target === searchOverlay) {
+                searchOverlay.classList.remove('active');
+                document.body.classList.remove('search-open');
+            }
+        });
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && searchOverlay.classList.contains('active')) {
+                searchOverlay.classList.remove('active');
+                document.body.classList.remove('search-open');
+            }
+        });
+    }
+})();
+</script>
