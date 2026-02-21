@@ -1,74 +1,125 @@
 <header class="header">
-    <div class="container">
-        <button class="hamburger-menu" id="hamburger-menu" aria-label="Menu">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path d="M3 6h18M3 12h18M3 18h18"/>
-            </svg>
-        </button>
+    <div class="header-container">
+        <!-- Logo -->
         <a href="{{ .Site.BaseURL }}" class="logo">
-            <span class="logo-text"><span class="logo-accent">Researched</span> Picks</span>
+            <img src="/images/logo.svg" alt="{{ .Site.Title }}" class="logo-img" width="180" height="40">
         </a>
-        <span class="logo-tagline">Independent · Research-backed</span>
-        <div class="header-search">
-            <button class="search-icon-btn" id="search-toggle" aria-label="Search">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+
+        <!-- Desktop Navigation -->
+        <nav class="nav-desktop">
+            {{ range .Site.Menus.main }}
+            <a href="{{ .URL }}" class="nav-link">{{ .Name }}</a>
+            {{ end }}
+        </nav>
+
+        <!-- Right Actions -->
+        <div class="header-actions">
+            <!-- Search Toggle -->
+            <button class="header-icon-btn" id="search-toggle" aria-label="Search">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"/>
+                    <path d="m21 21-4.3-4.3"/>
                 </svg>
             </button>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-btn" id="mobile-menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
-        <div class="header-right"></div>
     </div>
+
+    <!-- Mobile Navigation -->
+    <nav class="nav-mobile" id="nav-mobile">
+        <div class="nav-mobile-inner">
+            {{ range .Site.Menus.main }}
+            <a href="{{ .URL }}" class="nav-mobile-link">{{ .Name }}</a>
+            {{ end }}
+            <div class="nav-mobile-divider"></div>
+            <div class="nav-mobile-categories">
+                <span class="nav-mobile-label">Browse Categories</span>
+                {{ range $catName, $catPages := .Site.Taxonomies.categories }}
+                <a href="/categories/{{ $catName | urlize }}/" class="nav-mobile-cat">{{ $catPages.Page.Title }}</a>
+                {{ end }}
+            </div>
+        </div>
+    </nav>
 </header>
-
-<!-- Mobile search (visible only on mobile) -->
-<div class="mobile-search">
-    <button class="search-bar-button" id="search-toggle-mobile" aria-label="Search">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-        </svg>
-        <span>How can we help?</span>
-    </button>
-</div>
-
-<!-- Category Navigation Bar -->
-<nav class="category-nav">
-    <div class="container">
-        {{ $cats := slice "Electronics" "Home & Garden" "Kitchen Appliances" "Fitness & Health" "Beauty" "Office & Productivity" "Outdoor" }}
-        {{ range $cats }}
-        <a href="/categories/{{ . | urlize }}/">{{ . }}</a>
-        {{ end }}
-    </div>
-</nav>
-
-<!-- Mobile slide-out nav -->
-<div class="mobile-nav-overlay" id="mobile-nav-overlay"></div>
-<nav class="mobile-nav" id="mobile-nav">
-    <button class="mobile-nav-close" id="mobile-nav-close" aria-label="Close menu">&times;</button>
-    <div class="mobile-nav-header">Researched Picks</div>
-    <ul class="mobile-nav-links">
-        <li><a href="/">Home</a></li>
-        {{ $cats := slice "Electronics" "Home & Garden" "Kitchen Appliances" "Fitness & Health" "Beauty" "Office & Productivity" "Outdoor" }}
-        {{ range $cats }}
-        <li><a href="/categories/{{ . | urlize }}/">{{ . }}</a></li>
-        {{ end }}
-        <li><a href="/deals/">Deals</a></li>
-        <li><a href="/about/">About</a></li>
-        <li><a href="/how-i-research/">How We Research</a></li>
-        <li><a href="/faq/">FAQ</a></li>
-        <li><a href="/contact/">Contact</a></li>
-    </ul>
-</nav>
 
 <!-- Search Overlay -->
 <div class="search-overlay" id="search-overlay">
-    <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
-    <div class="search-container">
-        <div class="search-input-wrapper">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-            </svg>
-            <input type="text" id="search-input" placeholder="How can we help?" autocomplete="off">
+    <div class="search-modal">
+        <div class="search-header">
+            <h3>Search Reviews</h3>
+            <button class="search-close" id="search-close" aria-label="Close search">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6 6 18M6 6l12 12"/>
+                </svg>
+            </button>
         </div>
-        <div id="search-results"></div>
+        <div class="search-input-wrapper">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"/>
+                <path d="m21 21-4.3-4.3"/>
+            </svg>
+            <input type="text" id="search-input" placeholder="Search for products, reviews, guides..." autocomplete="off">
+        </div>
+        <div id="search-results" class="search-results"></div>
+        <div class="search-hints">
+            <span>Popular:</span>
+            <a href="/categories/electronics/">Electronics</a>
+            <a href="/categories/kitchen-appliances/">Kitchen</a>
+            <a href="/categories/fitness/">Fitness</a>
+        </div>
     </div>
 </div>
+
+<script>
+(function() {
+    // Mobile menu toggle
+    const menuBtn = document.getElementById('mobile-menu-toggle');
+    const mobileNav = document.getElementById('nav-mobile');
+    if (menuBtn && mobileNav) {
+        menuBtn.addEventListener('click', function() {
+            menuBtn.classList.toggle('active');
+            mobileNav.classList.toggle('active');
+            document.body.classList.toggle('nav-open');
+        });
+    }
+
+    // Search overlay
+    const searchToggle = document.getElementById('search-toggle');
+    const searchOverlay = document.getElementById('search-overlay');
+    const searchClose = document.getElementById('search-close');
+    const searchInput = document.getElementById('search-input');
+
+    if (searchToggle && searchOverlay) {
+        searchToggle.addEventListener('click', function() {
+            searchOverlay.classList.add('active');
+            document.body.classList.add('search-open');
+            setTimeout(() => searchInput?.focus(), 100);
+        });
+
+        searchClose?.addEventListener('click', function() {
+            searchOverlay.classList.remove('active');
+            document.body.classList.remove('search-open');
+        });
+
+        searchOverlay.addEventListener('click', function(e) {
+            if (e.target === searchOverlay) {
+                searchOverlay.classList.remove('active');
+                document.body.classList.remove('search-open');
+            }
+        });
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && searchOverlay.classList.contains('active')) {
+                searchOverlay.classList.remove('active');
+                document.body.classList.remove('search-open');
+            }
+        });
+    }
+})();
+</script>
