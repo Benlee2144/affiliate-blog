@@ -11,7 +11,7 @@ categories: ["Fitness & Health"]
 tags: ["yoga", "fitness", "yoga mat", "home workout", "meditation"]
 review: true
 product_name: "JadeYoga Harmony Yoga Mat"
-product_image: "/images/products/jadeyoga-harmony-1.jpg"
+product_image: "/images/products/jade-harmony-yoga-mat-1.jpg"
 brand: "JadeYoga"
 rating: 4.6
 price: "$89.95"
@@ -21,7 +21,7 @@ author: "Benjamin Arp"
 showToc: true
 TocOpen: false
 cover:
-  image: "/images/products/jadeyoga-harmony-1.jpg"
+  image: "/images/products/jade-harmony-yoga-mat-1.jpg"
   alt: "JadeYoga Harmony yoga mat in purple on hardwood floor"
   relative: false
 pros:
