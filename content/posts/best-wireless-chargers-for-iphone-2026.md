@@ -11,7 +11,7 @@ categories: ["Electronics"]
 tags: ["wireless charger", "iPhone", "charging", "tech accessories", "MagSafe"]
 review: true
 product_name: "Anker 313 Wireless Charger (Pad)"
-product_image: "/images/products/anker-wireless-charger-1.jpg"
+product_image: "/images/products/anker-maggo-3in1-foldable-1.jpg"
 brand: "Anker"
 rating: 4.3
 price: "$13.99"
@@ -21,7 +21,7 @@ author: "Benjamin Arp"
 showToc: true
 TocOpen: false
 cover:
-  image: "/images/products/anker-wireless-charger-1.jpg"
+  image: "/images/products/anker-maggo-3in1-foldable-1.jpg"
   alt: "Anker wireless charger pad with iPhone 16 charging on white desk"
   relative: false
 pros:
